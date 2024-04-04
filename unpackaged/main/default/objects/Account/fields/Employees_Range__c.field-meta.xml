@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employees_Range__c</fullName>
+    <description>Bucketed employee ranges for company (useful for segmentation)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Bucketed employee ranges for company (useful for segmentation)</inlineHelpText>
+    <label>[dnu] Employees Range</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Employee_Ranges</valueSetName>
+    </valueSet>
+</CustomField>

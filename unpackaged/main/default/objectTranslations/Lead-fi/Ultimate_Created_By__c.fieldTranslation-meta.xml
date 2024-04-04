@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used with Outreach to determine if this Lead was created from Outreach, and who pushed it over. --></help>
+        <label><!-- Ultimate Created By --></label>
+        <name>Ultimate_Created_By__c</name>
+        <relationshipLabel><!-- Leads (Ultimate Created By) --></relationshipLabel>
+    </CustomFieldTranslation>

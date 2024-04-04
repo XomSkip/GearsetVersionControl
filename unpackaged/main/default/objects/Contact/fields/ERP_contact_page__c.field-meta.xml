@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERP_contact_page__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(isblank(Xometry_ERP_Contact_ID__c),"Unregistered User",hyperlink("https://www.xometry.com/user-settings/"&amp;Xometry_ERP_Contact_ID__c,"Registered User"))</formula>
+    <inlineHelpText>If the user has at least started the registration process the link will take you to the user page otherwise it will show as unregistered.</inlineHelpText>
+    <label>ERP Contact Page</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

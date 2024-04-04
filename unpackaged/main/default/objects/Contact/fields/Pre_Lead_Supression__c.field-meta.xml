@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pre_Lead_Supression__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>For Supressing Leads/Contacts from Marketing Emails</description>
+    <externalId>false</externalId>
+    <label>Pre Lead Supression</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

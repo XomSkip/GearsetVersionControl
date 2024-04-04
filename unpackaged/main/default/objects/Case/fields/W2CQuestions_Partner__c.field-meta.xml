@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>W2CQuestions_Partner__c</fullName>
+    <description>Partner Form Questions</description>
+    <externalId>false</externalId>
+    <label>Partner - How Can We Help You - W2C</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Partner - WorkCenter/PartnerPortal</fullName>
+                <default>false</default>
+                <label>I am having an issue with Partner Portal/ Workcenter</label>
+            </value>
+            <value>
+                <fullName>Partner - Account Status</fullName>
+                <default>false</default>
+                <label>I have a question about my Partner account status</label>
+            </value>
+            <value>
+                <fullName>Partner - Payment</fullName>
+                <default>false</default>
+                <label>I have a question about my payment</label>
+            </value>
+            <value>
+                <fullName>Partner - PSS</fullName>
+                <default>false</default>
+                <label>I have a question about my PSS</label>
+            </value>
+            <value>
+                <fullName>Partner - ITAR</fullName>
+                <default>false</default>
+                <label>I need to update my ITAR registration</label>
+            </value>
+            <value>
+                <fullName>Partner - Become a Partner</fullName>
+                <default>false</default>
+                <label>I want to become a partner</label>
+            </value>
+            <value>
+                <fullName>Partner - Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Partner - Test Part</fullName>
+                <default>false</default>
+                <label>What is the status of my test part?</label>
+            </value>
+            <value>
+                <fullName>Partner - Label Request</fullName>
+                <default>false</default>
+                <label>Label Request</label>
+            </value>
+            <value>
+                <fullName>Partner - Freight Request</fullName>
+                <default>false</default>
+                <label>Freight Request</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

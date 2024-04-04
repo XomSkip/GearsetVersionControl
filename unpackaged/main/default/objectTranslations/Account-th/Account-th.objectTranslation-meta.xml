@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Account Layout - 3/21</layout>
+        <sections>
+            <label><!-- Account Summary --></label>
+            <section>Account Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Corporate Summary --></label>
+            <section>Corporate Summary</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Segmentation --></label>
+            <section>SLA Segmentation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Supply Account Layout - 12/22</layout>
+        <sections>
+            <label><!-- Account Summary --></label>
+            <section>Account Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Corporate Summary --></label>
+            <section>Corporate Summary</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Acc on Case Sourcing --></label>
+        <name>Acc_on_Case_Sourcing</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Account Team Change --></label>
+        <name>Account_Team_Change</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Account to Campaign --></label>
+        <name>Add_Account_to_Campaign</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Admin Info --></label>
+        <name>Admin_Info</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Opportunity --></label>
+        <name>Create_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- MK Info (Non-SMB) --></label>
+        <name>MK_Info_Non_SMB</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- MK Info (SMB) --></label>
+        <name>MK_Info_SMB</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- MadKudu --></label>
+        <name>MadKudu</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Management Info --></label>
+        <name>Management_Info</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- P21 Account Info --></label>
+        <name>P21AccountInfo</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Traction Hierarchy Fields --></label>
+        <name>Traction_Hierarchy_Fields</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Use for all Xometry Customer Accounts --></description>
+        <label><!-- Customer --></label>
+        <name>Customer</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use for all Xometry Partner Accounts --></description>
+        <label><!-- Partner --></label>
+        <name>Partner</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Parent ID cannot be populated without selection of Hierarchy Type.
+Parent ID is required when selecting Account Subdivision as Hierarchy Type .
+The Parent Account Must be of type Corporate Parent. --></errorMessage>
+        <name>Acct_Subdivision_requires_Corporate_Par</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Hierarchy Type: of Corporate Parent must not have a parent account. --></errorMessage>
+        <name>Corporate_Parent_Cannot_Have_a_Parent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Child Accounts can not have an Account Team
+DO NOT try to fix this yourself
+Please skip setting parent for now and submit a SOPS ticket for us to handle correctly
+https://xometry.atlassian.net/servicedesk/customer/portal/13/group/49/create/191 --></errorMessage>
+        <name>No_Account_Team_for_Child_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sales Users are not allowed to transfer records. Please see your manager to get a record transferred. --></errorMessage>
+        <name>Sales_Users_Cant_Transfer_Records</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Push_to_Sales_Pool_Account --></label>
+        <name>Push_to_Sales_Pool_Account</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Push_to_Sales_Pool_ListView --></label>
+        <name>Push_to_Sales_Pool_ListView</name>
+    </webLinks>
+</CustomObjectTranslation>

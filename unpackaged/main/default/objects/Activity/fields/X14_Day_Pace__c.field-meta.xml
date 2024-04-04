@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X14_Day_Pace__c</fullName>
+    <description>Calculates if this was created within the last 14 days (excluding today) and before the time right now. E.g. if it's 11:34 AM, and the record was created at 11:33 AM yesterday, this will return true; if the record was created at 11:35 AM, it will return false.
+
+Note: "midnight" is Eastern time; formula splits the difference between Daylight Time and Standard Time, so it starts counting at 12:30 AM during DST, and 11:30 PM while in standard time.</description>
+    <externalId>false</externalId>
+    <formula>(TODAY() - DATEVALUE(CreatedDate) &lt;= 14) &amp;&amp;
+(TODAY() - DATEVALUE(CreatedDate) &gt;= 1) &amp;&amp;
+(WEEKDAY(DATEVALUE(CreatedDate)) != 1) &amp;&amp;
+(WEEKDAY(DATEVALUE(CreatedDate)) != 7) &amp;&amp;
+(TIMEVALUE(CreatedDate) &lt;= TIMENOW()) &amp;&amp;
+(TIMEVALUE(CreatedDate) &gt;= TIMEVALUE("04:30:00.000"))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>14 Day Pace</label>
+    <type>Checkbox</type>
+</CustomField>

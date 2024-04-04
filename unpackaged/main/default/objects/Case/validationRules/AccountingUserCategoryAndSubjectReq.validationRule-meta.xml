@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountingUserCategoryAndSubjectReq</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+	OR(
+		RecordType.Name= "FinServ",
+		RecordType.Name= "Case Mgmt",
+		RecordType.Name= "General Support Case"),
+		ISCHANGED(OwnerId),
+		OR(Owners_Role__c ="Service",
+		Owners_Role__c ="Accounting",
+		Owners_Role__c ="Accounts Payable",
+		Owners_Role__c ="Sales Leadership",
+		Owners_Role__c ="Sales Operations",
+		Owners_Role__c ="TSE",
+		Owners_Role__c ="AE-I",
+		Owners_Role__c ="AE-II",
+		Owners_Role__c ="AE-III",
+		Owners_Role__c ="BDR",
+		Owners_Role__c ="CSAM",
+		Owners_Role__c ="EAM",
+		Owners_Role__c ="CSS",
+		Owners_Role__c ="EBDR",
+		Owners_Role__c ="IMS",
+		Owners_Role__c ="Pool",
+		Owners_Role__c ="SAE",
+		Owners_Role__c ="Sales Administrator",
+		Owners_Role__c ="SAM",
+		Owners_Role__c ="SDR",
+		Owners_Role__c ="VMS",
+		Owners_Role__c ="CPC Leadership",
+		Owners_Role__c ="CPC QA",
+		Owners_Role__c ="CPC SME",
+		Owners_Role__c ="CPC Tier 1",
+		Owners_Role__c ="CPC Tier 2/ PO"
+	),
+	OR(
+		ISBLANK(Subject),
+		ISPICKVAL( Category__c ,"")
+	)
+)
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.IgnoreCPCVR</errorConditionFormula>
+    <errorMessage>Subject and Category fields can not be blank when changing ownership to an accounting or sales/CPC user. Please add a Subject or Category.</errorMessage>
+</ValidationRule>

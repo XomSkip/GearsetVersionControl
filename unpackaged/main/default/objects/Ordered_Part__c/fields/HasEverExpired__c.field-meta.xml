@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HasEverExpired__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicated if a part has ever been in an expired status</description>
+    <externalId>false</externalId>
+    <label>Has Ever Expired?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

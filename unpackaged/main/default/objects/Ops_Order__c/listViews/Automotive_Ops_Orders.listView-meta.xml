@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Automotive_Ops_Orders</fullName>
+    <columns>NAME</columns>
+    <columns>Ops_Top20Customer__c</columns>
+    <columns>CaseManager__c</columns>
+    <columns>Stage__c</columns>
+    <columns>Account__c</columns>
+    <columns>OrderDueDate__c</columns>
+    <columns>ERPStatus__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>POD__c</field>
+        <operation>equals</operation>
+        <value>Automotive</value>
+    </filters>
+    <filters>
+        <field>ERPStatus__c</field>
+        <operation>notEqual</operation>
+        <value>shipped,Order Cancelled</value>
+    </filters>
+    <label>Automotive Ops Orders</label>
+</ListView>

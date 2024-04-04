@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If true, user is on a ramp schedule. --></help>
+        <label><!-- Ramping --></label>
+        <name>Ramping__c</name>
+    </CustomFieldTranslation>

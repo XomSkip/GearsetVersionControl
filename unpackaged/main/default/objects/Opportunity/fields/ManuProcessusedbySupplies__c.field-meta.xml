@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ManuProcessusedbySupplies__c</fullName>
+    <description>Manu Process for Supply Opps</description>
+    <externalId>false</externalId>
+    <formula>JobId__r.Processes__c</formula>
+    <inlineHelpText>Manu Process on Job.</inlineHelpText>
+    <label>Manu.Process(used by Supplies)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

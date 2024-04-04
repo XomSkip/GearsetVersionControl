@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OutcomeSalesUse__c</fullName>
+    <externalId>false</externalId>
+    <label>Outcome - Sales Rep use</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Information Provided to PSE/SO/else</fullName>
+                <default>false</default>
+                <label>Information Provided to PSE/SO/else</label>
+            </value>
+            <value>
+                <fullName>Quote Delivered</fullName>
+                <default>false</default>
+                <label>Quote Delivered</label>
+            </value>
+            <value>
+                <fullName>No Customer Response</fullName>
+                <default>false</default>
+                <label>No Customer Response</label>
+            </value>
+            <value>
+                <fullName>Information Sent To The Customer</fullName>
+                <default>false</default>
+                <label>Information Sent To The Customer</label>
+            </value>
+            <value>
+                <fullName>Duplicate Case</fullName>
+                <default>false</default>
+                <label>Duplicate Case</label>
+            </value>
+            <value>
+                <fullName>Did Not Quote</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Did Not Quote</label>
+            </value>
+            <value>
+                <fullName>Manual Quote Delivered</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Manual Quote Delivered</label>
+            </value>
+            <value>
+                <fullName>No Bid: Partial No Bid</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Bid: Partial No Bid</label>
+            </value>
+            <value>
+                <fullName>No Bid: Total No Bid</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Bid: Total No Bid</label>
+            </value>
+            <value>
+                <fullName>Quote Configured for AQ</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Quote Configured for AQ</label>
+            </value>
+            <value>
+                <fullName>Quote Configured for MQ</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Quote Configured for MQ</label>
+            </value>
+            <value>
+                <fullName>Refund</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Refund</label>
+            </value>
+            <value>
+                <fullName>Remake</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Remake</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

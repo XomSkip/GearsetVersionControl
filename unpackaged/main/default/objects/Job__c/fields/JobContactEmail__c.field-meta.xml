@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JobContactEmail__c</fullName>
+    <description>Job Contact Email Address</description>
+    <externalId>false</externalId>
+    <formula>Supplier__r.EmailAddress__c</formula>
+    <inlineHelpText>Job Contact Email Address</inlineHelpText>
+    <label>JobContactEmail</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

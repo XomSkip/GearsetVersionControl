@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Special flag to stop syncing to Hubspot for selected Leads/Contacts --></help>
+        <label><!-- SFDC_HS_STOP_SYNC --></label>
+        <name>SFDC_HS_STOP_SYNC__c</name>
+    </CustomFieldTranslation>

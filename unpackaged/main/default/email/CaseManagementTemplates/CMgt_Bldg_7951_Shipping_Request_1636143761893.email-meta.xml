@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Internal shipping requests from Operations for the shipping team regarding where to ship parts from BLDG 7951 Gaithersburg</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>[CMgt] Bldg 7951 Shipping Request</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Bldg 7951 Shipping Request: Order XXXXX-XXXXX Part ID(s)</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- shop_info_business_designation --></label>
+        <name>shop_info_business_designation__c</name>
+    </CustomFieldTranslation>

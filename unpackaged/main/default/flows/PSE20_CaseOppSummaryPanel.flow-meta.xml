@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <interviewLabel>PSE20_CaseOppSummaryPanel {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PSE20_CaseOppSummaryPanel</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <runInMode>SystemModeWithoutSharing</runInMode>
+    <screens>
+        <description>Read Only Screen Component</description>
+        <name>CaseOpportunitiesSummaryInformation</name>
+        <label>Case Opportunities Summary Information</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>CaseOpportunitiesSummaryInformation_Section1</name>
+            <fieldType>RegionContainer</fieldType>
+            <fields>
+                <name>CaseOpportunitiesSummaryInformation_Section1_Column1</name>
+                <fieldType>Region</fieldType>
+                <fields>
+                    <name>TextArea1</name>
+                    <fieldText>&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-size: 18px; color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);&quot;&gt;﻿&lt;/b&gt;&lt;b style=&quot;font-size: 20px; color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);&quot;&gt;Total Number of Opportunities: &lt;/b&gt;&lt;span style=&quot;font-size: 20px; color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);&quot;&gt;{!CurrentCaseRecord.Total_Quantity_Opps__c}&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Total Opportunities Amount: $&lt;/b&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;{!CurrentCaseRecord.Total_Amount_Opps__c}&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 20px; color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);&quot;&gt;Total Closed Won: $&lt;/b&gt;&lt;span style=&quot;font-size: 20px; color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);&quot;&gt;{!CurrentCaseRecord.TotalAmountClosedWonOpps__c}&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 20px; color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);&quot;&gt;Total Closed Lost:$&lt;/b&gt;&lt;span style=&quot;font-size: 20px; color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);&quot;&gt;{!CurrentCaseRecord.TotalAmountClosedLostOpps__c}&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 20px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;Total Line Item Count:&lt;/b&gt;&lt;span style=&quot;font-size: 20px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;{!CurrentCaseRecord.Total_LineItem_Opps__c}&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</fieldText>
+                    <fieldType>DisplayText</fieldType>
+                </fields>
+                <inputParameters>
+                    <name>width</name>
+                    <value>
+                        <stringValue>12</stringValue>
+                    </value>
+                </inputParameters>
+                <isRequired>false</isRequired>
+            </fields>
+            <isRequired>false</isRequired>
+            <regionContainerType>SectionWithoutHeader</regionContainerType>
+        </fields>
+        <showFooter>false</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>CaseOpportunitiesSummaryInformation</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>CurrentCaseRecord</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Case</objectType>
+    </variables>
+</Flow>

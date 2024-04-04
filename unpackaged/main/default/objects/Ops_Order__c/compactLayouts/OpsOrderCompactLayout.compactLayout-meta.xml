@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OpsOrderCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>Account__c</fields>
+    <fields>PrimaryContact__c</fields>
+    <fields>ERPStatus__c</fields>
+    <fields>DueDate__c</fields>
+    <label>Ops Order Compact Layout</label>
+</CompactLayout>

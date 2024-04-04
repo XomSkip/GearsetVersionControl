@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MK_Likelihood_to_Buy_Segment__c</fullName>
+    <description>Madkudu likelihood to buy segment (very high, high, medium, low)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Madkudu likelihood to buy segment (very high, high, medium, low)</inlineHelpText>
+    <label>MK Likelihood to Buy Segment</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

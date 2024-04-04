@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Customer-facing email that informs them of a new ship date. Feel free to alter verbiage to fit the scenario desired.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Supplies Shipdate Update</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Supplies Order Update</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

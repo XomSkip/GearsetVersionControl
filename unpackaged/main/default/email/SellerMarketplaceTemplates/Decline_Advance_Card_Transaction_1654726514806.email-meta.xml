@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template for declined Advance Card transactions</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Decline Advance Card Transaction</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Re: Xometry Advance Card Decline</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

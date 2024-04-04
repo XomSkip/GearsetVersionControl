@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERP_Quote_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>if ( not(isblank ( Opportunity__c)) , Opportunity__r.ERP_Quote_URL__c, HYPERLINK("https://www.xometry.com/staff/quotes-list/?search="+  Shadow_Xometry_ERP_ID__c  +"&amp;rowsPerPage=25&amp;page=1&amp;sortBy=last_updated&amp;sortDirection=desc","Go to this Quote in the ERP", "_blank"))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ERP Quote URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

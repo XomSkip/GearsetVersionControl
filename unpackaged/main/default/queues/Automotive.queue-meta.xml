@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Automotive</name>
+    <queueMembers>
+        <users>
+            <user>amie.botts@xometry.com</user>
+            <user>hchoi@xometry.com</user>
+            <user>ibatsuli@xometry.com</user>
+            <user>josh.scott@xometry.com</user>
+            <user>lucas.smith@xometry.com</user>
+            <user>milo.ingram@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Default_For_Case</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

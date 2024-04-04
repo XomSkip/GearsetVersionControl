@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(
+ isblank(Primary_Contact__r.Contact_s_Date_of_First_Order__c),"New Buyer Potential",
+if(
+ and(
+  not(isblank(Primary_Contact__r.Contact_s_Date_of_First_Order__c)), today()- Primary_Contact__r.Contact_s_Date_of_First_Order__c &lt;365),"New Revenue","Retention Revenue"
+))</formula>
+    <label>Revenue Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

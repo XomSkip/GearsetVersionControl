@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>case(
+
+case ( Primary_Contact__r.Lead_Score__c,
+"A" , 2 ,
+"B" , 1 ,
+"C", (-1) ,
+0 )
++
+if( and ( ITAR__c ,  Total_Qty_CNC__c &gt; 0 ) , 1 , 0 ) + 
+if( and (  Account.X2021_Strategic_Target__c , Total_Qty_CNC__c &gt; 0 ) , 1 , 0 ) + 
+if ( and ( Total_Qty_CNC__c &gt;= 6 , Total_Qty_CNC__c &lt;= 25 ) , 1  , 0 ) + 
+if ( Total_Qty_HPMultJetFusion__c &gt; 0 , 1  , 0 ) + 
+if ( and ( Total_Amt_Additive__c &gt;= 1000, Total_Amt_Additive__c &lt;= 2500 ) , 1  , 0 ) + 
+if ( and (  Total_Qty_Additive__c &gt;= 11 ,  Total_Qty_Additive__c &lt;=15 ) , 1  , 0 ) + 
+if (  Amount &gt;= 50000 , 0.5  , 0 ) + 
+if (  Amount &gt;= 100000 , 0.5  , 0 ) + 
+if (  Amount &gt;= 250000 , 0.5  , 0 ) + 
+if (  ISBLANK( Primary_Contact__r.Contact_s_Date_of_First_Order__c ) , 1  , 0 ) + 
+if (  or ( Primary_Contact__r.Customer_Status_HS__c = "Churned" , Primary_Contact__r.Customer_Status_HS__c = "Churn Risk" , Primary_Contact__r.Customer_Status_HS__c = "Extreme Churn Risk" ) , 1  , 0 )
+
+,
+
+11.5, 4,
+11, 4,
+10.5, 4,
+10, 4,
+9.5, 4,
+9, 4,
+8.5, 4,
+8, 4,
+7.5, 4,
+7, 4,
+6.5, 4,
+6, 4,
+5.5, 4,
+5, 4,
+4.5, 4,
+4, 4,
+3.5, 3,
+3, 3,
+2.5, 2,
+2, 2,
+1 )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Priority Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

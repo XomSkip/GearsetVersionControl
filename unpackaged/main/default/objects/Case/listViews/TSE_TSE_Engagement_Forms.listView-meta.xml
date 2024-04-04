@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TSE_TSE_Engagement_Forms</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Contact_Owner__c</columns>
+    <columns>TargetAccount2023__c</columns>
+    <columns>Manufacturing_Process__c</columns>
+    <columns>Sales_Weight__c</columns>
+    <columns>Sales_Weight_Reason__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Manual_Quote_Prioritization_Score__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Last_Owner_Change_Date__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Done,Solved,Closed</value>
+    </filters>
+    <label>[TSE] TSE Queue</label>
+    <queue>Technical_Sales_Engineer_Queue</queue>
+    <sharedTo>
+        <group>TSE_Coverage</group>
+        <role>TSE</role>
+        <roleAndSubordinatesInternal>TSE</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>If you redline a print in a manner that does not impact fit, form, or function, or only serves to align with the scope of the order placed.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Return Redline to Customer - Proceed to Production</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry Order        - Proceeding to Production - Redline Review Requested</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

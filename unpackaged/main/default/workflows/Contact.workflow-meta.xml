@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>test_action</fullName>
+        <field>Title</field>
+        <formula>"Test Action Ran"</formula>
+        <name>test action</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>test_wfr</fullName>
+        <field>Manager_Approval__c</field>
+        <literalValue>1</literalValue>
+        <name>test wfr</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <outboundMessages>
+        <fullName>ConnectContactTrigger</fullName>
+        <apiVersion>37.0</apiVersion>
+        <endpointUrl>https://5b463cbb-4d8c-42df-a8b7-91fe14b00012.trayapp.io</endpointUrl>
+        <fields>Connect_Contact_ID__c</fields>
+        <fields>DNBConnect__D_B_Contact_Match_Driver__c</fields>
+        <fields>DNBConnect__D_B_Match_Confidence_Code__c</fields>
+        <fields>DNBConnect__D_B_Match_Data_Profile__c</fields>
+        <fields>DNBConnect__D_B_Match_Grade__c</fields>
+        <fields>DNBConnect__D_B_Match_Type__c</fields>
+        <fields>DNBConnect__D_B_Name_Match_Score__c</fields>
+        <fields>DnB_Connect_DUNS__c</fields>
+        <fields>Email</fields>
+        <fields>FirstName</fields>
+        <fields>Id</fields>
+        <fields>LastName</fields>
+        <fields>Phone</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>managed.services.api@xometry.com</integrationUser>
+        <name>ConnectContactTrigger</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <outboundMessages>
+        <fullName>VC_Send_to_Slack</fullName>
+        <apiVersion>54.0</apiVersion>
+        <description>Action Needed for VC.
+Send message to Workato to create a Slack Message</description>
+        <endpointUrl>https://www.workato.com/webhooks/notify/salesforce?sobject=Contact&amp;org_id=00DOu0000017wUvUAI&amp;name=visualcomplaincecontactmessage</endpointUrl>
+        <fields>AccountId</fields>
+        <fields>Account_Name__c</fields>
+        <fields>ECUSTOMS__Address_Risk_Country_Status__c</fields>
+        <fields>ECUSTOMS__IM_Date__c</fields>
+        <fields>ECUSTOMS__IM_Status__c</fields>
+        <fields>ECUSTOMS__RPS_Date__c</fields>
+        <fields>ECUSTOMS__RPS_Results__c</fields>
+        <fields>ECUSTOMS__RPS_RiskCountry_Status__c</fields>
+        <fields>ECUSTOMS__RPS_Status__c</fields>
+        <fields>ERP_Shipping_Address__c</fields>
+        <fields>ERP_Shipping_City__c</fields>
+        <fields>ERP_Shipping_Country__c</fields>
+        <fields>ERP_Shipping_State_or_Province__c</fields>
+        <fields>ERP_Shipping_Zip_Code__c</fields>
+        <fields>Email</fields>
+        <fields>FirstName</fields>
+        <fields>Id</fields>
+        <fields>LastName</fields>
+        <fields>OwnerId</fields>
+        <fields>Owner_ID_Name__c</fields>
+        <fields>Phone</fields>
+        <fields>Xometry_ERP_Contact_ID__c</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>webmaster@xometry.com</integrationUser>
+        <name>VC Send to Slack</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <outboundMessages>
+        <fullName>VC_Send_to_Slack_test</fullName>
+        <apiVersion>54.0</apiVersion>
+        <description>Action Needed for VC.
+Send message to Workato to create a Slack Message</description>
+        <endpointUrl>https://www.workato.com/webhooks/notify/salesforce?sobject=Contact&amp;org_id=00DOu0000017wUvUAI&amp;name=visualcomplaincecontactmessage</endpointUrl>
+        <fields>Id</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>tmeehan@xometry.com</integrationUser>
+        <name>VC Send to Slack test</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+</Workflow>

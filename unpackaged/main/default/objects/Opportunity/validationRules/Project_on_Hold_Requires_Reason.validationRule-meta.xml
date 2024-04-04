@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_on_Hold_Requires_Reason</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(ISPICKVAL( Negotiation_Review_Status__c , "Project on Hold"), ISBLANK(TEXT( Project_on_Hold_Reason__c )))
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Opp_VR</errorConditionFormula>
+    <errorDisplayField>Project_on_Hold_Reason__c</errorDisplayField>
+    <errorMessage>Project on Hold requires a Reason</errorMessage>
+</ValidationRule>

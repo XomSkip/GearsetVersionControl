@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zendesk_Groups</fullName>
+    <columns>NAME</columns>
+    <columns>Entity_ID__c</columns>
+    <columns>Zendesk_Group_ID__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Zendesk_Entity__c.Queue</value>
+    </filters>
+    <label>Zendesk Groups</label>
+</ListView>

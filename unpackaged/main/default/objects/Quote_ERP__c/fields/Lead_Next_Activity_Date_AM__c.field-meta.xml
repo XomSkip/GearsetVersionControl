@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Next_Activity_Date_AM__c</fullName>
+    <externalId>false</externalId>
+    <formula>ENCODED:{!ID:00N3u00000PBHrn.ActivityMetric.NextActivityDateTime}</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Lead Next Activity Date AM</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OnboardingStatus__c</fullName>
+    <description>Temporary field for setting a Case's Onboarding Status</description>
+    <externalId>false</externalId>
+    <label>Onboarding Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Registered</fullName>
+                <default>true</default>
+                <label>Registered</label>
+            </value>
+            <value>
+                <fullName>Review Information</fullName>
+                <default>false</default>
+                <label>Review Information</label>
+            </value>
+            <value>
+                <fullName>Test Part In Progress</fullName>
+                <default>false</default>
+                <label>Test Part In Progress</label>
+            </value>
+            <value>
+                <fullName>Test Part In Review</fullName>
+                <default>false</default>
+                <label>Test Part In Review</label>
+            </value>
+            <value>
+                <fullName>Onboarding call</fullName>
+                <default>false</default>
+                <label>Onboarding call</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Failed Test Part</fullName>
+                <default>false</default>
+                <label>Failed Test Part</label>
+            </value>
+            <value>
+                <fullName>Test Part Preparation</fullName>
+                <default>false</default>
+                <label>Test Part Preparation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

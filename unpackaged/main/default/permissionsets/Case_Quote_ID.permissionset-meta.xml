@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Able to see and edit the Quote ID field on the Case to catch when new ERP Quotes hit SF, allowing it to link into the existing Case instead of creating a new one.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Shadow_Xometry_ERP_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Case - Quote ID</label>
+</PermissionSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicates that this record went through the Non-Generic Round Robin for BDRs --></help>
+        <label><!-- Lead Non-Generic BDR - RR --></label>
+        <name>Lead_NonGeneric_BDR_RR_FLAG__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSE_PSE_Owned</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Age_hrs__c</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>SLA_Response_Time_Remaining_hrs__c</columns>
+    <columns>Time_to_First_Response_hrs__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>Owners_Role__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Sales_Weight__c</columns>
+    <columns>Sales_Weight_Reason__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.PSE_Case</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Order Confirmed/Closed,Done,Solved,Closed</value>
+    </filters>
+    <filters>
+        <field>Owners_Role__c</field>
+        <operation>contains</operation>
+        <value>PSE</value>
+    </filters>
+    <label>[PSE]PSE Owned</label>
+</ListView>

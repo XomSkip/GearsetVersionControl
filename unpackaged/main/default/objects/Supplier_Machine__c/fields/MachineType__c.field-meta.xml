@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MachineType__c</fullName>
+    <externalId>false</externalId>
+    <label>Machine Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Binder Jetting</fullName>
+                <default>false</default>
+                <label>Binder Jetting</label>
+            </value>
+            <value>
+                <fullName>Carbon DLS</fullName>
+                <default>false</default>
+                <label>Carbon DLS</label>
+            </value>
+            <value>
+                <fullName>CNC Horizontal Mill</fullName>
+                <default>false</default>
+                <label>CNC Horizontal Mill</label>
+            </value>
+            <value>
+                <fullName>CNC Lathe</fullName>
+                <default>false</default>
+                <label>CNC Lathe</label>
+            </value>
+            <value>
+                <fullName>CNC Vertical Mill</fullName>
+                <default>false</default>
+                <label>CNC Vertical Mill</label>
+            </value>
+            <value>
+                <fullName>Die Casting</fullName>
+                <default>false</default>
+                <label>Die Casting</label>
+            </value>
+            <value>
+                <fullName>Direct Metal Laser Sintering</fullName>
+                <default>false</default>
+                <label>Direct Metal Laser Sintering</label>
+            </value>
+            <value>
+                <fullName>Extrusion</fullName>
+                <default>false</default>
+                <label>Extrusion</label>
+            </value>
+            <value>
+                <fullName>Fused Deposition Modeling</fullName>
+                <default>false</default>
+                <label>Fused Deposition Modeling</label>
+            </value>
+            <value>
+                <fullName>Hole Popper EDM</fullName>
+                <default>false</default>
+                <label>Hole Popper EDM</label>
+            </value>
+            <value>
+                <fullName>HP Multi-Jet Fusion</fullName>
+                <default>false</default>
+                <label>HP Multi-Jet Fusion</label>
+            </value>
+            <value>
+                <fullName>Injection Molding</fullName>
+                <default>false</default>
+                <label>Injection Molding</label>
+            </value>
+            <value>
+                <fullName>Laser Cutter</fullName>
+                <default>false</default>
+                <label>Laser Cutter</label>
+            </value>
+            <value>
+                <fullName>MultiJet</fullName>
+                <default>false</default>
+                <label>MultiJet</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Plasma Cutter</fullName>
+                <default>false</default>
+                <label>Plasma Cutter</label>
+            </value>
+            <value>
+                <fullName>PolyJet 3D Printing</fullName>
+                <default>false</default>
+                <label>PolyJet 3D Printing</label>
+            </value>
+            <value>
+                <fullName>Ram EDM</fullName>
+                <default>false</default>
+                <label>Ram EDM</label>
+            </value>
+            <value>
+                <fullName>Selective Laser Sintering</fullName>
+                <default>false</default>
+                <label>Selective Laser Sintering</label>
+            </value>
+            <value>
+                <fullName>Sheet Metal</fullName>
+                <default>false</default>
+                <label>Sheet Metal</label>
+            </value>
+            <value>
+                <fullName>Sheet Metal Brake</fullName>
+                <default>false</default>
+                <label>Sheet Metal Brake</label>
+            </value>
+            <value>
+                <fullName>Sheet Metal Punch</fullName>
+                <default>false</default>
+                <label>Sheet Metal Punch</label>
+            </value>
+            <value>
+                <fullName>Sheet Metal Shear</fullName>
+                <default>false</default>
+                <label>Sheet Metal Shear</label>
+            </value>
+            <value>
+                <fullName>Stamping</fullName>
+                <default>false</default>
+                <label>Stamping</label>
+            </value>
+            <value>
+                <fullName>Stereolithography</fullName>
+                <default>false</default>
+                <label>Stereolithography</label>
+            </value>
+            <value>
+                <fullName>Swiss Lathe</fullName>
+                <default>false</default>
+                <label>Swiss Lathe</label>
+            </value>
+            <value>
+                <fullName>Urethane Molding</fullName>
+                <default>false</default>
+                <label>Urethane Molding</label>
+            </value>
+            <value>
+                <fullName>Water Jet Cutter</fullName>
+                <default>false</default>
+                <label>Water Jet Cutter</label>
+            </value>
+            <value>
+                <fullName>Wire Electrical Discharge Machining</fullName>
+                <default>false</default>
+                <label>Wire Electrical Discharge Machining</label>
+            </value>
+            <value>
+                <fullName>Laser Cutting, Plasma Cutting, Water Cutting</fullName>
+                <default>false</default>
+                <label>Laser Cutting, Plasma Cutting, Water Cutting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

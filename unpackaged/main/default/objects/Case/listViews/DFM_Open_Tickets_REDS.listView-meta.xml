@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DFM_Open_Tickets_REDS</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.EMAIL</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>DFM_Description__c</columns>
+    <columns>Age_hrs__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owners_Role__c</field>
+        <operation>equals</operation>
+        <value>DFM First Impressions</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Open,In Progress,Response Received</value>
+    </filters>
+    <label>[DFM] First ImpressioOpen Tickets (REDS)</label>
+    <sharedTo>
+        <roleAndSubordinates>Service_Leadership</roleAndSubordinates>
+    </sharedTo>
+</ListView>

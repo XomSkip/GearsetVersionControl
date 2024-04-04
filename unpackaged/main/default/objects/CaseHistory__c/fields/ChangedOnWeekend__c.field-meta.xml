@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChangedOnWeekend__c</fullName>
+    <description>flag</description>
+    <externalId>false</externalId>
+    <formula>IF(WEEKDAY(DATEVALUE(TimestampoftheChange__c))=1,true, IF(WEEKDAY(DATEVALUE(TimestampoftheChange__c))=7,true, false))</formula>
+    <inlineHelpText>if change happen on weekend.</inlineHelpText>
+    <label>ChangedOnWeekend</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

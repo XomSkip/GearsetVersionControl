@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <availableInTouch>true</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>AG_Case;AG_
+Conga Grid powered Case Views used by Sourcing Team.</description>
+    <label>Sourcing Team Case Views</label>
+</ApexPage>

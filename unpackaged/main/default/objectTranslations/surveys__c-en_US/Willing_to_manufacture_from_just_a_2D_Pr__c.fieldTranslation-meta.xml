@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Willing to manufacture from just a 2D Pr --></label>
+        <name>Willing_to_manufacture_from_just_a_2D_Pr__c</name>
+    </CustomFieldTranslation>

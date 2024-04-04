@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MarketP21QuotedOpportunity</fullName>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>P21_Account_Details__c</columns>
+    <columns>Last_Quote_Xometry_ERP_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Supplies</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>notContain</operation>
+        <value>Accepted</value>
+    </filters>
+    <label>[Market]P21 Quoted Opportunity</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>SellerMarketplace</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <adapterUrl>https://nam.newvoicemedia.com/CallCentre/ServiceCloud/AgentInterface?account=Xometry</adapterUrl>
+    <customSettings>{&quot;reqSoftphoneHeight&quot;:&quot;440&quot;,&quot;reqUseApi&quot;:&quot;true&quot;,&quot;reqSoftphoneWidth&quot;:&quot;202&quot;,&quot;reqSalesforceCompatibilityMode&quot;:&quot;Classic_and_Lightning&quot;}</customSettings>
+    <displayName>NewVoiceMedia in Salesforce</displayName>
+    <displayNameLabel>Display Name</displayNameLabel>
+    <internalNameLabel>Internal Name</internalNameLabel>
+    <sections>
+        <items>
+            <label>CTI Adapter URL</label>
+            <name>reqAdapterUrl</name>
+            <value>https://nam.newvoicemedia.com/CallCentre/ServiceCloud/AgentInterface?account=Xometry</value>
+        </items>
+        <items>
+            <label>Use CTI API</label>
+            <name>reqUseApi</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Softphone Width</label>
+            <name>reqSoftphoneWidth</name>
+            <value>202</value>
+        </items>
+        <items>
+            <label>Softphone Height</label>
+            <name>reqSoftphoneHeight</name>
+            <value>440</value>
+        </items>
+        <items>
+            <label>Compatibility Mode</label>
+            <name>reqSalesforceCompatibilityMode</name>
+            <value>Classic_and_Lightning</value>
+        </items>
+        <items>
+            <label>Default CallCenter</label>
+            <name>reqIsDefault</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Setup Flow Metadata</label>
+            <name>reqSetupFlowMetadata</name>
+            <value>setupFlowConfig</value>
+        </items>
+        <items>
+            <label>Package Namespace</label>
+            <name>reqPackageNamespace</name>
+            <value>nvmcontactworld</value>
+        </items>
+        <label>General Information</label>
+        <name>reqGeneralInfo</name>
+    </sections>
+    <version>1</version>
+</CallCenter>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_LTV</fullName>
+    <active>true</active>
+    <description>Contact level LTV</description>
+    <label>Contact LTV</label>
+</RecordType>

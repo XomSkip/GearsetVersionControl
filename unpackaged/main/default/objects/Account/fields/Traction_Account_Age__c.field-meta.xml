@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Traction_Account_Age__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NOW() &gt;= (CreatedDate + (30/1440)), true, false)</formula>
+    <label>Traction Account Age</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

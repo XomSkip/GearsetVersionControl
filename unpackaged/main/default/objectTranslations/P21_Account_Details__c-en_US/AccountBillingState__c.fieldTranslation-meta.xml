@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- State - Lookup to its Account --></help>
+        <label><!-- Billing State --></label>
+        <name>AccountBillingState__c</name>
+    </CustomFieldTranslation>

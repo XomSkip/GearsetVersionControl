@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Has Quoted: Metal Extrusion --></label>
+        <name>has_quoted_Extrusion__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>CPC VIP Queue</name>
+    <queueMembers>
+        <users>
+            <user>alexander.nanan@xometry.com</user>
+            <user>christopher.finchersmith@xometry.com</user>
+            <user>delrico.shelton@xometry.com</user>
+            <user>eber.maldonado@xometry.com</user>
+            <user>edric.mcdaniel@xometry.com</user>
+            <user>jeremiah.maina@xometry.com</user>
+            <user>josue.pena@xometry.com</user>
+            <user>kirill.kravtcov@xometry.com</user>
+            <user>leanna.black@xometry.com</user>
+            <user>msequeira@xometry.com</user>
+            <user>samiullah.nazhand@xometry.com</user>
+            <user>samuel.serrano@xometry.com</user>
+            <user>smacmaster@xometry.com</user>
+            <user>terrance.barksdale@xometry.com</user>
+            <user>zachary.kestner@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Enterprise_PO_Priority_Routing</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

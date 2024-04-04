@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>RMA rejection, due to the request being over 30-days after the RMA window</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Outside RMA Window</name>
+    <style>none</style>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

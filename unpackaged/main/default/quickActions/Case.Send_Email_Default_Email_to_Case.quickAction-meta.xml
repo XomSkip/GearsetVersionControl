@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This custom email action will default the from address to the Email-to-Case address and will blank out the HTML email body so that the previous reply isn&apos;t automatically included.</description>
+    <fieldOverrides>
+        <field>HtmlBody</field>
+        <formula>&quot;&quot;+BR()+ BR() + $User.Signature</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>ToAddress</field>
+        <formula>Case.ContactEmail</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>ValidatedFromAddress</field>
+        <formula>IF(
+Text(Case.Origin) = &quot;Email: SalesOps@&quot;
+,&quot;salesops@xometry.com&quot;
+,&quot;quotes@xometry.com&quot;
+)</formula>
+    </fieldOverrides>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>ValidatedFromAddress</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>ToAddress</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>CcAddress</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>BccAddress</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Subject</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>HtmlBody</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <quickActionSendEmailOptions>
+        <ignoreDefaultEmailTemplateSubject>false</ignoreDefaultEmailTemplateSubject>
+    </quickActionSendEmailOptions>
+    <standardLabel>SendEmail</standardLabel>
+    <targetObject>EmailMessage</targetObject>
+    <targetParentField>Parent</targetParentField>
+    <type>SendEmail</type>
+</QuickAction>

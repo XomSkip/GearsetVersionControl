@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- How many of your employees are primarily --></label>
+        <name>How_many_of_your_employees_are_primari_1__c</name>
+    </CustomFieldTranslation>

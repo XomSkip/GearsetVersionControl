@@ -1,0 +1,7 @@
+<apex:page sidebar="false">
+
+  <apex:iframe src="https://xometry.looker.com/embed/dashboards/1340"
+  height="700px"
+  />
+
+</apex:page>

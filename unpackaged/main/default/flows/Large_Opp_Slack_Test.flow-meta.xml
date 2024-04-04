@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>Send DM message on Opp Creation/Update to Opp Owner Manager</description>
+        <name>Send_Manager_Slack_DM</name>
+        <label>Send Manager Slack DM</label>
+        <locationX>242</locationX>
+        <locationY>1656</locationY>
+        <actionName>slackPostMessage</actionName>
+        <actionType>slackPostMessage</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>slackAppIdForToken</name>
+            <value>
+                <stringValue>A028VJ1KG3G</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>slackConversationId</name>
+            <value>
+                <elementReference>OppOwnerManagerSlackID</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>slackMessage</name>
+            <value>
+                <elementReference>SlackMessageBuilder</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>slackWorkspaceIdForToken</name>
+            <value>
+                <stringValue>T0DM6AE3T</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>slackPostMessage</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <description>Send DM message on Opp Creation/Update to Opp Owner</description>
+        <name>Send_Opp_Owner_Slack_DM</name>
+        <label>Send Opp Owner Slack DM</label>
+        <locationX>242</locationX>
+        <locationY>1320</locationY>
+        <actionName>slackPostMessage</actionName>
+        <actionType>slackPostMessage</actionType>
+        <connector>
+            <targetReference>OppOwnerManagerSlackIDFound</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>slackAppIdForToken</name>
+            <value>
+                <stringValue>A028VJ1KG3G</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>slackConversationId</name>
+            <value>
+                <elementReference>OppOwnerSlackID</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>slackMessage</name>
+            <value>
+                <elementReference>SlackMessageBuilder</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>slackWorkspaceIdForToken</name>
+            <value>
+                <stringValue>T0DM6AE3T</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>slackPostMessage</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <description>Send Ryan a Slack Message</description>
+        <name>Send_Ryan_Slack_Message</name>
+        <label>Send Ryan Slack Message</label>
+        <locationX>242</locationX>
+        <locationY>648</locationY>
+        <actionName>slackPostMessage</actionName>
+        <actionType>slackPostMessage</actionType>
+        <connector>
+            <targetReference>ManagerSet</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>slackAppIdForToken</name>
+            <value>
+                <stringValue>A028VJ1KG3G</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>slackConversationId</name>
+            <value>
+                <stringValue>U01JES6VBN1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>slackMessage</name>
+            <value>
+                <elementReference>SlackMessageBuilder</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>slackWorkspaceIdForToken</name>
+            <value>
+                <stringValue>T0DM6AE3T</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>slackPostMessage</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <description>Send Channel message on Opp Creation/Update</description>
+        <name>Send_Slack_Channel_Message</name>
+        <label>Send Slack Channel Message</label>
+        <locationX>374</locationX>
+        <locationY>288</locationY>
+        <actionName>slackPostMessage</actionName>
+        <actionType>slackPostMessage</actionType>
+        <connector>
+            <targetReference>Get_Opportunity_Owner_Role</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>slackAppIdForToken</name>
+            <value>
+                <stringValue>A028VJ1KG3G</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>slackConversationId</name>
+            <value>
+                <stringValue>C057GTDAMFF</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>slackMessage</name>
+            <value>
+                <elementReference>SlackMessageBuilder</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>slackWorkspaceIdForToken</name>
+            <value>
+                <stringValue>T0DM6AE3T</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>slackPostMessage</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>57.0</apiVersion>
+    <assignments>
+        <description>Get the Opportunity Owner Role</description>
+        <name>Get_Opportunity_Owner_Role</name>
+        <label>Get Opportunity Owner Role</label>
+        <locationX>374</locationX>
+        <locationY>408</locationY>
+        <assignmentItems>
+            <assignToReference>OpportunityOwnerRole</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Owner.UserRole.Name</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Send_Message_to_Ryan_Gallas</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Grab the user: slack ID and manager: Slack ID if these exist and assign it to these values.</description>
+        <name>Opp_Owner_Slack_ID</name>
+        <label>Opp Owner and Manager Slack ID</label>
+        <locationX>242</locationX>
+        <locationY>984</locationY>
+        <assignmentItems>
+            <assignToReference>OppOwnerSlackID</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Owner.SlackUserID__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>OppOwnerManagerSlackID</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Owner.Manager.SlackUserID__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>OppOwnerSlackIDFound</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Grab the user: slack ID if it exists and assign it to this values.</description>
+        <name>Opp_Owner_Slack_ID_assignment</name>
+        <label>Opp Owner Slack ID</label>
+        <locationX>506</locationX>
+        <locationY>984</locationY>
+        <assignmentItems>
+            <assignToReference>OppOwnerSlackID</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Owner.SlackUserID__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>OppOwnerSlackIDFound</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <description>Does the Opp Owner have a manager?</description>
+        <name>ManagerSet</name>
+        <label>ManagerSet</label>
+        <locationX>374</locationX>
+        <locationY>864</locationY>
+        <defaultConnector>
+            <targetReference>Opp_Owner_Slack_ID_assignment</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>YesManagerSet</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Owner.ManagerId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Opp_Owner_Slack_ID</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Did we find a Manager Slack ID?</description>
+        <name>OppOwnerManagerSlackIDFound</name>
+        <label>OppOwnerManagerSlackIDFound</label>
+        <locationX>374</locationX>
+        <locationY>1536</locationY>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>YesManagerSlackIDFound</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>OppOwnerManagerSlackID</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Manager_Slack_DM</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Did we find a Slack ID?</description>
+        <name>OppOwnerSlackIDFound</name>
+        <label>OppOwnerSlackIDFound</label>
+        <locationX>374</locationX>
+        <locationY>1200</locationY>
+        <defaultConnector>
+            <targetReference>OppOwnerManagerSlackIDFound</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_User_was_found</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>OppOwnerSlackID</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Opp_Owner_Slack_DM</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>This decision is to look at the Role of the Opportunity owner and if it is BDR, AE-I, or AE-II. If yes, send message to Ryan Gallas (), else, do nothing and move on to the next step.</description>
+        <name>Send_Message_to_Ryan_Gallas</name>
+        <label>Send Message to Ryan Gallas?</label>
+        <locationX>374</locationX>
+        <locationY>528</locationY>
+        <defaultConnector>
+            <targetReference>ManagerSet</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_Send_to_Ryan_Gallas</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>OpportunityOwnerRole</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>BDR</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>OpportunityOwnerRole</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>AE-I</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>OpportunityOwnerRole</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>AE-II</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Ryan_Slack_Message</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <description>testing slack integration using large opp creation/update</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>To build the slack message</description>
+        <name>SlackMessageBuilder</name>
+        <dataType>String</dataType>
+        <expression>&quot;Quote &quot; &amp; {!$Record.Name} &amp; &quot; was created with a value of $&quot; &amp; if({!$Record.Amount}&lt;1000,text({!$Record.Amount}),if({!$Record.Amount}&lt;1000000,text(floor({!$Record.Amount}/1000))&amp;&quot;,&quot;&amp;right(text({!$Record.Amount}),len(text({!$Record.Amount}))-len(text(floor({!$Record.Amount}/1000)))),if({!$Record.Amount}&lt;1000000000,text(floor({!$Record.Amount}/1000000))&amp;&quot;,&quot;&amp;mid(text({!$Record.Amount}),1+len(text(1+floor({!$Record.Amount}/1000000))),3)&amp;&quot;,&quot;&amp;right(text({!$Record.Amount}),len(text({!$Record.Amount}))-len(text(floor({!$Record.Amount}/1000)))),&quot; Too High&quot;))) &amp; &quot; on &quot; &amp; text(month(datevalue({!$Record.CreatedDate}))) &amp; &quot;/&quot; &amp; text(day(datevalue({!$Record.CreatedDate}))) &amp; &quot;/&quot; &amp; text(year(datevalue({!$Record.CreatedDate}))) &amp; br() &amp;
+&quot;Sales Rep: &quot; &amp; {!$Record.Owner.Full_Name__c} &amp; br() &amp;
+&quot;Account &amp; Contact: &quot; &amp; {!$Record.Account_Contact_Name__c} &amp; br() &amp;
+&quot;Parent Account: &quot; &amp; if(isblank({!$Record.Account.ParentId}),&quot;No Parent&quot;,{!$Record.Account.Parent.Name}) &amp; br() &amp;
+&quot;Opportunity Link: https://xometry5836.lightning.force.com/lightning/r/Opportunity/&quot;&amp;{!$Record.Id}&amp;&quot;/view&quot; &amp; br() &amp;
+&quot;Get Link: https://get.xometry.com/quote/&quot;&amp;{!$Record.Last_Quote_Xometry_ERP_ID__c} &amp; br() &amp;
+&quot;Quote Type: &quot; &amp; text({!$Record.Quote_Type__c}) &amp; br() &amp;
+&quot;Process: &quot; &amp; {!$Record.Manufacturing_Process__c} &amp; br() &amp;
+&quot;Account Lifetime Spend: &quot; &amp; if({!$Record.Account.Corporate_Hierarchy_Lifetime_Spend__c}&lt;1,&quot;$0&quot;,if({!$Record.Account.Corporate_Hierarchy_Lifetime_Spend__c}&lt;10000,&quot;&lt;$10K&quot;,
+if({!$Record.Account.Corporate_Hierarchy_Lifetime_Spend__c}&lt;100000,&quot;&lt;$100K&quot;,
+if({!$Record.Account.Corporate_Hierarchy_Lifetime_Spend__c}&lt;1000000,&quot;$&quot;&amp;
+text(round({!$Record.Account.Corporate_Hierarchy_Lifetime_Spend__c}/1000,0))&amp;&quot;K&quot;,
+if({!$Record.Account.Corporate_Hierarchy_Lifetime_Spend__c}&lt;1000000000,&quot;$&quot;&amp;
+text(round({!$Record.Account.Corporate_Hierarchy_Lifetime_Spend__c}/1000000,0))&amp;&quot;MM&quot;,
+&quot;Check Salesforce&quot;))))) &amp; br() &amp;
+&quot;This Year Account Spend: &quot; &amp; if({!$Record.Account.This_Year_Corporate_Hierarchy_Spend__c}&lt;1,&quot;$0&quot;,if({!$Record.Account.This_Year_Corporate_Hierarchy_Spend__c}&lt;10000,&quot;&lt;$10K&quot;,
+if({!$Record.Account.This_Year_Corporate_Hierarchy_Spend__c}&lt;100000,&quot;&lt;$100K&quot;,
+if({!$Record.Account.This_Year_Corporate_Hierarchy_Spend__c}&lt;1000000,&quot;$&quot;&amp;
+text(round({!$Record.Account.This_Year_Corporate_Hierarchy_Spend__c}/1000,0))&amp;&quot;K&quot;,
+if({!$Record.Account.This_Year_Corporate_Hierarchy_Spend__c}&lt;1000000000,&quot;$&quot;&amp;
+text(round({!$Record.Account.This_Year_Corporate_Hierarchy_Spend__c}/1000000,0))&amp;&quot;MM&quot;,
+&quot;Check Salesforce&quot;))))) &amp; br() &amp;
+&quot;Contact Lifetime Spend: &quot; &amp; if({!$Record.Primary_Contact__r.Lifetime_Spend__c}&lt;1,&quot;$0&quot;,if({!$Record.Primary_Contact__r.Lifetime_Spend__c}&lt;10000,&quot;&lt;$10K&quot;,
+if({!$Record.Primary_Contact__r.Lifetime_Spend__c}&lt;100000,&quot;&lt;$100K&quot;,
+if({!$Record.Primary_Contact__r.Lifetime_Spend__c}&lt;1000000,&quot;$&quot;&amp;
+text(round({!$Record.Primary_Contact__r.Lifetime_Spend__c}/1000,0))&amp;&quot;K&quot;,
+if({!$Record.Primary_Contact__r.Lifetime_Spend__c}&lt;1000000000,&quot;$&quot;&amp;
+text(round({!$Record.Primary_Contact__r.Lifetime_Spend__c}/1000000,0))&amp;&quot;MM&quot;,
+&quot;Check Salesforce&quot;))))) &amp; br() &amp;
+&quot;Contact Last Activity Date: &quot; &amp; text(month({!$Record.Primary_Contact__r.Last_Activity_Date__c})) &amp; &quot;/&quot; &amp; text(day({!$Record.Primary_Contact__r.Last_Activity_Date__c})) &amp; &quot;/&quot; &amp; text(year({!$Record.Primary_Contact__r.Last_Activity_Date__c}))</expression>
+    </formulas>
+    <interviewLabel>Large Opp Slack Test {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Large Opp Slack Test</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Amount</field>
+            <operator>GreaterThanOrEqualTo</operator>
+            <value>
+                <numberValue>50000.0</numberValue>
+            </value>
+        </filters>
+        <filters>
+            <field>RecordTypeId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>0123u000000JSFKAA4</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Generic_Account__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <scheduledPaths>
+            <connector>
+                <targetReference>Send_Slack_Channel_Message</targetReference>
+            </connector>
+            <pathType>AsyncAfterCommit</pathType>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <description>The Opp Owner Role</description>
+        <name>OpportunityOwnerRole</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>OppOwnerManagerSlackID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>OppOwnerSlackID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

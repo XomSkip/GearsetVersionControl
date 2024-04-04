@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Account</fullName>
+        <default>false</default>
+        <label>Account</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ask a Question</fullName>
+        <default>false</default>
+        <label>Ask a Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Auto Notifications</fullName>
+        <default>false</default>
+        <label>Auto Notifications</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Coaching</fullName>
+        <default>false</default>
+        <label>Coaching</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer</fullName>
+        <default>false</default>
+        <label>Customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>eCommerce - Cancel</fullName>
+        <default>false</default>
+        <label>eCommerce - Cancel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>eCommerce - Confirmation Email</fullName>
+        <default>false</default>
+        <label>eCommerce - Confirmation Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>eCommerce - Invoice</fullName>
+        <default>false</default>
+        <label>eCommerce - Invoice</label>
+    </standardValue>
+    <standardValue>
+        <fullName>eCommerce - Issue</fullName>
+        <default>false</default>
+        <label>eCommerce - Issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>eCommerce - Other</fullName>
+        <default>false</default>
+        <label>eCommerce - Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>eCommerce - PO</fullName>
+        <default>false</default>
+        <label>eCommerce - PO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>eCommerce - Quote</fullName>
+        <default>false</default>
+        <label>eCommerce - Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>eCommerce - Shipping Tracking</fullName>
+        <default>false</default>
+        <label>eCommerce - Shipping Tracking</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Financial Services</fullName>
+        <default>false</default>
+        <label>Financial Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FinServ</fullName>
+        <default>false</default>
+        <label>FinServ</label>
+    </standardValue>
+    <standardValue>
+        <fullName>General Inquiry</fullName>
+        <default>false</default>
+        <label>General Inquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal</fullName>
+        <default>false</default>
+        <label>Internal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Job Payouts</fullName>
+        <default>false</default>
+        <label>Job Payouts</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Large Order Approval</fullName>
+        <default>false</default>
+        <label>Large Order Approval</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Large Order Review</fullName>
+        <default>false</default>
+        <label>Large Order Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketplace</fullName>
+        <default>false</default>
+        <label>Marketplace</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Take</fullName>
+        <default>false</default>
+        <label>No Take</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Onboarding Question</fullName>
+        <default>false</default>
+        <label>Onboarding Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Order</fullName>
+        <default>false</default>
+        <label>Order</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Order Entry</fullName>
+        <default>false</default>
+        <label>Order Entry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Account</fullName>
+        <default>false</default>
+        <label>Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Help</fullName>
+        <default>false</default>
+        <label>Partner Help</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner identified XOM Supplies delay</fullName>
+        <default>false</default>
+        <label>Partner identified XOM Supplies delay</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner needs a material quote</fullName>
+        <default>false</default>
+        <label>Partner needs a material quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Portal</fullName>
+        <default>false</default>
+        <label>Partner Portal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Relations</fullName>
+        <default>false</default>
+        <label>Partner Relations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Update</fullName>
+        <default>false</default>
+        <label>Partner Update</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Portal Issues</fullName>
+        <default>false</default>
+        <label>Portal Issues</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Quote</fullName>
+        <default>false</default>
+        <label>Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Report an Issue</fullName>
+        <default>false</default>
+        <label>Report an Issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Re-Source</fullName>
+        <default>false</default>
+        <label>Re-Source</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RFQ - Quote</fullName>
+        <default>false</default>
+        <label>RFQ - Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Scorecard</fullName>
+        <default>false</default>
+        <label>Scorecard</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Shipping Labels</fullName>
+        <default>false</default>
+        <label>Shipping Labels</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SO - Review Information</fullName>
+        <default>false</default>
+        <label>SO - Review Information</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SO - Send Test Part</fullName>
+        <default>false</default>
+        <label>SO - Send Test Part</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sourcing</fullName>
+        <default>false</default>
+        <label>Sourcing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SO - Verify Certs</fullName>
+        <default>false</default>
+        <label>SO - Verify Certs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Spam/Cold Call/Marketing Email</fullName>
+        <default>false</default>
+        <label>Spam/Cold Call/Marketing Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Supplier Onboarding</fullName>
+        <default>false</default>
+        <label>Supplier Onboarding</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical Questions</fullName>
+        <default>false</default>
+        <label>Technical Questions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical Review</fullName>
+        <default>false</default>
+        <label>Technical Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VQC</fullName>
+        <default>false</default>
+        <label>VQC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web Form</fullName>
+        <default>false</default>
+        <label>Web Form</label>
+    </standardValue>
+</StandardValueSet>

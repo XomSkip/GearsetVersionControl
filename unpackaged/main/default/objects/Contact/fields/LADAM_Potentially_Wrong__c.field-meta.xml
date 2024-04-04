@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LADAM_Potentially_Wrong__c</fullName>
+    <externalId>false</externalId>
+    <formula>(
+ (LastActivityDate &gt; (TODAY() - 175)) &amp;&amp;
+ !ISBLANK(LastActivityDate)
+)
+
+&amp;&amp;
+
+(
+ (ISBLANK(Last_Activity_Date_AM__c)) ||
+ ((DATEVALUE(Last_Activity_Date_AM__c)) &lt; (LastActivityDate - 1))
+)</formula>
+    <label>LADAM Potentially Wrong</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

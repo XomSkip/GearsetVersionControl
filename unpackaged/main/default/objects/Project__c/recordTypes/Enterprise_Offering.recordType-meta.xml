@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enterprise_Offering</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Enterprise_Offering</compactLayoutAssignment>
+    <description>Project record type for Enterprise offerings such as Punchout, MSA, SOW etc</description>
+    <label>Enterprise Offering</label>
+    <picklistValues>
+        <picklist>Line_of_Business__c</picklist>
+        <values>
+            <fullName>Instant Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketplace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplies</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stage__c</picklist>
+        <values>
+            <fullName>Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Negotiation %2F Revision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Stage_Details__c</picklist>
+        <values>
+            <fullName>Budgetary Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DFM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Model Hold %28DFM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchase Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Concerns</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Stage__c</picklist>
+        <values>
+            <fullName>Auto-Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Budgetary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Made In-House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Late Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Competition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Bid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Demand Competition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project on Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchase Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchasing from Different Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Concerns</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>MSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punchout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOW</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

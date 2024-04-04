@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>When the hardware needed, or the direction or depth on install is not clear</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Missing Hardware Information</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry Order ID    - Hardware Confirmation, Please Review</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

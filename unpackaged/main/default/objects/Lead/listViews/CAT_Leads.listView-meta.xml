@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAT_Leads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Owner_ID_Name__c</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>LEAD.TITLE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>3/1/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER.ALIAS</field>
+        <operation>equals</operation>
+        <value>jklei</value>
+    </filters>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>equals</operation>
+        <value>Customer Referral</value>
+    </filters>
+    <filters>
+        <field>LEAD.COMPANY</field>
+        <operation>contains</operation>
+        <value>CAT</value>
+    </filters>
+    <label>CAT Leads 3-1-22</label>
+</ListView>

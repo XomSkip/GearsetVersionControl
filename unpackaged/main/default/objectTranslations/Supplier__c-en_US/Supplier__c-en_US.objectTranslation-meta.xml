@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Supplier</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Suppliers</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Partner Layout</layout>
+        <sections>
+            <label><!-- Approved Processes --></label>
+            <section>Approved Processes</section>
+        </sections>
+        <sections>
+            <label><!-- Certifications --></label>
+            <section>Certifications</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- FinTech --></label>
+            <section>FinTech</section>
+        </sections>
+        <sections>
+            <label><!-- Job Board Stats --></label>
+            <section>Job Board Stats</section>
+        </sections>
+        <sections>
+            <label><!-- Legacy Notes --></label>
+            <section>Legacy Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Machine Counts --></label>
+            <section>Machine Counts</section>
+        </sections>
+        <sections>
+            <label><!-- Onboarding --></label>
+            <section>Onboarding</section>
+        </sections>
+        <sections>
+            <label><!-- Promotion / Demotion --></label>
+            <section>Promotion / Demotion</section>
+        </sections>
+        <sections>
+            <label><!-- Requested Test Part --></label>
+            <section>Requested Test Part</section>
+        </sections>
+        <sections>
+            <label><!-- Shop Preferences --></label>
+            <section>Shop Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Supplier Ratings --></label>
+            <section>Supplier Ratings</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- QA Supplier --></label>
+        <name>QA_Supplier</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send to Slack --></label>
+        <name>Send_to_Slack</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Slack Alerts --></label>
+        <name>Slack_Alerts</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Supplier --></label>
+        <name>Supplier</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Supplier Case --></label>
+        <name>SupplierCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Supplier FinTech --></label>
+        <name>Supplier_FinTech</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Test Part Re-Requests --></label>
+        <name>Test_Part_Re_Requests</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- VQC Supplier --></label>
+        <name>VQC_Supplier</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- VQC SupplierCase --></label>
+        <name>VQC_SupplierCase</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- ERPLink --></label>
+        <name>ERPLink</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PartnerPortalLink --></label>
+        <name>PartnerPortalLink</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>Slack_Alerts</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MK_Ultimate_Customer_Fit_Segment__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Recommended_Account_LKP__r.Company_Category_Corp_Level__c = "Small Business",
+ MK_SMB_Customer_Fit_Segment__c,
+ MK_Customer_Fit_Segment__c
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>MK Ultimate Customer Fit Segment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

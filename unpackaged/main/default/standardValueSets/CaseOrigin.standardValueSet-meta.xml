@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Bulk Upload</fullName>
+        <default>false</default>
+        <label>Bulk Upload</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chat</fullName>
+        <default>false</default>
+        <label>Chat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: 3dsmakemarketplace@</fullName>
+        <default>false</default>
+        <label>Email: 3dsmakemarketplace@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: Accounting@</fullName>
+        <default>false</default>
+        <label>Email: Accounting@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: Additive@</fullName>
+        <default>false</default>
+        <label>Email: Additive@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: ARSupplies@</fullName>
+        <default>false</default>
+        <label>Email: ARSupplies@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: assembly@</fullName>
+        <default>false</default>
+        <label>Email: assembly@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: atomic@</fullName>
+        <default>false</default>
+        <label>Email: atomic@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: automotive@</fullName>
+        <default>false</default>
+        <label>Email: automotive@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: contract-review@</fullName>
+        <default>false</default>
+        <label>Email: contract-review@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: getaquote@</fullName>
+        <default>false</default>
+        <label>Email: getaquote@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: impressions@</fullName>
+        <default>false</default>
+        <label>Email: impressions@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email:info@bigbluesaw.com</fullName>
+        <default>false</default>
+        <label>Email:info@bigbluesaw.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: logistics@xometry.com</fullName>
+        <default>false</default>
+        <label>Email: logistics@xometry.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: Marketplace.Support@</fullName>
+        <default>false</default>
+        <label>Email: Marketplace.Support@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email:molding@</fullName>
+        <default>false</default>
+        <label>Email:molding@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email:partneronboarding@</fullName>
+        <default>false</default>
+        <label>Email:partneronboarding@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email:partner-question@</fullName>
+        <default>false</default>
+        <label>Email:partner-question@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email:production@bigbluesaw.com</fullName>
+        <default>false</default>
+        <label>Email:production@bigbluesaw.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: Quotes@</fullName>
+        <default>false</default>
+        <label>Email: Quotes@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: rocket@</fullName>
+        <default>false</default>
+        <label>Email: rocket@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: SalesCase@</fullName>
+        <default>false</default>
+        <label>Email: SalesCase@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: Sourcing@</fullName>
+        <default>false</default>
+        <label>Email: Sourcing@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: spacetechs@</fullName>
+        <default>false</default>
+        <label>Email: spacetechs@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email:supplierw9@</fullName>
+        <default>false</default>
+        <label>Email:supplierw9@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: Support@</fullName>
+        <default>false</default>
+        <label>Email: Support@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: ttpod@</fullName>
+        <default>false</default>
+        <label>Email: ttpod@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: VQC@</fullName>
+        <default>false</default>
+        <label>Email: VQC@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email: Work@</fullName>
+        <default>false</default>
+        <label>Email: Work@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Supplies@</fullName>
+        <default>false</default>
+        <label>Email Supplies@</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ERP Quote</fullName>
+        <default>false</default>
+        <label>ERP Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Intercom</fullName>
+        <default>false</default>
+        <label>Intercom</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal</fullName>
+        <default>false</default>
+        <label>Internal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manual</fullName>
+        <default>true</default>
+        <label>Manual</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NYOP</fullName>
+        <default>false</default>
+        <label>NYOP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Portal</fullName>
+        <default>false</default>
+        <label>Partner Portal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Phone</fullName>
+        <default>false</default>
+        <label>Phone</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Price Match Request Form</fullName>
+        <default>false</default>
+        <label>Price Match Request Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Screenflow</fullName>
+        <default>false</default>
+        <label>Screenflow</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Voicemail</fullName>
+        <default>false</default>
+        <label>Voicemail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>W2C - Customer Form</fullName>
+        <default>false</default>
+        <label>W2C - Customer Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>W2C - Partner Form</fullName>
+        <default>false</default>
+        <label>W2C - Partner Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web</fullName>
+        <default>false</default>
+        <label>Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Workcenter</fullName>
+        <default>false</default>
+        <label>Workcenter</label>
+    </standardValue>
+</StandardValueSet>

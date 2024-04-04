@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Good day, {{{Recipient.FirstName}}},<br />
+<br />
+My name is {{{Sender.Name}}} and I am the&nbsp;{{{Sender.Title}}} at Xometry. Kindly note your Xometry order {{{Case.GNOOrder__c}}} &nbsp;has finished machining and has shipped out under XcarrierX &nbsp;tracking ID # XXXX.&nbsp;<br />
+<br />
+Please note, we need your help to get this shipment customs cleared in XcountryX. Per our terms and conditions, <strong>we count on our customers to take care of any customs clearances needed at destination and the payment of any duties and tariffs.&nbsp;</strong><br />
+<br />
+Please let us know if there's anything additional we can help you with.&nbsp;<br />
+<br />
+Thank you for choosing Xometry!<br />
+<br />
+Kind regards,</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Partner Coaching Queue</name>
+    <queueMembers>
+        <users>
+            <user>aimee.honeycutt@xometry.com</user>
+            <user>cedrec.sumimoto@xometry.com</user>
+            <user>jgreco@xometry.com</user>
+            <user>joshua.poullath@xometry.com</user>
+            <user>kbennett@xometry.com</user>
+            <user>kwhite@xometry.com</user>
+            <user>lbrown@xometry.com</user>
+            <user>mark.kearney@xometry.com</user>
+            <user>nolan.mcgaughey@xometry.com</user>
+            <user>patrick.stephan@xometry.com</user>
+            <user>saus@xometry.com</user>
+            <user>sjenkins@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

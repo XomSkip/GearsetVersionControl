@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Status_HS__c</fullName>
+    <description>NEW Customer Status field to come from Hubspot. New process is that the data point is calculated in Snowflake and sent to HS directly. We should now be getting this data point from HS instead of directly from Snowflake (Snoflake integration for the OLD Customer Status field has been off since summer 2022)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>NEW Customer Status field that replaces the old Customer Status field now labeled as "[DNU] Customer Status"</inlineHelpText>
+    <label>Customer Status HS</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

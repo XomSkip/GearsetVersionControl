@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Get_Site_Url__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( NOT(ISBLANK(Xometry_ERP_Contact_ID__c)),HYPERLINK("https://get.xometry.com/account-settings/" + Xometry_ERP_Contact_ID__c , "Go to this Contact in the Get Site", "_blank"),"No ERP Contact ID Provided")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contact Get Site Url</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

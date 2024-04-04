@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Team Role</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pre-Sales Engineer</fullName>
+                <default>false</default>
+                <label>Pre-Sales Engineer</label>
+            </value>
+            <value>
+                <fullName>Technical Sales Engineer</fullName>
+                <default>false</default>
+                <label>Technical Sales Engineer</label>
+            </value>
+            <value>
+                <fullName>Enterprise Growth Rep</fullName>
+                <default>false</default>
+                <label>Enterprise Growth Rep</label>
+            </value>
+            <value>
+                <fullName>Spec Team</fullName>
+                <default>false</default>
+                <label>Spec Team</label>
+            </value>
+            <value>
+                <fullName>Sales Development Representative</fullName>
+                <default>false</default>
+                <label>Sales Development Representative</label>
+            </value>
+            <value>
+                <fullName>Injection Molding Specialist</fullName>
+                <default>false</default>
+                <label>Injection Molding Specialist</label>
+            </value>
+            <value>
+                <fullName>Enterprise Account Manager</fullName>
+                <default>false</default>
+                <label>Enterprise Account Manager</label>
+            </value>
+            <value>
+                <fullName>Account Manager</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Account Manager</label>
+            </value>
+            <value>
+                <fullName>Customer Success Account Manager</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customer Success Account Manager</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

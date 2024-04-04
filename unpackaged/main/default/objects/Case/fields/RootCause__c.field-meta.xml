@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RootCause__c</fullName>
+    <externalId>false</externalId>
+    <label>Root Cause</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Assembly</fullName>
+                <default>false</default>
+                <label>Assembly</label>
+            </value>
+            <value>
+                <fullName>Complexity</fullName>
+                <default>false</default>
+                <label>Complexity</label>
+            </value>
+            <value>
+                <fullName>Corrupt File / CAM Issue</fullName>
+                <default>false</default>
+                <label>Corrupt File / CAM Issue</label>
+            </value>
+            <value>
+                <fullName>Customer/Sales Post-Order Cancel Request</fullName>
+                <default>false</default>
+                <label>Customer/Sales Post-Order Cancel Request</label>
+            </value>
+            <value>
+                <fullName>Customer/Sales Post-Order Expedite Request</fullName>
+                <default>false</default>
+                <label>Customer/Sales Post-Order Expedite Request</label>
+            </value>
+            <value>
+                <fullName>Customer/Sales Post-Order HOLD Request</fullName>
+                <default>false</default>
+                <label>Customer/Sales Post-Order HOLD Request</label>
+            </value>
+            <value>
+                <fullName>Customer/Sales Post-Order Revision Request</fullName>
+                <default>false</default>
+                <label>Customer/Sales Post-Order Revision Request</label>
+            </value>
+            <value>
+                <fullName>Customer/Sales Post-Order Shipping Request</fullName>
+                <default>false</default>
+                <label>Customer/Sales Post-Order Shipping Request</label>
+            </value>
+            <value>
+                <fullName>Customer/Sales Post-Order Status Request</fullName>
+                <default>false</default>
+                <label>Customer/Sales Post-Order Status Request</label>
+            </value>
+            <value>
+                <fullName>Design Change Request</fullName>
+                <default>false</default>
+                <label>Design Change Request</label>
+            </value>
+            <value>
+                <fullName>DFM Review</fullName>
+                <default>false</default>
+                <label>DFM Review</label>
+            </value>
+            <value>
+                <fullName>Documentation/Requirements Issue</fullName>
+                <default>false</default>
+                <label>Documentation/Cert Issue</label>
+            </value>
+            <value>
+                <fullName>Draft / Mold / Mating Issue</fullName>
+                <default>false</default>
+                <label>Draft / Mold / Mating Issue</label>
+            </value>
+            <value>
+                <fullName>Drawing Request</fullName>
+                <default>false</default>
+                <label>Drawing Request</label>
+            </value>
+            <value>
+                <fullName>Expedite</fullName>
+                <default>false</default>
+                <label>Expedite</label>
+            </value>
+            <value>
+                <fullName>Fabrication Issue</fullName>
+                <default>false</default>
+                <label>Fabrication Issue</label>
+            </value>
+            <value>
+                <fullName>File Issue</fullName>
+                <default>false</default>
+                <label>File Issue</label>
+            </value>
+            <value>
+                <fullName>Finishing/Outside Process Issue</fullName>
+                <default>false</default>
+                <label>Finishing/Outside Process Issue</label>
+            </value>
+            <value>
+                <fullName>Finishing Price</fullName>
+                <default>false</default>
+                <label>Finishing Price</label>
+            </value>
+            <value>
+                <fullName>Hardware Issue</fullName>
+                <default>false</default>
+                <label>Hardware Issue</label>
+            </value>
+            <value>
+                <fullName>High Risk Warning</fullName>
+                <default>false</default>
+                <label>High Risk Warning</label>
+            </value>
+            <value>
+                <fullName>Impossible Geometry</fullName>
+                <default>false</default>
+                <label>Impossible Geometry</label>
+            </value>
+            <value>
+                <fullName>Improper Order Creation</fullName>
+                <default>false</default>
+                <label>Improper Order Creation</label>
+            </value>
+            <value>
+                <fullName>Inspection</fullName>
+                <default>false</default>
+                <label>Inspection</label>
+            </value>
+            <value>
+                <fullName>Inspection Issue</fullName>
+                <default>false</default>
+                <label>Inspection Issue</label>
+            </value>
+            <value>
+                <fullName>ITAR/EAR Hold</fullName>
+                <default>false</default>
+                <label>ITAR/EAR Hold</label>
+            </value>
+            <value>
+                <fullName>Lead Time</fullName>
+                <default>false</default>
+                <label>Lead Time</label>
+            </value>
+            <value>
+                <fullName>Machining Issue</fullName>
+                <default>false</default>
+                <label>Machining Issue</label>
+            </value>
+            <value>
+                <fullName>Material Price</fullName>
+                <default>false</default>
+                <label>Material Price</label>
+            </value>
+            <value>
+                <fullName>Material Issue</fullName>
+                <default>false</default>
+                <label>Material Sourcing Issue</label>
+            </value>
+            <value>
+                <fullName>Mating Part Request</fullName>
+                <default>false</default>
+                <label>Mating Part Request</label>
+            </value>
+            <value>
+                <fullName>Missing Finish</fullName>
+                <default>false</default>
+                <label>Missing Finish</label>
+            </value>
+            <value>
+                <fullName>Missing Hardware</fullName>
+                <default>false</default>
+                <label>Missing Hardware</label>
+            </value>
+            <value>
+                <fullName>Missing Surface Roughness</fullName>
+                <default>false</default>
+                <label>Missing Surface Roughness</label>
+            </value>
+            <value>
+                <fullName>Missing Threads</fullName>
+                <default>false</default>
+                <label>Missing Threads</label>
+            </value>
+            <value>
+                <fullName>Missing Tolerances</fullName>
+                <default>false</default>
+                <label>Missing Tolerances</label>
+            </value>
+            <value>
+                <fullName>MQ by Sales</fullName>
+                <default>false</default>
+                <label>MQ by Sales</label>
+            </value>
+            <value>
+                <fullName>No Feedback</fullName>
+                <default>false</default>
+                <label>No Feedback</label>
+            </value>
+            <value>
+                <fullName>Part Marking Issue</fullName>
+                <default>false</default>
+                <label>Part Marking Issue</label>
+            </value>
+            <value>
+                <fullName>Partner Behavior</fullName>
+                <default>false</default>
+                <label>Partner Behavior</label>
+            </value>
+            <value>
+                <fullName>Partner Cancel</fullName>
+                <default>false</default>
+                <label>Partner Cancel</label>
+            </value>
+            <value>
+                <fullName>Partner - Cancel Job</fullName>
+                <default>false</default>
+                <label>Partner - Cancel Job</label>
+            </value>
+            <value>
+                <fullName>Partner Capacity</fullName>
+                <default>false</default>
+                <label>Partner Capacity</label>
+            </value>
+            <value>
+                <fullName>Partner - Increase Job Payment</fullName>
+                <default>false</default>
+                <label>Partner - Increase Job Payment</label>
+            </value>
+            <value>
+                <fullName>Partner Limitations</fullName>
+                <default>false</default>
+                <label>Partner Limitations</label>
+            </value>
+            <value>
+                <fullName>Partner Portal Issue</fullName>
+                <default>false</default>
+                <label>Partner Portal Issue</label>
+            </value>
+            <value>
+                <fullName>Poor Mix of Parts</fullName>
+                <default>false</default>
+                <label>Poor Mix of Parts</label>
+            </value>
+            <value>
+                <fullName>Price Match</fullName>
+                <default>false</default>
+                <label>Price Match</label>
+            </value>
+            <value>
+                <fullName>Production Price</fullName>
+                <default>false</default>
+                <label>Production Price</label>
+            </value>
+            <value>
+                <fullName>Programming Issue</fullName>
+                <default>false</default>
+                <label>Programming Issue</label>
+            </value>
+            <value>
+                <fullName>Quote Altered</fullName>
+                <default>false</default>
+                <label>Quote Altered</label>
+            </value>
+            <value>
+                <fullName>Quoting Site Issue</fullName>
+                <default>false</default>
+                <label>Quoting Site Issue</label>
+            </value>
+            <value>
+                <fullName>Radius/Blend Additions</fullName>
+                <default>false</default>
+                <label>Radius/Blend Additions</label>
+            </value>
+            <value>
+                <fullName>Revision Conflict</fullName>
+                <default>false</default>
+                <label>Revision Conflict</label>
+            </value>
+            <value>
+                <fullName>Risk</fullName>
+                <default>false</default>
+                <label>Risk</label>
+            </value>
+            <value>
+                <fullName>Sheet Metal Flat Pattern Issue</fullName>
+                <default>false</default>
+                <label>Sheet Metal Flat Pattern Issue</label>
+            </value>
+            <value>
+                <fullName>Shipping Issue</fullName>
+                <default>false</default>
+                <label>Shipping Issue</label>
+            </value>
+            <value>
+                <fullName>Thin Walls</fullName>
+                <default>false</default>
+                <label>Thin Walls</label>
+            </value>
+            <value>
+                <fullName>Tooling issue</fullName>
+                <default>false</default>
+                <label>Tooling issue</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

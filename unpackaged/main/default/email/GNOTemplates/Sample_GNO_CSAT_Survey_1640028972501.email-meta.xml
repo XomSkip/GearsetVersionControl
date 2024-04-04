@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>GNO CSAT Survey Invitation</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Production - GNO CSAT Survey</name>
+    <pageDevName>Sample_GNO_CSAT_Survey</pageDevName>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>How would you rate your interaction with the Xometry Representative? Case Number: {{{Case.CaseNumber}}}</subject>
+    <textOnly>[Image alt text: Xometry] &lt; https://www.xometry.com/ &gt; 
+
+Community &lt; https://community.xometry.com &gt; 
+
+View Job Board &lt; https://work.xometry.com/job-board &gt; 
+
+ &lt; https://xometry.qualtrics.com/jfe/form/SV_0ww3kt9MUhaG3NY?caseNumber=%7B%7B%7BCase.CaseNumber%7D%7D%7D&amp;email=%7B%7B%7BCase.SuppliedEmail%7D%7D%7D&amp;RepId=%7B%7B%7BCase.OwnerId%7D%7D%7D&amp;RepRole=%7B%7B%7BCase.Owners_Role__c%7D%7D%7D &gt; 
+
+**Tell Us About Your Experience | Xometry Global Network Operations
+----------------------------------------------------
+
+Hi {{{Case.SuppliedName}}}, 
+
+Please tell us about your recent experience with Xometry. 
+
+Xometry Case Number: {{{Case.CaseNumber}}} 
+
+Click here to take the survey! &lt; https://xometry.qualtrics.com/jfe/form/SV_0ww3kt9MUhaG3NY?caseNumber=%7B%7B%7BCase.CaseNumber%7D%7D%7D&amp;email=%7B%7B%7BCase.SuppliedEmail%7D%7D%7D&amp;RepId=%7B%7B%7BCase.OwnerId%7D%7D%7D&amp;RepRole=%7B%7B%7BCase.Owners_Role__c%7D%7D%7D+ &gt; 
+
+Sincerely,
+
+Xometry
+
+[Image alt text: Facebook] &lt; https://www.facebook.com/XometrySuppliers/ &gt;  [Image alt text: LinkedIn]  &lt; https://www.linkedin.com/showcase/xometry-sellers &gt;  [Image alt text: Twitter]  &lt; https://twitter.com/XometrySupplier &gt;  [Image alt text: Instagram]  &lt; https://www.instagram.com/xometry &gt;  [Image alt text: YouTube]  &lt; https://www.youtube.com/c/XometrySuppliers &gt; 
+
+[Image alt text: Xometry] &lt; https://www.xometry.com/ &gt; 
+
+ISO 9001:2015 and AS9100D Certified | ITAR-registered &lt; https://www.xometry.com/as9100d-and-iso-90012015 &gt; 
+
+Xometry, 7529 Standish Place, Suite 200, Derwood, MD 20855, USA, 240-252-1138</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

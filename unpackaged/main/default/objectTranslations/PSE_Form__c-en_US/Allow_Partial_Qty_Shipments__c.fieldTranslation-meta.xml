@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If your project is a higher quantity order, are partial shipments an option? --></help>
+        <label><!-- Are partial shipments an option? --></label>
+        <name>Allow_Partial_Qty_Shipments__c</name>
+    </CustomFieldTranslation>

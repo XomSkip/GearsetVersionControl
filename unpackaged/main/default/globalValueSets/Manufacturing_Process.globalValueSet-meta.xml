@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Carbon</fullName>
+        <default>false</default>
+        <label>Carbon</label>
+    </customValue>
+    <customValue>
+        <fullName>CNC Machining</fullName>
+        <default>false</default>
+        <label>CNC Machining</label>
+    </customValue>
+    <customValue>
+        <fullName>Die Casting</fullName>
+        <default>false</default>
+        <label>Die Casting</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct Metal Laser Sintering (DMLS)</fullName>
+        <default>false</default>
+        <label>Direct Metal Laser Sintering (DMLS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct Sourced</fullName>
+        <default>false</default>
+        <label>Direct Sourced</label>
+    </customValue>
+    <customValue>
+        <fullName>Extrusion</fullName>
+        <default>false</default>
+        <label>Metal Extrusion</label>
+    </customValue>
+    <customValue>
+        <fullName>Fused Deposition Modeling (FDM)</fullName>
+        <default>false</default>
+        <label>Fused Deposition Modeling (FDM)</label>
+    </customValue>
+    <customValue>
+        <fullName>HP Multi Jet Fusion</fullName>
+        <default>false</default>
+        <label>HP Multi Jet Fusion</label>
+    </customValue>
+    <customValue>
+        <fullName>Injection Molding</fullName>
+        <default>false</default>
+        <label>Injection Molding</label>
+    </customValue>
+    <customValue>
+        <fullName>PolyJet 3D</fullName>
+        <default>false</default>
+        <label>PolyJet 3D</label>
+    </customValue>
+    <customValue>
+        <fullName>Selective Laser Sintering (SLS)</fullName>
+        <default>false</default>
+        <label>Selective Laser Sintering (SLS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Sheet Metal</fullName>
+        <default>false</default>
+        <label>Sheet Metal</label>
+    </customValue>
+    <customValue>
+        <fullName>Stamping</fullName>
+        <default>false</default>
+        <label>Stamping</label>
+    </customValue>
+    <customValue>
+        <fullName>Stereolithography (SLA)</fullName>
+        <default>false</default>
+        <label>Stereolithography (SLA)</label>
+    </customValue>
+    <customValue>
+        <fullName>Urethane Casting</fullName>
+        <default>false</default>
+        <label>Urethane Casting</label>
+    </customValue>
+    <description>A list of Manufacturing Processes that are pulled from Web Name from Processes in the ERP.</description>
+    <masterLabel>Manufacturing Process</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

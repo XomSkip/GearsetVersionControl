@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Weight_Priority_Check__c</fullName>
+    <description>Determines if Priority needs to be updated based on Sales Weight Date</description>
+    <externalId>false</externalId>
+    <formula>(IsClosed = FALSE) &amp;&amp;
+
+(RecordTypeId = "0123u000000ixWP") &amp;&amp;
+
+!ISPICKVAL(Priority,"VIP") &amp;&amp;
+!ISPICKVAL(Priority,"Urgent") &amp;&amp;
+
+!ISBLANK(Sales_Weight_Date__c) &amp;&amp;
+((Sales_Weight_Date__c - TODAY()) &lt;=  $CustomMetadata.Admin_Ref_Variable__mdt.SalesWeightDate.Number_Ref_Value__c)</formula>
+    <label>Sales Weight Priority Check</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSEOutcome__c</fullName>
+    <description>Outcome only PSE Profile can select.</description>
+    <externalId>false</externalId>
+    <label>PSE Outcome</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>(PSE Option) - Pricing Completed &lt; 50K</fullName>
+                <default>false</default>
+                <label>Pricing Completed Under $50K</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - Pricing Completed &gt;= 50K</fullName>
+                <default>false</default>
+                <label>Pricing Completed Over $50K</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - Engineering Review Provided</fullName>
+                <default>false</default>
+                <label>Engineering Review Provided</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - More Information Needed</fullName>
+                <default>false</default>
+                <label>More Information Needed (Sales)</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - More Information Needed PSE</fullName>
+                <default>false</default>
+                <label>More Information Needed (PSE)</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - RFQ Needed</fullName>
+                <default>false</default>
+                <label>Partner RFQ Needed</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - Molding Parts Reorder</fullName>
+                <default>false</default>
+                <label>Molding Parts Reorder</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - Send Case to DFM Team</fullName>
+                <default>false</default>
+                <label>Send Case to DFM Team</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - Quote is IM - Quick Parts</fullName>
+                <default>false</default>
+                <label>Quote is IM - Quick Parts</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - Quote is IM &lt; Threshold</fullName>
+                <default>false</default>
+                <label>Quote is IM &lt; Threshold</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - Quote is IM &gt;= Threshold</fullName>
+                <default>false</default>
+                <label>Quote is IM &gt;= Threshold</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - Send Stalled PO Case to CPC Team</fullName>
+                <default>false</default>
+                <label>Send Stalled PO Case to CPC Team</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - No Bid</fullName>
+                <default>false</default>
+                <label>No Bid</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - SPAM Close The Case</fullName>
+                <default>false</default>
+                <label>SPAM Close The Case</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - Assign To TSE</fullName>
+                <default>false</default>
+                <label>Assign To TSE</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - Close Material RFQ Case</fullName>
+                <default>false</default>
+                <label>Close Material RFQ Case</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - Pricing Completed &lt; 10K Partner RFQ</fullName>
+                <default>false</default>
+                <label>Pricing Completed Under $10k Partner RFQ</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - Pricing Completed &gt;= 10K Partner RFQ</fullName>
+                <default>false</default>
+                <label>Pricing Completed Over $10k Partner RFQ</label>
+            </value>
+            <value>
+                <fullName>(PSE Option) - Pricing Completed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pricing Completed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

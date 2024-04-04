@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Future_Cross_Sell__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Do you intend to order this design at a higher volume in the future using different manufacturing processes?</inlineHelpText>
+    <label>DoUOrderAdditionQtyOtherManuProcess?</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

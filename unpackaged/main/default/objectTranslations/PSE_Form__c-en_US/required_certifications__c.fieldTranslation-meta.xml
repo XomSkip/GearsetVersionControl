@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Please mark any required certifications. --></label>
+        <name>required_certifications__c</name>
+        <picklistValues>
+            <masterLabel>Certificate of Conformance</masterLabel>
+            <translation><!-- Certificate of Conformance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DFARS Compliant Material Cert</masterLabel>
+            <translation><!-- DFARS Compliant Material Cert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic Compliant Material Cert</masterLabel>
+            <translation><!-- Domestic Compliant Material Cert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware Certification</masterLabel>
+            <translation><!-- Hardware Certification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITAR/EAR Registration</masterLabel>
+            <translation><!-- ITAR/EAR Registration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Material Traceability</masterLabel>
+            <translation><!-- Material Traceability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Material Cert</masterLabel>
+            <translation><!-- Standard Material Cert --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

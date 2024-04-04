@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MK_Lead_Grade_Segment__c</fullName>
+    <description>Madkudu Lead Grade segment (A, B, C, D or E)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Madkudu Lead Grade segment (A, B, C, D or E)</inlineHelpText>
+    <label>MK Lead Grade Segment</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualified__c</fullName>
+    <description>2021-07-21; part of moving towards a more flexible and scalable way to handle customers owned by Business Development team</description>
+    <externalId>false</externalId>
+    <formula>Primary_Contact__r.Qualified__c &amp;&amp;
+(
+ (
+  Account.Generic_Account__c &amp;&amp;
+  Amount &lt;= 50000 &amp;&amp;
+  Amount &gt;= 300
+ ) ||
+ (
+  !Account.Generic_Account__c &amp;&amp;
+  Amount &lt;= 250000 &amp;&amp;
+  Amount &gt;= 500
+ )
+)</formula>
+    <label>Qualified</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

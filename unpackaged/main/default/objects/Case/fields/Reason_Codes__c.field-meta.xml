@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_Codes__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason Codes</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Parts out of specification - Dimensions/Tolerances</fullName>
+                <default>false</default>
+                <label>Parts out of specification - Dimensions/Tolerances</label>
+            </value>
+            <value>
+                <fullName>Parts missing required features</fullName>
+                <default>false</default>
+                <label>Parts missing required features</label>
+            </value>
+            <value>
+                <fullName>Parts damaged - Shipping damage</fullName>
+                <default>false</default>
+                <label>Parts damaged - Shipping damage</label>
+            </value>
+            <value>
+                <fullName>Parts damaged - Poor packaging</fullName>
+                <default>false</default>
+                <label>Parts damaged - Poor packaging</label>
+            </value>
+            <value>
+                <fullName>Poor part quality - Finish, Color, Appearance</fullName>
+                <default>false</default>
+                <label>Poor part quality - Finish, Color, Appearance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

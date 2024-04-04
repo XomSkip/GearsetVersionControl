@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Initial_Order_Deadline__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What is the latest possible date to receive your initial shipment of custom parts?</inlineHelpText>
+    <label>Initial Order Deadline</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

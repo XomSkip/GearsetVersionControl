@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BANT template for Fab 5 processes</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Fab 5 BANT</name>
+    <style>none</style>
+    <subject>{Insert Part Name} - Xometry {Insert Quote ID}</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

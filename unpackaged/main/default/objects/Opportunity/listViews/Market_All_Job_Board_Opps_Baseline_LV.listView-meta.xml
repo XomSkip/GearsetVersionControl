@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Market_All_Job_Board_Opps_Baseline_LV</fullName>
+    <columns>ManuProcessusedbySupplies__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Ops_Order_Total__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>Is_Alum_Mat__c</columns>
+    <columns>HasDelrinMat__c</columns>
+    <columns>Is_StainlessSteel_Mat__c</columns>
+    <columns>HasTitaniumMat__c</columns>
+    <columns>JobId__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>startsWith</operation>
+        <value>Job</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Closed Lost</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Supplies</value>
+    </filters>
+    <label>[Market]All Job Board Opps - Baseline LV</label>
+    <sharedTo>
+        <group>SupplyStakeholder</group>
+        <roleAndSubordinatesInternal>SellerMarketplace</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

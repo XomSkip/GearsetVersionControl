@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ops_Order__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Ops Order</label>
+    <referenceTo>Ops_Order__c</referenceTo>
+    <relationshipLabel>CaseOpsOrders</relationshipLabel>
+    <relationshipName>CaseOpsOrders</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

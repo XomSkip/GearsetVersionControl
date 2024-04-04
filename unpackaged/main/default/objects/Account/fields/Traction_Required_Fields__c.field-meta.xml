@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Traction_Required_Fields__c</fullName>
+    <externalId>false</externalId>
+    <formula>NOT(ISBLANK(MK_Customer_Fit_Segment__c))</formula>
+    <label>Traction Required Fields</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

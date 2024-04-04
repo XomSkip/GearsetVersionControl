@@ -1,0 +1,6 @@
+<apex:page sidebar="true" showHeader="true" docType="html-4.01-strict">
+<CRMC_PP:Grid ObjectName="Job__c" DelayLoad="false"  ViewID="a2n3u000000S8KtAAK" 
+ EnableNewButton="false"  EnableNewInline="false"  EnableEdit="true"  EnableActions="true"  EnableFieldChooser="true" 
+ EnableStickyViews="true"  EnableToolbar="true"  EnableViews="false"  EnableFormatting="true"  EnableReadingPane="false" />
+<CRMC_PP:DrillUp />
+</apex:page>

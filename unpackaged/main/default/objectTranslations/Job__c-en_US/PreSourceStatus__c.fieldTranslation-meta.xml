@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pre-Source Status --></label>
+        <name>PreSourceStatus__c</name>
+        <picklistValues>
+            <masterLabel>Call Campaign</masterLabel>
+            <translation><!-- Call Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DFM Review</masterLabel>
+            <translation><!-- DFM Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Time Review</masterLabel>
+            <translation><!-- Lead Time Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monitor</masterLabel>
+            <translation><!-- Monitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price Review</masterLabel>
+            <translation><!-- Price Review --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

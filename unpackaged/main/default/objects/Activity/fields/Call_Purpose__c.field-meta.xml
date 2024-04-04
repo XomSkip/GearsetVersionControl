@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Purpose__c</fullName>
+    <description>Originally created to map to an Outreach field of the same name</description>
+    <externalId>false</externalId>
+    <label>Call Purpose</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Introduction Call</fullName>
+                <default>false</default>
+                <label>Introduction Call</label>
+            </value>
+            <value>
+                <fullName>Quote Review</fullName>
+                <default>false</default>
+                <label>Quote Review</label>
+            </value>
+            <value>
+                <fullName>Follow-up Call</fullName>
+                <default>false</default>
+                <label>Follow-up Call</label>
+            </value>
+            <value>
+                <fullName>Demo Call</fullName>
+                <default>false</default>
+                <label>Demo Call</label>
+            </value>
+            <value>
+                <fullName>Support Call</fullName>
+                <default>false</default>
+                <label>Support Call</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

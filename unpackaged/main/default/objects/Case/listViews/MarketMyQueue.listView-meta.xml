@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MarketMyQueue</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.TYPE</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Age_hrs__c</columns>
+    <columns>CaseAge__c</columns>
+    <columns>Job__c</columns>
+    <columns>P21AccountDetails__c</columns>
+    <columns>OWNER_NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Solved,Closed</value>
+    </filters>
+    <label>[Supply]My Open Case Queue</label>
+    <sharedTo>
+        <role>Supply</role>
+        <roleAndSubordinates>SellerMarketplace</roleAndSubordinates>
+    </sharedTo>
+</ListView>

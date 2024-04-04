@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PODManager__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lookup to User to find POD Manager</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To identify who is the POD Manager on the Ops Order.</inlineHelpText>
+    <label>POD Manager</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>User.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>User.Profile.Name</field>
+            <operation>equals</operation>
+            <value>Xometry GNO</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>PodManager</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HouseAccountsCantbeCaseOwner</fullName>
+    <active>true</active>
+    <description>House Accounts is a generic account that should not own any cases.</description>
+    <errorConditionFormula>OR(Owner:User.Alias ='xomWC',Owner:User.Alias ='cpcHouse',Owner:User.Alias ='MSSAPI',Owner:User.Alias ='gnohouse', Owner:User.Alias ='xxome') &amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !ISCHANGED(BoxITARConsumerFolderId__c)
+&amp;&amp; !ISCHANGED(BoxNonITARConsumerFolderId__c)
+&amp;&amp; !ISCHANGED(Box_Folder__c)</errorConditionFormula>
+    <errorMessage>Xometry Workcenter/Xometry Supply/Partner Team/MS API/CPC House User is a placeholder user that should not own any case.
+Please assign this to a Queue instead.</errorMessage>
+</ValidationRule>

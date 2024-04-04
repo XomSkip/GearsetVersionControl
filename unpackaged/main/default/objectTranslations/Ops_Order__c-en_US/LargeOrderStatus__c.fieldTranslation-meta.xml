@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Large Order Status --></label>
+        <name>LargeOrderStatus__c</name>
+        <picklistValues>
+            <masterLabel>DFM-Pending Review</masterLabel>
+            <translation><!-- DFM-Pending Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DFM-Review Complete</masterLabel>
+            <translation><!-- DFM-Review Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Job(s) Pending Technical Review</masterLabel>
+            <translation><!-- Job(s) Pending Technical Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Order Review Process Complete</masterLabel>
+            <translation><!-- Large Order Review Process Complete --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

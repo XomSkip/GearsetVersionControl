@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MaterialofAcceptedJobAmount__c</fullName>
+    <description>Opp Amount / Accepted Job Price</description>
+    <externalId>false</externalId>
+    <formula>Amount /  MKT_AcceptedJobPrice__c</formula>
+    <inlineHelpText>Tells how much % material cost to the Accept Job Price.</inlineHelpText>
+    <label>Material % of Accepted Job Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

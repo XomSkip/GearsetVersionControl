@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Did you have a particular manufacturing approach in mind for your design? --></help>
+        <label><!-- What process will you need? --></label>
+        <name>Manufacturing_Approach__c</name>
+    </CustomFieldTranslation>

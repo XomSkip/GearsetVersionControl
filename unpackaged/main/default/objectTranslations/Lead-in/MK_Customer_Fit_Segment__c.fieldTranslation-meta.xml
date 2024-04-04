@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Madkudu customer fit segment (very good, good, medium, low) --></help>
+        <label><!-- MK Non-SMB Customer Fit Segment --></label>
+        <name>MK_Customer_Fit_Segment__c</name>
+    </CustomFieldTranslation>

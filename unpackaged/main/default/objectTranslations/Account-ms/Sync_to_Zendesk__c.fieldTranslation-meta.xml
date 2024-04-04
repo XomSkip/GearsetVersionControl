@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Manual Flag to trigger Zendesk syncing --></help>
+        <label><!-- Sync to Zendesk --></label>
+        <name>Sync_to_Zendesk__c</name>
+    </CustomFieldTranslation>

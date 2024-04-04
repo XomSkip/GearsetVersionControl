@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InitialMiss__c</fullName>
+    <externalId>false</externalId>
+    <label>Initial Miss?</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DFM</fullName>
+                <default>false</default>
+                <label>DFM</label>
+            </value>
+            <value>
+                <fullName>GNO</fullName>
+                <default>false</default>
+                <label>GNO</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Auto Quote</fullName>
+                <default>false</default>
+                <label>Auto Quote</label>
+            </value>
+            <value>
+                <fullName>Manual Quote</fullName>
+                <default>false</default>
+                <label>Manual Quote</label>
+            </value>
+            <value>
+                <fullName>Legacy</fullName>
+                <default>false</default>
+                <label>Legacy</label>
+            </value>
+            <value>
+                <fullName>Re-Source</fullName>
+                <default>false</default>
+                <label>Re-Source</label>
+            </value>
+            <value>
+                <fullName>Robo Sourced</fullName>
+                <default>false</default>
+                <label>Robo Sourced</label>
+            </value>
+            <value>
+                <fullName>SUPPORT-2531 - Expired After Acceptance</fullName>
+                <default>false</default>
+                <label>SUPPORT-2531 - Expired After Acceptance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

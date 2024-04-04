@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Material Request Sent</fullName>
+        <default>false</default>
+        <label>Material Request Sent</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>RFQ Sent</fullName>
+        <default>false</default>
+        <label>RFQ Sent</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Quote Sent</fullName>
+        <default>false</default>
+        <label>Quote Sent</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Order Received</fullName>
+        <default>false</default>
+        <label>Order Received</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Order sent to Accnt</fullName>
+        <default>false</default>
+        <label>Order sent to Accnt</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Accnt Approval Received</fullName>
+        <default>false</default>
+        <label>Accnt Approval Received</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>PO sent</fullName>
+        <default>false</default>
+        <label>PO sent</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Order Acknowledgment</fullName>
+        <default>false</default>
+        <label>Order Acknowledgment</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Order Confirmed/Closed</fullName>
+        <default>false</default>
+        <label>Order Confirmed/Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <label>Open</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending</fullName>
+        <default>false</default>
+        <label>Pending</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Response Received</fullName>
+        <default>false</default>
+        <label>Response Received</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>On-hold</fullName>
+        <default>false</default>
+        <label>On-hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Inspection In Progress</fullName>
+        <default>false</default>
+        <label>Inspection In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting for Customer</fullName>
+        <default>false</default>
+        <label>Waiting for Customer</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated</fullName>
+        <default>false</default>
+        <label>Escalated</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Merged</fullName>
+        <default>false</default>
+        <label>Merged</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Management Review</fullName>
+        <default>false</default>
+        <label>Management Review</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Second Review</fullName>
+        <default>false</default>
+        <label>Second Review</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Done</fullName>
+        <default>false</default>
+        <label>Done</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Solved</fullName>
+        <default>false</default>
+        <label>Solved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>CM/DFM Team Returned Quote</fullName>
+        <default>false</default>
+        <label>CM/DFM Team Returned Quote</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>NYOP Approved</fullName>
+        <default>false</default>
+        <label>NYOP Approved</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>NYOP Rejected</fullName>
+        <default>false</default>
+        <label>NYOP Rejected</label>
+        <closed>true</closed>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kevin_s_IM_Status_View</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>Manufacturing_Process__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Opportunity_Owner_Role__c</field>
+        <operation>equals</operation>
+        <value>SAE,CSAM,SAM,VMS</value>
+    </filters>
+    <filters>
+        <field>Manufacturing_Process__c</field>
+        <operation>contains</operation>
+        <value>injection molding,UC,IM,injection</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Open,In Progress,Pending</value>
+    </filters>
+    <label>[PSE]Kevin's IM Status View</label>
+    <sharedTo>
+        <role>TSE</role>
+    </sharedTo>
+</ListView>

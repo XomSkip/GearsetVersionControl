@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manufacturing_Services</fullName>
+    <active>true</active>
+    <businessProcess>Xometry Sales Process</businessProcess>
+    <description>Core Services: Instant Quote, Marketplace, etc.</description>
+    <label>Manufacturing Services</label>
+    <picklistValues>
+        <picklist>Competition__c</picklist>
+        <values>
+            <fullName>3D Systems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Building in-house</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fast Radius</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fictiv</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International supplier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local supplier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MakeTime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plethora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ProtoLabs %2F RAPID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sculpteo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shapeways</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stratasys Direct</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Cold Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Generated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Line_of_Business__c</picklist>
+        <values>
+            <fullName>Instant Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketplace</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loss_Reason__c</picklist>
+        <values>
+            <fullName>Budgetary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Made In-House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Late quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Competition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Bid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Demand Competition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchasing from Different Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Concerns</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Negotiation_Review_Status__c</picklist>
+        <values>
+            <fullName>Project on Hold</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pending_Payment_Type__c</picklist>
+        <values>
+            <fullName>BNPL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buy Now Pay Later</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchase Order</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Project_on_Hold_Reason__c</picklist>
+        <values>
+            <fullName>Budgetary Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Model Hold %28DFM%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Quote_Type__c</picklist>
+        <values>
+            <fullName>Auto-Quoted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manually-Quoted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFQ</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Loss_Reason__c</picklist>
+        <values>
+            <fullName>Credit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DFM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchase Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Concerns</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sup_Source_Category__c</picklist>
+        <values>
+            <fullName>eCommerce</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prototype</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vertical_Markets__c</picklist>
+        <values>
+            <fullName>Aerospace %26 Defense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automotive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics %26 Semiconductors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering %2F Consulting Firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food and Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government %2F Military</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical%2C Dental %26 Pharma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Robotics%2FAutomation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

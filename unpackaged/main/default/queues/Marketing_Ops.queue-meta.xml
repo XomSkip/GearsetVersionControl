@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>mops@xometry.com</email>
+    <name>Marketing Ops</name>
+    <queueMembers>
+        <users>
+            <user>dan.ahn@xometry.com</user>
+            <user>dchang@xometry.com</user>
+            <user>nnewman@xometry.com</user>
+            <user>uoduwa@xometry.com</user>
+            <user>william.gardner@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActualInternalCancellationRequester__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lookup to internal user who asks for the cancellation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup to internal user who asks for the cancellation</inlineHelpText>
+    <label>Actual Cancellation Requester - Internal</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>User.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Ops_Orders</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

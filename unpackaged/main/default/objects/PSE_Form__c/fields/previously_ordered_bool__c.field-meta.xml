@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>previously_ordered_bool__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Have these (or similar) parts previously been quoted/ordered with Xometry?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Have you quoted or ordered these parts from Xometry before?</inlineHelpText>
+    <label>Parts (or similar) previously ordered</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

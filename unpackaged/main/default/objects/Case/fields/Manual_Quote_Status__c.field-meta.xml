@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manual_Quote_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Manual Quote Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Manual Quote</fullName>
+                <default>false</default>
+                <label>Manual Quote</label>
+            </value>
+            <value>
+                <fullName>RFQ</fullName>
+                <default>false</default>
+                <label>RFQ</label>
+            </value>
+            <value>
+                <fullName>China MQ</fullName>
+                <default>false</default>
+                <label>China MQ</label>
+            </value>
+            <value>
+                <fullName>Quick Parts</fullName>
+                <default>false</default>
+                <label>Quick Parts</label>
+            </value>
+            <value>
+                <fullName>Sales Hold</fullName>
+                <default>false</default>
+                <label>Sales Hold</label>
+            </value>
+            <value>
+                <fullName>DFM Hold</fullName>
+                <default>false</default>
+                <label>DFM Hold</label>
+            </value>
+            <value>
+                <fullName>DFM to HORD</fullName>
+                <default>false</default>
+                <label>DFM to HORD</label>
+            </value>
+            <value>
+                <fullName>MQ China Only</fullName>
+                <default>false</default>
+                <label>MQ China Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

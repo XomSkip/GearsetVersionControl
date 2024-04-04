@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Date in which the Account Owner was changed last. --></help>
+        <label><!-- Last Account Owner Changed Date --></label>
+        <name>Last_Account_Owner_Change_Date__c</name>
+    </CustomFieldTranslation>

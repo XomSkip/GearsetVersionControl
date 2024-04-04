@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Price</fullName>
+        <default>false</default>
+        <label>Price</label>
+    </customValue>
+    <customValue>
+        <fullName>Lead Time</fullName>
+        <default>false</default>
+        <label>Lead Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Price and Lead Time</fullName>
+        <default>false</default>
+        <label>Price and Lead Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Mfg Method</fullName>
+        <default>false</default>
+        <label>Mfg Method</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Competition Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

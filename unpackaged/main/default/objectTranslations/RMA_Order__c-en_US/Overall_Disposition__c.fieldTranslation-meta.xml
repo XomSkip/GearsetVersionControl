@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Overall Disposition --></label>
+        <name>Overall_Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA Completly Accepted</masterLabel>
+            <translation><!-- RMA Completly Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA Partialy Accepted</masterLabel>
+            <translation><!-- RMA Partialy Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA rejected</masterLabel>
+            <translation><!-- RMA rejected --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERP_Job_Board_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(XometryJobID__c )),HYPERLINK("https://erp.xometry.com/outsourced-jobs?start=0&amp;length=50&amp;order%5B0%5D%5B%5D=1&amp;order%5B0%5D%5B%5D=desc&amp;search%5Bsearch%5D="+XometryJobID__c+"&amp;columns%5B%5D=&amp;columns%5B%5D=&amp;columns%5B%5D=&amp;columns%5B%5D=&amp;columns%5B%5D=&amp;columns%5B%5D=&amp;columns%5B%5D=&amp;columns%5B%5D=&amp;columns%5B%5D=&amp;columns%5B%5D=&amp;columns%5B%5D=&amp;columns%5B%5D=&amp;columns%5B%5D=%5EAccepted%7CCompleted%7CExpired%7CIn+Progress%7COffered%7CRejected%7CRescinded%7CVendor+Completed%24&amp;n_columns=13","Go to this Job on the ERP Job Board", "_blank"),"")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ERP Job Board URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

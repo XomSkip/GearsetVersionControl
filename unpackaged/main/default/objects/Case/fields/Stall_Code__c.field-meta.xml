@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stall_Code__c</fullName>
+    <externalId>false</externalId>
+    <label>Stall Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>QC: Quality Clause Discrepancy</fullName>
+                <default>false</default>
+                <label>QC: Quality Clause Discrepancy</label>
+            </value>
+            <value>
+                <fullName>TBD: To Be Determined</fullName>
+                <default>false</default>
+                <label>TBD: To Be Determined</label>
+            </value>
+            <value>
+                <fullName>QN: Missing Quote</fullName>
+                <default>false</default>
+                <label>QN: Missing Quote</label>
+            </value>
+            <value>
+                <fullName>UNREG: Unregistered</fullName>
+                <default>false</default>
+                <label>UNREG: Unregistered</label>
+            </value>
+            <value>
+                <fullName>TERMS: Customer not on terms</fullName>
+                <default>false</default>
+                <label>TERMS: Customer not on terms</label>
+            </value>
+            <value>
+                <fullName>LIMIT-DENIED: Credit limit raise denied/per accounting</fullName>
+                <default>false</default>
+                <label>LIMIT-DENIED: Credit limit raise denied/per accounting</label>
+            </value>
+            <value>
+                <fullName>LIMIT: Credit Limit exceed</fullName>
+                <default>false</default>
+                <label>LIMIT: Credit Limit exceed</label>
+            </value>
+            <value>
+                <fullName>DISCREP: Part/Value Discrepancy</fullName>
+                <default>false</default>
+                <label>DISCREP: Part/Value Discrepancy</label>
+            </value>
+            <value>
+                <fullName>NO PO / REV PO: PO or REV PO not received</fullName>
+                <default>false</default>
+                <label>NO PO / REV PO: PO or REV PO not received</label>
+            </value>
+            <value>
+                <fullName>REORDER: Requires Re-Order Confirmation</fullName>
+                <default>false</default>
+                <label>REORDER: Requires Re-Order Confirmation</label>
+            </value>
+            <value>
+                <fullName>BILLING: Billing Address Discrepancy</fullName>
+                <default>false</default>
+                <label>BILLING: Billing Address Discrepancy</label>
+            </value>
+            <value>
+                <fullName>PEND CUSTOMER: Waiting on customer confirmation</fullName>
+                <default>false</default>
+                <label>PEND CUSTOMER: Waiting on customer confirmation</label>
+            </value>
+            <value>
+                <fullName>REVIEW : Pending Internal Review by Xom Staff</fullName>
+                <default>false</default>
+                <label>REVIEW : Pending Internal Review by Xom Staff</label>
+            </value>
+            <value>
+                <fullName>READY: PO is ready for processing</fullName>
+                <default>false</default>
+                <label>READY: PO is ready for processing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

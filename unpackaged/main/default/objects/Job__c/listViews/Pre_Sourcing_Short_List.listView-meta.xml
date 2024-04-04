@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pre_Sourcing_Short_List</fullName>
+    <columns>NAME</columns>
+    <columns>OrderID__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>LastOfferCountdown__c</columns>
+    <columns>Processes__c</columns>
+    <columns>DueDate__c</columns>
+    <columns>GNO_CustomerPrice__c</columns>
+    <columns>OutsourcePartnerGroup__c</columns>
+    <columns>RiskFactor__c</columns>
+    <columns>SupplierFeedback__c</columns>
+    <columns>Presource__c</columns>
+    <columns>PresourceNotes__c</columns>
+    <columns>ERP_Job_Board_URL__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Stage__c</field>
+        <operation>equals</operation>
+        <value>Offered</value>
+    </filters>
+    <filters>
+        <field>Presource__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>[Pre-Sourcing] Short List</label>
+</ListView>

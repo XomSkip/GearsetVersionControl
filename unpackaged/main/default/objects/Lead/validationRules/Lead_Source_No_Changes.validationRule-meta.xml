@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Source_No_Changes</fullName>
+    <active>true</active>
+    <description>Preventing non-admins from changing Lead Source, as we use this as FIRST Lead Source, not Latest.</description>
+    <errorConditionFormula>!IsNew() &amp;&amp;
+IsChanged(LeadSource) &amp;&amp;
+$User.ProfileName__c != 'System Administrator'
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Lead_VR</errorConditionFormula>
+    <errorMessage>Lead Source can not be changed after record creation. This is because we rely on this being the FIRST Lead Source, not the latest.</errorMessage>
+</ValidationRule>

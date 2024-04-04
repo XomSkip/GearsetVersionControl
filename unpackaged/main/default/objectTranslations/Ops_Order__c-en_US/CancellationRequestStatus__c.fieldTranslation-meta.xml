@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Cancellation Request Status --></label>
+        <name>CancellationRequestStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved By C-Suite</masterLabel>
+            <translation><!-- Approved By C-Suite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled by DFM/CM</masterLabel>
+            <translation><!-- Cancelled by DFM/CM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied By C-Suite</masterLabel>
+            <translation><!-- Denied By C-Suite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending C-Suite Approval</masterLabel>
+            <translation><!-- Pending C-Suite Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replaced</masterLabel>
+            <translation><!-- Replaced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saved</masterLabel>
+            <translation><!-- Saved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under CPC Review</masterLabel>
+            <translation><!-- Under CPC Review --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimated_Annual_Revenue__c</fullName>
+    <description>Our proprietary estimated annual revenue range for company</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Our proprietary estimated annual revenue range for company</inlineHelpText>
+    <label>[dnu] Estimated Annual Revenue</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Estimated_Annual_Revenue</valueSetName>
+    </valueSet>
+</CustomField>

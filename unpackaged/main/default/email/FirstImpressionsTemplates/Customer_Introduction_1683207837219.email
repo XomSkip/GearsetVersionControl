@@ -1,0 +1,6 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Thank you for placing Order: {{{Case.GNOOrder__c}}}! I am the case manager assigned to supervise your order and I will be your point of contact for it going forward. I wanted to introduce myself and make myself available if you have any questions or concerns. Your order has a ship date of {{{Case.OrderDueDateonOpsOrder__c}}} and I will work towards ensuring that it arrives to you by your delivery date.</body>
+</html>

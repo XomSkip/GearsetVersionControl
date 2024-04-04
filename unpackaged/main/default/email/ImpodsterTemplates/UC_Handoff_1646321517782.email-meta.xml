@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Handoff email for Urethane Casting orders</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>UC Handoff</name>
+    <style>none</style>
+    <subject>Your Xometry Order XXXXX-XXXXX- ACTION REQUIRED</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

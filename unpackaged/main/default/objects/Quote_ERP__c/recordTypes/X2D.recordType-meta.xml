@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2D</fullName>
+    <active>true</active>
+    <description>Merged into 3D and renamed to Manufacturing Services</description>
+    <label>2D</label>
+    <picklistValues>
+        <picklist>Line_of_Business__c</picklist>
+        <values>
+            <fullName>Instant Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketplace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplies</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

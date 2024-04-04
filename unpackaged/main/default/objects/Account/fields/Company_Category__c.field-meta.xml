@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Category__c</fullName>
+    <description>Small Business (&lt;25)
+SMB (25-300)
+Mid Market (300-2K)
+General Business (2K-10K)
+Enterprise (+10K)
+Strategic Enterprise (+$10B)</description>
+    <externalId>false</externalId>
+    <formula>if( and( isblank( Employee_Total__c ), isblank( AnnualRevenue )),null,
+if( and ( not(isblank( AnnualRevenue )), AnnualRevenue &gt;= 2500000000),"Enterprise",
+if( and ( not(isblank(Employee_Total__c)), Employee_Total__c &gt;= 10000),"Enterprise",
+if ( and ( not(isblank( AnnualRevenue )), AnnualRevenue &gt;= 50000000),"Large Business",
+if( and ( not(isblank(Employee_Total__c)), Employee_Total__c &gt;= 750),"Large Business",
+if ( and ( not(isblank( AnnualRevenue )), AnnualRevenue &gt;= 5000000),"Medium Business",
+if( and ( not(isblank(Employee_Total__c)), Employee_Total__c &gt;= 50),"Medium Business",
+if ( and ( not(isblank( AnnualRevenue )), AnnualRevenue &gt;= 1),"Small Business",
+if( and ( not(isblank(Employee_Total__c)), Employee_Total__c &gt;= 1),"Small Business",
+null)))))))))</formula>
+    <inlineHelpText>Small Business (&lt;25)
+SMB (25-300)
+Mid Market (300-2K)
+General Business (2K-10K)
+Enterprise (+10K)
+Strategic Enterprise (+$10B)</inlineHelpText>
+    <label>Company Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

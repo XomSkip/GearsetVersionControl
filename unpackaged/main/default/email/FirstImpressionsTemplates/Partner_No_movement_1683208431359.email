@@ -1,0 +1,6 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">{{{Case.Job__c}}}&nbsp;is marked as being shipped but I do not see any movement on the tracking label. Can you please confirm that you will be shipping it today?</body>
+</html>

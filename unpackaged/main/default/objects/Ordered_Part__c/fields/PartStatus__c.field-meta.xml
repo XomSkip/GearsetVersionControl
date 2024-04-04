@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PartStatus__c</fullName>
+    <externalId>false</externalId>
+    <label>Part Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Value1</fullName>
+                <default>false</default>
+                <label>Value1</label>
+            </value>
+            <value>
+                <fullName>Planned</fullName>
+                <default>false</default>
+                <label>Planned</label>
+            </value>
+            <value>
+                <fullName>Outsourced</fullName>
+                <default>false</default>
+                <label>Outsourced</label>
+            </value>
+            <value>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+                <label>Delivered</label>
+            </value>
+            <value>
+                <fullName>Validated</fullName>
+                <default>false</default>
+                <label>Validated</label>
+            </value>
+            <value>
+                <fullName>Offers Made</fullName>
+                <default>false</default>
+                <label>Offers Made</label>
+            </value>
+            <value>
+                <fullName>Final Inspection Failed</fullName>
+                <default>false</default>
+                <label>Final Inspection Failed</label>
+            </value>
+            <value>
+                <fullName>All Offers Expired</fullName>
+                <default>false</default>
+                <label>All Offers Expired</label>
+            </value>
+            <value>
+                <fullName>Customer Approved</fullName>
+                <default>false</default>
+                <label>Customer Approved</label>
+            </value>
+            <value>
+                <fullName>Received by Xometry</fullName>
+                <default>false</default>
+                <label>Received by Xometry</label>
+            </value>
+            <value>
+                <fullName>Post-processing</fullName>
+                <default>false</default>
+                <label>Post-processing</label>
+            </value>
+            <value>
+                <fullName>Finishing Started</fullName>
+                <default>false</default>
+                <label>Finishing Started</label>
+            </value>
+            <value>
+                <fullName>To Be Outsourced</fullName>
+                <default>false</default>
+                <label>To Be Outsourced</label>
+            </value>
+            <value>
+                <fullName>Partner Rework</fullName>
+                <default>false</default>
+                <label>Partner Rework</label>
+            </value>
+            <value>
+                <fullName>Build Started</fullName>
+                <default>false</default>
+                <label>Build Started</label>
+            </value>
+            <value>
+                <fullName>Inhouse Rework</fullName>
+                <default>false</default>
+                <label>Inhouse Rework</label>
+            </value>
+            <value>
+                <fullName>Partner Remake</fullName>
+                <default>false</default>
+                <label>Partner Remake</label>
+            </value>
+            <value>
+                <fullName>Partner Cancelled</fullName>
+                <default>false</default>
+                <label>Partner Cancelled</label>
+            </value>
+            <value>
+                <fullName>Packed</fullName>
+                <default>false</default>
+                <label>Packed</label>
+            </value>
+            <value>
+                <fullName>Ready for Production</fullName>
+                <default>false</default>
+                <label>Ready for Production</label>
+            </value>
+            <value>
+                <fullName>Built Unsuccessfully</fullName>
+                <default>false</default>
+                <label>Built Unsuccessfully</label>
+            </value>
+            <value>
+                <fullName>Ready for Final Inspection</fullName>
+                <default>false</default>
+                <label>Ready for Final Inspection</label>
+            </value>
+            <value>
+                <fullName>Final Inspection Done</fullName>
+                <default>false</default>
+                <label>Final Inspection Done</label>
+            </value>
+            <value>
+                <fullName>Materials Ordered</fullName>
+                <default>false</default>
+                <label>Materials Ordered</label>
+            </value>
+            <value>
+                <fullName>Op 1 CYCLE Paused</fullName>
+                <default>false</default>
+                <label>Op 1 CYCLE Paused</label>
+            </value>
+            <value>
+                <fullName>Op 1 PRG Done</fullName>
+                <default>false</default>
+                <label>Op 1 PRG Done</label>
+            </value>
+            <value>
+                <fullName>Ordered</fullName>
+                <default>false</default>
+                <label>Ordered</label>
+            </value>
+            <value>
+                <fullName>Shipped</fullName>
+                <default>false</default>
+                <label>Shipped</label>
+            </value>
+            <value>
+                <fullName>Auto-Quoted</fullName>
+                <default>false</default>
+                <label>Auto-Quoted</label>
+            </value>
+            <value>
+                <fullName>Manually-Quoted</fullName>
+                <default>false</default>
+                <label>Manually-Quoted</label>
+            </value>
+            <value>
+                <fullName>Line Item Placeholder</fullName>
+                <default>false</default>
+                <label>Line Item Placeholder</label>
+            </value>
+            <value>
+                <fullName>RMA</fullName>
+                <default>false</default>
+                <label>RMA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

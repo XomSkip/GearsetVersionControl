@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PONumber__c</fullName>
+    <description>PO Number on the Ops Order Obj</description>
+    <externalId>false</externalId>
+    <formula>Order_Id__r.PONumber__c</formula>
+    <inlineHelpText>Read from Ops Order's PO Number Field</inlineHelpText>
+    <label>PO Number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

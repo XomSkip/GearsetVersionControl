@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>P21_Order_OE_ERP_ID__c</columns>
+    <columns>P21_Quote_OE_ERP_ID__c</columns>
+    <columns>XometryJobID__c</columns>
+    <columns>AccountID__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Order_Email__c</columns>
+    <columns>OpportunityId__c</columns>
+    <columns>Order_Total__c</columns>
+    <columns>P21_Account_DetailsID__c</columns>
+    <columns>Order_Date__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>P21_Contact_Phone__c</columns>
+    <columns>PartnerID__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

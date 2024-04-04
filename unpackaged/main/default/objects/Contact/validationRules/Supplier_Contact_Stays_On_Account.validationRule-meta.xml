@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Contact_Stays_On_Account</fullName>
+    <active>true</active>
+    <description>Non admins should not be able to change supplier contacts related account</description>
+    <errorConditionFormula>ISCHANGED( AccountId ) &amp;&amp; NOT(ISBLANK(GNO_PartnerId__c))
+&amp;&amp; $UserRole.Name != 'Administrator'
+
+&amp;&amp; !$Permission.Transfer_Ownership
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Contact_VR</errorConditionFormula>
+    <errorMessage>Non Administrators cannot change account of a contact that is under a Supplier Account</errorMessage>
+</ValidationRule>

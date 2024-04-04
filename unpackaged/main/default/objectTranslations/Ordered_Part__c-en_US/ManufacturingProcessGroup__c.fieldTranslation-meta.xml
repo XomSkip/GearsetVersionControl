@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Manufacturing Process Group --></label>
+        <name>ManufacturingProcessGroup__c</name>
+        <picklistValues>
+            <masterLabel>Additive</masterLabel>
+            <translation><!-- Additive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subtractive</masterLabel>
+            <translation><!-- Subtractive --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

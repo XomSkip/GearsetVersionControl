@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Good Xtime of dayX, {{{Recipient.FirstName}}},<br />
+<br />
+My name is {{{Sender.Name}}} and I am reaching out to you from Xometry Logistics regarding our order ID {{{Case.GNOOrder__c}}}. Please note the parts have finished machining and have shipped via XcarrierX tracking ID # XXXX. The shipment is currently pending US Customs clearance and additional information is required. Specifically advise the exact use of the parts. The order indicates use in a medical device/ healthcare setting so we need to know exactly how they may be used in the medical and surgical environment.<br />
+<br />
+Additionally, please confirm if these are <em><strong>finished </strong></em>or <em><strong>unfinished </strong></em>medical device components/ prototypes.<br />
+<br />
+If these are <u><strong>unfinished</strong></u> components - components that require more work before they can be incorporated into the device - then nothing further should be required by the FDA. If they are <u><strong>finished</strong></u> medical devices/ components (no further work required before use/ incorporation into the device), we will need the following information:<br />
+<br />
+&nbsp;&nbsp; &nbsp;• The device name, 510(K) listing if applicable and the device listing number<br />
+&nbsp;&nbsp; &nbsp;• Your company’s FDA registration number<br />
+&nbsp;&nbsp; &nbsp;• The product code for the device or the device the component is part of https://www.accessdata.fda.gov/scripts/ora/pcb/index.cfm?action=main.pcb&nbsp;<br />
+&nbsp;&nbsp; &nbsp;• Please confirm <strong>you are the finished device manufacturer</strong> and not a reseller of the device<br />
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<br />
+Please let me know if you have any questions or concerns.<br />
+<br />
+Kind regards,</body>
+</html>

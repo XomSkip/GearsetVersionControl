@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X20200601_Stimulus_50__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Tag to identify any quoter or orderer that received $50 stimulus from Xometry.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Tag to identify any quoter or orderer that received $50 stimulus from Xometry.</inlineHelpText>
+    <label>[decommissioned] 20200601 Stimulus 50</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

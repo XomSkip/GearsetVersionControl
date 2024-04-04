@@ -1,0 +1,8 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Thanks for reaching out on this cancellation request.&nbsp;<br />
+<br />
+I can confirm that&nbsp;{{{Case.Job__c}}} is now canceled from your board. Thank you as always for machining with Xometry!</body>
+</html>

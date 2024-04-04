@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_ERP_XOM_CREATE_ID__c</fullName>
+    <description>This field is ERP Quote that initially created the Opportunity. The quote here is the initial quote in the process that started the opporutnity.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Auto populated by Quote_ERP__C trigger when a Quote creates an new</inlineHelpText>
+    <label>Original Quote ID</label>
+    <length>13</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

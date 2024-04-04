@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Won_Can_Only_be_Set_by_System</fullName>
+    <active>true</active>
+    <description>Closed Won is set by the Automated System and not by Reps</description>
+    <errorConditionFormula>AND(OR(
+( $Profile.Name='Marketing User'),
+($Profile.Name='Read Only'),
+($Profile.Name='Solution Manager'),
+($Profile.Name='Standard User'),
+($Profile.Name='Xometry Sales User'),
+( $Profile.Name='Xometry Service User'),
+( $Profile.Name='Xometry Sales Leadership')
+),
+( ISPICKVAL( StageName , 'Closed Won') &amp;&amp; ISCHANGED( StageName  )))
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Opp_VR</errorConditionFormula>
+    <errorMessage>Opportunities can only be set to stage Close Won by the automated System.
+Please pick a different stage.
+If this is a duplicate Opportunity these will be auto closed in the future.</errorMessage>
+</ValidationRule>

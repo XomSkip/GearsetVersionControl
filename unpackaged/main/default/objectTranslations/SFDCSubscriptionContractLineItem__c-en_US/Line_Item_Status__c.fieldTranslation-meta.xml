@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Line Item Status --></label>
+        <name>Line_Item_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Longer in Use</masterLabel>
+            <translation><!-- No Longer in Use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew Review</masterLabel>
+            <translation><!-- Renew Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uninstalled</masterLabel>
+            <translation><!-- Uninstalled --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

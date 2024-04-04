@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GNO_SourcingHistoryLV__c</fullName>
+    <description>Text Field to show in the List view for Job Board History.  There's this 255 char limit. 
+Used in List View.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used in List View.</inlineHelpText>
+    <label>Sourcing History (List View)</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

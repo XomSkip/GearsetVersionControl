@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>have_you_made_these_parts_before__c</fullName>
+    <description>Have you made these or very similar parts before?</description>
+    <externalId>false</externalId>
+    <label>Have you made these parts before</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

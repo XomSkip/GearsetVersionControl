@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Backup VCC Role --></label>
+        <name>Backup_VCC_Role__c</name>
+        <picklistValues>
+            <masterLabel>AE</masterLabel>
+            <translation><!-- AE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BDR</masterLabel>
+            <translation><!-- BDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSAM</masterLabel>
+            <translation><!-- CSAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NCR</masterLabel>
+            <translation><!-- NCR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAE</masterLabel>
+            <translation><!-- SAE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAM</masterLabel>
+            <translation><!-- SAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDR</masterLabel>
+            <translation><!-- SDR --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

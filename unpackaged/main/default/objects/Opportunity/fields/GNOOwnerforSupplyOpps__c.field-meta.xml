@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GNOOwnerforSupplyOpps__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>GNO Owner for Supply Opps</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>User.IsGNOSupplyMaterialOppOwner__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <infoMessage>GNO Supply Material Owner flag True on User Object.</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>SupplyOpportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MK_Customer_Fit_Segment__c</fullName>
+    <description>Madkudu customer fit segment (very good, good, medium, low)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Madkudu customer fit segment (very good, good, medium, low)</inlineHelpText>
+    <label>MK Customer Fit Segment</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

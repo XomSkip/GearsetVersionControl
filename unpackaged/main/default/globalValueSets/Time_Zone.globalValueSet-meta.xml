@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>New York</fullName>
+        <default>false</default>
+        <label>New York</label>
+    </customValue>
+    <customValue>
+        <fullName>Indianapolis</fullName>
+        <default>false</default>
+        <label>Indianapolis</label>
+    </customValue>
+    <customValue>
+        <fullName>Los Angeles</fullName>
+        <default>false</default>
+        <label>Los Angeles</label>
+    </customValue>
+    <description>Time Zone Selection for Leads and Contacts</description>
+    <masterLabel>Time Zone</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

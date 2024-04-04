@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POAmountRequiredforCreditAppIncr</fullName>
+    <active>true</active>
+    <errorConditionFormula>( ISPICKVAL(Category__c, 'Credit Applications') || ISPICKVAL(Category__c, 'Credit Limit Increase')  ) &amp;&amp; ISBLANK(PO_Amount__c) &amp;&amp; !$Permission.Ignore_All_VR</errorConditionFormula>
+    <errorDisplayField>PO_Amount__c</errorDisplayField>
+    <errorMessage>PO Amount is required for Credit Increase or Credit Limit Increase Requests.</errorMessage>
+</ValidationRule>

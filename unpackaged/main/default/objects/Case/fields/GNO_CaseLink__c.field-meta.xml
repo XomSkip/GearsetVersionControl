@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GNO_CaseLink__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK("xometry5836.lightning.force.com/lightning/r/Case/" +  CASESAFEID(Id) + "/view",'Case Record Details')</formula>
+    <label>Case Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

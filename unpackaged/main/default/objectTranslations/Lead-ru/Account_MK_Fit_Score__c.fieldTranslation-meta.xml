@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- MK Customer Fit Score from Account --></help>
+        <label><!-- Account MK Fit Score --></label>
+        <name>Account_MK_Fit_Score__c</name>
+    </CustomFieldTranslation>

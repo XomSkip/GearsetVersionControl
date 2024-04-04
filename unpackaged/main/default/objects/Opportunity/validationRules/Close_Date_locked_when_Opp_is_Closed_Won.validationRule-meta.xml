@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Date_locked_when_Opp_is_Closed_Won</fullName>
+    <active>true</active>
+    <description>When an Opportunity is set as 'Closed Won', Closed Date can not be changed</description>
+    <errorConditionFormula>AND(OR( 
+( $Profile.Name='Marketing User'), 
+($Profile.Name='Read Only'), 
+($Profile.Name='Solution Manager'), 
+($Profile.Name='Standard User'), 
+($Profile.Name='Xometry Sales User'), 
+( $Profile.Name='Xometry Service User'), 
+( $Profile.Name='Xometry Sales Leadership') 
+),
+( ISPICKVAL( StageName , 'Closed Won') &amp;&amp; ISCHANGED( CloseDate )))
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Opp_VR</errorConditionFormula>
+    <errorMessage>Close Date can not be changed for Closed Won Opps</errorMessage>
+</ValidationRule>

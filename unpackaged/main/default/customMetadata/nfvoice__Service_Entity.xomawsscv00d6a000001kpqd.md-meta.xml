@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>xomawsscv00d6a000001kpqd</label>
+    <protected>false</protected>
+    <values>
+        <field>nfvoice__Connect_Agent_Attribute__c</field>
+        <value xsi:type="xsd:string">user_name</value>
+    </values>
+    <values>
+        <field>nfvoice__Contact_Center_Name__c</field>
+        <value xsi:type="xsd:string">xomawsscv</value>
+    </values>
+    <values>
+        <field>nfvoice__Display_Name__c</field>
+        <value xsi:type="xsd:string">Amazon Contact Center</value>
+    </values>
+    <values>
+        <field>nfvoice__Instance_ARN__c</field>
+        <value xsi:type="xsd:string">arn:aws:connect:us-west-2:891982552936:instance/f79f1808-1186-48bf-95c6-5b21b77b30e8</value>
+    </values>
+    <values>
+        <field>nfvoice__Instance_Id__c</field>
+        <value xsi:type="xsd:string">f79f1808-1186-48bf-95c6-5b21b77b30e8</value>
+    </values>
+    <values>
+        <field>nfvoice__Named_Credential__c</field>
+        <value xsi:type="xsd:string">AWSAuthentication</value>
+    </values>
+    <values>
+        <field>nfvoice__Region_Code__c</field>
+        <value xsi:type="xsd:string">us-west-2</value>
+    </values>
+    <values>
+        <field>nfvoice__SF_Agent_Attribute__c</field>
+        <value xsi:type="xsd:string">SCV_Identifier</value>
+    </values>
+    <values>
+        <field>nfvoice__Service__c</field>
+        <value xsi:type="xsd:string">nfvoice__Amazon_Connect</value>
+    </values>
+    <values>
+        <field>nfvoice__Telephony_Type__c</field>
+        <value xsi:type="xsd:string">SCV</value>
+    </values>
+</CustomMetadata>

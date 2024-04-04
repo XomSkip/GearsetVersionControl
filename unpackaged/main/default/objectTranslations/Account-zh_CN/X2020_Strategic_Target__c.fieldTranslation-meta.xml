@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Marked to indicate a top 250 account for 2020&apos;s Strategic Initiatives. --></help>
+        <label><!-- [decommisisoned] 2020 Strategic Target --></label>
+        <name>X2020_Strategic_Target__c</name>
+    </CustomFieldTranslation>

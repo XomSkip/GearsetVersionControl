@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Review Status --></label>
+        <name>Review_Status__c</name>
+        <picklistValues>
+            <masterLabel>Live review completed</masterLabel>
+            <translation><!-- Live review completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More info needed - customer</masterLabel>
+            <translation><!-- More info needed - customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More info needed - partner</masterLabel>
+            <translation><!-- More info needed - partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No live review</masterLabel>
+            <translation><!-- No live review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule next live review</masterLabel>
+            <translation><!-- Schedule next live review --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

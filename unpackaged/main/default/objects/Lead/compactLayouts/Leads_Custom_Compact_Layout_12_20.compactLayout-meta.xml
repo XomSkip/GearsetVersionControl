@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leads_Custom_Compact_Layout_12_20</fullName>
+    <fields>Name</fields>
+    <fields>MK_Lead_Grade__c</fields>
+    <fields>OwnerId</fields>
+    <fields>Company</fields>
+    <fields>Phone</fields>
+    <fields>Email</fields>
+    <fields>Last_Activity_Date_AM__c</fields>
+    <label>Leads Custom Compact Layout 12/20</label>
+</CompactLayout>

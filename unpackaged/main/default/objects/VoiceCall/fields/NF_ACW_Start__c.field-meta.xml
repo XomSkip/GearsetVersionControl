@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NF_ACW_Start__c</fullName>
+    <description>Exact time when agents start After Call Work, adding notes to the case record and determining case resolution post call.</description>
+    <externalId>false</externalId>
+    <label>ACW Start</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

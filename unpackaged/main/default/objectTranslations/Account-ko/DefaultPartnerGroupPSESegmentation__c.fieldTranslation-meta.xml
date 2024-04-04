@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is used for Segment PSE Cases. --></help>
+        <label><!-- Default Partner Group (PSE Segmentation) --></label>
+        <name>DefaultPartnerGroupPSESegmentation__c</name>
+        <picklistValues>
+            <masterLabel>China Group</masterLabel>
+            <translation><!-- China Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Default Group</masterLabel>
+            <translation><!-- Default Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico and Canada Group</masterLabel>
+            <translation><!-- Mexico and Canada Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Group</masterLabel>
+            <translation><!-- Premium Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ultra Premium Group</masterLabel>
+            <translation><!-- Ultra Premium Group --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

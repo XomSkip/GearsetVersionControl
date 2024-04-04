@@ -1,0 +1,19 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><p style="line-height:1.7142857142857142; background-color:#ffffff"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="color:#333333"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Hi {{{Recipient.FirstName}}},</span></span></span></span></span></span></span></p>
+
+<p style="line-height:1.7142857142857142; background-color:#ffffff"><br />
+<span style="font-size:10.5pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Roboto,sans-serif"><span style="color:#333333"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Thanks for reaching out! I was able to review the file(s), and found issues causing errors during part analysis. Please see the feedback below for items that will need to be addressed in the native CAD model. When updated, feel free to upload the part file on your account, and it should auto quote.</span></span></span></span></span></span></p>
+
+<p style="line-height:1.7142857142857142; background-color:#ffffff">&nbsp;</p>
+
+<p style="line-height:1.7142857142857142; background-color:#ffffff"><span style="font-size:10.5pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Roboto,sans-serif"><span style="color:#333333"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">An account manager may reach out shortly, so please don't hesitate to follow up with any questions.</span></span></span></span></span></span></p>
+
+<p style="line-height:1.7142857142857142; background-color:#ffffff">&nbsp;</p>
+
+<p style="line-height:1.7142857142857142; background-color:#ffffff"><span style="font-size:10.5pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Roboto,sans-serif"><span style="color:#333333"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Best Regards,</span></span></span></span></span></span></p>
+
+<p style="line-height:1.7142857142857142; background-color:#ffffff">&nbsp;</p>
+<br />
+&nbsp;</body></html>

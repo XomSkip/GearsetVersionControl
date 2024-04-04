@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2D_Task_Owner__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(!ISBLANK(ContactID__c),
+
+CASE(ContactID__r.Owner.UserRole.Name,
+'BDR','0053u000003ArTAAA0',
+'AE','0053u000003Gd4MAAS',
+'AR','0053u000003ArSvAAK',
+'SAM','0056A000002RymUQAS',
+'SAE','0056A000002RymUQAS',
+'0056A000002To3vQAC')
+
+,
+IF(!ISBLANK(LeadID__c),
+
+CASE(LeadID__r.Owner:User.UserRole.Name,
+'BDR','0053u000003ArTAAA0',
+'AE','0053u000003Gd4MAAS',
+'AR','0053u000003ArSvAAK',
+'SAM','0056A000002RymUQAS',
+'SAE','0056A000002RymUQAS',
+'0056A000002To3vQAC')
+
+,'0056A000002To3vQAC'))</formula>
+    <label>RFQ Task Owner</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

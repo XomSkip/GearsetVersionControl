@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IS_Generic__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>A checkbox associated whether the quote ties to a a generic email or not.</description>
+    <externalId>false</externalId>
+    <label>IS Generic</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

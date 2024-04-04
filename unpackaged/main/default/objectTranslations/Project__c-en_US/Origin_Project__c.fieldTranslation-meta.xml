@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicates the originating Project that this one is related to. E.g. this production run&apos;s Origin Project was where the prototype was made. --></help>
+        <label><!-- Origin Project --></label>
+        <name>Origin_Project__c</name>
+        <relationshipLabel><!-- Downstream Projects --></relationshipLabel>
+    </CustomFieldTranslation>

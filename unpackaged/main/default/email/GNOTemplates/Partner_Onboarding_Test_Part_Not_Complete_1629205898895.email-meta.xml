@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Macro for partners</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Partner Onboarding Test Part (Not Complete)</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry // Thank you for registering for a partner account!</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

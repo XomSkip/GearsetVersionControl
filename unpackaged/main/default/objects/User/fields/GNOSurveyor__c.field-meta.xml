@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GNOSurveyor__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Xometry User is a GNO team member who is associated with GNO Survey.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Xometry User is a GNO team member who is associated with GNO Survey.</inlineHelpText>
+    <label>GNO Surveyor</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

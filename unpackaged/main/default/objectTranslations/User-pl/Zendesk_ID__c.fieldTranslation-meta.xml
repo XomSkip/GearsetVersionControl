@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Populated with the Zendesk tag/API name for the Salesforce Assignee field. Allows a Zendesk user to select a Salesforce user to assign a new case to via the integration. --></help>
+        <label><!-- Zendesk ID --></label>
+        <name>Zendesk_ID__c</name>
+    </CustomFieldTranslation>

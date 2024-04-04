@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check if you would like this task to be on CAS Follow Up reports per this field&apos;s trigger. --></help>
+        <label><!-- CAS Follow Up --></label>
+        <name>CAS_Follow_Up__c</name>
+    </CustomFieldTranslation>

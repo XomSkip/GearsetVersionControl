@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zendesk_Entity_Name__c</fullName>
+    <description>Created During PSE Service Migration Project</description>
+    <externalId>false</externalId>
+    <formula>Zendesk_Entity__r.Name</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The name of the Zendesk user/group that the Zendesk ticket should be assigned to when the case is sent to Zendesk.</inlineHelpText>
+    <label>Zendesk Entity Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

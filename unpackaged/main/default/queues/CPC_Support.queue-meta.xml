@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>CPC Support</name>
+    <queueMembers>
+        <roles>
+            <role>CPC_Support</role>
+        </roles>
+        <users>
+            <user>afeisha.royer@xometry.com</user>
+            <user>allison.molitor@xometry.com</user>
+            <user>carrie.wineglass@xometry.com</user>
+            <user>dpokan@thomasnet.com</user>
+            <user>eber.maldonado@xometry.com</user>
+            <user>edric.mcdaniel@xometry.com</user>
+            <user>josue.pena@xometry.com</user>
+            <user>kendra.hughes@xometry.com</user>
+            <user>lasandra.swan@xometry.com</user>
+            <user>leanna.black@xometry.com</user>
+            <user>matt.munoz@xometry.com</user>
+            <user>msequeira@xometry.com</user>
+            <user>phickerson@xometry.com</user>
+            <user>samiullah.nazhand@xometry.com</user>
+            <user>samuel.serrano@xometry.com</user>
+            <user>tadams@thomasnet.com</user>
+            <user>terrance.barksdale@xometry.com</user>
+            <user>tmullins@xometry.com</user>
+            <user>trisha.arias@xometry.com</user>
+            <user>zachary.kestner@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Default_For_Case</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

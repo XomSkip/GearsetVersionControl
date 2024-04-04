@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GNOCaseCompactLayout</fullName>
+    <fields>Subject</fields>
+    <fields>GNO_PanelUseOrderPartID__c</fields>
+    <fields>OrderDetails__c</fields>
+    <fields>GNO_OrderedPartsURL__c</fields>
+    <fields>GNO_OutsourcedJobsURL__c</fields>
+    <fields>GNO_QuotesandOrdersURL__c</fields>
+    <fields>CaseAge__c</fields>
+    <label>GNO Case Compact Layout</label>
+</CompactLayout>

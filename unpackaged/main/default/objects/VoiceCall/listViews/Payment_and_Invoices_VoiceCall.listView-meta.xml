@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_and_Invoices_VoiceCall</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Payment and Invoices</label>
+    <queue>Payment_and_Invoices</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

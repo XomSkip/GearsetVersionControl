@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GNO_ManualSupplierFeedback__c</fullName>
+    <description>Text area to input Supplier Feedback</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Record Supplier Feedback Manually.</inlineHelpText>
+    <label>Manual Supplier Feedback on This Job</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ccope@xometry.com</contactEmail>
+    <description>The Environment Hub lets you view, connect to, and access all your organizations from one location.</description>
+    <iconUrl>https://xometry5836.my.salesforce.com/environmenthub/images/connected_app_logo.png</iconUrl>
+    <label>Environment Hub</label>
+    <logoUrl>https://xometry5836.my.salesforce.com/environmenthub/images/connected_app_logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://xometry5836.my.salesforce.com/environmenthub/callback.apexp</callbackUrl>
+        <consumerKey>3MVG9ubHzknLRFWPHRJt5W5qxs0zYyWwGEge9IywR0YOFy5f1X7lazLsQEhRJHR8Pz8WlGmTU5USVfjFcjAOZ</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

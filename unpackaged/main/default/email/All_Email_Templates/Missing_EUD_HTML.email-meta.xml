@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sent when shipping information is missing</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Xometry</letterhead>
+    <name>Missing EUD HTML</name>
+    <style>formalLetter</style>
+    <subject>Action Required: {!Case.ShadowXometryOrderID__c} Missing End-Use Data</subject>
+    <textOnly>Greetings,
+
+Thank you for placing your order ({!Case.ShadowXometryOrderID__c}) with Xometry.
+
+
+Because your parts are being shipped internationally, please provide the following information to reduce the risk of delay at customs during importing.  Please keep in mind that a delay in response may cause a delay in shipping your order.  Please attempt to provide as much detail as possible to avoid severe delays with customs. The commodity description is a requirement to import goods through US Customs.
+
+
+{!Case.EUD_EmailTemplateHelper__c}
+
+If possible, please attempt to reply in the format provided to ensure the answers are received. You can also find the status of your order by navigating to your Orders page and clicking on the &quot;Order Summary&quot; button.
+
+
+Regards,
+Xometry Support</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

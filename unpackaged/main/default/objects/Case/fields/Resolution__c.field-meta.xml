@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution__c</fullName>
+    <externalId>false</externalId>
+    <label>Resolution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote Requested</fullName>
+                <default>false</default>
+                <label>Quote Requested</label>
+            </value>
+            <value>
+                <fullName>No Customer Response</fullName>
+                <default>false</default>
+                <label>No Customer Response</label>
+            </value>
+            <value>
+                <fullName>More Information Needed</fullName>
+                <default>false</default>
+                <label>More Information Needed</label>
+            </value>
+            <value>
+                <fullName>Information Provided</fullName>
+                <default>false</default>
+                <label>Information Provided</label>
+            </value>
+            <value>
+                <fullName>Quote Configured for AQ</fullName>
+                <default>false</default>
+                <label>Quote Configured for AQ</label>
+            </value>
+            <value>
+                <fullName>Quote Configured for MQ</fullName>
+                <default>false</default>
+                <label>Quote Configured for MQ</label>
+            </value>
+            <value>
+                <fullName>Engineering Review Provided</fullName>
+                <default>false</default>
+                <label>Engineering Review Provided</label>
+            </value>
+            <value>
+                <fullName>RFQ Needed</fullName>
+                <default>false</default>
+                <label>RFQ Needed</label>
+            </value>
+            <value>
+                <fullName>Pricing Completed</fullName>
+                <default>false</default>
+                <label>Pricing Completed</label>
+            </value>
+            <value>
+                <fullName>Did Not Quote</fullName>
+                <default>false</default>
+                <label>Did Not Quote</label>
+            </value>
+            <value>
+                <fullName>Partial No Bid</fullName>
+                <default>false</default>
+                <label>Partial No Bid</label>
+            </value>
+            <value>
+                <fullName>Total No Bid</fullName>
+                <default>false</default>
+                <label>Total No Bid</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

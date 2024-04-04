@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ManualQuoterEmail__c</fullName>
+    <description>Email address of the person who first moved the quote to Manually-Quoted</description>
+    <externalId>false</externalId>
+    <label>Manual Quoter Email</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

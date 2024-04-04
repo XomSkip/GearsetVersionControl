@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>PSE Case Owner Notification</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PSE Case Owner Notification</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>PSE Case Transferred to You.  Case Number {{{Case.CaseNumber}}}</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

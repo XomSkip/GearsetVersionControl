@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EUD_Work_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>[EUD] Work Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Reach Out Yet</fullName>
+                <default>true</default>
+                <label>No Reach Out Yet</label>
+            </value>
+            <value>
+                <fullName>1st Attempt Sent</fullName>
+                <default>false</default>
+                <label>1st Attempt Sent</label>
+            </value>
+            <value>
+                <fullName>2nd Attempt Sent - WARNING SENT</fullName>
+                <default>false</default>
+                <label>2nd Attempt Sent - WARNING SENT</label>
+            </value>
+            <value>
+                <fullName>VI Required</fullName>
+                <default>false</default>
+                <label>VI Required</label>
+            </value>
+            <value>
+                <fullName>End Use Received</fullName>
+                <default>false</default>
+                <label>End Use Received</label>
+            </value>
+            <value>
+                <fullName>Escalated To Sales</fullName>
+                <default>false</default>
+                <label>Escalated To Sales</label>
+            </value>
+            <value>
+                <fullName>Invoice Sent</fullName>
+                <default>false</default>
+                <label>Invoice Sent</label>
+            </value>
+            <value>
+                <fullName>Order Cancelled</fullName>
+                <default>false</default>
+                <label>Order Cancelled</label>
+            </value>
+            <value>
+                <fullName>Sent to FedEx</fullName>
+                <default>false</default>
+                <label>Sent to FedEx</label>
+            </value>
+            <value>
+                <fullName>Shipped without Full End Use</fullName>
+                <default>false</default>
+                <label>Shipped without Full End Use</label>
+            </value>
+            <value>
+                <fullName>US Partner or Zetwork</fullName>
+                <default>false</default>
+                <label>US Partner or Zetwork</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

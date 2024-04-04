@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- HS Applications --></label>
+        <name>HS_Applications__c</name>
+        <picklistValues>
+            <masterLabel>Design prototype</masterLabel>
+            <translation><!-- Design prototype --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation><!-- Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering prototype</masterLabel>
+            <translation><!-- Engineering prototype --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final production runs</masterLabel>
+            <translation><!-- Final production runs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product design</masterLabel>
+            <translation><!-- Product design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tooling (production line)</masterLabel>
+            <translation><!-- Tooling (production line) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User research</masterLabel>
+            <translation><!-- User research --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

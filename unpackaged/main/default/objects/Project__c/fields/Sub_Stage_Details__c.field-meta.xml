@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Stage_Details__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Stage Details</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sub_Stage__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Sub_Stage_Details</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Project on Hold</controllingFieldValue>
+            <valueName>Model Hold (DFM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project on Hold</controllingFieldValue>
+            <valueName>Budgetary Hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Bid</controllingFieldValue>
+            <controllingFieldValue>On-Demand Competition</controllingFieldValue>
+            <controllingFieldValue>Local Competition</controllingFieldValue>
+            <valueName>No Partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Bid</controllingFieldValue>
+            <controllingFieldValue>On-Demand Competition</controllingFieldValue>
+            <controllingFieldValue>Local Competition</controllingFieldValue>
+            <valueName>DFM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Bid</controllingFieldValue>
+            <controllingFieldValue>On-Demand Competition</controllingFieldValue>
+            <controllingFieldValue>Local Competition</controllingFieldValue>
+            <valueName>Material</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Bid</controllingFieldValue>
+            <controllingFieldValue>On-Demand Competition</controllingFieldValue>
+            <controllingFieldValue>Local Competition</controllingFieldValue>
+            <valueName>Process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Demand Competition</controllingFieldValue>
+            <controllingFieldValue>Local Competition</controllingFieldValue>
+            <valueName>Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Demand Competition</controllingFieldValue>
+            <controllingFieldValue>Local Competition</controllingFieldValue>
+            <valueName>Lead Time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Demand Competition</controllingFieldValue>
+            <controllingFieldValue>Local Competition</controllingFieldValue>
+            <valueName>Service Concerns</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

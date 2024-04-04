@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Linked_by_Integration__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This is a special field for Apex Automation to mark that the handler has updated a Case and to not do this again.</description>
+    <externalId>false</externalId>
+    <label>Quote Linked by Integration</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

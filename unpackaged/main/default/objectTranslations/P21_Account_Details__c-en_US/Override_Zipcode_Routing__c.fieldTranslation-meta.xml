@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This will stop the P21 Account Owner from being Changed by automation. --></help>
+        <label><!-- Override Zipcode Routing --></label>
+        <name>Override_Zipcode_Routing__c</name>
+    </CustomFieldTranslation>

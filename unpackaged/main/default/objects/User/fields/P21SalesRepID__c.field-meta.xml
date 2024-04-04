@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>P21SalesRepID__c</fullName>
+    <description>Marketplace Sales Rep has a P21 Rep ID.</description>
+    <externalId>true</externalId>
+    <label>P21 Sales Rep ID</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>true</unique>
+</CustomField>

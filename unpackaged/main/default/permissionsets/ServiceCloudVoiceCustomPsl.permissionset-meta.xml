@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission Set to access Service Cloud Voice Connected Apps and Service Presence
+
+** Base-Permission Set This is the general permission set assigned to everyone**</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Service Cloud Voice Permission Set</label>
+    <license>ServiceCloudVoicePsl</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CanToggleCallRecordings</name>
+    </userPermissions>
+</PermissionSet>

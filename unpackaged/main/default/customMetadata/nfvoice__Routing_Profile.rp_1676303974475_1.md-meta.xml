@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>CPC_PO_Agent</label>
+    <protected>false</protected>
+    <values>
+        <field>nfvoice__Profile_Id__c</field>
+        <value xsi:type="xsd:string">15dd7d21-0d30-4f31-b0d4-b74f4901df48</value>
+    </values>
+    <values>
+        <field>nfvoice__Profile_Name__c</field>
+        <value xsi:type="xsd:string">CPC PO Agent</value>
+    </values>
+    <values>
+        <field>nfvoice__Service_Entity__c</field>
+        <value xsi:type="xsd:string">xomawsscv00d6a000001kpqd</value>
+    </values>
+</CustomMetadata>

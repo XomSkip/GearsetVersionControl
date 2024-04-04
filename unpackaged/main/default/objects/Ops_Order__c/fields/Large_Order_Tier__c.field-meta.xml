@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Large_Order_Tier__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND((AllOrdersTotal__c &gt;= 30000) ,(AllOrdersTotal__c&lt;=50000)),
+"Silver",IF(AND((AllOrdersTotal__c&gt;=50001)),"Gold","Not Large Order"
+))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Large Order Tier</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

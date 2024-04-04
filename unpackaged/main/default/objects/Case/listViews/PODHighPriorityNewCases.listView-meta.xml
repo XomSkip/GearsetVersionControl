@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PODHighPriorityNewCases</fullName>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OPS_Top_20_Customer__c</columns>
+    <columns>Age_hrs__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.EMAIL</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.PRIORITY</field>
+        <operation>equals</operation>
+        <value>High</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.CaseMgmt,Case.DFM_Case</value>
+    </filters>
+    <label>[POD]High Priority New Cases</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Service_Leadership</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

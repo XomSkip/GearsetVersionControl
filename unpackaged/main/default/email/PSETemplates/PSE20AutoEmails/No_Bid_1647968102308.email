@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p style="line-height:1.38; margin-top:16px; margin-bottom:16px"><span style="font-size:10.5pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#333333"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Hi {{{Case.Opportunity_Owner__c}}}</span></span></span></span></span></span></p>
+&nbsp;
+
+<p style="line-height:1.38; margin-top:16px; margin-bottom:16px"><span style="font-size:10.5pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#333333"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Your customer's request for quote has been reviewed. </span></span></span></span><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Unfortunately, Xometry is unable to move forward with your request as it is not in our current capabilities. </span></span></span></span><span style="color:#333333"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">The PSE team has provided feedback on the case {{{Case.GNO_CaseLink__c}}}.&nbsp; Please inform your customer.</span></span></span></span></span></span></p>
+&nbsp;
+
+<p style="line-height:2.057148; background-color:#ffffff; margin-bottom:16px"><font face="Arial"><span style="font-size: 14.6667px; white-space: pre-wrap;">Thank you.</span></font></p>
+<br />
+&nbsp;
+</body></html>

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <assignments>
+        <name>Assign_New_Case_Value</name>
+        <label>Assign New Case Value</label>
+        <locationX>176</locationX>
+        <locationY>518</locationY>
+        <assignmentItems>
+            <assignToReference>NewCase.OwnerId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Bldg_7951_Queue_ID.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>NewCase.Category__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Shipping Bldg</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>NewCase.Origin</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Manual</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>NewCase.Description</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>NewCaseDescription</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>NewCase.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_CM_Record_Type.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Create_a_Case</targetReference>
+        </connector>
+    </assignments>
+    <choices>
+        <name>Are_these_parts_shipping_internationally</name>
+        <choiceText>Are these parts shipping internationally?</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Are these parts shipping internationally?</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>confirm_the_consignee_understands_they_are_to_be_the_IOR</name>
+        <choiceText>confirm the consignee understands they are to be the IOR</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>confirm the consignee understands they are to be the IOR</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Is_this_a_partial_qty_of_the_line_item_s</name>
+        <choiceText>Is this a partial qty of the line item(s)?</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Is this a partial qty of the line item(s)?</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Is_this_a_split_shipment_of_the_order</name>
+        <choiceText>Is this a split shipment of the order?</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Is this a split shipment of the order?</stringValue>
+        </value>
+    </choices>
+    <description>UI Update</description>
+    <environments>Default</environments>
+    <interviewLabel>Bldg7951RequestForm {!$Flow.CurrentDateTime}</interviewLabel>
+    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
+    <label>Bldg 7951 Request Form</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Create_a_Case</name>
+        <label>Create a Case</label>
+        <locationX>176</locationX>
+        <locationY>638</locationY>
+        <connector>
+            <targetReference>Confirmaiton</targetReference>
+        </connector>
+        <inputReference>NewCase</inputReference>
+    </recordCreates>
+    <recordLookups>
+        <name>Get_Bldg_7951_Queue_ID</name>
+        <label>Get Bldg 7951 Queue ID</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_CM_Record_Type</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Type</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Queue</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Bldg_7951_Requests</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Group</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_CM_Record_Type</name>
+        <label>Get CM Record Type</label>
+        <locationX>176</locationX>
+        <locationY>398</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_New_Case_Value</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>SobjectType</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Case</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>CaseMgmt</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>RecordType</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <screens>
+        <name>Building_7951_Request</name>
+        <label>Building 7951 Request</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Get_Bldg_7951_Queue_ID</targetReference>
+        </connector>
+        <fields>
+            <name>Banner</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;color: rgb(255, 0, 0);&quot;&gt;All Fields Required&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Building_7951_Request_Section1</name>
+            <fieldType>RegionContainer</fieldType>
+            <fields>
+                <name>Building_7951_Request_Section1_Column1</name>
+                <fieldType>Region</fieldType>
+                <fields>
+                    <fieldType>ObjectProvided</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>false</isRequired>
+                    <objectFieldReference>NewCase.GNOOrder__c</objectFieldReference>
+                </fields>
+                <fields>
+                    <fieldType>ObjectProvided</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>false</isRequired>
+                    <objectFieldReference>NewCase.AccountId</objectFieldReference>
+                </fields>
+                <fields>
+                    <fieldType>ObjectProvided</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>false</isRequired>
+                    <objectFieldReference>NewCase.Parts_Failed_Inspection__c</objectFieldReference>
+                </fields>
+                <inputParameters>
+                    <name>width</name>
+                    <value>
+                        <stringValue>4</stringValue>
+                    </value>
+                </inputParameters>
+                <isRequired>false</isRequired>
+            </fields>
+            <fields>
+                <name>Building_7951_Request_Section1_Column2</name>
+                <fieldType>Region</fieldType>
+                <fields>
+                    <fieldType>ObjectProvided</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>false</isRequired>
+                    <objectFieldReference>NewCase.Job__c</objectFieldReference>
+                </fields>
+                <fields>
+                    <fieldType>ObjectProvided</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>false</isRequired>
+                    <objectFieldReference>NewCase.ContactId</objectFieldReference>
+                </fields>
+                <fields>
+                    <fieldType>ObjectProvided</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>false</isRequired>
+                    <objectFieldReference>NewCase.Quantity__c</objectFieldReference>
+                </fields>
+                <inputParameters>
+                    <name>width</name>
+                    <value>
+                        <stringValue>4</stringValue>
+                    </value>
+                </inputParameters>
+                <isRequired>false</isRequired>
+            </fields>
+            <fields>
+                <name>Building_7951_Request_Section1_Column3</name>
+                <fieldType>Region</fieldType>
+                <fields>
+                    <fieldType>ObjectProvided</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>false</isRequired>
+                    <objectFieldReference>NewCase.Ordered_Part_ID__c</objectFieldReference>
+                </fields>
+                <fields>
+                    <fieldType>ObjectProvided</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>false</isRequired>
+                    <objectFieldReference>NewCase.Supplier__c</objectFieldReference>
+                </fields>
+                <fields>
+                    <fieldType>ObjectProvided</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>false</isRequired>
+                    <objectFieldReference>NewCase.PO_Number__c</objectFieldReference>
+                </fields>
+                <inputParameters>
+                    <name>width</name>
+                    <value>
+                        <stringValue>4</stringValue>
+                    </value>
+                </inputParameters>
+                <isRequired>false</isRequired>
+            </fields>
+            <isRequired>false</isRequired>
+            <regionContainerType>SectionWithoutHeader</regionContainerType>
+        </fields>
+        <fields>
+            <name>Current_Location_of_the_Parts</name>
+            <dataType>String</dataType>
+            <fieldText>Current Location of the Parts</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Shipping_Method</name>
+            <dataType>String</dataType>
+            <fieldText>Shipping Method</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>DeliveryAddress</name>
+            <extensionName>flowruntime:address</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>addressLabel</name>
+                <value>
+                    <stringValue>Delivery Address</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>country</name>
+                <value>
+                    <stringValue>United States</stringValue>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
+        </fields>
+        <fields>
+            <name>Any_Certification_Required</name>
+            <dataType>String</dataType>
+            <fieldText>Any Certification Required?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Split_Shipment</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Split Shipment?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Partial_Qty</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Partial Qty?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Ship_Internationally</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Ship Internationally?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Custom_Value_of_the_Goods_Shipped</name>
+            <dataType>String</dataType>
+            <fieldText>If International - Custom Value of the Goods Shipped</fieldText>
+            <fieldType>InputField</fieldType>
+            <helpText>&lt;p&gt;Only Needed When It Is an International Shipment.&lt;/p&gt;</helpText>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Commodity_Description</name>
+            <dataType>String</dataType>
+            <fieldText>If International - Commodity Description</fieldText>
+            <fieldType>InputField</fieldType>
+            <helpText>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;Only Needed When It Is an International Shipment.&lt;/span&gt;&lt;/p&gt;</helpText>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <fieldType>ObjectProvided</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>false</isRequired>
+            <objectFieldReference>NewCase.CustomerNotes__c</objectFieldReference>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Confirmaiton</name>
+        <label>Confirmaiton</label>
+        <locationX>176</locationX>
+        <locationY>758</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>ConfirmationMessage</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;color: rgb(23, 141, 37); font-size: 18px;&quot;&gt;Bldg 7951 Request Created. &lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Building_7951_Request</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>NewCaseDescription</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Current Location of the Parts: {!Current_Location_of_the_Parts}
+
+Shipping Methods: {!Shipping_Method}
+
+Delivery Address: 
+Street: {!DeliveryAddress.street}, 
+                              City: {!DeliveryAddress.city},
+                              State: {!DeliveryAddress.province},
+                               Zipcode: {!DeliveryAddress.postalCode},
+                               Country: {!DeliveryAddress.country}
+
+Any Certification Required: {!Any_Certification_Required}
+
+Split Shipment?:  {!Split_Shipment}
+
+Partial Qty of the Line Items?:  {!Partial_Qty}
+
+Ship Internationally?  {!Ship_Internationally}
+
+Custom Value of the Goods: {!Custom_Value_of_the_Goods_Shipped}
+
+Commodity Description: {!Commodity_Description}</text>
+    </textTemplates>
+    <variables>
+        <name>NewCase</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Case</objectType>
+    </variables>
+</Flow>

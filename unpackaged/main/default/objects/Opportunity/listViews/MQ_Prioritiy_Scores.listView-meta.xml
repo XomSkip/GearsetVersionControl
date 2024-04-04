@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MQ_Prioritiy_Scores</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Manual_Quote_Prioritization_Score__c</columns>
+    <columns>ERP_Status__c</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Manual_Quote_Prioritization_Score__c</field>
+        <operation>lessThan</operation>
+        <value>100</value>
+    </filters>
+    <label>MQ Priority Scores</label>
+</ListView>

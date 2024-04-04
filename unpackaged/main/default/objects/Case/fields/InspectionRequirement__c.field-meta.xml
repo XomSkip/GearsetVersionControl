@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InspectionRequirement__c</fullName>
+    <externalId>false</externalId>
+    <label>Inspection Requirement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>std</fullName>
+                <default>false</default>
+                <label>std</label>
+            </value>
+            <value>
+                <fullName>std+r</fullName>
+                <default>false</default>
+                <label>std+r</label>
+            </value>
+            <value>
+                <fullName>custom</fullName>
+                <default>false</default>
+                <label>custom</label>
+            </value>
+            <value>
+                <fullName>fai</fullName>
+                <default>false</default>
+                <label>fai</label>
+            </value>
+            <value>
+                <fullName>cmm</fullName>
+                <default>false</default>
+                <label>cmm</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

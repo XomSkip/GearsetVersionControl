@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Covid_Need__c</fullName>
+    <description>This field is used to provide a description for any special Covid Needs a customer may have.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>COVID19 Related manufacturing need form</inlineHelpText>
+    <label>Covid Need</label>
+    <length>65536</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

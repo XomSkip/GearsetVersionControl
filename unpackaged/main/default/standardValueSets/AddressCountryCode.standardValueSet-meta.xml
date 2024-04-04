@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>AU</fullName>
+        <default>false</default>
+        <label>Australia</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CA</fullName>
+        <default>false</default>
+        <label>Canada</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DE</fullName>
+        <default>false</default>
+        <label>Germany</label>
+    </standardValue>
+    <standardValue>
+        <fullName>HK</fullName>
+        <default>false</default>
+        <label>Hong Kong</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MX</fullName>
+        <default>false</default>
+        <label>Mexico</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NZ</fullName>
+        <default>false</default>
+        <label>New Zealand</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GB</fullName>
+        <default>false</default>
+        <label>United Kingdom</label>
+    </standardValue>
+    <standardValue>
+        <fullName>US</fullName>
+        <default>true</default>
+        <label>United States</label>
+    </standardValue>
+</StandardValueSet>

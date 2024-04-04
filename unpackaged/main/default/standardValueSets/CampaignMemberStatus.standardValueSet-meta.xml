@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Not Contact</fullName>
+        <default>false</default>
+        <label>Not Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Placed Order</fullName>
+        <default>false</default>
+        <label>Placed Order</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Show Interest</fullName>
+        <default>false</default>
+        <label>Show Interest</label>
+    </standardValue>
+</StandardValueSet>

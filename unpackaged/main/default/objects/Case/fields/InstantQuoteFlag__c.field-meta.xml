@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InstantQuoteFlag__c</fullName>
+    <description>Boolean determines which Email Template to send.</description>
+    <externalId>false</externalId>
+    <formula>IF(Manufacturing_Process__c='Injection Molding: Injection Molding Tool: '||Manufacturing_Process__c='Injection Molding Tool: '||Manufacturing_Process__c='Extrusion: '||Manufacturing_Process__c='Injection Molding: '||Manufacturing_Process__c='Urethane Casting: ', false, true)</formula>
+    <label>InstantQuote?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

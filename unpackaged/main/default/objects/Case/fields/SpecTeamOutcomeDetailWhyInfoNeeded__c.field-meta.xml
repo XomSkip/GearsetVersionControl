@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SpecTeamOutcomeDetailWhyInfoNeeded__c</fullName>
+    <description>App-32791</description>
+    <externalId>false</externalId>
+    <label>Spec Team Outcome Detail Why Info Needed</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Additional Info</fullName>
+                <default>false</default>
+                <label>Additional Info</label>
+            </value>
+            <value>
+                <fullName>All CAD files missing</fullName>
+                <default>false</default>
+                <label>All CAD files missing</label>
+            </value>
+            <value>
+                <fullName>All drawings missing</fullName>
+                <default>false</default>
+                <label>All drawings missing</label>
+            </value>
+            <value>
+                <fullName>Contact not set up with ERP account</fullName>
+                <default>false</default>
+                <label>Contact not set up with ERP account</label>
+            </value>
+            <value>
+                <fullName>Quantity info missing</fullName>
+                <default>false</default>
+                <label>Quantity info missing</label>
+            </value>
+            <value>
+                <fullName>Some CADs Missing</fullName>
+                <default>false</default>
+                <label>Some CADs Missing</label>
+            </value>
+            <value>
+                <fullName>Some PDFs Missing</fullName>
+                <default>false</default>
+                <label>Some PDFs Missing</label>
+            </value>
+            <value>
+                <fullName>CAD Files Error</fullName>
+                <default>false</default>
+                <label>CAD Files Error</label>
+            </value>
+            <value>
+                <fullName>Duplicate Case</fullName>
+                <default>false</default>
+                <label>Duplicate Case</label>
+            </value>
+            <value>
+                <fullName>Only Assembly CAD</fullName>
+                <default>false</default>
+                <label>Only Assembly CAD</label>
+            </value>
+            <value>
+                <fullName>Manufacturing Process Undecided</fullName>
+                <default>false</default>
+                <label>Manufacturing Process Undecided</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

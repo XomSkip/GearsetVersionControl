@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TestPartProcess__c</fullName>
+    <description>The process chosen for Supplier Onboarding Test Part process</description>
+    <externalId>false</externalId>
+    <label>Test Part Process</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CNC - Lathe</fullName>
+                <default>false</default>
+                <label>CNC - Lathe</label>
+            </value>
+            <value>
+                <fullName>CNC - Mill</fullName>
+                <default>false</default>
+                <label>CNC - Mill</label>
+            </value>
+            <value>
+                <fullName>Die Casting</fullName>
+                <default>false</default>
+                <label>Die Casting</label>
+            </value>
+            <value>
+                <fullName>Extrusion</fullName>
+                <default>false</default>
+                <label>Extrusion</label>
+            </value>
+            <value>
+                <fullName>Sheet Metal</fullName>
+                <default>false</default>
+                <label>Sheet Metal</label>
+            </value>
+            <value>
+                <fullName>Sheet Metal - Cutting</fullName>
+                <default>false</default>
+                <label>Sheet Metal - Cutting</label>
+            </value>
+            <value>
+                <fullName>Stamping</fullName>
+                <default>false</default>
+                <label>Stamping</label>
+            </value>
+            <value>
+                <fullName>Tube Bending</fullName>
+                <default>false</default>
+                <label>Tube Bending</label>
+            </value>
+            <value>
+                <fullName>Tube Cutting</fullName>
+                <default>false</default>
+                <label>Tube Cutting</label>
+            </value>
+            <value>
+                <fullName>Swiss Lathe</fullName>
+                <default>false</default>
+                <label>Swiss Lathe</label>
+            </value>
+            <value>
+                <fullName>Sheet Metal - Bent</fullName>
+                <default>false</default>
+                <label>Sheet Metal - Bent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

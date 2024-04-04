@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Managed_Services__c</fullName>
+    <description>Indicates if Opp is part of the managed services funnel.  Used in tools like Outreach/Traction</description>
+    <externalId>false</externalId>
+    <formula>ISPICKVAL(LeadSource,"Design Guide Download") ||
+
+Owner.UserRole.Name = "Sales Leadership" ||
+Owner.UserRole.Name = "Sales Operations" ||
+Owner.UserRole.Name = "TSE" ||
+Owner.UserRole.Name = "AE-I" ||
+Owner.UserRole.Name = "AE-II" ||
+Owner.UserRole.Name = "AE-III" ||
+Owner.UserRole.Name = "BDR" ||
+Owner.UserRole.Name = "CSAM" ||
+Owner.UserRole.Name = "EAM" ||
+Owner.UserRole.Name = "CSS" ||
+Owner.UserRole.Name = "EBDR" ||
+Owner.UserRole.Name = "EDM" ||
+Owner.UserRole.Name = "EGR" ||
+Owner.UserRole.Name = "IMS" ||
+Owner.UserRole.Name = "Pool" ||
+Owner.UserRole.Name = "SAE" ||
+Owner.UserRole.Name = "Sales Administrator" ||
+Owner.UserRole.Name = "SAM" ||
+Owner.UserRole.Name = "SDR" ||
+Owner.UserRole.Name = "VMS"</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Indicates if Opp is part of the managed services funnel.</inlineHelpText>
+    <label>Managed Services</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

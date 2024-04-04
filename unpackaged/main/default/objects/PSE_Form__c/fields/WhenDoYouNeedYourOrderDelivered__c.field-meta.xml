@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WhenDoYouNeedYourOrderDelivered__c</fullName>
+    <description>when_do_you_need_your_order_delivered_ in Hubspot</description>
+    <externalId>false</externalId>
+    <label>When Do You Need Your Order Delivered?</label>
+    <length>200</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

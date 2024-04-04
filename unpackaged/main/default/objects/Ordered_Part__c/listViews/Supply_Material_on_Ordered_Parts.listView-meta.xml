@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supply_Material_on_Ordered_Parts</fullName>
+    <columns>Ops_Order__c</columns>
+    <columns>CurrentJobID__c</columns>
+    <columns>isDFARS__c</columns>
+    <columns>Material__c</columns>
+    <columns>isMATERIAL__c</columns>
+    <columns>MaterialGroup__c</columns>
+    <columns>isMATERIALTRACEABILITY__c</columns>
+    <columns>MaterialType__c</columns>
+    <columns>OrderDueDate__c</columns>
+    <columns>OrderedDate__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>OutsourcePartnerGroup__c</columns>
+    <columns>VendorFinish__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>isDFARS__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>LAST_N_DAYS:120</value>
+    </filters>
+    <label>[Supply]Material DFARS - Last 120 Days</label>
+    <sharedTo>
+        <group>SupplyStakeholder</group>
+        <roleAndSubordinatesInternal>SellerMarketplace</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

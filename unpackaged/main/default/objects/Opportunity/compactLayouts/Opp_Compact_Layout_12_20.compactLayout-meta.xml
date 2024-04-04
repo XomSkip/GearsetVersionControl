@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opp_Compact_Layout_12_20</fullName>
+    <fields>Name</fields>
+    <fields>OwnerId</fields>
+    <fields>Amount</fields>
+    <fields>Primary_Contact__c</fields>
+    <fields>CloseDate</fields>
+    <fields>Last_Activity_Date_AM__c</fields>
+    <fields>ERP_Quote_URL__c</fields>
+    <label>Opp Compact Layout 12/20</label>
+</CompactLayout>

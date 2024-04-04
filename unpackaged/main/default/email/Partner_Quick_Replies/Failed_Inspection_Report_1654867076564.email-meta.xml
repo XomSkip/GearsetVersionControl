@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Failed Inspection Report</name>
+    <style>none</style>
+    <subject>Xometry Onboarding // Test Part Inspection Report</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

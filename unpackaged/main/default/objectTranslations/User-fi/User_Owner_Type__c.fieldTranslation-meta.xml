@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- User Owner Type --></label>
+        <name>User_Owner_Type__c</name>
+        <picklistValues>
+            <masterLabel>AM</masterLabel>
+            <translation><!-- AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BDR</masterLabel>
+            <translation><!-- BDR --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sample_Date_Requirement__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>When do you need tooling complete and the 10 free samples shipped?</inlineHelpText>
+    <label>WhenNeedToolingCompleteSampleShipped?</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

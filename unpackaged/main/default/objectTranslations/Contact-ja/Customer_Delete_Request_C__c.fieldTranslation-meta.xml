@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This Flag marks that the customer requested to be deleted. --></help>
+        <label><!-- Customer Delete Request --></label>
+        <name>Customer_Delete_Request_C__c</name>
+    </CustomFieldTranslation>

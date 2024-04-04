@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RMA Order</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RMA Orders</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>RMA Order Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Order/Job Information --></label>
+            <section>Order/Job Information</section>
+        </sections>
+        <sections>
+            <label><!-- RMA Information --></label>
+            <section>RMA Information</section>
+        </sections>
+        <sections>
+            <label><!-- System information --></label>
+            <section>System information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Send to Slack --></label>
+        <name>Send_to_Slack</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Slack Alerts --></label>
+        <name>Slack_Alerts</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>Slack_Alerts</name>
+    </webLinks>
+</CustomObjectTranslation>

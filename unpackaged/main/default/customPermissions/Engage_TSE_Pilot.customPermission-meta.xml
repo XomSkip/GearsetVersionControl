@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>temporary perm set to pilot Engage TSE process/flow
+custom permission is added to Visibility filter on this button/action on the Project lightning page</description>
+    <isLicensed>false</isLicensed>
+    <label>Engage TSE - Pilot</label>
+</CustomPermission>

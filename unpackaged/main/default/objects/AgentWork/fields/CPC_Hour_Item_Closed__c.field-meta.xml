@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPC_Hour_Item_Closed__c</fullName>
+    <description>Used to identify the Hour a work item was closed</description>
+    <externalId>false</externalId>
+    <formula>HOUR(TIMEVALUE((CloseDateTime)-0.1667))</formula>
+    <label>Hour Item Closed</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

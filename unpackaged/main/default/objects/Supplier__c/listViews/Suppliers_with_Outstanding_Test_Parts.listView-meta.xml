@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suppliers_with_Outstanding_Test_Parts</fullName>
+    <columns>NAME</columns>
+    <columns>SupplierCompanyName__c</columns>
+    <columns>Name__c</columns>
+    <columns>OnboardingAttempts__c</columns>
+    <columns>TestPartSentDate__c</columns>
+    <columns>OnboardingParentCase__c</columns>
+    <columns>SupplierStatus__c</columns>
+    <columns>TestPartStatus__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SupplierStatus__c</field>
+        <operation>equals</operation>
+        <value>registered</value>
+    </filters>
+    <filters>
+        <field>TestPartStatus__c</field>
+        <operation>equals</operation>
+        <value>Outstanding</value>
+    </filters>
+    <label>[GNO]Suppliers - Outstanding Test Parts</label>
+    <sharedTo>
+        <group>Administrators</group>
+        <group>XOMGNOGroup</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- [decommission]Parent Account a Target? --></label>
+        <name>Parent_Account_a_Target__c</name>
+    </CustomFieldTranslation>

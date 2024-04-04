@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GNO_HasUnreadEmail__c</fullName>
+    <description>Indicator in List View if there's inbound email that unread</description>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Status,'Response Received'),true,false)</formula>
+    <inlineHelpText>Indicator if there's unread email.</inlineHelpText>
+    <label>Unread Email?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

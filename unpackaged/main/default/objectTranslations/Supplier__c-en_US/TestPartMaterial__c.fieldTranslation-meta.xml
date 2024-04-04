@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Test Part Material --></label>
+        <name>TestPartMaterial__c</name>
+        <picklistValues>
+            <masterLabel>1x2x3</masterLabel>
+            <translation><!-- 1x2x3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2x2x3</masterLabel>
+            <translation><!-- 2x2x3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6x11.75</masterLabel>
+            <translation><!-- 6x11.75 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6x8</masterLabel>
+            <translation><!-- 6x8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Round Bar</masterLabel>
+            <translation><!-- Round Bar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Round Bar 1/2 x 24</masterLabel>
+            <translation><!-- Round Bar 1/2 x 24 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

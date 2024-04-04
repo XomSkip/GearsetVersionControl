@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CM_DFM_My_Pending_Case_View</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CMDFMIssueIndicator__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Recent_Inbound_Message__c</columns>
+    <columns>Recent_Response_Time__c</columns>
+    <columns>IsPartnerSupplier__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Done,Solved,Closed</value>
+    </filters>
+    <label>[CM/DFM]All My Cases + Issue Indicators</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Service_Leadership</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Big Blue Saw Production</name>
+    <queueMembers>
+        <users>
+            <user>julie.simancek@xometry.com</user>
+            <user>mandy.szuminsky@xometry.com</user>
+            <user>simon.arthur@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

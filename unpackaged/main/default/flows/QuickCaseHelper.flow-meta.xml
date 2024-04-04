@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <choices>
+        <name>Building_7951_Shipping_Request</name>
+        <choiceText>Building 7951 Shipping Request</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Building 7951 Shipping Request</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Building_7971_Shipping_Request</name>
+        <choiceText>Building 7971 Shipping Request</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Building 7971 Shipping Request</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Guided_Child_Cases</name>
+        <choiceText>Guided Child Cases</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Guided Child Cases</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Partner_Promotion_Flow</name>
+        <choiceText>Partner Promotion Flow</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Partner Promotion Flow</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Transfer_open_cases_owned_by_a_departed_user_to_another_user</name>
+        <choiceText>Transfer open cases owned by a departed user to another user</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Transfer open cases owned by a departed user to another user</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Virtual_Shop_Tour_to_Approve_Onboarding</name>
+        <choiceText>Virtual Shop Tour to Approve Onboarding</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Virtual Shop Tour to Approve Onboarding</stringValue>
+        </value>
+    </choices>
+    <decisions>
+        <name>Switcher</name>
+        <label>Switcher</label>
+        <locationX>710</locationX>
+        <locationY>242</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Guided_Child_Case</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ChooseOneOptions</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Guided_Child_Cases</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Case_Number</targetReference>
+            </connector>
+            <label>Guided Child Case</label>
+        </rules>
+        <rules>
+            <name>Bldg_7951_Request</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ChooseOneOptions</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Building_7951_Shipping_Request</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Bldg_7951_Form</targetReference>
+            </connector>
+            <label>Bldg 7951 Request</label>
+        </rules>
+        <rules>
+            <name>Departed_User</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ChooseOneOptions</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Transfer_open_cases_owned_by_a_departed_user_to_another_user</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Departed_User_Open_Case_Transfer</targetReference>
+            </connector>
+            <label>Departed User</label>
+        </rules>
+        <rules>
+            <name>Partner_Promotion_Flow1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Partner_Promotion_Flow</leftValueReference>
+                <operator>WasSelected</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Partner_Promotion_Flow2</targetReference>
+            </connector>
+            <label>Partner Promotion Flow</label>
+        </rules>
+        <rules>
+            <name>Virtual_Shop_Tour</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Virtual_Shop_Tour_to_Approve_Onboarding</leftValueReference>
+                <operator>WasSelected</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Virtual_Shop_Tour2</targetReference>
+            </connector>
+            <label>Virtual Shop Tour</label>
+        </rules>
+    </decisions>
+    <description>Virtual Shop Tour to Approve Onboarding</description>
+    <environments>Default</environments>
+    <interviewLabel>QuickCaseHelper {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>QuickCaseHelper</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>GetCaseID</name>
+        <label>GetCaseID</label>
+        <locationX>50</locationX>
+        <locationY>458</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Guided_Case</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>CaseNumber</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>ParentCaseNumber</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <runInMode>SystemModeWithoutSharing</runInMode>
+    <screens>
+        <name>Case_Number</name>
+        <label>Case Number</label>
+        <locationX>50</locationX>
+        <locationY>350</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>GetCaseID</targetReference>
+        </connector>
+        <fields>
+            <name>ParentCaseNumber</name>
+            <dataType>String</dataType>
+            <fieldText>Parent Case Number</fieldText>
+            <fieldType>InputField</fieldType>
+            <helpText>&lt;p&gt;8 Digit Case Number&lt;/p&gt;</helpText>
+            <isRequired>true</isRequired>
+            <validationRule>
+                <errorMessage>&lt;p&gt;{!ParentCaseNumber} is not a valid Case Number&lt;/p&gt;</errorMessage>
+                <formulaExpression>REGEX({!ParentCaseNumber},&quot;^\\d{8}?$&quot;)</formulaExpression>
+            </validationRule>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>QuickChildCases</name>
+        <label>Quick Child Cases</label>
+        <locationX>710</locationX>
+        <locationY>134</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Switcher</targetReference>
+        </connector>
+        <fields>
+            <name>ChooseOneOptions</name>
+            <choiceReferences>Guided_Child_Cases</choiceReferences>
+            <choiceReferences>Building_7951_Shipping_Request</choiceReferences>
+            <choiceReferences>Partner_Promotion_Flow</choiceReferences>
+            <choiceReferences>Virtual_Shop_Tour_to_Approve_Onboarding</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Choose One Options</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>584</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>QuickChildCases</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>Bldg_7951_Form</name>
+        <label>Bldg 7951 Form</label>
+        <locationX>314</locationX>
+        <locationY>350</locationY>
+        <flowName>Bldg7951RequestForm</flowName>
+    </subflows>
+    <subflows>
+        <name>Departed_User_Open_Case_Transfer</name>
+        <label>Departed User Open Case Transfer</label>
+        <locationX>578</locationX>
+        <locationY>350</locationY>
+        <flowName>DepartedUserOpenCaseTransferFlow</flowName>
+    </subflows>
+    <subflows>
+        <name>Guided_Case</name>
+        <label>Guided Case</label>
+        <locationX>50</locationX>
+        <locationY>566</locationY>
+        <flowName>Multi_Child_Cases</flowName>
+        <inputAssignments>
+            <name>recordId</name>
+            <value>
+                <elementReference>GetCaseID.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <name>Partner_Promotion_Flow2</name>
+        <label>Partner Promotion Flow</label>
+        <locationX>842</locationX>
+        <locationY>350</locationY>
+        <flowName>Partner_Promotion_Flow</flowName>
+    </subflows>
+    <subflows>
+        <name>Virtual_Shop_Tour2</name>
+        <label>Virtual Shop Tour</label>
+        <locationX>1106</locationX>
+        <locationY>350</locationY>
+        <flowName>VirtualShopTourtoApproveOnboarding</flowName>
+    </subflows>
+</Flow>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_Stage_VF</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>page</linkType>
+    <masterLabel>Update Stage</masterLabel>
+    <openType>replace</openType>
+    <page>UpdateOpp</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

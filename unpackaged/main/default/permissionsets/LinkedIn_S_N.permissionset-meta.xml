@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>LinkedIn_S_N</name>
+    </customPermissions>
+    <description>Giving users the ability to see the LinkedIn Sales Navigator to those users with a LinkedIn S/N license.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>LinkedIn S/N</label>
+</PermissionSet>

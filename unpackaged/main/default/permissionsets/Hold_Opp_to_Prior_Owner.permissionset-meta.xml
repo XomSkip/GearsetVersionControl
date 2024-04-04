@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Hold_Opp</name>
+    </customPermissions>
+    <description>Edit access and provides visibility for opp lightning component</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Hold_Op_to_Prior_Owner__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Project__c.Hold_Project_to_Prior_Owner__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Hold Opp to Prior Owner</label>
+</PermissionSet>

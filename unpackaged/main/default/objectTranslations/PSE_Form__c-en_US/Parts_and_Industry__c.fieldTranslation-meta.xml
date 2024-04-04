@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Briefly describe the function of your parts and indicate in what industry they will be used. --></help>
+        <label><!-- Parts and Industry --></label>
+        <name>Parts_and_Industry__c</name>
+    </CustomFieldTranslation>

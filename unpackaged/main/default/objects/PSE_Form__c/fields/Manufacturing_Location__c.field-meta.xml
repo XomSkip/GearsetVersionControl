@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manufacturing_Location__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Do you have a preference for a manufacturing location?</inlineHelpText>
+    <label>Where can the parts be manufactured?</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

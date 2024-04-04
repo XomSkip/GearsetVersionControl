@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyCases</fullName>
+    <columns>CMDFMIssueIndicator__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Category__c</columns>
+    <columns>NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>GNOOrder__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CaseAge__c</columns>
+    <columns>Age_hrs__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>Opportunity__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Order Confirmed/Closed,Done,Solved,Closed,CM/DFM Team Returned Quote</value>
+    </filters>
+    <label>My Cases</label>
+</ListView>

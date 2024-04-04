@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QuickPartDiscrepancyFlag__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND( QuickTurn__c, TSERejectQuickTurnCandidate__c), true, false)</formula>
+    <inlineHelpText>True = Discrepancy, TSE Rejected ERP/PSE's Quick Parts Recommendation.</inlineHelpText>
+    <label>Quick Part Discrepancy Flag</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XomTeam_Contacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.LEAD_SOURCE</columns>
+    <columns>Owner_ID_Name__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Name__c</field>
+        <operation>notEqual</operation>
+        <value>xometry.com</value>
+    </filters>
+    <filters>
+        <field>Owner_ID_Name__c</field>
+        <operation>equals</operation>
+        <value>Xometry Team</value>
+    </filters>
+    <label>XomTeam Contacts</label>
+</ListView>

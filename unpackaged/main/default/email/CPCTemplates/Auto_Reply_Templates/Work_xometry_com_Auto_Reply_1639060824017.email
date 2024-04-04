@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<table cellpadding="0" cellspacing="0" style="border-spacing: 0 !important;
+    border-collapse: collapse;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;" width="100%">
+	
+		<tr>
+			<td class="hs_padded" style="border-collapse: collapse;
+          mso-line-height-rule: exactly;
+          font-family: Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000000;
+          word-break: break-word;
+          padding: 10px 20px;">
+			<p style="mso-line-height-rule:exactly; font-size:14px; line-height:175%"><span style="font-family: Helvetica, Arial, sans-serif; color: #000000;">Hi&nbsp;</span>{{{Case.SuppliedName}}}<span style="font-family: Helvetica, Arial, sans-serif; color: #000000;">,</span></p>
+
+			<p style="mso-line-height-rule:exactly; font-size:14px; line-height:175%"><span style="font-family: Helvetica, Arial, sans-serif; color: #000000;">Thank you for being a Xometry Supplier! Your request has been received and a member of our Partner Success Team will respond to you shortly.</span></p>
+
+			<p style="mso-line-height-rule:exactly; font-size:14px; line-height:175%"><span style="font-family: Helvetica, Arial, sans-serif; color: #000000;">If this is an emergency, please call us at 240.252-1138. </span></p>
+
+			<p style="mso-line-height-rule:exactly; font-size:14px; line-height:175%"><span style="font-family: Helvetica, Arial, sans-serif; color: #000000;">Thank you.</span></p>
+			</td>
+		</tr>
+	
+</table>
+
+</body></html>

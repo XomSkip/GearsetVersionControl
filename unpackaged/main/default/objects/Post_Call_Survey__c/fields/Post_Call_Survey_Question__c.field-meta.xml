@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Post_Call_Survey_Question__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Post Call Survey Question</label>
+    <referenceTo>Post_Call_Survey_Question__c</referenceTo>
+    <relationshipLabel>Post Call Surveys</relationshipLabel>
+    <relationshipName>Post_Call_Surveys</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

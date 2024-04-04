@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Madkudu likelihood to buy emoji --></help>
+        <label><!-- MK Likelihood to Buy --></label>
+        <name>MK_Likelihood_to_Buy__c</name>
+    </CustomFieldTranslation>

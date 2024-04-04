@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Purpose__c</fullName>
+    <externalId>false</externalId>
+    <label>Event Purpose</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Company Overview</fullName>
+                <default>false</default>
+                <label>Company Overview</label>
+            </value>
+            <value>
+                <fullName>Quote Tool Training</fullName>
+                <default>false</default>
+                <label>Quote Tool Training</label>
+            </value>
+            <value>
+                <fullName>Quote Review (&lt; $50K)</fullName>
+                <default>false</default>
+                <label>Quote Review (&lt; $50K)</label>
+            </value>
+            <value>
+                <fullName>Quote Review ($50K+)</fullName>
+                <default>false</default>
+                <label>Quote Review ($50K+)</label>
+            </value>
+            <value>
+                <fullName>Contact Intro</fullName>
+                <default>false</default>
+                <label>Contact Intro</label>
+            </value>
+            <value>
+                <fullName>Punchout</fullName>
+                <default>false</default>
+                <label>Punchout</label>
+            </value>
+            <value>
+                <fullName>Financial Technology</fullName>
+                <default>false</default>
+                <label>Financial Technology</label>
+            </value>
+            <value>
+                <fullName>Injection Molding Capability Overview</fullName>
+                <default>false</default>
+                <label>Injection Molding Capability Overview</label>
+            </value>
+            <value>
+                <fullName>Customer Check-In</fullName>
+                <default>false</default>
+                <label>Customer Check-In</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

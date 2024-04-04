@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Manual Call Type --></label>
+        <name>Manual_Call_Type__c</name>
+        <picklistValues>
+            <masterLabel>Inbound</masterLabel>
+            <translation><!-- Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound</masterLabel>
+            <translation><!-- Outbound --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

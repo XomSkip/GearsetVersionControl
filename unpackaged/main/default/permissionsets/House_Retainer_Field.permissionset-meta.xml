@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>To give specific users the ability to edit the House Retainer field on Account that determines what goes into CSS/Success Team</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.House_Retainer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>House Retainer Field</label>
+</PermissionSet>

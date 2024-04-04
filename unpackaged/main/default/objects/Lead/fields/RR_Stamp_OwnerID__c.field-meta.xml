@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RR_Stamp_OwnerID__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field is used to stamp the RR Owner.</description>
+    <externalId>false</externalId>
+    <label>RR_Stamp_OwnerID</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Leads_RR</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

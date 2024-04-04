@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>End Use Data Queue</name>
+    <queueMembers>
+        <users>
+            <user>ana.rojas@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Default_For_Case</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

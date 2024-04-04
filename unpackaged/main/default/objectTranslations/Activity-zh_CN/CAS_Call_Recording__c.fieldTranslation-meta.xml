@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- CAS Call Recording --></label>
+        <name>CAS_Call_Recording__c</name>
+    </CustomFieldTranslation>

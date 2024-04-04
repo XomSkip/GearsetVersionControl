@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Cancel entire order, no money needed</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Free Cancellation Confirmation</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry Order      - Post Order Cancellation Confirmed</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

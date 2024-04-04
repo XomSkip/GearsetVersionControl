@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Temp_Other_Process_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Temp. Other Process</label>
+    <queue>Temp_Other_Process</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

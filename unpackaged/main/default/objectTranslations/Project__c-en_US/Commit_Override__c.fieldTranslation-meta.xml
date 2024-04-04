@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please select this box to &apos;commit&apos; this Project Amount to your forecast. --></help>
+        <label><!-- Commit Override --></label>
+        <name>Commit_Override__c</name>
+    </CustomFieldTranslation>

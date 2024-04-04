@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- HS Purchase Authority --></label>
+        <name>HS_Purchase_Authority__c</name>
+        <picklistValues>
+            <masterLabel>Decision Influencer</masterLabel>
+            <translation><!-- Decision Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Decision Making Authority</masterLabel>
+            <translation><!-- No Decision Making Authority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part of the Decision Making Group</masterLabel>
+            <translation><!-- Part of the Decision Making Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sole Decision Maker</masterLabel>
+            <translation><!-- Sole Decision Maker --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

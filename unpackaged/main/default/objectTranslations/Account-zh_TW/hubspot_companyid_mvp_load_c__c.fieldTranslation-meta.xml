@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Hubspot&apos;s ID for the Company. Used during initial data load. --></help>
+        <label><!-- HS Company ID --></label>
+        <name>hubspot_companyid_mvp_load_c__c</name>
+    </CustomFieldTranslation>

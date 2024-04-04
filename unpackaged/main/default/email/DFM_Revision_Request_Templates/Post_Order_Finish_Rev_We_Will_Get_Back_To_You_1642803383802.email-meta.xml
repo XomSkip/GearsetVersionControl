@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Customer/Sales Post-Order Finish Addition, Need to see if partner can do before commiting</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Post-Order Finish Addition, We Will Get Back To You</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry Order      - Post Order Finish Follow Up</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

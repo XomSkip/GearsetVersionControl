@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Purple Squirrel Accounts and Contacts --></help>
+        <label><!-- Identified as Priority --></label>
+        <name>Identified_as_Priority__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Order Number:<br />
+Order Status:<br />
+Method of Payment:&nbsp;<br />
+PO Number:<br />
+CC total charged:<br />
+Full or Partial Refund:<br />
+If partial, which parts:&nbsp;<br />
+Is the order being replaced:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br />
+Reason:&nbsp;</p>
+
+<p>PLEASE COPY AND PASTE THE REFUND DETAILS FROM ERP</p>
+</body>
+</html>

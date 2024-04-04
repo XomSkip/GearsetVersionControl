@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Users_Cant_Transfer_Records</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(OwnerId) &amp;&amp;
+$Profile.Name = 'Xometry Sales User' &amp;&amp;
+$UserRole.Name != 'SDR' &amp;&amp;
+
+($UserRole.Name != 'BDR' &amp;&amp;
+$User.Id = OwnerId
+)
+
+&amp;&amp; !$Permission.Transfer_Ownership
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Opp_VR</errorConditionFormula>
+    <errorMessage>Sales Users are not allowed to transfer records. Please see your manager to get a record transferred.</errorMessage>
+</ValidationRule>

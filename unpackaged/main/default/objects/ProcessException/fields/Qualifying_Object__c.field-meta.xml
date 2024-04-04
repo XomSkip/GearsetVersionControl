@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualifying_Object__c</fullName>
+    <externalId>false</externalId>
+    <label>Qualifying Object</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account</fullName>
+                <default>false</default>
+                <label>Account</label>
+            </value>
+            <value>
+                <fullName>Order</fullName>
+                <default>false</default>
+                <label>Order</label>
+            </value>
+            <value>
+                <fullName>Job</fullName>
+                <default>false</default>
+                <label>Job</label>
+            </value>
+            <value>
+                <fullName>Part</fullName>
+                <default>false</default>
+                <label>Part</label>
+            </value>
+            <value>
+                <fullName>Supplier</fullName>
+                <default>false</default>
+                <label>Supplier</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

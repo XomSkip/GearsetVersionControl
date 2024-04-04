@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Lookup to internal user who asks for the cancellation --></help>
+        <label><!-- Actual Cancellation Requester - Internal --></label>
+        <name>ActualInternalCancellationRequester__c</name>
+        <relationshipLabel><!-- Ops Orders (Actual Cancellation Requester - Internal) --></relationshipLabel>
+    </CustomFieldTranslation>

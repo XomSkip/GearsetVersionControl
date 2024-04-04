@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- if change happen on weekend. --></help>
+        <label><!-- ChangedOnWeekend --></label>
+        <name>ChangedOnWeekend__c</name>
+    </CustomFieldTranslation>

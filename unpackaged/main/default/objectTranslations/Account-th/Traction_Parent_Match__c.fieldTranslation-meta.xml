@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Traction Hierarchies Parent Match checkbox --></help>
+        <label><!-- Traction Parent Match? --></label>
+        <name>Traction_Parent_Match__c</name>
+    </CustomFieldTranslation>

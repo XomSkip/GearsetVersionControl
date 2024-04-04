@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Email_View</fullName>
+    <fields>Subject</fields>
+    <fields>FromAddress</fields>
+    <fields>ToAddress</fields>
+    <fields>FromName</fields>
+    <fields>Incoming</fields>
+    <fields>MessageDate</fields>
+    <fields>CreatedDate</fields>
+    <fields>CreatedById</fields>
+    <fields>ValidatedFromAddress</fields>
+    <fields>Status</fields>
+    <label>New_Email_View</label>
+</CompactLayout>

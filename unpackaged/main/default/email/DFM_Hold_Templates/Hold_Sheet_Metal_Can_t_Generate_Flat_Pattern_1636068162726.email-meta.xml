@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Use when we place an order on hold for DFM scope clarification /revision (last update 5.24.21)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Sheet Metal, Can&apos;t Generate Flat Pattern</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry Order ID     ON HOLD, Flat Patten Required, Please Reply</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

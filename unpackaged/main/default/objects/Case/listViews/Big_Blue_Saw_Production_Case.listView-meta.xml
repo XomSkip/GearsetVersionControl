@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Big_Blue_Saw_Production_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Big Blue Saw Production</label>
+    <queue>Big_Blue_Saw_Production</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

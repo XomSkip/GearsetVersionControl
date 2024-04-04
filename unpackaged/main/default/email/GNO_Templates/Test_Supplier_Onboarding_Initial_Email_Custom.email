@@ -1,0 +1,15 @@
+<p>Dear {!Supplier__c.Name__c},</p>
+</br>
+
+<p>Thanks for registering to be a supplier, your partner id is {!Supplier__c.PartnerID__c}. </p>
+
+<p>Below are the next steps before you can be approved.</p>
+
+<p>Please sign <a href="https://app.hellosign.com/s/2AY1eIWE"> our NDA</a>  and finish your profile at <a href="work.xometry.com">work.xometry.com</a>.</p>
+
+<p>Request your test part 
+<a href="https://pages.xometry.com/request-test-part?partner_id={!Supplier__c.PartnerID__c}&email={!Supplier__c.EmailAddress__c}">here</a>. This link is individual to you please do not share. </p>
+</br>
+
+<p>Thank you,</p>
+<p>Xometry Operations Team</p>

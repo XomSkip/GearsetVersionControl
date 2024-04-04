@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Feedback_Items_Enhancements</fullName>
+    <columns>NAME</columns>
+    <columns>Issue_Name__c</columns>
+    <columns>Issue_Description__c</columns>
+    <columns>Assigned_To__c</columns>
+    <columns>Status__c</columns>
+    <columns>Type__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Incremental Enhancement,New Enhancement</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Resolved,Cancelled</value>
+    </filters>
+    <label>Feedback Items - Enhancements</label>
+</ListView>

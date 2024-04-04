@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SpaceTechs_Job_Tech_Reviews</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>GNOOrder__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Technical_Review_Status__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>OPS_Top_20_Customer__c</columns>
+    <columns>Age_hrs__c</columns>
+    <columns>PrimaryJobContact__c</columns>
+    <columns>JobRiskFactor__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>GNO_PODOpsOrder__c</field>
+        <operation>equals</operation>
+        <value>SpaceTechs</value>
+    </filters>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>contains</operation>
+        <value>Technical Review Case</value>
+    </filters>
+    <filters>
+        <field>Technical_Review_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Large Order Review Complete</value>
+    </filters>
+    <label>[POD] SpaceTechs Open Job Tech Reviews</label>
+    <sharedTo>
+        <role>CMSpaceTechs</role>
+        <role>DFMSpaceTechs</role>
+    </sharedTo>
+</ListView>

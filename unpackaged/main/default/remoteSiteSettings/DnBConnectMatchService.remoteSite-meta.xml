@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>D&amp;B Connect Matching Service</description>
+    <disableProtocolSecurity>false</disableProtocolSecurity>
+    <isActive>true</isActive>
+    <url>https://5b463cbb-4d8c-42df-a8b7-91fe14b00012.trayapp.io</url>
+</RemoteSiteSetting>

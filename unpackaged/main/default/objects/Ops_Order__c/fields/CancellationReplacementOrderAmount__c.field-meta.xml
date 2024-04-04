@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CancellationReplacementOrderAmount__c</fullName>
+    <description>Cancellation Replacement Order Total Amount</description>
+    <externalId>false</externalId>
+    <formula>CancellationReplacementOrderNumber__r.OrderTotal__c</formula>
+    <inlineHelpText>Cancellation Replacement Order Total Amount</inlineHelpText>
+    <label>Cancellation Replacement Order Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

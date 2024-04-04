@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IM_Partner_Quoted__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Requested by Chris Brown as a Manual process for PSE</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates that IM was quoted by a Quoting Partner for at least one quote on this project</inlineHelpText>
+    <label>IM - Partner Quoted</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

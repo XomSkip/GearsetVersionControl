@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <choices>
+        <name>AccountingRequestChoices1</name>
+        <choiceText>Credit Limit Increase</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>CreditLimitIncrease</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>CreditApplications</name>
+        <choiceText>Credit Application</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>CreditApplication</stringValue>
+        </value>
+    </choices>
+    <decisions>
+        <name>Accounting_Request_Router</name>
+        <label>Accounting Request Router</label>
+        <locationX>314</locationX>
+        <locationY>278</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Credit_Limit_Increase</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Choose_an_Accounting_Request</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>AccountingRequestChoices1</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>CreditIncreaseFlow</targetReference>
+            </connector>
+            <label>Credit Limit Increase</label>
+        </rules>
+        <rules>
+            <name>Credit_Applications</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Choose_an_Accounting_Request</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>CreditApplications</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>CreditApplication</targetReference>
+            </connector>
+            <label>Credit Applications</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Accounting Request Switcher {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Submit an Accounting Request</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>Submit_Accounting_Requests</name>
+        <label>Submit Accounting Requests</label>
+        <locationX>314</locationX>
+        <locationY>158</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Accounting_Request_Router</targetReference>
+        </connector>
+        <fields>
+            <name>Choose_an_Accounting_Request</name>
+            <choiceReferences>AccountingRequestChoices1</choiceReferences>
+            <choiceReferences>CreditApplications</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Choose an Accounting Request:</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Submit_Accounting_Requests</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>CreditApplication</name>
+        <label>CreditApplication</label>
+        <locationX>314</locationX>
+        <locationY>398</locationY>
+        <flowName>Credit_Application_Flow</flowName>
+    </subflows>
+    <subflows>
+        <name>CreditIncreaseFlow</name>
+        <label>CreditIncreaseFlow</label>
+        <locationX>50</locationX>
+        <locationY>398</locationY>
+        <flowName>CreditIncreaseFlow</flowName>
+    </subflows>
+</Flow>

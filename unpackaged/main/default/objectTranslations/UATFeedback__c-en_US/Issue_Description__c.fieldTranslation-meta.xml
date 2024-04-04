@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please enter the details of your issue, you can also include screenshots here. --></help>
+        <label><!-- Issue Description / Steps to Reproduce --></label>
+        <name>Issue_Description__c</name>
+    </CustomFieldTranslation>

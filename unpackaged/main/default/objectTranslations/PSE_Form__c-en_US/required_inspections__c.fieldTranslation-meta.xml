@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Please mark any required inspections. --></label>
+        <name>required_inspections__c</name>
+        <picklistValues>
+            <masterLabel>CMM Inspection with Dimensional Report</masterLabel>
+            <translation><!-- CMM Inspection with Dimensional Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Inspection</masterLabel>
+            <translation><!-- Custom Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Article Inspection Report (FAIR AS9102)</masterLabel>
+            <translation><!-- First Article Inspection Report (FAIR AS9102) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formal Inspection with Dimensional Report</masterLabel>
+            <translation><!-- Formal Inspection with Dimensional Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Source Inspection</masterLabel>
+            <translation><!-- Source Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Inspection</masterLabel>
+            <translation><!-- Standard Inspection --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OutsourcePartnerGroup__c</fullName>
+    <externalId>false</externalId>
+    <label>Outsource Partner Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Default</fullName>
+                <default>false</default>
+                <label>Default</label>
+            </value>
+            <value>
+                <fullName>China</fullName>
+                <default>false</default>
+                <label>China</label>
+            </value>
+            <value>
+                <fullName>Premium</fullName>
+                <default>false</default>
+                <label>Premium</label>
+            </value>
+            <value>
+                <fullName>Ultra Premium</fullName>
+                <default>false</default>
+                <label>Ultra Premium</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Sls Partners</fullName>
+                <default>false</default>
+                <label>Sls Partners</label>
+            </value>
+            <value>
+                <fullName>Mexico And Canada</fullName>
+                <default>false</default>
+                <label>Mexico And Canada</label>
+            </value>
+            <value>
+                <fullName>Cmm Premium Partners</fullName>
+                <default>false</default>
+                <label>Cmm Premium Partners</label>
+            </value>
+            <value>
+                <fullName>Cmm</fullName>
+                <default>false</default>
+                <label>Cmm</label>
+            </value>
+            <value>
+                <fullName>Sla Partners</fullName>
+                <default>false</default>
+                <label>Sla Partners</label>
+            </value>
+            <value>
+                <fullName>Experienced Partners</fullName>
+                <default>false</default>
+                <label>Experienced Partners</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

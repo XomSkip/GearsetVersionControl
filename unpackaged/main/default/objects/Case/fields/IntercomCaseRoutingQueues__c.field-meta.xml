@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IntercomCaseRoutingQueues__c</fullName>
+    <description>Picklist for Intercom Case Routing</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Picklist for Intercom Case Routing</inlineHelpText>
+    <label>Intercom Case Routing Queues</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Partner Management</fullName>
+                <default>false</default>
+                <label>Partner Management</label>
+            </value>
+            <value>
+                <fullName>CPC</fullName>
+                <default>false</default>
+                <label>CPC</label>
+            </value>
+            <value>
+                <fullName>Supplies</fullName>
+                <default>false</default>
+                <label>Supplies</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

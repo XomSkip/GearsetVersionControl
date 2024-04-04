@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>No Response</fullName>
+        <default>false</default>
+        <label>No Response</label>
+    </customValue>
+    <customValue>
+        <fullName>No Bid</fullName>
+        <default>false</default>
+        <label>No Bid</label>
+    </customValue>
+    <customValue>
+        <fullName>Price</fullName>
+        <default>false</default>
+        <label>Price</label>
+    </customValue>
+    <customValue>
+        <fullName>Lead Time</fullName>
+        <default>false</default>
+        <label>Lead Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Concerns</fullName>
+        <default>false</default>
+        <label>Service Concerns</label>
+    </customValue>
+    <customValue>
+        <fullName>Project Canceled</fullName>
+        <default>false</default>
+        <label>Project Canceled</label>
+    </customValue>
+    <customValue>
+        <fullName>Purchasing from Different Opportunity</fullName>
+        <default>false</default>
+        <label>Purchasing from Different Opportunity</label>
+    </customValue>
+    <customValue>
+        <fullName>On-Demand Competition</fullName>
+        <default>false</default>
+        <label>On-Demand Competition</label>
+    </customValue>
+    <customValue>
+        <fullName>Local Competition</fullName>
+        <default>false</default>
+        <label>Local Competition</label>
+    </customValue>
+    <customValue>
+        <fullName>Budgetary</fullName>
+        <default>false</default>
+        <label>Budgetary</label>
+    </customValue>
+    <customValue>
+        <fullName>Late Quote</fullName>
+        <default>false</default>
+        <label>Late Quote</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Made In-House</fullName>
+        <default>false</default>
+        <label>Customer Made In-House</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto-Closed</fullName>
+        <default>false</default>
+        <label>Auto-Closed</label>
+    </customValue>
+    <customValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+    </customValue>
+    <customValue>
+        <fullName>Project on Hold</fullName>
+        <default>false</default>
+        <label>Project on Hold</label>
+    </customValue>
+    <customValue>
+        <fullName>Purchase Order</fullName>
+        <default>false</default>
+        <label>Purchase Order</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit Card</fullName>
+        <default>false</default>
+        <label>Credit Card</label>
+    </customValue>
+    <masterLabel>Sub Stage</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

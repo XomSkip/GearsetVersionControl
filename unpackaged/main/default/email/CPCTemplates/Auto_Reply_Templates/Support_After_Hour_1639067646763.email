@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<table cellpadding="0" cellspacing="0" style="border-spacing: 0 !important;
+    border-collapse: collapse;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;" width="100%">
+	
+		<tr>
+			<td class="hs_padded" style="border-collapse: collapse;
+          mso-line-height-rule: exactly;
+          font-family: Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000000;
+          word-break: break-word;
+          padding: 10px 20px;">
+			<p style="mso-line-height-rule:exactly; font-size:14px; line-height:175%"><span style="font-family: Helvetica, Arial, sans-serif; color: #000000;">Hi&nbsp;</span>{{{Case.SuppliedName}}}<span style="font-family: Helvetica, Arial, sans-serif; color: #000000;">,</span></p>
+
+			<p style="mso-line-height-rule:exactly; font-size:14px; line-height:175%"><span style="font-family: Helvetica, Arial, sans-serif; color: #000000;">Thank you for contacting Xometry! You have submitted a request after our regular business hours of 8 am to 9 pm EST on weekdays.</span></p>
+
+			<p style="mso-line-height-rule:exactly; font-size:14px; line-height:175%"><span style="font-family: Helvetica, Arial, sans-serif; color: #000000;">We will respond to you as soon as humanly possible or on the next business day.</span></p>
+
+			<p style="mso-line-height-rule:exactly; font-size:14px; line-height:175%"><span style="font-family: Helvetica, Arial, sans-serif; color: #000000;">In the meantime please check out our design guides: <a href="https://www.xometry.com/design-guides/" title="https://www.xometry.com/design-guides/">https://www.xometry.com/design-guides/</a></span></p>
+
+			<p style="mso-line-height-rule:exactly; font-size:14px; line-height:175%"><span style="font-family: Helvetica, Arial, sans-serif; color: #000000;">Have an amazing evening!</span></p>
+
+			<p style="mso-line-height-rule:exactly; font-size:14px; line-height:175%"><span style="font-family: Helvetica, Arial, sans-serif; color: #000000;">Xometry Support Team</span></p>
+			</td>
+		</tr>
+	
+</table>
+
+</body></html>

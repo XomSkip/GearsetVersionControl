@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POD_SpaceTechs_Pending</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>CMDFMIssueIndicator__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>OPS_Top_20_Customer__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>NAME</columns>
+    <columns>Recent_Response_Time__c</columns>
+    <columns>Recent_Inbound_Message__c</columns>
+    <columns>CM_SLAResponseTimeRemaining_hrs__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>New,Open,Response Received,Solved,Closed</value>
+    </filters>
+    <filters>
+        <field>Owners_Role__c</field>
+        <operation>equals</operation>
+        <value>CM SpaceTechs,DFM SpaceTechs</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>SpaceTechs</value>
+    </filters>
+    <label>[POD] SpaceTechs Pending</label>
+</ListView>

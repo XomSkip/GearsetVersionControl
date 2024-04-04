@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:18px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi&nbsp;{{{Case.Opportunity_Owner__c}}}<br />
+<br />
+Your customer's quote will require an RFQ.&nbsp; Please inform your customer of their quote {{{Case.Shadow_Xometry_ERP_ID__c}}} will take longer than usual.<br />
+<br />
+Link to the Salesforce Case:&nbsp;{{{Case.GNO_CaseLink__c}}}<br />
+<br />
+<span style="white-space: pre-wrap;">Thank you.</span></span></span><br />
+<br />
+<span style="color:#2980b9;"><span style="font-size:20px;"><b>/************ Partner RFQ Team:&nbsp; There is a new case in your queue ***********************/</b></span></span><br />
+&nbsp;
+</body></html>

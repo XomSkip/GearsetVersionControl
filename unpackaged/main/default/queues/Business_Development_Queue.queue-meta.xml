@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Business Development Queue</name>
+    <queueMembers>
+        <users>
+            <user>asiddiqui@xometry.com</user>
+            <user>briley+moved@xometry.com</user>
+            <user>jhartheimer@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

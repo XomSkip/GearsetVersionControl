@@ -1,0 +1,12 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hello,<br />
+<br />
+Thank you for reaching out! I apologize for the inconvenience. In taking a look at this transaction, it looks like it&nbsp;was&nbsp;declined&nbsp;due to {fill in reason for decline here} when the&nbsp;card&nbsp;was&nbsp;run. You should be able to retry, making sure to enter the {fill in info that was mismatched} just as it shows on the&nbsp;card&nbsp;and have success.<br />
+<br />
+Don't hesitate to reach out if you have any further questions!<br />
+<br />
+Warm regards,
+</body></html>

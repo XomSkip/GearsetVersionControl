@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<style type="text/css"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}-->
+</style>
+Good (blank),<br />
+<br />
+We're terribly sorry to hear that the parts from your recent order are not to the standard you have come to expect from Xometry and look forward to the opportunity to address your concerns. When you have a chance could you provide some additional information, this will allow us to expedite the RMA process as much as possible for a faster resolution:<br />
+- An inspection report or NCR with specific dimensions and nonconforming measurements, and if you could specify the inspection instruments being used.<br />
+- Photos of the parts being measured or showing any nonconforming/missing feature or displaying any visual nonconformance.<br />
+<br />
+Once we have this information we can escalate your request for review and disposition.<br />
+<br />
+Thank you!<br />
+<br />
+<br />
+<strong>{{{Sender.FirstName}}}&nbsp;{{{Sender.LastName}}} | Customer Advocate</strong><br />
+{{{Sender.Email}}} | Direct Number:&nbsp;<br />
+<a href="https://www.xometry.com/">Xometry</a>&nbsp;| Your one-stop shop for manufacturing on demand<br />
+Support Hours: M-F 8:00AM - 10:00PM EST<br />
+<a href="https://support.xometry.com/hc/en-us/requests/new?ticket_form_id=360006164253">Support</a>&nbsp;| Phone:&nbsp;<a href="tel:2402521138">240-252-1138</a></body>
+</html>

@@ -1,0 +1,15 @@
+Greetings,
+
+Thank you for placing your order ({!Case.ShadowXometryOrderID__c}) with Xometry.
+
+Because your parts are being shipped internationally, please provide the following information to reduce the risk of delay at customs during importing. Please keep in mind that a delay in response may cause a delay in shipping your order. Please attempt to provide as much detail as possible to avoid severe delays with customs. The commodity description is a requirement to import goods through US Customs.
+
+Note: Please keep in mind that a delay in response may cause a delay in shipping your order. The commodity description is a requirement to import goods through US Customs for production orders.
+
+{!Case.EUD_EmailTemplateHelper__c}
+
+If possible, please attempt to reply in the format provided to ensure the answers are received. You can also find the status of your order by navigating to your Orders page and clicking on the "Order Summary" button.
+
+
+Regards,
+Xometry Support

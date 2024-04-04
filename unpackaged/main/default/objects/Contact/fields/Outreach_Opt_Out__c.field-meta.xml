@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outreach_Opt_Out__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Adding to separate Email Opt out and Outreach Opt Out</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Opt out of Outreach Content and Sequences</inlineHelpText>
+    <label>Outreach Opt Out</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

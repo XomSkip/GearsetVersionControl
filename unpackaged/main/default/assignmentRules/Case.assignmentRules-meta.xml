@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="utf-8"?><AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Case Assignment Rule</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>Pre_Sales_Engineering_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISNEW()</formula>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Manual Quote Request</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>PSE Case Routing V20</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>Pre_Sales_Engineering_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND 2 AND ((3 AND 4) OR (3 AND 5) OR (4 AND 5) OR 6)</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>CNC Machining:,Sheet Metal:,Sheet Cutting:,Tube Bending:,Tube Cutting:,Stamping:</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>Injection Molding:,Urethane Casting:,Injection Molding Tool:,Die Casting:,Extrusion:</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>HP Multi Jet Fusion:,FDM:,DMLS:,SLS:,SLA:,PolyJet 3D:,Carbon:,Binder Jetting:</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>equals</operation>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>IM_UC_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>Injection Molding:,Urethane Casting:,Injection Molding Tool:,Die Casting:,Plastic Extrusion:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CNC_Sheet_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>CNC Machining:,Sheet Metal:,Sheet Cutting:,Tube Bending:,Tube Cutting:,Stamping:,Extrusion:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Additive_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>HP Multi Jet Fusion:,FDM:,DMLS:,SLS:,SLA:,PolyJet 3D:,Carbon:,Binder Jetting:,LSPc:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Temp_Other_Process</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>Other:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Accounts_Payable</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>EmailMessage.FromAddress</field>
+                <operation>contains</operation>
+                <value>.email.netsuite.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>EmailMessage.ToAddress</field>
+                <operation>equals</operation>
+                <value>work@xometry.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>EmailMessage.Incoming</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>mtopelius@xometry.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>work@xometry.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Subject</field>
+                <operation>equals</operation>
+                <value>[XOM Work] Duplicate job alert!</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>New_Customer_Profile_Credit_Limit_Increa</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Category__c</field>
+                <operation>equals</operation>
+                <value>Credit Applications,Credit Limit Increase</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CPC_RMA_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Web,Internal,W2C - Customer Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Category__c</field>
+                <operation>equals</operation>
+                <value>RMA</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.W2CQuestions_Customer__c</field>
+                <operation>equals</operation>
+                <value>RMA</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CPC_Support</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Case.Description</field>
+                <operation>contains</operation>
+                <value>https://app.drift.com/inboxes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Customer Form</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CPC_PO_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.cpcPOCheckTest__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Internal,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>PartnerOnboardingQueue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Partner Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.W2CQuestions_Partner__c</field>
+                <operation>equals</operation>
+                <value>Partner - Become a Partner,Partner - Test Part</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Partner_Management_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Partner Form</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <formula>TRUE</formula>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>PSE Case Routing V21</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>Pre_Sales_Engineering_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND 2 AND ((3 AND 4) OR (3 AND 5) OR (4 AND 5) OR 6)</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>CNC Machining:,Sheet Metal:,Sheet Cutting:,Tube Bending:,Tube Cutting:,Stamping:</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>Injection Molding:,Urethane Casting:,Injection Molding Tool:,Die Casting:,Extrusion:</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>HP Multi Jet Fusion:,FDM:,DMLS:,SLS:,SLA:,PolyJet 3D:,Carbon:,Binder Jetting:</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>equals</operation>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>IM_UC_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>Injection Molding:,Urethane Casting:,Injection Molding Tool:,Die Casting:,Plastic Extrusion:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CNC_Sheet_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>CNC Machining:,Sheet Metal:,Sheet Cutting:,Tube Bending:,Tube Cutting:,Stamping:,Extrusion:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Additive_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>HP Multi Jet Fusion:,FDM:,DMLS:,SLS:,SLA:,PolyJet 3D:,Carbon:,Binder Jetting:,LSPc:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Temp_Other_Process</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>Other:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Accounts_Payable</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>EmailMessage.FromAddress</field>
+                <operation>contains</operation>
+                <value>.email.netsuite.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>EmailMessage.ToAddress</field>
+                <operation>equals</operation>
+                <value>work@xometry.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>EmailMessage.Incoming</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>mtopelius@xometry.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>work@xometry.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Subject</field>
+                <operation>equals</operation>
+                <value>[XOM Work] Duplicate job alert!</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>New_Customer_Profile_Credit_Limit_Increa</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Category__c</field>
+                <operation>equals</operation>
+                <value>Credit Applications,Credit Limit Increase</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CPC_RMA_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Web,Internal,W2C - Customer Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Category__c</field>
+                <operation>equals</operation>
+                <value>RMA</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.W2CQuestions_Customer__c</field>
+                <operation>equals</operation>
+                <value>RMA</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CPC_Support</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Case.Description</field>
+                <operation>contains</operation>
+                <value>https://app.drift.com/inboxes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Customer Form</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CPC_PO_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.cpcPOCheckTest__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Internal,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>PartnerOnboardingQueue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Partner Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.W2CQuestions_Partner__c</field>
+                <operation>equals</operation>
+                <value>Partner - Become a Partner,Partner - Test Part</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Partner_Management_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Partner Form</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>First_Impressions</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Workcenter</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Report an Issue,Ask a Question</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Quality_Control_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Workcenter</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>VQC</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <formula>TRUE</formula>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>PSE Case Routing V23</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>Pre_Sales_Engineering_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND 2 AND ((3 AND 4) OR (3 AND 5) OR (4 AND 5) OR 6)</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>CNC Machining:,Sheet Metal:,Sheet Cutting:,Tube Bending:,Tube Cutting:,Stamping:</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>Injection Molding:,Urethane Casting:,Injection Molding Tool:,Die Casting:,Extrusion:</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>HP Multi Jet Fusion:,FDM:,DMLS:,SLS:,SLA:,PolyJet 3D:,Carbon:,Binder Jetting:</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>equals</operation>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>IM_UC_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>Injection Molding:,Urethane Casting:,Injection Molding Tool:,Die Casting:,Plastic Extrusion:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CNC_Sheet_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>CNC Machining:,Sheet Metal:,Sheet Cutting:,Tube Bending:,Tube Cutting:,Stamping:,Extrusion:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Additive_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>HP Multi Jet Fusion:,FDM:,DMLS:,SLS:,SLA:,PolyJet 3D:,Carbon:,Binder Jetting:,LSPc:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Temp_Other_Process</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>Other:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Accounts_Payable</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>EmailMessage.FromAddress</field>
+                <operation>contains</operation>
+                <value>.email.netsuite.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>EmailMessage.ToAddress</field>
+                <operation>equals</operation>
+                <value>work@xometry.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>EmailMessage.Incoming</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>mtopelius@xometry.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>work@xometry.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Subject</field>
+                <operation>equals</operation>
+                <value>[XOM Work] Duplicate job alert!</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>New_Customer_Profile_Credit_Limit_Increa</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Category__c</field>
+                <operation>equals</operation>
+                <value>Credit Applications,Credit Limit Increase</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CPC_RMA_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Web,Internal,W2C - Customer Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Category__c</field>
+                <operation>equals</operation>
+                <value>RMA</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.W2CQuestions_Customer__c</field>
+                <operation>equals</operation>
+                <value>RMA</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CPC_Support</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 OR 2 OR (3 AND 4)</booleanFilter>
+            <criteriaItems>
+                <field>Case.Description</field>
+                <operation>contains</operation>
+                <value>https://app.drift.com/inboxes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Customer Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Partner Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.W2CQuestions_Partner__c</field>
+                <operation>equals</operation>
+                <value>Partner - Label Request</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CPC_PO_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.cpcPOCheckTest__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Internal,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Freight_Shipment_Requests</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND 2</booleanFilter>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Partner Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.W2CQuestions_Partner__c</field>
+                <operation>equals</operation>
+                <value>Partner - Freight Request</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>PartnerOnboardingQueue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Partner Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.W2CQuestions_Partner__c</field>
+                <operation>equals</operation>
+                <value>Partner - Become a Partner,Partner - Test Part</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Partner_Management_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Partner Form</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>First_Impressions</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Workcenter</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Report an Issue,Ask a Question</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Quality_Control_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Workcenter</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>VQC</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <formula>TRUE</formula>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>PSE Case Routing V25</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>Pre_Sales_Engineering_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND 2 AND ((3 AND 4) OR (3 AND 5) OR (4 AND 5) OR 6)</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>CNC Machining:,Sheet Metal:,Sheet Cutting:,Tube Bending:,Tube Cutting:,Stamping:</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>Injection Molding:,Urethane Casting:,Injection Molding Tool:,Die Casting:,Extrusion:</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>HP Multi Jet Fusion:,FDM:,DMLS:,SLS:,SLA:,PolyJet 3D:,Carbon:,Binder Jetting:</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>equals</operation>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>IM_UC_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>Injection Molding:,Urethane Casting:,Injection Molding Tool:,Die Casting:,Plastic Extrusion:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CNC_Sheet_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>CNC Machining:,Sheet Metal:,Sheet Cutting:,Tube Bending:,Tube Cutting:,Stamping:,Extrusion:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Additive_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>HP Multi Jet Fusion:,FDM:,DMLS:,SLS:,SLA:,PolyJet 3D:,Carbon:,Binder Jetting:,LSPc:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Temp_Other_Process</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSE Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>ERP Quote,Price Match Request Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Manufacturing_Process__c</field>
+                <operation>contains</operation>
+                <value>Other:</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Accounts_Payable</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>EmailMessage.FromAddress</field>
+                <operation>contains</operation>
+                <value>.email.netsuite.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>EmailMessage.ToAddress</field>
+                <operation>equals</operation>
+                <value>work@xometry.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>EmailMessage.Incoming</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>mtopelius@xometry.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>work@xometry.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Subject</field>
+                <operation>equals</operation>
+                <value>[XOM Work] Duplicate job alert!</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>New_Customer_Profile_Credit_Limit_Increa</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Category__c</field>
+                <operation>equals</operation>
+                <value>Credit Applications,Credit Limit Increase</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CPC_RMA_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Web,Internal,W2C - Customer Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Category__c</field>
+                <operation>equals</operation>
+                <value>RMA</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.W2CQuestions_Customer__c</field>
+                <operation>equals</operation>
+                <value>RMA</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CPC_Support</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 OR 2 OR (3 AND 4)</booleanFilter>
+            <criteriaItems>
+                <field>Case.Description</field>
+                <operation>contains</operation>
+                <value>https://app.drift.com/inboxes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Customer Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Partner Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.W2CQuestions_Partner__c</field>
+                <operation>equals</operation>
+                <value>Partner - Label Request</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CPC_PO_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.cpcPOCheckTest__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Internal,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Freight_Shipment_Requests</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND 2</booleanFilter>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Partner Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.W2CQuestions_Partner__c</field>
+                <operation>equals</operation>
+                <value>Partner - Freight Request</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>PartnerOnboardingQueue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Partner Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.W2CQuestions_Partner__c</field>
+                <operation>equals</operation>
+                <value>Partner - Become a Partner,Partner - Test Part</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Partner_Management_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Partner Form</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Freight_Shipment_Requests</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Workcenter</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Who_In_Pod__c</field>
+                <operation>equals</operation>
+                <value>Freight</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Freight_Shipment_Requests</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Workcenter</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Work_Center_Category__c</field>
+                <operation>equals</operation>
+                <value>I have a freight shipment.</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Quality_Control_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Workcenter</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>VQC</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>First_Impressions</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Workcenter</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.GNO_PODOpsOrder__c</field>
+                <operation>equals</operation>
+                <value>First Impressions</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>SpaceTechs</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Workcenter</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.GNO_PODOpsOrder__c</field>
+                <operation>equals</operation>
+                <value>SpaceTechs</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Automotive</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Workcenter</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.GNO_PODOpsOrder__c</field>
+                <operation>equals</operation>
+                <value>Automotive</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Impodsters</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Workcenter</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.GNO_PODOpsOrder__c</field>
+                <operation>equals</operation>
+                <value>Impodsters</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Atomic_Rocks</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Workcenter</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.GNO_PODOpsOrder__c</field>
+                <operation>equals</operation>
+                <value>Atomic Rocks</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Triple_Threat</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Workcenter</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.GNO_PODOpsOrder__c</field>
+                <operation>equals</operation>
+                <value>Triple Threat</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Additive</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Workcenter</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.GNO_PODOpsOrder__c</field>
+                <operation>equals</operation>
+                <value>Amazing</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>First_Impressions</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Workcenter</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <formula>TRUE</formula>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

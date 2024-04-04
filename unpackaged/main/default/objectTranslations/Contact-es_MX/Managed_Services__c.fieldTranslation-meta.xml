@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicates if this Contact is part of the Managed Services funnel
+Used as a logical filter to pull Contacts in to Outreach (when true) --></help>
+        <label><!-- Managed Services --></label>
+        <name>Managed_Services__c</name>
+    </CustomFieldTranslation>

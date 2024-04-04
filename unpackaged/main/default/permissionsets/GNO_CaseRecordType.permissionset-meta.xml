@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Default GNO Profile Case Record Type to Master and then Assign this Permission Set to Custom Record Types.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>GNO Assigned Case Record Type</label>
+    <license>Salesforce</license>
+</PermissionSet>

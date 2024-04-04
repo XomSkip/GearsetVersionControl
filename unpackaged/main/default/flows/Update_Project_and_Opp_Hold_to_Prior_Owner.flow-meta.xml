@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <description>Triggered by Traction Opportunity Flow. Update Project and Opp Hold to Prior Owner</description>
+    <environments>Default</environments>
+    <interviewLabel>Update Project and Opp Hold to Prior Owner {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Project and Opp Hold to Prior Owner</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_All_Related_Opps_Hold_Opp_to_Prior_Owner</name>
+        <label>Update All Related Opps Hold Opp to Prior Owner</label>
+        <locationX>308</locationX>
+        <locationY>528</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Project__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Project__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Hold_Op_to_Prior_Owner__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Opp_Hold_to_Prior_Owner</name>
+        <label>Update Opp Hold to Prior Owner</label>
+        <locationX>308</locationX>
+        <locationY>408</locationY>
+        <connector>
+            <targetReference>Update_All_Related_Opps_Hold_Opp_to_Prior_Owner</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Hold_Op_to_Prior_Owner__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Project_Hold_to_Prior_Owner</name>
+        <label>Update Project Hold to Prior Owner</label>
+        <locationX>308</locationX>
+        <locationY>288</locationY>
+        <connector>
+            <targetReference>Update_Opp_Hold_to_Prior_Owner</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Hold_Project_to_Prior_Owner__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Project__r</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Opportunity_Owner_Role__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>IM BDM</stringValue>
+            </value>
+        </filters>
+        <object>Opportunity</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <name>Delayed_1_Minute</name>
+            <connector>
+                <targetReference>Update_Project_Hold_to_Prior_Owner</targetReference>
+            </connector>
+            <label>Delayed 1 Minute</label>
+            <offsetNumber>2</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

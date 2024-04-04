@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Hubspot&apos;s ID for the Contact. Used during initial data load. --></help>
+        <label><!-- HS Contact ID --></label>
+        <name>Hubspot_contactid_mvp_load__c</name>
+    </CustomFieldTranslation>

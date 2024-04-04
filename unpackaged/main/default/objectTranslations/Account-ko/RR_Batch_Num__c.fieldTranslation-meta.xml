@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Round Robin batch number that this record went through --></help>
+        <label><!-- RR - Batch Number --></label>
+        <name>RR_Batch_Num__c</name>
+    </CustomFieldTranslation>

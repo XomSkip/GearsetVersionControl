@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Target 2023 for Reporting and Automaton. --></help>
+        <label><!-- Account Hierarchy Target 2023 --></label>
+        <name>AccountHierarchyTarget2023__c</name>
+    </CustomFieldTranslation>

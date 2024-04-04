@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>House_Pool</fullName>
+    <columns>Priority_Score__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Project__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Top_Account_Owner__c</field>
+        <operation>equals</operation>
+        <value>Success Team</value>
+    </filters>
+    <filters>
+        <field>Top_Level_House__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Closed Lost,Closed Won</value>
+    </filters>
+    <label>Success Team Pool</label>
+    <sharedTo>
+        <role>Administrator</role>
+        <roleAndSubordinates>Executive_Leadership</roleAndSubordinates>
+    </sharedTo>
+</ListView>

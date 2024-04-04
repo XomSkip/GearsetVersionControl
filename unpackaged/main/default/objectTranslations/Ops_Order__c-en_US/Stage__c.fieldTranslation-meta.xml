@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Complete</masterLabel>
+            <translation><!-- Partially Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reopened by Job</masterLabel>
+            <translation><!-- Reopened by Job --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reopened by Updated Order</masterLabel>
+            <translation><!-- Reopened by Updated Order --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

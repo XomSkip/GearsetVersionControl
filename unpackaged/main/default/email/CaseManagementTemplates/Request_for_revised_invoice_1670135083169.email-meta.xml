@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Upon revisions made, a copy of the revised invoice needs to be sent to the customer</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Request for revised invoice</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Revised Invoice requested</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Automation_by_System_Only</fullName>
+    <active>true</active>
+    <description>Cases can only have a Resource Category of Automation when closed by the system.</description>
+    <errorConditionFormula>AND( $Profile.Name  &lt;&gt; 'System Administrator',( ISPICKVAL( Resource_Category__c , 'Automation Canceled') &amp;&amp;  ISCHANGED( Resource_Category__c) )) 
+
+ &amp;&amp; !$Permission.Ignore_All_VR</errorConditionFormula>
+    <errorMessage>Automation Reason is for system only. Select a different reason.</errorMessage>
+</ValidationRule>

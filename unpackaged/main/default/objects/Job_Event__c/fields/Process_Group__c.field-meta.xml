@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_Group__c</fullName>
+    <externalId>false</externalId>
+    <label>Process Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Additive Only</fullName>
+                <default>false</default>
+                <label>Additive Only</label>
+            </value>
+            <value>
+                <fullName>Subtractive Only</fullName>
+                <default>false</default>
+                <label>Subtractive Only</label>
+            </value>
+            <value>
+                <fullName>Subtractive Only or Mixed</fullName>
+                <default>false</default>
+                <label>Subtractive Only or Mixed</label>
+            </value>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

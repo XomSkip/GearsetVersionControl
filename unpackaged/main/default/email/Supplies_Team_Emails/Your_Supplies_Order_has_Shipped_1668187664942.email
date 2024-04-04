@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hello,<br />
+<br />
+Your order #XXXXXXX for Job ID #XXXXXXX (include if applicable) is scheduled to ship today.
+<ul>
+	<li>We will provide you with tracking information as soon as we get it from the vendor.</li>
+	<li>According to the ship schedule, this is shipping &lt;late or on-time&gt;
+	<ul>
+		<li>If late, we show that this is X days late and we are adjusting the due date of your job by X days in order to account for the delay.</li>
+	</ul>
+	</li>
+</ul>
+<br />
+&nbsp;If you have any issues or concerns please reply back to this message and let us know.&nbsp;<br />
+<br />
+Thank you,<br />
+<br />
+Supplies Team<br />
+&nbsp;</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CaseContactOwnerID__c</fullName>
+    <description>Salesforce ID for Case's Contact Owner.  This is used in Flow.</description>
+    <externalId>false</externalId>
+    <formula>Contact.OwnerId</formula>
+    <inlineHelpText>Salesforce ID for Case's Contact Owner.  This is used in Flow.</inlineHelpText>
+    <label>CaseContactOwnerID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

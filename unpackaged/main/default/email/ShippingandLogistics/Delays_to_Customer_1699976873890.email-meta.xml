@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Generic Reach out to Customer re: Delay</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Delays to Customer</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Order #  / PO #</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

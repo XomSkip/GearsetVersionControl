@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POD_Triple_Threat_Unassigned_Queue</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CMDFMIssueIndicator__c</columns>
+    <columns>OPS_Top_20_Customer__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>IsPartnerSupplier__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>NAME</columns>
+    <columns>Recent_Response_Time__c</columns>
+    <columns>Recent_Inbound_Message__c</columns>
+    <columns>CM_SLAResponseTimeRemaining_hrs__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Done,Solved,Closed</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Triple Threat</value>
+    </filters>
+    <label>[POD] Triple Threat Unassigned Queue</label>
+    <sharedTo>
+        <role>CMTripleThreat</role>
+        <role>DFMTripleThreat</role>
+        <role>Service_Leadership</role>
+    </sharedTo>
+</ListView>

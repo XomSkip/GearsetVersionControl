@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSE_Case_Stays_PSE_Record_Type</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+!IsFlow__c, 
+PRIORVALUE(RecordTypeId) = '0123u000000ixWP',
+RecordType.Id != '0123u000000ixWP',
+$Profile.Name!='System Administrator',
+!$Permission.Ignore_All_VR)</errorConditionFormula>
+    <errorMessage>PSE Cases Record Type is only used for Manual Quoting Process. If you need PO Processing, please create a new General Support case. PSE engineer can use Send Stalled PO Case to CPC Team outcome option to send to CPC. Sales users never own PO Process Case.</errorMessage>
+</ValidationRule>

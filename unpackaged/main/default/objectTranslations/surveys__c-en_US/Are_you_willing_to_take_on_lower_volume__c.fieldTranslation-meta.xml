@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Are you willing to take on lower volume --></label>
+        <name>Are_you_willing_to_take_on_lower_volume__c</name>
+    </CustomFieldTranslation>

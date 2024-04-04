@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Order is Past Due --></label>
+        <name>Order_is_Past_Due__c</name>
+    </CustomFieldTranslation>

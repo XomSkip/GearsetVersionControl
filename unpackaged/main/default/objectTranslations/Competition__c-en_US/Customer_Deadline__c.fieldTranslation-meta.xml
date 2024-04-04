@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- When does the customer need their parts by? --></help>
+        <label><!-- Customer Deadline --></label>
+        <name>Customer_Deadline__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>First email for a +10k job as per First Impressions SOP. Partner orders with a job accepted value of 15 K and over will need to be made with a call.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Partner: +10k Initial Reach Out</name>
+    <style>none</style>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

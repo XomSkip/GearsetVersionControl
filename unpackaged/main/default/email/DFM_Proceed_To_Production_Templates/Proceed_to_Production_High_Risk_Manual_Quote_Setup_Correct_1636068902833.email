@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hello,</p>
+
+<p>Thank you for placing this order with Xometry. We are proceeding with DFM Engineering approval and are moving your parts into production queue now.<br />
+<br />
+In completing our secondary DFM review to make sure the project will go smoothly, we noticed some areas of concern. We have reviewed these details with the members of our quoting team involved in planning to ensure we are proceeding to the proper scope, but want to be transparent that these are high-risk parts because **INSERT RATIONALE (TOLERANCES/MACHINE NEEDS)**<br />
+<br />
+**ADD IMAGES THAT HIGHLIGHT CONCERN AREAS OF EACH EXAMPLE IF APPLICABLE**<br />
+<br />
+We appreciate your understanding as we proceed to queueing these for production, and will be in touch if needed within 48 hours should we have any barriers to production due to manufacturability. If you have any questions or want to discuss a revision that might obviate the concerns noted please do not hesitate to reach out.&nbsp;</p>
+
+<p><br />
+Thank you,<br />
+&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FirstQuoterUser__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>If the first quoter is staff this field will be mapped to the user</description>
+    <externalId>false</externalId>
+    <label>First Quoter User</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Quotes_ERP1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

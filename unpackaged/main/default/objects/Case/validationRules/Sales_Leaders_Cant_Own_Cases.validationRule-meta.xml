@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Leaders_Cant_Own_Cases</fullName>
+    <active>true</active>
+    <description>Prevents Cases from being assigned to one of these specific Sales Leaders and Inactive users.</description>
+    <errorConditionFormula>AND(ISCHANGED(OwnerId),
+
+OR(
+Owner:User.Full_Name__c = 'Kathy Mayerhofer',
+Owner:User.Full_Name__c = 'Melissa Wainer',
+Owner:User.Full_Name__c = 'Jeff Klein',
+ Owner:User.IsActive = False
+),
+
+!$Permission.SalesCase,
+!$Permission.Ignore_All_VR)</errorConditionFormula>
+    <errorMessage>The chosen Owner cannot own Cases. The Opp Owner maybe deactivated.</errorMessage>
+</ValidationRule>

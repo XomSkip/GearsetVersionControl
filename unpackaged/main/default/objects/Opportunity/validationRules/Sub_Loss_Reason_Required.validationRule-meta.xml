@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Loss_Reason_Required</fullName>
+    <active>false</active>
+    <description>Certain Loss Reasons require a sub loss reason.</description>
+    <errorConditionFormula>OR(
+ AND(ISPICKVAL( Loss_Reason__c , 'Competition'),
+ ISBLANK( TEXT(Sub_Loss_Reason__c ))),
+ AND(ISPICKVAL( Loss_Reason__c , 'No Bid'),
+ ISBLANK( TEXT(Sub_Loss_Reason__c ))),
+ AND(ISPICKVAL( Loss_Reason__c , 'Service Concerns'),
+ ISBLANK(  TEXT(Sub_Loss_Reason__c )))
+)
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Opp_VR</errorConditionFormula>
+    <errorMessage>The Loss Reason you have selected requires a Sub Loss Reason. Please Select the Sub Loss Reason from the dropdown.</errorMessage>
+</ValidationRule>

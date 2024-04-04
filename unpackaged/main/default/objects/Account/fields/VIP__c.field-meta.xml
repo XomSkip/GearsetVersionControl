@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VIP__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>VIP Account's Case will be set to High Priority on Creation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Diamond Tier Account</inlineHelpText>
+    <label>VIP</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

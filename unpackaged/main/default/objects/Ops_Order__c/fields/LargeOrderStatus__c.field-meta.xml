@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LargeOrderStatus__c</fullName>
+    <externalId>false</externalId>
+    <label>Large Order Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DFM-Pending Review</fullName>
+                <default>false</default>
+                <label>DFM-Pending Review</label>
+            </value>
+            <value>
+                <fullName>DFM-Review Complete</fullName>
+                <default>false</default>
+                <label>DFM-Review Complete</label>
+            </value>
+            <value>
+                <fullName>Job(s) Pending Technical Review</fullName>
+                <default>false</default>
+                <label>Job(s) Pending Technical Review</label>
+            </value>
+            <value>
+                <fullName>Large Order Review Process Complete</fullName>
+                <default>false</default>
+                <label>Large Order Review Process Complete</label>
+            </value>
+            <value>
+                <fullName>DFM Initial Review Complete</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DFM Initial Review Complete</label>
+            </value>
+            <value>
+                <fullName>DFM LOR Complete</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DFM LOR Complete</label>
+            </value>
+            <value>
+                <fullName>Job(s) Accepted</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Job(s) Accepted</label>
+            </value>
+            <value>
+                <fullName>Job(s) Pushed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Job(s) Pushed</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Order Placed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Order Placed</label>
+            </value>
+            <value>
+                <fullName>Tech Review (MPC) Complete</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tech Review (MPC) Complete</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

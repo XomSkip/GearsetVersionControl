@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Future_Dated_Event__c</fullName>
+    <externalId>false</externalId>
+    <formula>Activity_Date_z__c &gt;  DATEVALUE( CreatedDate )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Future Dated Event</label>
+    <type>Checkbox</type>
+</CustomField>

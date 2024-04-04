@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Users_Cant_Own_Cases</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISNEW() || ISCHANGED(OwnerId)) &amp;&amp;
+
+(
+Owner:User.UserRole.Name = "Sales Leadership" ||
+Owner:User.UserRole.Name = "Sales Operations" ||
+Owner:User.UserRole.Name = "TSE" ||
+Owner:User.UserRole.Name = "AE-I" ||
+Owner:User.UserRole.Name = "AE-II" ||
+Owner:User.UserRole.Name = "AE-III" ||
+Owner:User.UserRole.Name = "BDR" ||
+Owner:User.UserRole.Name = "CSAM" ||
+Owner:User.UserRole.Name = "EAM" ||
+Owner:User.UserRole.Name = "CSS" ||
+Owner:User.UserRole.Name = "EBDR" ||
+Owner:User.UserRole.Name = "EDM" ||
+Owner:User.UserRole.Name = "EGR" ||
+Owner:User.UserRole.Name = "IMS" ||
+Owner:User.UserRole.Name = "SAE" ||
+Owner:User.UserRole.Name = "SAM" ||
+Owner:User.UserRole.Name = "SDR" ||
+Owner:User.UserRole.Name = "VMS"
+)
+
+&amp;&amp; !ISPICKVAL(Category__c,"Auto Quote Review")
+&amp;&amp; !ISPICKVAL(Category__c,"Network Capabilities")
+&amp;&amp; !ISPICKVAL(Category__c,"PO Escalation Sales")
+&amp;&amp; !ISPICKVAL(Category__c,"Request for RFQ")
+&amp;&amp; !ISPICKVAL(Category__c,"PO")
+
+&amp;&amp; $User.User_Role_Name__c = "Service"
+
+&amp;&amp; !$Permission.SalesCase
+&amp;&amp; !$Permission.Ignore_All_VR</errorConditionFormula>
+    <errorMessage>Sales users cannot be assigned this Case. Please consult your manager.</errorMessage>
+</ValidationRule>

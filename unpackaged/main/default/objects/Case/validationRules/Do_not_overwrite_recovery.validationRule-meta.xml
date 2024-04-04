@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_not_overwrite_recovery</fullName>
+    <active>true</active>
+    <errorConditionFormula>RecordType.Name ='Sourcing'&amp;&amp;
+ISCHANGED(RecoveryTimeStamp__c) &amp;&amp; 
+NOT(ISNULL( PRIORVALUE( RecoveryTimeStamp__c )))&amp;&amp;$Permission.Ignore_All_VR =FALSE</errorConditionFormula>
+    <errorMessage>Cannot update recovery time on a case already in recovery</errorMessage>
+</ValidationRule>

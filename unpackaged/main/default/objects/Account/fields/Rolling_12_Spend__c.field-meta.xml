@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rolling_12_Spend__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Rolling 12 months spend for the Account. For example, If  the date is March 2019 the rolling 12 month spend would be all won Opportunities through April 2018 through today.</inlineHelpText>
+    <label>Rolling 12 Spend</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

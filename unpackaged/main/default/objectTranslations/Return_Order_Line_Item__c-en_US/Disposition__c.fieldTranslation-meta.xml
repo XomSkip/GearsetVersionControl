@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Disposition --></label>
+        <name>Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Not RMA</masterLabel>
+            <translation><!-- Not RMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA</masterLabel>
+            <translation><!-- RMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undetermined</masterLabel>
+            <translation><!-- Undetermined --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

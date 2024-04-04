@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_RFQ__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checked by Traction Case flow when a new RFQ case has been created only for "House" owned Contacts. 
+BDR Pool, CPC House Owned Contacts Only!</description>
+    <externalId>false</externalId>
+    <label>New RFQ</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This will be used to handle downstream changes when an object higher in the hierarchy changes.</description>
+    <eventType>HighVolume</eventType>
+    <label>Downstream Event</label>
+    <pluralLabel>Downstream Events</pluralLabel>
+    <publishBehavior>PublishAfterCommit</publishBehavior>
+</CustomObject>

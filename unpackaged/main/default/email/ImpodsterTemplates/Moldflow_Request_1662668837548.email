@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:11.0pt"><span style="font-family:Calibri">Anything in red is required. Anything in yellow is optional.</span></span>
+<ol style="unicode-bidi:embed; font-family:Calibri; font-size:11.0pt; font-weight:normal; font-style:normal" type="1">
+	<li style="vertical-align:middle" value="1"><span style="font-size:11.0pt"><span style="font-family:Calibri"><span style="font-weight:normal"><span style="font-style:normal">Attach the </span></span></span></span><span style="font-size:11.0pt"><span style="background:red"><span style="font-family:Calibri"><span style="font-weight:normal"><span style="font-style:normal">Model </span></span></span></span></span><span style="font-size:11.0pt"><span style="font-family:Calibri"><span style="font-weight:normal"><span style="font-style:normal">and </span></span></span></span><span style="font-size:11.0pt"><span style="background:yellow"><span style="font-family:Calibri"><span style="font-weight:normal"><span style="font-style:normal">Print</span></span></span></span></span></li>
+	<li style="vertical-align:middle"><span style="font-size:11.0pt"><span style="background:red"><span style="font-family:Calibri">Material</span></span></span></li>
+	<li style="vertical-align:middle"><span style="font-size:11.0pt"><span style="font-family:Calibri">WHAT IS YOUR REASON FOR A MOLDFLOW (What are you most concerned about, filling, flashing, warping, voids, etc.</span></span></li>
+	<li style="vertical-align:middle"><span style="font-size:11.0pt"><span style="background:red"><span style="font-family:Calibri">Gating and Runner information(*VQC SHOULD CONTAIN THIS INFORMATION, </span></span></span><span style="font-size:11.0pt"><span style="font-family:Calibri">if this is something you would like advice on, be sure to request it, Moldflow has simple reports for Gating Optimization)</span></span></li>
+	<li style="vertical-align:middle"><span style="font-size:11.0pt"><span style="background:yellow"><span style="font-family:Calibri">Send Mold file if you have it. The following can be pulled.</span></span></span><span style="font-size:11.0pt"><span style="font-family:Calibri"> (Optional) Keep in mind increased setup can cost more)</span></span>
+	<ol style="unicode-bidi:embed; font-family:Calibri; font-size:11.0pt; font-weight:normal; font-style:normal" type="1">
+		<li style="vertical-align:middle" value="1"><span style="font-size:11.0pt"><span style="font-family:Calibri"><span style="font-weight:normal"><span style="font-style:normal">Water line</span></span></span></span></li>
+		<li style="vertical-align:middle"><span style="font-size:11.0pt"><span style="font-family:Calibri">Venting</span></span></li>
+		<li style="vertical-align:middle"><span style="font-size:11.0pt"><span style="font-family:Calibri">Ejection</span></span></li>
+		<li style="vertical-align:middle"><span style="font-size:11.0pt"><span style="font-family:Calibri">Gating and Runner information</span></span></li>
+	</ol>
+	</li>
+	<li style="vertical-align:middle"><span style="font-size:11.0pt"><span style="background:yellow"><span style="font-family:Calibri">Machine and Process Information</span></span></span><span style="font-size:11.0pt"><span style="font-family:Calibri"> (Optional if a post molding study, fill out process sheet)</span></span></li>
+	<li style="vertical-align:middle"><span style="font-size:11.0pt"><span style="background:yellow"><span style="font-family:Calibri">Dimensional Results</span></span></span><span style="font-size:11.0pt"><span style="font-family:Calibri"> (Optional, useful in conjunction with steel data to recreate a molding situation)</span></span></li>
+	<li style="vertical-align:middle"><span style="font-size:11.0pt"><span style="background:yellow"><span style="font-family:Calibri">Pictures/Samples of molded parts</span></span></span></li>
+	<li style="vertical-align:middle"><span style="font-size:11.0pt"><span style="background:yellow"><span style="font-family:Calibri">Any SIM that was completed</span></span></span><span style="font-size:11.0pt"><span style="font-family:Calibri"> (Optional - See SIM section of Appendix (*HAVEN’T ADDED YET)</span></span></li>
+</ol>
+<span style="font-size:11.0pt"><span style="font-family:Calibri">Studies to request</span></span>
+
+<ol style="unicode-bidi:embed; font-family:Calibri; font-size:11.0pt; font-weight:normal; font-style:normal" type="1">
+	<li style="vertical-align:middle" value="1"><span style="font-size:11.0pt"><span style="font-family:Calibri"><span style="font-weight:normal"><span style="font-style:normal">Gating Optimization (Need only CAD, not specific to material or mold )</span></span></span></span></li>
+	<li style="vertical-align:middle"><span style="font-size:11.0pt"><span style="font-family:Calibri">Molding Window ( NEED CAD, Material, Gating location)</span></span></li>
+	<li style="vertical-align:middle"><span style="font-size:11.0pt"><span style="font-family:Calibri">Fill only (NEED CAD, Material, Gating location)</span></span></li>
+	<li style="vertical-align:middle"><span style="font-size:11.0pt"><span style="font-family:Calibri">Fill &amp; Pack (NEED CAD, Material, Gating location)</span></span></li>
+	<li style="vertical-align:middle"><span style="font-size:11.0pt"><span style="font-family:Calibri">Fill, Pack, Cool (NEED CAD, Material, Gating location – Will have Moldflow select times unless supplied)</span></span></li>
+	<li style="margin-bottom:11px; vertical-align:middle"><span style="font-size:11.0pt"><span style="font-family:Calibri">Fill, Pack, Cool, ***Warp (NEED CAD, Material, Gating location, Processing Info, Press Info)</span></span></li>
+</ol>
+<span style="font-size:11.0pt"><span style="font-family:Calibri">***Warp studies aren’t accurate unless all the information put into the simulation is accurate. Even then, there is room for error and a lot of assumptions. ***</span></span></body>
+</html>

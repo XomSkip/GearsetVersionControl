@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CurrentlyExpired__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates that a part is currently in an Expired status</description>
+    <externalId>false</externalId>
+    <label>Currently Expired</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

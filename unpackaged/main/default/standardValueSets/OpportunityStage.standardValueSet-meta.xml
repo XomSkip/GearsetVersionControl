@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>1</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <label>Open</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>1</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Initial Engagement</fullName>
+        <default>false</default>
+        <description>Opp Created, First Contact</description>
+        <label>Initial Engagement</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>80</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualification</fullName>
+        <default>false</default>
+        <description>You&apos;ve contacted the prospect and they&apos;re interested.</description>
+        <label>Qualification</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>10</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Proposal</fullName>
+        <default>false</default>
+        <description>You&apos;re developing a sales proposal for the prospect.</description>
+        <label>Proposal</label>
+        <closed>false</closed>
+        <forecastCategory>BestCase</forecastCategory>
+        <probability>75</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Negotiation / Revision</fullName>
+        <default>false</default>
+        <label>Negotiation / Revision</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>90</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Payment</fullName>
+        <default>false</default>
+        <label>Pending Payment</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>95</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Rep Won - Pending Int</fullName>
+        <default>false</default>
+        <description>This is a new value for SupplyFlexProgram when Sales rep determines the opp won but waiting on system integration catch up for orders.</description>
+        <label>Rep Won - Pending Int</label>
+        <closed>false</closed>
+        <forecastCategory>Forecast</forecastCategory>
+        <probability>95</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+        <description>No sale.</description>
+        <label>Closed Lost</label>
+        <closed>true</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+        <description>Sold!</description>
+        <label>Closed Won</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>100</probability>
+        <won>true</won>
+    </standardValue>
+    <standardValue>
+        <fullName>System Reopened</fullName>
+        <default>false</default>
+        <description>This stage occurs when a Quote comes in for an opportunity that was closed by the rep.</description>
+        <label>System Reopened</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>5</probability>
+        <won>false</won>
+    </standardValue>
+</StandardValueSet>

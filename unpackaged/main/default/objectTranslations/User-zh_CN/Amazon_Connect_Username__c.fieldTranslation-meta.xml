@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Matching Username as provisioned through the AWS API for Amazon Connect --></help>
+        <label><!-- Amazon Connect Username --></label>
+        <name>Amazon_Connect_Username__c</name>
+    </CustomFieldTranslation>

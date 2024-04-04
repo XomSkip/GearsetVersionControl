@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MarketplaceProfileCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>Supplies_Last_Opp_Owner__c</fields>
+    <fields>P21_Account_Details__c</fields>
+    <fields>Email</fields>
+    <fields>Phone</fields>
+    <label>Marketplace Profile Compact Layout</label>
+</CompactLayout>

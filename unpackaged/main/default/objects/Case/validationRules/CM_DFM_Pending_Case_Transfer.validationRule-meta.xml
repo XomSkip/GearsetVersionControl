@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CM_DFM_Pending_Case_Transfer</fullName>
+    <active>true</active>
+    <description>Cannot transfer ownership of a CM/DFM case in the pending/solved/closed status.</description>
+    <errorConditionFormula>AND(OR(ISPICKVAL( Status , 'Pending'),ISPICKVAL( Status , 'Solved'),ISPICKVAL( Status , 'Closed')),ISCHANGED( OwnerId ),
+OR(RecordType.Name ='Case Mgmt',RecordType.Name ='DFM Case',RecordType.Name ='General Support Case',RecordType.Name ='Partner Management',RecordType.Name ='VQC Case',RecordType.Name ='Sourcing'),$Permission.Ignore_All_VR =FALSE, $Permission.CanTransferClosedCase=FALSE )</errorConditionFormula>
+    <errorMessage>You can not transfer a case in the PENDING, SOLVED, or CLOSED status. Please change the status and then change the case owner.</errorMessage>
+</ValidationRule>

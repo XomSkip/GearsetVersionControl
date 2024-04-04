@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupingStringEnum>ContractStatusCode</groupingStringEnum>
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New/Prospecting</fullName>
+        <default>false</default>
+        <label>New/Prospecting</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Engaged</fullName>
+        <default>false</default>
+        <label>Engaged</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Agreement on Scope</fullName>
+        <default>false</default>
+        <label>Agreement on Scope</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Presentation</fullName>
+        <default>false</default>
+        <label>Presentation</label>
+        <groupingString>InApproval</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Negotiation</fullName>
+        <default>false</default>
+        <label>Negotiation</label>
+        <groupingString>InApproval</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>In Approval Process</fullName>
+        <default>false</default>
+        <label>In Approval Process</label>
+        <groupingString>InApproval</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Lost</fullName>
+        <default>false</default>
+        <label>Lost</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Won</fullName>
+        <default>false</default>
+        <label>Won</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+</StandardValueSet>

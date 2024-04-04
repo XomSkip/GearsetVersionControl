@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<style type="text/css"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}-->
+</style>
+Hi,<br />
+<br />
+We just wanted to alert you that the customer for order / job has shipped the parts back to your facility. They rejected the parts due to . I have included the documentation they provided when they requested a refund, and the parts arrived today via FedEx . Due to this your PO for this job has been reduced/cancelled . If you have any questions regarding this RMA please let us know, have a good rest of your day.<br />
+<br />
+<br />
+<strong>{{{Sender.FirstName}}}&nbsp;{{{Sender.LastName}}} | Customer Advocate</strong><br />
+{{{Sender.Email}}} | Direct Number:&nbsp;<br />
+<a href="https://www.xometry.com/">Xometry</a>&nbsp;| Your one-stop shop for manufacturing on demand<br />
+Support Hours: M-F 8:00AM - 10:00PM EST<br />
+<a href="https://support.xometry.com/hc/en-us/requests/new?ticket_form_id=360006164253">Support</a>&nbsp;| Phone:&nbsp;<a href="tel:2402521138">240-252-1138</a></body>
+</html>

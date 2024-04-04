@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Projects</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Enterprise Offering Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Project Details --></label>
+            <section>Project Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Project Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Project Details --></label>
+            <section>Project Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Project Layout - Temp 2022-11-04</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Project Details --></label>
+            <section>Project Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Engage TSE --></label>
+        <name>Engage_TSE</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Price Match/Competition --></label>
+        <name>Price_Match_Competition</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Uncheck Hold --></label>
+        <name>Uncheck_Hold</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Project --></label>
+        <name>Update_Project</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Project record type for Enterprise offerings such as Punchout, MSA, SOW etc --></description>
+        <label><!-- Enterprise Offering --></label>
+        <name>Enterprise_Offering</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 3D --></label>
+        <name>X3D</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- For Projects in Initial Engagement: Close Date and Type are required --></errorMessage>
+        <name>Initial_Engagement_Requirements</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For Projects in Negotiation / Revision and Pending Payment: Close Date, Type and Amount are all required (and Amount can not be 0) --></errorMessage>
+        <name>NR_and_PP_Requirements</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- In order to put the Stage into Pending Payment, the Close Date must be within 14 days from today. --></errorMessage>
+        <name>Pending_Requirements</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Merge_Project --></label>
+        <name>Merge_Project</name>
+    </webLinks>
+</CustomObjectTranslation>

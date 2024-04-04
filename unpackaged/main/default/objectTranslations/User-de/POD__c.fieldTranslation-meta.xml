@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- POD --></label>
+        <name>POD__c</name>
+        <picklistValues>
+            <masterLabel>Atomic Rocks</masterLabel>
+            <translation><!-- Atomic Rocks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automotive</masterLabel>
+            <translation><!-- Automotive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Impressions</masterLabel>
+            <translation><!-- First Impressions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Impodsters</masterLabel>
+            <translation><!-- Impodsters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SpaceTechs</masterLabel>
+            <translation><!-- SpaceTechs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Triple Threat</masterLabel>
+            <translation><!-- Triple Threat --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

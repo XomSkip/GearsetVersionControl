@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HS_Company_Link__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( NOT(ISBLANK( hubspot_companyid_mvp_load_c__c )) , HYPERLINK("https://app.hubspot.com/contacts/340051/company/"+ hubspot_companyid_mvp_load_c__c,"Go to this Company in Hubspot", "_blank"), "No Hubspot Company from MVP Load")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>HS Company Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

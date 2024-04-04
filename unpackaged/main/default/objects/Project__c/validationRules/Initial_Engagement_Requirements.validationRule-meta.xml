@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Initial_Engagement_Requirements</fullName>
+    <active>false</active>
+    <errorConditionFormula>RecordType.Name = "3D" &amp;&amp;
+
+ISPICKVAL(Stage__c,"Initial Engagement") &amp;&amp;
+
+(
+ ISBLANK(Close_Date__c) ||
+ ISPICKVAL(Type__c,"")
+)
+
+&amp;&amp; !ISCHANGED(Manager_Notes__c)
+&amp;&amp; NOT(isAmountUpdatedFromOpp__c)
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Opp_VR</errorConditionFormula>
+    <errorMessage>For Projects in Initial Engagement: Close Date and Type are required</errorMessage>
+</ValidationRule>

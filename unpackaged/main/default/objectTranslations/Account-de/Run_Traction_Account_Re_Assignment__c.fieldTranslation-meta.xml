@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Run Traction Account Re-Assignment --></label>
+        <name>Run_Traction_Account_Re_Assignment__c</name>
+    </CustomFieldTranslation>

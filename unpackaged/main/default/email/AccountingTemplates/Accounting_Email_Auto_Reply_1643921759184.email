@@ -1,0 +1,16 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hi {{{Case.SuppliedName}}},<br />
+<br />
+Thank you for contacting Xometry!<br />
+<br />
+Our team is reviewing your email and will provide a resolution shortly.</p>
+
+<p>If this is an urgent matter, please contact our office at&nbsp;240.203.6253&nbsp;so that we can immediately address your concerns - we are here to assist you.</p>
+
+<p>Thank you,<br />
+Xometry Accounting</p>
+
+</body></html>

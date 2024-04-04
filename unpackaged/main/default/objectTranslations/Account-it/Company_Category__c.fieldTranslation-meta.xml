@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Small Business (&lt;25)
+SMB (25-300)
+Mid Market (300-2K)
+General Business (2K-10K)
+Enterprise (+10K)
+Strategic Enterprise (+$10B) --></help>
+        <label><!-- Company Category --></label>
+        <name>Company_Category__c</name>
+    </CustomFieldTranslation>

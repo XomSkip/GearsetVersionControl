@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_For_Parts__c</fullName>
+    <description>Question: What price for these parts would make you want to work with us? on CNC Form</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What price for these parts would make you want to work with us?</inlineHelpText>
+    <label>What price for these parts to use Xom?</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

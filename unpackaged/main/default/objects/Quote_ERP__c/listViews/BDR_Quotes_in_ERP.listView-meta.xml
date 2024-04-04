@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDR_Quotes_in_ERP</fullName>
+    <columns>NAME</columns>
+    <columns>Xometry_ERP_ID__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Account_Domain__c</columns>
+    <columns>ERP_Contact_Last_Name__c</columns>
+    <columns>ERP_Status__c</columns>
+    <columns>Last_Lead_Activity_AM__c</columns>
+    <columns>Manufacturing_Process__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>Quote_Type__c</columns>
+    <columns>Lead_Next_Activity_Date_AM__c</columns>
+    <columns>Next_Contact_Activity_AM__c</columns>
+    <columns>Quote_Price__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>Abbie,Corey,Joe,Nathan,Samantha,Trey</value>
+    </filters>
+    <filters>
+        <field>Last_Lead_Activity_AM__c</field>
+        <operation>lessOrEqual</operation>
+        <value>LAST_WEEK</value>
+    </filters>
+    <filters>
+        <field>ERP_Status__c</field>
+        <operation>notEqual</operation>
+        <value>In Progress,Shipped</value>
+    </filters>
+    <filters>
+        <field>Account_Domain__c</field>
+        <operation>notContain</operation>
+        <value>@gmail.com; @yahoo.com</value>
+    </filters>
+    <label>BDR Quotes in ERP</label>
+    <sharedTo>
+        <role>BDR</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <description>CM/DFM Team Returned Quote</description>
+    <environments>Default</environments>
+    <interviewLabel>PSE2.0 - Data Cleanup - Close Do Not Click Cases {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PSE2.0 - Data Cleanup - Close Do Not Click Cases</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Close_Do_Not_Click</name>
+        <label>Close Do Not Click</label>
+        <locationX>176</locationX>
+        <locationY>252</locationY>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Closed</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Close_Do_Not_Click</targetReference>
+        </connector>
+        <filterLogic>1 OR (2 AND 3)</filterLogic>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>CM/DFM Team Returned Quote</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Done</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>CaseAge__c</field>
+            <operator>GreaterThan</operator>
+            <value>
+                <numberValue>14.0</numberValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2023-08-02</startDate>
+            <startTime>20:45:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

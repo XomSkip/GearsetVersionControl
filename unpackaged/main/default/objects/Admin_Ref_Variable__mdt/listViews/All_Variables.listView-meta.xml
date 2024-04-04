@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Variables</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>NamespacePrefix</columns>
+    <columns>IsProtected</columns>
+    <columns>Description__c</columns>
+    <columns>Location__c</columns>
+    <columns>Name__c</columns>
+    <columns>Number_Ref_Value__c</columns>
+    <columns>Text_Ref_Var__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Variables</label>
+</ListView>

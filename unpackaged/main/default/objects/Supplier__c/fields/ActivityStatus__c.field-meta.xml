@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActivityStatus__c</fullName>
+    <externalId>false</externalId>
+    <formula>if (
+  (LastReadJobDate__c &gt;= today() - 30 &amp;&amp; LastJobAcceptedDate__c &lt; today() - 30), 'Lurker',
+    if (
+      ((LastReadJobDate__c &lt; today() - 30 || ISNULL(LastReadJobDate__c)) &amp;&amp; LastJobAcceptedDate__c &lt; today() - 30), 'Dormant',
+      if (
+        (
+          (ISPICKVAL(SupplierStatus__c, 'approved') || ISPICKVAL(SupplierStatus__c, 'pip')) &amp;&amp; 
+          (LastReadJobDate__c &gt;= today() - 30 &amp;&amp; LastJobAcceptedDate__c &gt;= today() - 30)
+        ), 'Active', null
+      )
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Activity Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

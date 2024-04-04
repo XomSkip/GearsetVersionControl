@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Supplies Number of Quotes --></label>
+        <name>Sup_NumberQuotes__c</name>
+    </CustomFieldTranslation>

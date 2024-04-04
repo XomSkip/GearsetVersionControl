@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bad_Outcomes_Manage_Result__c</fullName>
+    <externalId>false</externalId>
+    <label>Bad Outcomes Manage Result</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Daily Score Not Calculated Yet</fullName>
+                <default>false</default>
+                <label>Daily Score Not Calculated Yet</label>
+            </value>
+            <value>
+                <fullName>Manage</fullName>
+                <default>false</default>
+                <label>Manage</label>
+            </value>
+            <value>
+                <fullName>Do Not Manage</fullName>
+                <default>false</default>
+                <label>Do Not Manage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

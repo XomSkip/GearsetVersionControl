@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Match_Route_to_Sales_Owner_Flag__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This flag is checked when the method caseContactAssignment has match. If a case assigned to the Sales Que has an existing contact based on the web email then it assign the case to that Contacts Owner. Marking the flag as true will occur for audit purposes.</description>
+    <externalId>false</externalId>
+    <label>Contact Match Route to Sales Owner Flag</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

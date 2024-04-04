@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MKT_ClicktoCall_del__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK("tel:" &amp; SuppliedPhone, SuppliedPhone,"_self")</formula>
+    <inlineHelpText>Web Phone Click to Call</inlineHelpText>
+    <label>Click to Call Number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

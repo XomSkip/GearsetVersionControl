@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Cancellation Reason Code --></label>
+        <name>CancellationReasonCode__c</name>
+        <picklistValues>
+            <masterLabel>Customer Request - Design Change Reqd</masterLabel>
+            <translation><!-- Customer Request - Design Change Reqd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Request - General</masterLabel>
+            <translation><!-- Customer Request - General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Request - Less than 4 hours</masterLabel>
+            <translation><!-- Customer Request - Less than 4 hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Request - Lost at DFM</masterLabel>
+            <translation><!-- Customer Request - Lost at DFM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Request - Missing Features - AQ</masterLabel>
+            <translation><!-- Customer Request - Missing Features - AQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Request - Top 20</masterLabel>
+            <translation><!-- Customer Request - Top 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FFL Violation</masterLabel>
+            <translation><!-- FFL Violation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOS Violation</masterLabel>
+            <translation><!-- TOS Violation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xometry Error</masterLabel>
+            <translation><!-- Xometry Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xometry Request - Cannot Meet Leadtime</masterLabel>
+            <translation><!-- Xometry Request - Cannot Meet Leadtime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xometry Request - Design Change Reqd</masterLabel>
+            <translation><!-- Xometry Request - Design Change Reqd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xometry Request - Missing Features - AQ</masterLabel>
+            <translation><!-- Xometry Request - Missing Features - AQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xometry Request - Missing Features - MQ</masterLabel>
+            <translation><!-- Xometry Request - Missing Features - MQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xometry Request - NYOP</masterLabel>
+            <translation><!-- Xometry Request - NYOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xometry Request - No Take</masterLabel>
+            <translation><!-- Xometry Request - No Take --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

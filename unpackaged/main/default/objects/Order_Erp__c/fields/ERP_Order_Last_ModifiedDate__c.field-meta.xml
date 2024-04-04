@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERP_Order_Last_ModifiedDate__c</fullName>
+    <description>Last time that the Order had a field changed in the ERP.</description>
+    <externalId>false</externalId>
+    <label>Last Order Modification Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

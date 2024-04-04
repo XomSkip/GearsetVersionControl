@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( Number_Orders__c = 0, "",
+if( Number_Orders__c = 1, "One-Time Buyer",
+if( and( Number_Orders__c  &gt; 1,Average_Purchase_Interval__c=0), "One-Time Buyer",
+if( Days_Since_Last_Order__c &lt;= 8, "Active",
+if( Days_Since_Last_Order__c &gt; 120, "Churned",
+if( Days_Since_Last_Order__c &gt; 75, "Lapsed",
+if( Days_Since_Last_Order__c &gt; 60, "At-Risk",
+if( Days_Since_Last_Order__c &lt;= Average_Purchase_Interval__c * 1, "Active",
+if( Days_Since_Last_Order__c &lt;= Average_Purchase_Interval__c * 1.2, "At-Risk",
+if( Days_Since_Last_Order__c &lt;= Average_Purchase_Interval__c * 1.5, "Lapsed",
+if( Days_Since_Last_Order__c &gt; Average_Purchase_Interval__c * 1.5, "Churned",
+"Error")))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>[Deprecated] Customer Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

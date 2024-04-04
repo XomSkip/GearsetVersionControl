@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Supplier initial email</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Test Supplier Onboarding Initial Email Custom</name>
+    <style>none</style>
+    <subject>Supplier Onboarding Next Steps</subject>
+    <textOnly>Dear {!Supplier__c.Name__c},
+
+Thanks for registering to be a supplier, your partner id is {!Supplier__c.PartnerID__c}.
+
+Below are the next steps before you can be approved.
+
+Please sign our NDA at https://app.hellosign.com/s/2AY1eIWE and finish your profile at work.xometry.com.
+
+Request your test part at https://pages.xometry.com/request-test-part?partner_id={!Supplier__c.PartnerID__c}&amp;email={!Supplier__c.EmailAddress__c}. This link is individual to you please do not share.
+
+Thank you,
+
+Xometry Operations Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

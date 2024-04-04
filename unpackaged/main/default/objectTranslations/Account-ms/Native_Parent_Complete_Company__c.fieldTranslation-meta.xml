@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Native Parent Complete Company --></label>
+        <name>Native_Parent_Complete_Company__c</name>
+        <relationshipLabel><!-- Accounts (Native Parent Complete Company) --></relationshipLabel>
+    </CustomFieldTranslation>

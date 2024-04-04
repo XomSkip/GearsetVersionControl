@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HS_Manufacturing_Processes_Utilized__c</fullName>
+    <description>Captures data from Hubspots' User Profile Form for this field. Not editable in Salesforce. Source of truth is Hubspot.</description>
+    <externalId>false</externalId>
+    <label>HS Manufacturing Processes Utilized</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CNC Machining</fullName>
+                <default>false</default>
+                <label>CNC Machining</label>
+            </value>
+            <value>
+                <fullName>Sheet Metal Fabrication</fullName>
+                <default>false</default>
+                <label>Sheet Metal Fabrication</label>
+            </value>
+            <value>
+                <fullName>Injection Molding</fullName>
+                <default>false</default>
+                <label>Injection Molding</label>
+            </value>
+            <value>
+                <fullName>Urethane Casting</fullName>
+                <default>false</default>
+                <label>Urethane Casting</label>
+            </value>
+            <value>
+                <fullName>Stereolithography</fullName>
+                <default>false</default>
+                <label>Stereolithography</label>
+            </value>
+            <value>
+                <fullName>Selective Laser Sintering</fullName>
+                <default>false</default>
+                <label>Selective Laser Sintering</label>
+            </value>
+            <value>
+                <fullName>HP Multijet Fusion</fullName>
+                <default>false</default>
+                <label>HP Multijet Fusion</label>
+            </value>
+            <value>
+                <fullName>Direct Metal Laser Sintering</fullName>
+                <default>false</default>
+                <label>Direct Metal Laser Sintering</label>
+            </value>
+            <value>
+                <fullName>Binder Jetting</fullName>
+                <default>false</default>
+                <label>Binder Jetting</label>
+            </value>
+            <value>
+                <fullName>Polyjet 3D</fullName>
+                <default>false</default>
+                <label>Polyjet 3D</label>
+            </value>
+            <value>
+                <fullName>Fused Deposition Modeling</fullName>
+                <default>false</default>
+                <label>Fused Deposition Modeling</label>
+            </value>
+            <value>
+                <fullName>Carbon Digital Light Synthesis</fullName>
+                <default>false</default>
+                <label>Carbon Digital Light Synthesis</label>
+            </value>
+            <value>
+                <fullName>Stamping</fullName>
+                <default>false</default>
+                <label>Stamping</label>
+            </value>
+            <value>
+                <fullName>Metal Extrusion</fullName>
+                <default>false</default>
+                <label>Metal Extrusion</label>
+            </value>
+            <value>
+                <fullName>Die Casting</fullName>
+                <default>false</default>
+                <label>Die Casting</label>
+            </value>
+            <value>
+                <fullName>Assembly</fullName>
+                <default>false</default>
+                <label>Assembly</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

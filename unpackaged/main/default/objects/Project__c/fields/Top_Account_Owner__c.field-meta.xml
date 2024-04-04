@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Top_Account_Owner__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(!ISBLANK(AccountId__r.ParentId),AccountId__r.Parent.Owner_ID_Name__c,AccountId__r.Owner_ID_Name__c)</formula>
+    <label>Top Account Owner</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

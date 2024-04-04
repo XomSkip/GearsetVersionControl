@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplies_Xometry_Job_validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.Name="Seller Marketplace",NOT(ISBLANK(Supplies_Xometry_Job__c)), OR(NOT(BEGINS(Supplies_Xometry_Job__c,"J")),  NOT(LEN(Supplies_Xometry_Job__c)=8)) )</errorConditionFormula>
+    <errorMessage>Syntax should Begins with capital J and contains 8 characters field: Supplies Xometry Job.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additive_All_Open_Tickets1</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Solved,Closed</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Additive</value>
+    </filters>
+    <filters>
+        <field>Owners_Role__c</field>
+        <operation>equals</operation>
+        <value>Additive</value>
+    </filters>
+    <label>[Additive] All Open Tickets</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Service_Leadership</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

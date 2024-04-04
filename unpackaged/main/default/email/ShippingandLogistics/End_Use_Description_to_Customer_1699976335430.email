@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Good Xtime of dayX, {{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+My name is {{{Sender.Name}}} and I am reaching out to you from Xometry Logistics regarding our order ID {{{Case.GNOOrder__c}}}. Please note the parts have finished machining and have shipped via XcarrierX tracking ID # XXXX. The shipment is currently pending US Customs clearance and we need some help from you to get these parts cleared.&nbsp;<br />
+<br />
+Please provide a more <em><strong>detailed </strong></em>description and end use. Please note, the description for these items currently states, "XERP descriptionX". This is not sufficient for XcarrierX to classify the items. Please provide more information on <strong>what these items are/ are used for</strong> in order to expedite the release of your shipment.&nbsp;<br />
+<br />
+We look forward to your reply. Please let us know if you have any additional questions / concerns.<br />
+<br />
+Kind regards,</body>
+</html>

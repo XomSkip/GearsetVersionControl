@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Xometry User is a GNO team member who is associated with GNO Survey. --></help>
+        <label><!-- GNO Surveyor --></label>
+        <name>GNOSurveyor__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPC_RMAs</fullName>
+    <booleanFilter>1 AND 2 AND 3</booleanFilter>
+    <columns>CaseAge__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CMDFMIssueIndicator__c</columns>
+    <columns>CM_SLA_2_Hour__c</columns>
+    <columns>CM_SLA_24_Hour__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>Recent_Inbound_Message__c</columns>
+    <columns>Recent_Response_Time__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CPCRMAPOC__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Solved,Closed</value>
+    </filters>
+    <filters>
+        <field>Category__c</field>
+        <operation>equals</operation>
+        <value>RMA</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>contains</operation>
+        <value>Jonathan Csanady,Marilyn Coughlin,Lukisha Griffin</value>
+    </filters>
+    <label>[CPC] - RMA Team List View</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Service_Leadership</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

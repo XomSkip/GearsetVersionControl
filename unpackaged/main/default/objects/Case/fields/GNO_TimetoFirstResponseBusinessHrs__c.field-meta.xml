@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GNO_TimetoFirstResponseBusinessHrs__c</fullName>
+    <description>Time to First Response for GNO Sourcing Team. NOT PSE Created by RoseTree</description>
+    <externalId>false</externalId>
+    <formula>ROUND(10 * (
+    (5 * FLOOR((DATEVALUE(RecoveryTimeStamp__c) - DATE(1996, 01, 01)) / 7) +
+        MIN(5,
+            MOD(DATEVALUE(RecoveryTimeStamp__c) - DATE(1996, 01, 01), 7) +
+            MIN(1, 24 / 10 * (MOD(
+                IF(HOUR(TIMEVALUE(RecoveryTimeStamp__c)) &gt;= 13,
+                    RecoveryTimeStamp__c,
+                    DATETIMEVALUE(
+                        TEXT(DATEVALUE(RecoveryTimeStamp__c))
+                        +
+                        " " +
+                        '13:00:00'
+                    ))
+                - DATETIMEVALUE('1996-01-01 13:00:00'), 1
+                )))
+        ))
+    -
+    (5 * FLOOR((DATEVALUE(CreatedDate) - DATE(1996, 01, 01)) / 7) +
+        MIN(5,
+            MOD(DATEVALUE(CreatedDate) - DATE(1996, 01, 01), 7) +
+            MIN(1, 24 / 10 * (MOD(
+                IF(HOUR(TIMEVALUE(CreatedDate)) &gt;= 13,
+                    CreatedDate,
+                    DATETIMEVALUE(
+                        TEXT(DATEVALUE(CreatedDate))
+                        +
+                        " " +
+                        '13:00:00'
+                    ))
+                - DATETIMEVALUE('1996-01-01 13:00:00'), 1
+            )))
+        ))
+), 2)</formula>
+    <inlineHelpText>First Response Time for GNO Sourcing Team.</inlineHelpText>
+    <label>Time to First Response (Business hrs)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

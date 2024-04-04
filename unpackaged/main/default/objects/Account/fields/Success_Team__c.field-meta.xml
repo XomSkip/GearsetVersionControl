@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Success_Team__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(ParentId),
+ (House_Retainer__c || Generic_Account__c) &amp;&amp;
+ (ISBLANK(GNO_PartnerId__c) || !ISBLANK(Date_of_First_Quote__c))
+,
+ (Parent.House_Retainer__c || Parent.Generic_Account__c) &amp;&amp;
+ (ISBLANK(Parent.GNO_PartnerId__c) || !ISBLANK(Parent.Date_of_First_Quote__c))
+)</formula>
+    <label>Success Team</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Engineering Review Provided</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Engineering Review Provided on Quote ID:{{{Case.Shadow_Xometry_ERP_ID__c}}}. Case Number: {{{Case.CaseNumber}}}</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

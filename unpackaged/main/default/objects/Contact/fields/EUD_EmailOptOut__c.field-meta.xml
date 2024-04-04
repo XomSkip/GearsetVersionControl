@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EUD_EmailOptOut__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check the box if this contact would no longer like to receive automated emails about Missing End Use Data.</description>
+    <externalId>false</externalId>
+    <label>EUD Email Opt-Out</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

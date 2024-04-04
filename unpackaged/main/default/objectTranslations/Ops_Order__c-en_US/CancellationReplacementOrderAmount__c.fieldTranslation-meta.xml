@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Cancellation Replacement Order Total Amount --></help>
+        <label><!-- Cancellation Replacement Order Amount --></label>
+        <name>CancellationReplacementOrderAmount__c</name>
+    </CustomFieldTranslation>

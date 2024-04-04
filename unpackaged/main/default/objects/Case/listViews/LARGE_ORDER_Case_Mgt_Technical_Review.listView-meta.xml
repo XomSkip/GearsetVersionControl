@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LARGE_ORDER_Case_Mgt_Technical_Review</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>GNOOrder__c</columns>
+    <columns>Technical_Review_Status__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>JobRiskFactor__c</columns>
+    <columns>SLA_Breached__c</columns>
+    <columns>CMDFMIssueIndicator__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.PRIORITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.CaseMgmt</value>
+    </filters>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>equals</operation>
+        <value>Technical Review</value>
+    </filters>
+    <filters>
+        <field>Technical_Review_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Large Order Review Complete</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Solved,Closed</value>
+    </filters>
+    <label>[LARGE ORDER] Case Mgt. Technical Review</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Service_Leadership</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

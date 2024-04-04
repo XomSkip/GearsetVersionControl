@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Part Status --></label>
+        <name>PartStatus__c</name>
+        <picklistValues>
+            <masterLabel>All Offers Expired</masterLabel>
+            <translation><!-- All Offers Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto-Quoted</masterLabel>
+            <translation><!-- Auto-Quoted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build Started</masterLabel>
+            <translation><!-- Build Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Built Unsuccessfully</masterLabel>
+            <translation><!-- Built Unsuccessfully --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Approved</masterLabel>
+            <translation><!-- Customer Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered</masterLabel>
+            <translation><!-- Delivered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Inspection Done</masterLabel>
+            <translation><!-- Final Inspection Done --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Inspection Failed</masterLabel>
+            <translation><!-- Final Inspection Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finishing Started</masterLabel>
+            <translation><!-- Finishing Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inhouse Rework</masterLabel>
+            <translation><!-- Inhouse Rework --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line Item Placeholder</masterLabel>
+            <translation><!-- Line Item Placeholder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manually-Quoted</masterLabel>
+            <translation><!-- Manually-Quoted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materials Ordered</masterLabel>
+            <translation><!-- Materials Ordered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offers Made</masterLabel>
+            <translation><!-- Offers Made --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Op 1 CYCLE Paused</masterLabel>
+            <translation><!-- Op 1 CYCLE Paused --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Op 1 PRG Done</masterLabel>
+            <translation><!-- Op 1 PRG Done --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ordered</masterLabel>
+            <translation><!-- Ordered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outsourced</masterLabel>
+            <translation><!-- Outsourced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packed</masterLabel>
+            <translation><!-- Packed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Cancelled</masterLabel>
+            <translation><!-- Partner Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Remake</masterLabel>
+            <translation><!-- Partner Remake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Rework</masterLabel>
+            <translation><!-- Partner Rework --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned</masterLabel>
+            <translation><!-- Planned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post-processing</masterLabel>
+            <translation><!-- Post-processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA</masterLabel>
+            <translation><!-- RMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Final Inspection</masterLabel>
+            <translation><!-- Ready for Final Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Production</masterLabel>
+            <translation><!-- Ready for Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received by Xometry</masterLabel>
+            <translation><!-- Received by Xometry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation><!-- Shipped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Be Outsourced</masterLabel>
+            <translation><!-- To Be Outsourced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation><!-- Validated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value1</masterLabel>
+            <translation><!-- Value1 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

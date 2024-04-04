@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Outside of Xometry, what type of work do --></label>
+        <name>Outside_of_Xometry_what_type_of_work_do__c</name>
+    </CustomFieldTranslation>

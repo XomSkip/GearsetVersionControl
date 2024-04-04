@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Shipping_Labels_VoiceCall</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Partner Shipping Labels</label>
+    <queue>Partner_Shipping_Labels</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

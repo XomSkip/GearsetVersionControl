@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Big Blue Saw Last Order Date --></help>
+        <label><!-- BBS Last Order Date --></label>
+        <name>BBS_Last_Order_Date__c</name>
+    </CustomFieldTranslation>

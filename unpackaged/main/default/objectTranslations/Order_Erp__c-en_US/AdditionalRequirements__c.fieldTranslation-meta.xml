@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Only 255 characters shown for processing reasons --></help>
+        <label><!-- Additional Requirements --></label>
+        <name>AdditionalRequirements__c</name>
+    </CustomFieldTranslation>

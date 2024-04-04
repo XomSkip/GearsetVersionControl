@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ownership</fullName>
+    <description>The company’s type (education, government, nonprofit, private, public, or personal)
+
+TYPE from Clearbit</description>
+    <inlineHelpText>The company’s type (education, government, nonprofit, private, public, or personal)</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+</CustomField>

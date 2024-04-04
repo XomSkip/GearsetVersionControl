@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VQC_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>VQC Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>VQC Pass</fullName>
+                <default>false</default>
+                <label>VQC Pass</label>
+            </value>
+            <value>
+                <fullName>VQC Fail</fullName>
+                <default>false</default>
+                <label>VQC Fail</label>
+            </value>
+            <value>
+                <fullName>First Time Right</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>First Time Right</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

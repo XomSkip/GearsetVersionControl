@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SupplyCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>P21_Account_Details__c</fields>
+    <fields>OwnerId</fields>
+    <fields>Amount</fields>
+    <fields>CloseDate</fields>
+    <fields>Primary_Contact__c</fields>
+    <label>Supply Compact Layout</label>
+</CompactLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>SDR</fullName>
+        <default>false</default>
+        <label>SDR</label>
+    </customValue>
+    <customValue>
+        <fullName>Account Owner</fullName>
+        <default>false</default>
+        <label>Account Owner</label>
+    </customValue>
+    <masterLabel>Traction Assignment Mode</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

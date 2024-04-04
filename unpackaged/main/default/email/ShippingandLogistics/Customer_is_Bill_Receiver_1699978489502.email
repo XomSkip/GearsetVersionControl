@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Good Xtime of dayX, {{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+Thank you for choosing Xometry!&nbsp;<br />
+<br />
+My name is {{{Sender.Name}}} and I'm reaching out to you from Xometry Logistics. We apologize for the delay in getting your parts delivered to you. Kindly note, the parts were shipped using {{{Recipient.Company}}}'s Xcarrier nameX account. <span style="color:#c0392b;"><strong>As such, {{{Recipient.Company}}} is responsible for customs clearance.</strong></span><br />
+&nbsp;<br />
+By any chance, is there a <em><strong>compliance</strong></em> or <em><strong>logistics manager</strong></em> you can reach out to internally for support on this shipment?&nbsp;<br />
+<br />
+I have provided a copy of the commercial invoice for your convenience.&nbsp;<br />
+<br />
+If there are any other questions or concerns we can assist with, please don't hesitate to ask.<br />
+<br />
+Kind regards,</body>
+</html>

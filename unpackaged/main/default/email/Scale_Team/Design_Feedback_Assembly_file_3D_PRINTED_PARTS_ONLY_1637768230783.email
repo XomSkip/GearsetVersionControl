@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p style="line-height:1.38"><span style="font-size:16px;"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="color:#080707"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Hello,</span></span></span></span></span></span></span></p>
+
+<p style="line-height:1.656; margin-top:16px; margin-bottom:16px"><span style="font-size:16px;"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="color:#080707"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Thanks for submitting an RFQ to us! I am a member of our Customer Success Team. My Engineering team reviewed your files. Unfortunately, your parts are unable to be quoted/manufactured due to the file being an assembly file. </span></span></span></span></span></span></span>An assembly file cannot be loaded on a 3D printer. It must be converted to a single part file before the standard 3D print operations can be performed.</p>
+
+<p style="line-height:1.656; margin-top:16px; margin-bottom:16px"><span style="font-size:16px;"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="color:#080707"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">To finish your quote, each part will need to be separated and uploaded individually OR if you wish to print as one part, the solid bodies will need to be unified to make it whole.</span></span></span></span></span></span></span></p>
+
+<p style="line-height:1.38; margin-top:16px; margin-bottom:16px"><span style="font-size:16px;"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="color:#080707"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Please let us know if you have any additional questions! </span></span></span></span></span></span></span></p>
+
+</body></html>

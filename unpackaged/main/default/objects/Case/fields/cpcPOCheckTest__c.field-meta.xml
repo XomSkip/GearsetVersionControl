@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cpcPOCheckTest__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(CONTAINS(Subject, 'PO '),NOT(CONTAINS(Subject, 'Past Due')))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>cpcPOCheckTest</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

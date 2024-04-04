@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Acme</fullName>
+        <default>false</default>
+        <label>Acme</label>
+    </customValue>
+    <customValue>
+        <fullName>Fictiv</fullName>
+        <default>false</default>
+        <label>Fictiv</label>
+    </customValue>
+    <customValue>
+        <fullName>Hubs</fullName>
+        <default>false</default>
+        <label>Hubs</label>
+    </customValue>
+    <customValue>
+        <fullName>Protolabs</fullName>
+        <default>false</default>
+        <label>Protolabs</label>
+    </customValue>
+    <customValue>
+        <fullName>Local Shop</fullName>
+        <default>false</default>
+        <label>Local Shop</label>
+    </customValue>
+    <customValue>
+        <fullName>In-House Shop</fullName>
+        <default>false</default>
+        <label>In-House Shop</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Competitor</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

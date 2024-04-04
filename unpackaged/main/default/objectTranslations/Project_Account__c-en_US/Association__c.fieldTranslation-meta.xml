@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Association --></label>
+        <name>Association__c</name>
+        <picklistValues>
+            <masterLabel>Design Firm/Consultant</masterLabel>
+            <translation><!-- Design Firm/Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End User</masterLabel>
+            <translation><!-- End User --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

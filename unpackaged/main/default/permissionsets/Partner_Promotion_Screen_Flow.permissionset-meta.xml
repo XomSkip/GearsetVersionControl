@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowAccesses>
+        <enabled>true</enabled>
+        <flow>Partner_Promotion_Flow</flow>
+    </flowAccesses>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Partner Promotion Screen Flow</label>
+</PermissionSet>

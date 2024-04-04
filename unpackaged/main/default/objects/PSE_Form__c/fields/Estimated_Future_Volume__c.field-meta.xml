@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimated_Future_Volume__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>After your initial order, what is your estimated future demand and over what time period?</inlineHelpText>
+    <label>What is your estimated future demand?</label>
+    <length>65536</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

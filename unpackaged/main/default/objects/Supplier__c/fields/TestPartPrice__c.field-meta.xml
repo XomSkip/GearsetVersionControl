@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TestPartPrice__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    ISPICKVAL(TestPartStatus__c, 'Passed') &amp;&amp; (
+        TestProcessCNCLathe__c ||
+        TestProcessCNCMill__c ||
+        ISPICKVAL(TestPartProcess__c, 'CNC - Mill') ||
+        ISPICKVAL(TestPartProcess__c, 'CNC - Lathe') ||
+        ISPICKVAL(TestPartProcess__c, 'Swiss Lathe')
+    ),
+    500,
+    IF(
+        ISPICKVAL(TestPartStatus__c, 'Passed') &amp;&amp; (
+            TestProcessSheetMetalBent__c ||
+            ISPICKVAL(TestPartProcess__c, 'Sheet Metal - Bent')
+        ),
+        200,
+        IF(
+            ISPICKVAL(TestPartStatus__c, 'Passed') &amp;&amp; (
+                TestProcessSheetMetalFlat__c ||
+                ISPICKVAL(TestPartProcess__c, 'Sheet Metal') ||
+                ISPICKVAL(TestPartProcess__c, 'Sheet Metal - Cutting')
+            ),
+            100,
+            TestPartManualPrice__c
+        )
+    )
+)</formula>
+    <label>Test Part Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

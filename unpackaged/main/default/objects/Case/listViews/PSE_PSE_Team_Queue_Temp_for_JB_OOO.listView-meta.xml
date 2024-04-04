@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSE_PSE_Team_Queue_Temp_for_JB_OOO</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Manufacturing_Process__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Age_hrs__c</columns>
+    <columns>SLA_Response_Time_Remaining_hrs__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>PSENotes__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Zendesk_Ticket_Number__c</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>PSE_ConversionLikelihood__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Pre-Sales Engineering Queue,Laura Kilian</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Solved,Closed</value>
+    </filters>
+    <label>[PSE]PSE Team Queue - Temp for JB OOO</label>
+    <sharedTo>
+        <group>PSE_Team_Queue_Temp_Access</group>
+        <role>Administrator</role>
+    </sharedTo>
+</ListView>

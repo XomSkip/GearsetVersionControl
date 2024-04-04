@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Customer Price on this Job --></help>
+        <label><!-- Customer Price --></label>
+        <name>GNO_CustomerPrice__c</name>
+    </CustomFieldTranslation>

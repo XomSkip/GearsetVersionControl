@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounting_AR_Shipping_Unpaid_Rate</fullName>
+    <columns>Category__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>OWNER_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Category__c</field>
+        <operation>equals</operation>
+        <value>Shipping,Shipping Rate,Unpaid Shipping</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>[Accounting] AR Shipping Unpaid, Rate</label>
+    <sharedTo>
+        <group>AccountingStakeholders</group>
+        <roleAndSubordinatesInternal>Accounting</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

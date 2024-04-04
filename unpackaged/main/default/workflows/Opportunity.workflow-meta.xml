@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Remove_Loss_Reason</fullName>
+        <field>Loss_Reason__c</field>
+        <name>Remove Loss Reason</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Remove_Loss_Reason_Detail</fullName>
+        <field>Loss_Reason_Detail__c</field>
+        <name>Remove Loss Reason Detail</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Remove_Sub_Loss_Reason</fullName>
+        <field>Sub_Loss_Reason__c</field>
+        <name>Remove Sub Loss Reason</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X2D_Owner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>mgambon@xometry.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>2D Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X2D_Record_Type</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>X2D</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>2D Record Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Loss Reason w%2Fo Closed Lost</fullName>
+        <actions>
+            <name>Remove_Loss_Reason</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Remove_Loss_Reason_Detail</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Remove_Sub_Loss_Reason</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1 AND (2 OR 3 OR 4)</booleanFilter>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>notEqual</operation>
+            <value>Closed Lost</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Loss_Reason__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Sub_Loss_Reason__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Loss_Reason_Detail__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Intention is to find Opps that are moved away from Closed Lost, but still have Loss Reasons and set those to null</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Use__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Use</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SFDC</fullName>
+                <default>false</default>
+                <label>SFDC</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Operations</fullName>
+                <default>false</default>
+                <label>Operations</label>
+            </value>
+            <value>
+                <fullName>CPC</fullName>
+                <default>false</default>
+                <label>CPC</label>
+            </value>
+            <value>
+                <fullName>CM/DFM</fullName>
+                <default>false</default>
+                <label>CM/DFM</label>
+            </value>
+            <value>
+                <fullName>GNO</fullName>
+                <default>false</default>
+                <label>GNO</label>
+            </value>
+            <value>
+                <fullName>Partner Management</fullName>
+                <default>false</default>
+                <label>Partner Management</label>
+            </value>
+            <value>
+                <fullName>PSE</fullName>
+                <default>false</default>
+                <label>PSE</label>
+            </value>
+            <value>
+                <fullName>Quality</fullName>
+                <default>false</default>
+                <label>Quality</label>
+            </value>
+            <value>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+                <label>Shipping</label>
+            </value>
+            <value>
+                <fullName>Sourcing</fullName>
+                <default>false</default>
+                <label>Sourcing</label>
+            </value>
+            <value>
+                <fullName>Spec Ops</fullName>
+                <default>false</default>
+                <label>Spec Ops</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

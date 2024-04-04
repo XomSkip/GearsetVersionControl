@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_to_First_Response_hrs__c</fullName>
+    <description>Created During PSE Service Migration Project</description>
+    <externalId>false</externalId>
+    <formula>(First_Response_Time__c -  CreatedDate) * 24</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The number of hours it took to respond to the customer via email from the first time from the case created date/time.</inlineHelpText>
+    <label>Time to First Response (hrs)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

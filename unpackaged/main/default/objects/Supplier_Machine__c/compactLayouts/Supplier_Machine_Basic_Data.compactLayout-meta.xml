@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Machine_Basic_Data</fullName>
+    <fields>MachineType__c</fields>
+    <fields>MachineMake__c</fields>
+    <fields>MachineModel__c</fields>
+    <fields>Quantity__c</fields>
+    <fields>Axes__c</fields>
+    <fields>Supplier__c</fields>
+    <label>Supplier Machine Basic Data</label>
+</CompactLayout>

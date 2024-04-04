@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acct_Subdivision_requires_Corporate_Par</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(AND(NOT(ISBLANK( ParentId )),
+ISPICKVAL(Hierarchy_Type__c, ""))
+,
+AND(ISPICKVAL( Hierarchy_Type__c,"Account Subdivision"),
+OR(
+ISBLANK( ParentId ), 
+NOT(ISPICKVAL(Parent.Hierarchy_Type__c, "Corporate Parent") ) 
+)))
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Account_VR</errorConditionFormula>
+    <errorMessage>Parent ID cannot be populated without selection of Hierarchy Type.
+Parent ID is required when selecting Account Subdivision as Hierarchy Type .
+The Parent Account Must be of type Corporate Parent.</errorMessage>
+</ValidationRule>

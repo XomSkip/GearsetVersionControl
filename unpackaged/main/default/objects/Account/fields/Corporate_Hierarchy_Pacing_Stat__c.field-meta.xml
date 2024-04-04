@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Corporate_Hierarchy_Pacing_Stat__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(
+X2019_Corporate_Hierarchy_Spend__c = 0,null,
+
+if(isblank(X2019_Corporate_Hierarchy_Spend__c),null,
+
+
+(  X2020_Corporate_Hierarchy_Spend__c /
+(
+(1-
+(
+(date
+(2020,12,31
+)-today()
+)/365
+)
+)* X2019_Corporate_Hierarchy_Spend__c
+)
+)-1
+))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>[dnu] Corporate Hierarchy Pacing Stat</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

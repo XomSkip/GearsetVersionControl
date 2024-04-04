@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If similar parts have been previously quoted/ordered at Xometry, please provide the previous quote or order number. --></help>
+        <label><!-- Follow up Information for Previous Order --></label>
+        <name>previously_ordered_followup__c</name>
+    </CustomFieldTranslation>

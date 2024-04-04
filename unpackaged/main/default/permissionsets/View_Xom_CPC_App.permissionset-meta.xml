@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>XomCPCConsole</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <description>For non-cpc profile user see/use Xom CPC App.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>View Xom CPC App</label>
+</PermissionSet>

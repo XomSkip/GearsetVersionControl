@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <apiVersion>56.0</apiVersion>
+    <assignments>
+        <name>Assign_Fields</name>
+        <label>Assign Fields</label>
+        <locationX>264</locationX>
+        <locationY>518</locationY>
+        <assignmentItems>
+            <assignToReference>Loop_Through_Selected_Leads.Status</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Lead_Status</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Loop_Through_Selected_Leads.Lead_Not_Converted_Reason__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Lead_Not_Converted_Reason</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>UpdatedLeads</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Loop_Through_Selected_Leads</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_Through_Selected_Leads</targetReference>
+        </connector>
+    </assignments>
+    <choices>
+        <name>Closed_Not_Converted</name>
+        <choiceText>Closed Not Converted</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Closed Not Converted</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Initial_Engagement</name>
+        <choiceText>Initial Engagement</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Engaged</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>New</name>
+        <choiceText>New</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Uncontacted</stringValue>
+        </value>
+    </choices>
+    <description>Includes Owner Check</description>
+    <dynamicChoiceSets>
+        <name>LeadNotConvertedReason</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Lead_Not_Converted_Reason__c</picklistField>
+        <picklistObject>Lead</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>Status</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Status</picklistField>
+        <picklistObject>Lead</picklistObject>
+    </dynamicChoiceSets>
+    <environments>Default</environments>
+    <interviewLabel>Mass Update Leads {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Mass Update Leads</label>
+    <loops>
+        <name>Loop_Through_Selected_Leads</name>
+        <label>Loop Through Selected Leads</label>
+        <locationX>176</locationX>
+        <locationY>398</locationY>
+        <collectionReference>Get_Records</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Assign_Fields</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Update_Records</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Get_Records</name>
+        <label>Get Records</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_Through_Selected_Leads</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>In</operator>
+            <value>
+                <elementReference>ids</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>OwnerId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$User.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Lead</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Status</queriedFields>
+        <queriedFields>Lead_Not_Converted_Reason__c</queriedFields>
+        <queriedFields>OwnerId</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Records</name>
+        <label>Update Records</label>
+        <locationX>176</locationX>
+        <locationY>734</locationY>
+        <inputReference>UpdatedLeads</inputReference>
+    </recordUpdates>
+    <screens>
+        <name>Mass_Lead_Update</name>
+        <label>Mass Lead Update</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Get_Records</targetReference>
+        </connector>
+        <fields>
+            <name>OwnedRecordsDisplay</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;color: rgb(255, 0, 0); font-size: 24px;&quot;&gt;NOTICE: Only Leads you own will be updated!&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Lead_Status</name>
+            <choiceReferences>Closed_Not_Converted</choiceReferences>
+            <choiceReferences>New</choiceReferences>
+            <choiceReferences>Initial_Engagement</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Lead Status</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <helpText>&lt;p&gt;Select the Lead Status for these records.&lt;/p&gt;</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Lead_Not_Converted_Reason</name>
+            <choiceReferences>LeadNotConvertedReason</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Lead Not Converted Reason</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <helpText>&lt;p&gt;Select the Lead Not Converted Reason for these records.&lt;/p&gt;</helpText>
+            <isRequired>true</isRequired>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Lead_Status</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <stringValue> Closed Not Converted</stringValue>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Mass_Lead_Update</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>ids</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>UpdatedLeads</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Lead</objectType>
+    </variables>
+</Flow>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Payment and Invoices</label>
+    <protected>false</protected>
+    <values>
+        <field>nfvoice__QueueId__c</field>
+        <value xsi:type="xsd:string">0f6da66e-6b88-4e7d-83d5-041b82c4c2a0</value>
+    </values>
+    <values>
+        <field>nfvoice__Routing_Profile__c</field>
+        <value xsi:type="xsd:string">rp_1676303974475_6</value>
+    </values>
+    <values>
+        <field>nfvoice__Service_Entity__c</field>
+        <value xsi:type="xsd:string">xomawsscv00d6a000001kpqd</value>
+    </values>
+</CustomMetadata>

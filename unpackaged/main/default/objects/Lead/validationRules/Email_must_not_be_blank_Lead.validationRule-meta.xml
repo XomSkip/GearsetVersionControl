@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_must_not_be_blank_Lead</fullName>
+    <active>true</active>
+    <description>Email must not be empty or changed</description>
+    <errorConditionFormula>ISBLANK(Email)
+||ISCHANGED(Email)
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Contact_VR</errorConditionFormula>
+    <errorMessage>Email is required. Each contact must have a unique Email and Email cannot be changed.</errorMessage>
+</ValidationRule>

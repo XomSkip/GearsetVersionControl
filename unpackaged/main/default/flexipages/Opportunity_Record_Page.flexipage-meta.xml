@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>collapsed</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideChatterActions</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>numVisibleActions</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentName>force:highlightsPanel</componentName>
+                <identifier>force_highlightsPanel</identifier>
+            </componentInstance>
+        </itemInstances>
+        <mode>Replace</mode>
+        <name>header</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>hideUpdateButton</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentName>runtime_sales_pathassistant:pathAssistant</componentName>
+                <identifier>runtime_sales_pathassistant_pathAssistant</identifier>
+            </componentInstance>
+        </itemInstances>
+        <mode>Replace</mode>
+        <name>subheader</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>force:detailPanel</componentName>
+                <identifier>force_detailPanel</identifier>
+            </componentInstance>
+        </itemInstances>
+        <mode>Replace</mode>
+        <name>detailTabContent</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Opportunity.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>Quotes_ERP__r</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>NONE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-4c699b58-3a0c-4c9b-bf45-c013d6c90457</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Opportunity.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>Orders_Erp__r</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>NONE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-4728dfc2-9790-41e0-b1c6-34834f0981ce</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Opportunity.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>AttachedContentNotes</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>GRID</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Opportunity.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>AttachedContentDocuments</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>NONE</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer4</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>facet-5c9df14d-2929-400e-9ac8-d77d7bafaf8b</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Opportunity.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>ActivityHistories</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>GRID</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer5</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Opportunity.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>Histories</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>GRID</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer6</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Opportunity.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>OpportunityHistories</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>NONE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer7</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>facet-54b79350-4929-4be7-87b7-3b2a0f0f7845</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>active</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>detailTabContent</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Standard.Tab.detail</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>detailTab</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-4c699b58-3a0c-4c9b-bf45-c013d6c90457</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Quotes_ERP</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>customTab</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-4728dfc2-9790-41e0-b1c6-34834f0981ce</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Order ERP</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>customTab2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>facet-5c9df14d-2929-400e-9ac8-d77d7bafaf8b</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Notes &amp; Attachments</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>customTab3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>facet-54b79350-4929-4be7-87b7-3b2a0f0f7845</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Activity History</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>customTab4</identifier>
+            </componentInstance>
+        </itemInstances>
+        <mode>Replace</mode>
+        <name>tabs</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>tabs</name>
+                    <value>tabs</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tabset</componentName>
+                <identifier>flexipage_tabset</identifier>
+            </componentInstance>
+        </itemInstances>
+        <mode>Replace</mode>
+        <name>main</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>runtime_sales_activities:activityPanel</componentName>
+                <identifier>runtime_sales_activities_activityPanel</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>facet-1aba704b-61c9-48c8-829a-81325ebf2cab</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>forceChatter:recordFeedContainer</componentName>
+                <identifier>forceChatter_recordFeedContainer</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>facet-cd11a170-77b6-4a10-bb4a-7b9567c16bc3</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>decorate</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;b&gt;&lt;u&gt;&lt;span style=&quot;font-size:14px;&quot;&gt;First Contact Needed&lt;/span&gt;&lt;/u&gt;&lt;br /&gt;
+&lt;br /&gt;
+Stage Note:&lt;/b&gt;&lt;br /&gt;
+This is your chance to make the first impression on the customer and/or the project. You&amp;#39;re trying to determine if it is a real opportunity&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;What You Should Ask:&lt;/b&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;How did you hear about Xometry?&lt;/li&gt;
+	&lt;li&gt;How was your quoting experience&lt;/li&gt;
+	&lt;li&gt;What is your feedback on our quote?&lt;/li&gt;
+	&lt;li&gt;Are these release/final models or are there more revisions coming?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;b&gt;Next Steps:&lt;/b&gt;&lt;br /&gt;
+If VM, send an email and schedule a Follow Up Call for 2 days out. Move to Waiting on First Reply -- If connected, move to qualifying/waiting on rev&amp;#39;s&lt;br /&gt;
+&lt;br /&gt;
+&amp;nbsp;</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.StageName}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>First Contact Needed</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>decorate</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;b&gt;&lt;u&gt;&lt;span style=&quot;font-size:14px;&quot;&gt;Waiting on First Reply&lt;/span&gt;&lt;/u&gt;&lt;br /&gt;
+&lt;br /&gt;
+Stage Note:&lt;/b&gt;&lt;br /&gt;
+You made the initial contact, and you got a voicemail and you left the best one ever!! You also followed it up by an email!! Now you&amp;#39;re waiting for a reply, but you&amp;#39;re better than that!! Rather than waiting, you just created a task for a few days out to follow up, and follow up, and follow up. Be pleasantly persistent!!&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;What You Should Ask:&lt;/b&gt;&lt;br /&gt;
+Leaving voicemails that would make you want to call you back. Leave something relevant to them, the file name, a specific issue you see on a part, a specific question you have -- Leave your number twice, once in the intro and once at the end&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Next Steps:&lt;/b&gt;&lt;br /&gt;
+Keep scheduling follow up calls as you see pleasantly persistant. A good practice would be 2 then 4 then 6 days out. If you don&amp;#39;t have any reply by the fourth time you check on the opportunity, and there are no new quotes/revisions happening, close the opportunity out as Close Lost No Reply&lt;br /&gt;
+&lt;br /&gt;
+&amp;nbsp;</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText2</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.StageName}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Waiting on First Reply</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>decorate</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;style type=&quot;text/css&quot;&gt;&lt;!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--&gt;
+&lt;/style&gt;
+&lt;b&gt;&lt;span style=&quot;font-size:14px;&quot;&gt;&lt;u&gt;Qualifying / Waiting on Rev&amp;#39;s​&lt;/u&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+Stage Note:&lt;/b&gt;&lt;br /&gt;
+Prepare your call, have specific questions you want to ask written down before you make the call -- Look at the companies website, check out their financials, past order history, other persons that have ordered to reference, any information you can figure out from LinkedIn&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;What You Should Ask:&lt;/b&gt;&lt;br /&gt;
+Start asking your BANT questions, Budget, Authority, Need, and Timing - Understand the stage of the project they are in - How many more revisions do they expect to make to the parts before placing the order - What is thier timeline to needing parts in hand, and why do they need them then - Don&amp;#39;t forget to ask then revisions will be coming in and scheudle follow ups around those times&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Next Steps:&lt;/b&gt;&lt;br /&gt;
+Schedule Follow Up with Engineering for design review, make sure you schedule a follow up call to ensure you&amp;#39;re getting updated revisions in the frequency they&amp;#39;re promising -- Contact accounting if new company seeking terms or if large order</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText3</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.StageName}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Qualifying/Waiting on Revs</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>decorate</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;style type=&quot;text/css&quot;&gt;&lt;!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--&gt;
+&lt;/style&gt;
+&lt;b&gt;&lt;span style=&quot;font-size:14px;&quot;&gt;&lt;u&gt;Qualified Opportunity / Final Revs​&lt;/u&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+Stage Note:&lt;/b&gt;&lt;br /&gt;
+The opportunity is qualified by this point. There is a budget for the project, they need parts within a certain timeframe, you know the path of authority to get the PO, now is your time to make sure we are putting our best foot forward. Ask all the right questions and listen carefully to what the customer is telling you and you&amp;#39;ll be setting yourself up for success&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;What You Should Ask:&lt;/b&gt;&lt;br /&gt;
+This is your opportunity to start asking anything that would effect the price or lead time of the project - Ask about expectations that are not on the drawing -- Ask about future orders or re-buys for potential volume discounts and blanket PO&amp;#39;s - Make sure all the fields in the quote are set correctly and that any custom options are understood before asking for internal engineering review - Ask about &lt;b&gt;certification&lt;br /&gt;
+&lt;br /&gt;
+Next Steps:&lt;/b&gt;&lt;br /&gt;
+Make sure the quote is correctly setup - If a large opportunity, make sure to review it with management - Present the quote to the customer&lt;br /&gt;
+&amp;nbsp;</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText4</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.StageName}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Qualified Opportunity/Final Revs</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>decorate</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;style type=&quot;text/css&quot;&gt;&lt;!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--&gt;
+&lt;/style&gt;
+&lt;span style=&quot;font-size:14px;&quot;&gt;&lt;u&gt;&lt;b&gt;Quote Presented&lt;/b&gt;&lt;/u&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Stage Note:&lt;/b&gt;&lt;br /&gt;
+The &lt;b&gt;final quote is in order&lt;/b&gt;, it&amp;#39;s been reviewed by you and the engineer on the phone, it&amp;#39;s a qualified opportunity and all you have to do now is &lt;b&gt;close it&lt;br /&gt;
+&lt;br /&gt;
+What You Should Ask:&lt;/b&gt;&lt;br /&gt;
+Based on our lead times and the date you know you need parts, when do you expect to release a PO for this project? -- Is there anything you can forsee preventing you from placing this order with Xometry?&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Next Steps:&lt;/b&gt;&lt;br /&gt;
+Enter estimated close date and schedule a follow up call for a few days prior to make sure everything is still as planned.</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText5</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.StageName}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Quote Presented</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>decorate</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;style type=&quot;text/css&quot;&gt;&lt;!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--&gt;
+&lt;/style&gt;
+&lt;b&gt;&lt;span style=&quot;font-size:14px;&quot;&gt;&lt;u&gt;Negotiations In Process​&lt;/u&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+Stage Note:&lt;/b&gt;&lt;br /&gt;
+You&amp;#39;re here because as you started to close the opportunity, price or lead time became an issue. No worries, use your question asking skills to learn exactly what the customer needs and why they need it that way. Take this information to management and we&amp;#39;ll work together to refine the pitch.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;What You Should Ask:&lt;/b&gt;&lt;br /&gt;
+Did you get competitive bids that meet those needs - If about lead time, would you be willing to pay more for faster - If about cost, would you be willing to wait longer for lower cost, could you relax tolerances or spec more affordable material.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Next Steps:&lt;/b&gt;&lt;br /&gt;
+If warranted, get management involved with your call back to the customer of the refined quote. Schedule pleasantly persistat follow up calls to stay on top of any new threats to our win.</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText6</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.StageName}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Negotiations In Process</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>decorate</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;style type=&quot;text/css&quot;&gt;&lt;!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--&gt;
+&lt;/style&gt;
+&lt;b&gt;&lt;span style=&quot;font-size:14px;&quot;&gt;&lt;u&gt;Commited​&lt;/u&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+Stage Note:&lt;/b&gt;&lt;br /&gt;
+The purchase requistion has been turned in and you know exactly when it is going to be in because you understand the release schedule.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;What You Should Ask:&lt;/b&gt;&lt;br /&gt;
+What other projects are on your schedule now that you are waiting on that part? -- Who else could we be working with around you? -- Think we could give a presentation to your whole team via web conference?&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Next Steps:&lt;/b&gt;&lt;br /&gt;
+Enter the Estimated Close Date and schedule a call for that day to make sure you are getting it.</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText7</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.StageName}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Committed</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>decorate</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;b&gt;&lt;span style=&quot;font-size:14px;&quot;&gt;&lt;u&gt;Closed Won&lt;/u&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+Stage Note:&lt;/b&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:14px;&quot;&gt;&lt;i&gt;&lt;b&gt;Happy Dance The Order is In!&lt;/b&gt;&lt;/i&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;What You Should Ask:&lt;/b&gt;&lt;br /&gt;
+Did I set this up for order entry success - Will the team be able to enter this order easily with the information I am giving them -- &lt;b&gt;Make sure QUOTE ID and PRICING MATCH​&lt;br /&gt;
+&lt;br /&gt;
+Next Steps:&lt;/b&gt;&lt;br /&gt;
+Make sure all relevent order info is noted in places that order entry will easily see it. Let them know it is okay to contact you with any questions - If a large enough opportunity, book a happy hour.&lt;br /&gt;
+&amp;nbsp;</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText8</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.StageName}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Closed Won</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <name>facet-257fa9f9-016a-46d5-b57d-7aa57432f62b</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>active</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>facet-1aba704b-61c9-48c8-829a-81325ebf2cab</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Standard.Tab.activity</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>activityTab</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>facet-cd11a170-77b6-4a10-bb4a-7b9567c16bc3</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Standard.Tab.collaborate</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>collaborateTab</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>facet-257fa9f9-016a-46d5-b57d-7aa57432f62b</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Sales Guidance</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>customTab5</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>facet-54759823-a5f5-4326-b55d-9cdc8098cbd3</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>tabs</name>
+                    <value>facet-54759823-a5f5-4326-b55d-9cdc8098cbd3</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tabset</componentName>
+                <identifier>flexipage_tabset2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Opportunity.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>OpportunityContactRoles</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>GRID</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer8</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Opportunity.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>OpportunityPartnersFrom</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>NONE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer9</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Opportunity.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>AttachedContentNotes</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>NONE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer10</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Opportunity.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>OpportunityTeamMembers</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>GRID</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer11</identifier>
+            </componentInstance>
+        </itemInstances>
+        <mode>Replace</mode>
+        <name>sidebar</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Opportunity Record Page</masterLabel>
+    <parentFlexiPage>sfa__Opportunity_rec_L</parentFlexiPage>
+    <sobjectType>Opportunity</sobjectType>
+    <template>
+        <name>flexipage:recordHomeWithSubheaderTemplateDesktop</name>
+    </template>
+    <type>RecordPage</type>
+</FlexiPage>

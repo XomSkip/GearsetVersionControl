@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The ranking of the top 250 accounts for 2020 Strategic Initiatives --></help>
+        <label><!-- [decommissioned] 2020 Strategic Tgt Rank --></label>
+        <name>X2020_Strategic_Target_Rank__c</name>
+    </CustomFieldTranslation>

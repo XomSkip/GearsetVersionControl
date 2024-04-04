@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- User Role --></label>
+        <name>rep_type_name__c</name>
+        <picklistValues>
+            <masterLabel>AE</masterLabel>
+            <translation><!-- AE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AE-II</masterLabel>
+            <translation><!-- AE-II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BDR</masterLabel>
+            <translation><!-- BDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EAM</masterLabel>
+            <translation><!-- EAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EBDR</masterLabel>
+            <translation><!-- EBDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NCR</masterLabel>
+            <translation><!-- NCR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PE</masterLabel>
+            <translation><!-- PE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAE</masterLabel>
+            <translation><!-- SAE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAM</masterLabel>
+            <translation><!-- SAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDR</masterLabel>
+            <translation><!-- SDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Manager</masterLabel>
+            <translation><!-- Sales Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Operations</masterLabel>
+            <translation><!-- Sales Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialist</masterLabel>
+            <translation><!-- Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TSE</masterLabel>
+            <translation><!-- TSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VMS</masterLabel>
+            <translation><!-- VMS --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

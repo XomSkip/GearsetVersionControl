@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Opps_to_Call_Today</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Days_in_Stage__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>LAST_ACTIVITY_DATETIME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>equals</operation>
+        <value>Allison Molitor,Ben Saygers,Marvie Briones,Scott Azure,Josh Snyder</value>
+    </filters>
+    <filters>
+        <field>Project_Stage__c</field>
+        <operation>notEqual</operation>
+        <value>Closed Won,Closed Lost</value>
+    </filters>
+    <label>New Opps to Call Today</label>
+</ListView>

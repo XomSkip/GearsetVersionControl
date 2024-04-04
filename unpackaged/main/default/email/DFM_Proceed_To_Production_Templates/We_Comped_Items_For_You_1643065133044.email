@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<style type="text/css"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->
+</style>
+<style type="text/css"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->
+</style>
+Hello <font color="#c0392b">Insert Customer Name</font>,<br />
+<br />
+Thanks for placing your order with Xometry!<br />
+<br />
+We are reaching out because we noticed some aspects of your print(s) were not captured properly in the Features section of the quoting site. In this case we are going to proceed to production adding:
+<ul>
+	<li>item 1</li>
+	<li>item 2</li>
+</ul>
+<br />
+As a reminder, our quoting engine cannot read PDF drawings, and so we do ask that you take the time to capture them within the Features section of the quoting site as best as possible.<br />
+<br />
+We are here to help answer any questions you have, and appreciate the opportunity to manufacture for your team!<br />
+<br />
+Thank you.<br />
+<br />
+Best Regards,<br />
+&nbsp;
+</body></html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Onboarding_Next_Steps__c</fullName>
+    <externalId>false</externalId>
+    <label>Onboarding Next Steps</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Send Test Part</fullName>
+                <default>false</default>
+                <label>Send Test Part</label>
+            </value>
+            <value>
+                <fullName>No Next Steps</fullName>
+                <default>false</default>
+                <label>No Next Steps</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,4 @@
+<apex:page standardController="Account_Team__c">
+  <h1>Account Team Changes - Use button on Account page</h1>
+  <p>Please use the "Account Team Change" button on the Account page to change, add or remove Account Team Members.</p>
+</apex:page>

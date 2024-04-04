@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSE_MQ__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND( ISPICKVAL(Quote_Type__c, 'Manually-Quoted') ,  CONTAINS(ManualQuoterUser__r.UserRole.Name,'PSE'))</formula>
+    <label>PSE MQ?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

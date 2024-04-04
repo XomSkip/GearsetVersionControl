@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPC_TimetoFirstResponseBusinessHrs__c</fullName>
+    <description>CPC First Response Time (Based on GNO's Logic to push to business Hour). Assumption 12 hours working (8-8), and the day starts from 8 AM ET (12:00 GMT)
+
+Not accurate if the 1st reply email is an Auto Reply (Workcenter for example).</description>
+    <externalId>false</externalId>
+    <formula>ROUND(12 * (
+(5 * FLOOR((DATEVALUE( First_Response_Time__c ) - DATE(1996, 01, 01)) / 7) +
+MIN(5,
+MOD(DATEVALUE( First_Response_Time__c ) - DATE(1996, 01, 01), 7) +
+MIN(1, 24 / 12 * (MOD(
+IF(HOUR(TIMEVALUE( First_Response_Time__c )) &gt;= 12,
+ First_Response_Time__c ,
+DATETIMEVALUE(
+TEXT(DATEVALUE( First_Response_Time__c ))
++
+" " +
+'12:00:00'
+))
+- DATETIMEVALUE('1996-01-01 12:00:00'), 1
+)))
+))
+-
+(5 * FLOOR((DATEVALUE(CreatedDate) - DATE(1996, 01, 01)) / 7) +
+MIN(5,
+MOD(DATEVALUE(CreatedDate) - DATE(1996, 01, 01), 7) +
+MIN(1, 24 / 12 * (MOD(
+IF(HOUR(TIMEVALUE(CreatedDate)) &gt;= 12,
+CreatedDate,
+DATETIMEVALUE(
+TEXT(DATEVALUE(CreatedDate))
++
+" " +
+'12:00:00'
+))
+- DATETIMEVALUE('1996-01-01 12:00:00'), 1
+)))
+))
+), 2)</formula>
+    <label>Time to First Response (CPC)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

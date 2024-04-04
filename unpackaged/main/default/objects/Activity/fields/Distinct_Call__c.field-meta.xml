@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Distinct_Call__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(ispickval(CallType,"Outbound")=TRUE,"8x8 OB",
+ if(ispickval(CallType,"Inbound")=TRUE, "8x8 IB",
+  if(ispickval(cas__Attempt_Type__c,"CASLightningConversation")=TRUE,"CAS OB",
+   if(ispickval(Manual_Call_Type__c,"Inbound")=TRUE, "Manual IB",
+    if(ispickval(Manual_Call_Type__c,"Outbound")=TRUE, "Manual OB",
+     if(Subject="Call","Manual Call","")
+    )
+   )
+  )
+ )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Distinct Call</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Estimate needed for Shipping Rates</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>JT_Shipping Estimate Macro</name>
+    <style>none</style>
+    <subject>Shipping Estimate Needed - XXXXX-XXXXX</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

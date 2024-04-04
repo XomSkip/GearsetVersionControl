@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Additive-Quote to sales</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Manual Quote has been Submitted:  {{{Case.Opportunity__c}}}</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<style type="text/css"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}-->
+</style>
+After clicking the "checkout" button of a new order, you will be directed to the 'Checkout' page. Here you will find a drop-down submenu, "apply promo code/credit" annotated with '+" in the 'Order Summary' subcategory. Click the "+" to show the "Promotion code(one per order)" field. Enter the credit code here. Once entered, please proceed to complete the remaining number field to finalize your order.<br />
+<br />
+<br />
+<strong>{{{Sender.FirstName}}}&nbsp;{{{Sender.LastName}}} | Customer Advocate</strong><br />
+{{{Sender.Email}}} | Direct Number:&nbsp;<br />
+<a href="https://www.xometry.com/">Xometry</a>&nbsp;| Your one-stop shop for manufacturing on demand<br />
+Support Hours: M-F 8:00AM - 10:00PM EST<br />
+<a href="https://support.xometry.com/hc/en-us/requests/new?ticket_form_id=360006164253">Support</a>&nbsp;| Phone:&nbsp;<a href="tel:2402521138">240-252-1138</a></body>
+</html>

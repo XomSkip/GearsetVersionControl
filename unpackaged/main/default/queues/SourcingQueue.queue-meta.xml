@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Unassigned Sourcing Queue</name>
+    <queueMembers>
+        <users>
+            <user>beverly.diop@xometry.com</user>
+            <user>bbarton@xometry.com</user>
+            <user>cedmonds@xometry.com</user>
+            <user>charlene.gunter@xometry.com</user>
+            <user>ccampbell@xometry.com</user>
+            <user>jeff.zarle@xometry.com</user>
+            <user>julian.sbardella@xometry.com</user>
+            <user>khorrworth@xometry.com</user>
+            <user>szimmerman@xometry.com</user>
+            <user>twolff@xometry.com</user>
+            <user>tgarren@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

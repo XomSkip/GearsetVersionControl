@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The part thickness is not a standard gauge size for the material selected</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Unsupported sheet cutting gauge</name>
+    <style>none</style>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

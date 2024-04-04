@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Some Closed Lost details require additional information. For example: if selecting Competition please enter the competitor&apos;s name or &apos;Unknown&apos;. --></help>
+        <label><!-- Closed Lost Reason --></label>
+        <name>Closed_Lost_Reason__c</name>
+    </CustomFieldTranslation>

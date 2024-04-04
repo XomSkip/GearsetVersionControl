@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>to try to recoup a more serious amount of money, without saying no, use this</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Customer - Request Additional Funds for Missed Features, Proceed to Production</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry Order - Missed Features, Please Review</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

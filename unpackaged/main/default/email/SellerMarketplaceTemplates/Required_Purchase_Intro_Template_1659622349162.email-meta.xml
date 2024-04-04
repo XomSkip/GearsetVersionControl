@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Thank you for accepting job J00XXXXX. A condition of accepting this job is that you are required to purchase material from Xometry. Please let us know the type of material, sizes, quantities, and any other important information needed for us to quote this material for you.  We ask that you respond to us within 24 hours. If we do not receive a response within this timeframe, we will need to resource the job with another partner.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Required Purchase Intro Template</name>
+    <relatedEntityType>Opportunity</relatedEntityType>
+    <style>none</style>
+    <subject>Job J00C114D Accepted</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

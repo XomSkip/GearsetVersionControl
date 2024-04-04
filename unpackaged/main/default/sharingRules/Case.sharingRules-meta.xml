@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>PSE_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PSE Cases</label>
+        <sharedTo>
+            <roleAndSubordinates>PSE_Leadership</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PSE Case</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>SalesOps_PSE_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>SalesOps PSE Cases</label>
+        <sharedTo>
+            <role>Sales_Administrator</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PSE Case</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

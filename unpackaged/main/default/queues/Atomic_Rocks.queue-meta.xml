@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Atomic Rocks</name>
+    <queueMembers>
+        <users>
+            <user>cvollmerhausen@xometry.com</user>
+            <user>felicia.glenn@xometry.com</user>
+            <user>jmcclure@xometry.com</user>
+            <user>rscherich@xometry.com</user>
+            <user>tgerlings@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Default_For_Case</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

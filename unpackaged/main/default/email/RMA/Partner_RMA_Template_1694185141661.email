@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<style type="text/css"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}-->
+</style>
+Hello [blank]<br />
+The customer for a job you have completed has contacted us with some concerns about the parts they have received. Our team has conducted an initial review and has determined that the concerns appear to be accurate. This email is to provide you with a heads up while we collect additional information ahead of calling you to discuss in detail. Here is the job information and a description of the reported issue:<br />
+Job #<br />
+Part: #<br />
+Qty:<br />
+Issue Description:<br />
+Based on the description of the issues, we believe that it should take no more than [X] days for this to be [reworked or remade].<br />
+I have been assigned as the Case Manager and will be the point of contact on this matter. I will be following up with you shortly to discuss this RMA request in greater detail. We have sent the customer return labels to have the parts shipped to your facility via FedEx [tracking number].<br />
+<br />
+<br />
+<strong>{{{Sender.FirstName}}}&nbsp;{{{Sender.LastName}}} | Customer Advocate</strong><br />
+{{{Sender.Email}}} | Direct Number:&nbsp;<br />
+<a href="https://www.xometry.com/">Xometry</a>&nbsp;| Your one-stop shop for manufacturing on demand<br />
+Support Hours: M-F 8:00AM - 10:00PM EST<br />
+<a href="https://support.xometry.com/hc/en-us/requests/new?ticket_form_id=360006164253">Support</a>&nbsp;| Phone:&nbsp;<a href="tel:2402521138">240-252-1138</a></body>
+</html>

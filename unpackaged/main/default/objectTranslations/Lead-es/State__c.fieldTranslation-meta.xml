@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The State or Province of the Contact --></help>
+        <label><!-- Contact State --></label>
+        <name>State__c</name>
+    </CustomFieldTranslation>

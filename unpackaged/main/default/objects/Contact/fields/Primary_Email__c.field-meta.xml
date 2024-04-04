@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Email__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>The Primary Email of the Contact.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Adjust the email above to change the value. The Primary Email Address is a unique email in the system.</inlineHelpText>
+    <label>Primary Email</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Email</type>
+    <unique>true</unique>
+</CustomField>

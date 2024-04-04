@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POD__c</fullName>
+    <externalId>false</externalId>
+    <label>POD</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Albatrosses</fullName>
+                <default>false</default>
+                <label>Albatrosses</label>
+            </value>
+            <value>
+                <fullName>Atomic Rocks</fullName>
+                <default>false</default>
+                <label>Atomic Rocks</label>
+            </value>
+            <value>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+                <label>Automotive</label>
+            </value>
+            <value>
+                <fullName>Rocket Power</fullName>
+                <default>false</default>
+                <label>Rocket Power</label>
+            </value>
+            <value>
+                <fullName>SpaceTechs</fullName>
+                <default>false</default>
+                <label>SpaceTechs</label>
+            </value>
+            <value>
+                <fullName>Triple Threat</fullName>
+                <default>false</default>
+                <label>Triple Threat</label>
+            </value>
+            <value>
+                <fullName>Amazing</fullName>
+                <default>false</default>
+                <label>Amazing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

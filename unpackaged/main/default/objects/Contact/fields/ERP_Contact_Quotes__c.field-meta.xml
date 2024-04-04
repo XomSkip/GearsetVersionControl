@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERP_Contact_Quotes__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( NOT(ISBLANK( Email )) , HYPERLINK("https://www.xometry.com/staff/quotes-list/?search="+ SUBSTITUTE(Email, "@", "%40") +"&amp;rowsPerPage=25&amp;page=1&amp;sortBy=last_updated&amp;sortDirection=desc","Go to this Contact's Quotes in the ERP", "_blank"), "No Email Provided on Contact")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ERP Contact Quotes</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

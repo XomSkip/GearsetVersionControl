@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PO_Team_Call_List_View</fullName>
+    <columns>CallStartDateTime</columns>
+    <columns>NF_Agent_Interaction_Duration__c</columns>
+    <columns>CallEndDateTime</columns>
+    <columns>CallType</columns>
+    <columns>Name</columns>
+    <columns>User</columns>
+    <columns>CallDisposition</columns>
+    <columns>NF_Case_Number__c</columns>
+    <columns>NF_Disconnect_Reason__c</columns>
+    <columns>ToPhoneNumber</columns>
+    <columns>Post_Call_Survey_Opted__c</columns>
+    <columns>NF_Case_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NF_Routing_Profile_Name__c</field>
+        <operation>contains</operation>
+        <value>CPC PO</value>
+    </filters>
+    <label>PO Team Call List View</label>
+    <sharedTo>
+        <roleAndSubordinates>CPC_Leadership</roleAndSubordinates>
+    </sharedTo>
+</ListView>

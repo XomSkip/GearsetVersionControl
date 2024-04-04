@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Customer uploads the incorrect file type for everything except molding</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Wrong File Type (All processes except IM)</name>
+    <style>none</style>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

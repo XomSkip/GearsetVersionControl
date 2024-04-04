@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>For Handoff</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Handoff Macro</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry Order #{{{Case.GNOOrder__c}}} ACTION REQUIRED</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

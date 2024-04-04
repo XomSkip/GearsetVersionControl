@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Do you have any of these 3D Scanners? --></label>
+        <name>Do_you_have_any_of_these_3D_Scanners__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Switch From Address based on Case Origin and clear Email body before sending.  Add User Signature.</description>
+    <fieldOverrides>
+        <field>Subject</field>
+        <formula>Case.Subject + &quot;   || &quot;+ &quot;Case Number: &quot; + Case.CaseNumber</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>ToAddress</field>
+        <formula>CASE(Case.Origin,&apos;Workcenter&apos;,Case.SuppliedEmail,&apos;&apos;)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>ValidatedFromAddress</field>
+        <formula>CASE(Case.Owners_Role__c,
+&apos;DFM Automotive&apos;, &apos;automotive@xometry.com&apos;,
+&apos;CM Automotive&apos;,&apos;automotive@xometry.com&apos;,
+&apos;CM Impodsters&apos;, &apos;molding@xometry.com&apos;,
+&apos;DFM Impodsters&apos;, &apos;molding@xometry.com&apos;,
+&apos;CM Atomic Rocks&apos;,&apos;atomic@xometry.com&apos;,
+&apos;DFM Atomic Rocks&apos;,&apos;atomic@xometry.com&apos;,
+&apos;CM SpaceTechs&apos;,&apos;spacetechs@xometry.com&apos;,
+&apos;DFM SpaceTechs&apos;,&apos;spacetechs@xometry.com&apos;,
+&apos;CM Triple Threat&apos;,&apos;ttpod@xometry.com&apos;,
+&apos;DFM Triple Threat&apos;,&apos;ttpod@xometry.com&apos;,
+&apos;DFM Assembly&apos;,&apos;dfm@xometry.com&apos;,
+&apos;CM First Impressions&apos;,&apos;impressions@xometry.com&apos;,
+&apos;DFM First Impressions&apos;,&apos;impressions@xometry.com&apos;,
+&apos;Shipping&apos;,&apos;support@xometry.com&apos;,
+&apos;support@xometry.com&apos;
+)</formula>
+    </fieldOverrides>
+    <label>Email (Case Management)</label>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>ValidatedFromAddress</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>ToAddress</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>CcAddress</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>BccAddress</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Subject</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>HtmlBody</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <quickActionSendEmailOptions>
+        <ignoreDefaultEmailTemplateSubject>false</ignoreDefaultEmailTemplateSubject>
+    </quickActionSendEmailOptions>
+    <targetObject>EmailMessage</targetObject>
+    <targetParentField>Parent</targetParentField>
+    <type>SendEmail</type>
+</QuickAction>

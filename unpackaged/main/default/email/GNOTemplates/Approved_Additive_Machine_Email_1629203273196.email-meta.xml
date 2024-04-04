@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This creates an automatic email with link to list of approved 3D Printing Machines</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Approved Additive Machine Email</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

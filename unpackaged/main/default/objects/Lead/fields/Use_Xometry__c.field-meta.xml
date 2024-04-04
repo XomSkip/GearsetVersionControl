@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_Xometry__c</fullName>
+    <description>HubSpot Property: NPS Share of Wallet</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What percentage of the time do you use Xometry vs. another supplier for custom manufacturing? Answer from SurveyMonkey</inlineHelpText>
+    <label>Use Xometry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>100%</fullName>
+                <default>false</default>
+                <label>100%</label>
+            </value>
+            <value>
+                <fullName>75% to 100%</fullName>
+                <default>false</default>
+                <label>75% to 100%</label>
+            </value>
+            <value>
+                <fullName>50% to 74%</fullName>
+                <default>false</default>
+                <label>50% to 74%</label>
+            </value>
+            <value>
+                <fullName>25% to 49%</fullName>
+                <default>false</default>
+                <label>25% to 49%</label>
+            </value>
+            <value>
+                <fullName>&lt;25%</fullName>
+                <default>false</default>
+                <label>&lt;25%</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

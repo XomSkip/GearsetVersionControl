@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- First Order date converted to plain english for outreach sequences. --></help>
+        <label><!-- Outreach First Order Date(text) --></label>
+        <name>Outreach_First_Order_Date_text__c</name>
+    </CustomFieldTranslation>

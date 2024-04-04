@@ -1,0 +1,10 @@
+<apex:page standardController="Case" lightningStylesheets="true" >
+     <apex:slds />
+    <apex:pageBlock title="Description Information" mode="detail">
+        <apex:pageBlockSection columns="1">
+              <apex:pageBlockSectionItem >
+                <apex:outputField style="font-weight: bold;" value="{! Case.Description}"/>
+            </apex:pageBlockSectionItem>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

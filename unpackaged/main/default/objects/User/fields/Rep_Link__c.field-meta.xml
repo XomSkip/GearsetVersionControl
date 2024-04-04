@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rep_Link__c</fullName>
+    <description>For Sales Users, set this to the following, updating First Initial and Last Name tags manually: https://www.xometry.com/quoting/home?utm_source=replinks&amp;utm_medium=other_campaigns&amp;utm_campaign=&lt;FirstInitial&gt;&lt;LastName&gt;</description>
+    <externalId>false</externalId>
+    <label>Rep Link</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Url</type>
+</CustomField>

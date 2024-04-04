@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IM_UC_Queue</fullName>
+    <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Manual_Quote_Status__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Age_hrs__c</columns>
+    <columns>PSE_Age__c</columns>
+    <columns>PSENotesListView__c</columns>
+    <columns>LineItemCountLookup__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>Manufacturing_Process__c</columns>
+    <columns>Generic__c</columns>
+    <columns>Manual_Quote_Prioritization_Score__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>IM + UC Quoting</value>
+    </filters>
+    <filters>
+        <field>Owners_Role__c</field>
+        <operation>equals</operation>
+        <value>PSE - IM/UC,PSE Leadership - IM/UC</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Order Confirmed/Closed,Solved,Closed</value>
+    </filters>
+    <label>[PSE] IM + UC (Mold/Cast) Requests</label>
+    <sharedTo>
+        <group>PSE_Case_Access_Group</group>
+        <roleAndSubordinates>PSE_Leadership</roleAndSubordinates>
+        <roleAndSubordinatesInternal>Service_Leadership</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

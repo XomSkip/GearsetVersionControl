@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_Cancelled_Cannot_be_set_by_User</fullName>
+    <active>true</active>
+    <description>Loss Reason: Order Cancelled cannot be assigned by a User. This loss reason can only be set by the system admin.</description>
+    <errorConditionFormula>AND(
+OR(
+( $Profile.Name='Marketing User'),
+($Profile.Name='Read Only'),
+($Profile.Name='Solution Manager'),
+($Profile.Name='Standard User'),
+($Profile.Name='Xometry Sales User'),
+( $Profile.Name='Xometry Service User'),
+( $Profile.Name='Xometry Sales Leadership')
+),
+ISPICKVAL( Loss_Reason__c , 'Order Cancelled')
+)
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Opp_VR</errorConditionFormula>
+    <errorMessage>Only system admin can set Loss Reason: Order Cancelled</errorMessage>
+</ValidationRule>

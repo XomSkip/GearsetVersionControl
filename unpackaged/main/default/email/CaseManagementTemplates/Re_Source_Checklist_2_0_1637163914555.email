@@ -1,0 +1,44 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p><i>Fill out these fields and submit ticket.</i></p>
+
+<p>&nbsp;</p>
+
+<p>Job ID:&nbsp;</p>
+
+<p>Order ID:</p>
+
+<p>Part ID(s):</p>
+
+<p>Re-Souring Consideration:</p>
+
+<p>* Parts Shipped (Yes/No) =&nbsp;</p>
+
+<p>* Parts Failed Inspection (Yes/No) =&nbsp;</p>
+
+<p>*Partner Gave Up:</p>
+
+<p>* Cost</p>
+
+<p>* Lead Time<br />
+* DFM</p>
+
+<p>* Material</p>
+
+<p>* Other</p>
+
+<p>Does the customer know we are resourcing?</p>
+
+<p>* Drop Dead Delivery Date?</p>
+
+<p>Has the partner been notified?</p>
+
+<p>Has accounting been informed of PO adjustments?</p>
+
+<p>&nbsp;</p>
+
+<p>EXTRA NOTES:</p>
+
+</body></html>

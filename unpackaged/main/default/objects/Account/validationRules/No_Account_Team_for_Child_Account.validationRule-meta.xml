@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Account_Team_for_Child_Account</fullName>
+    <active>true</active>
+    <errorConditionFormula>Account_Team_Members__c &gt; 0 &amp;&amp;
+ISCHANGED(ParentId) &amp;&amp;
+!ISBLANK(ParentId)
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Account_VR</errorConditionFormula>
+    <errorMessage>Child Accounts can not have an Account Team
+DO NOT try to fix this yourself
+Please skip setting parent for now and submit a SOPS ticket for us to handle correctly
+https://xometry.atlassian.net/servicedesk/customer/portal/13/group/49/create/191</errorMessage>
+</ValidationRule>

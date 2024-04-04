@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>GNO General Template</name>
+    <style>none</style>
+    <subject>Support</subject>
+    <textOnly>Support
+
+
+Your request has been updated. To add additional comments, reply to this email.
+
+{!EmailMessage.FromName} (Xometry)
+
+Aug 5, 2021, 1:40 PM EDT
+
+{!EmailMessage.TextBody}
+
+{!EmailMessage.FromName}
+
+{!EmailMessage.FromAddress}
+Support hours: M-F 8:00 AM - 9:00 PM EST
+
+
+
+You received this email because you contacted Xometry&apos;s support team.
+
+Xometry, 7940 Cessna Avenue, Gaithersburg, MD 20879, USA, 240-252-1138</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

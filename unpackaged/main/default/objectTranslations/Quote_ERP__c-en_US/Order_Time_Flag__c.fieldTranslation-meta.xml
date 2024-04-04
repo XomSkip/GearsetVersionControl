@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For Integrations to Signal the Quote has become an Order --></help>
+        <label><!-- Order Time Flag --></label>
+        <name>Order_Time_Flag__c</name>
+    </CustomFieldTranslation>

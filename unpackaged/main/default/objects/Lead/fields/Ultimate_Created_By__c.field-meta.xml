@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ultimate_Created_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Used with Outreach to determine if this Lead was created from Outreach, and who pushed it over.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used with Outreach to determine if this Lead was created from Outreach, and who pushed it over.</inlineHelpText>
+    <label>Ultimate Created By</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Creator</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

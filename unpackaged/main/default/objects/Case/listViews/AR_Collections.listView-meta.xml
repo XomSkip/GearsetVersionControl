@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AR_Collections</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Billing_Profile_ID__c</columns>
+    <columns>CASES.EMAIL</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Total_Past_Due__c</columns>
+    <columns>X0_30__c</columns>
+    <columns>X31_60_Amount__c</columns>
+    <columns>X61_90_Amount__c</columns>
+    <columns>X91_120_Amount__c</columns>
+    <columns>X121_Amount__c</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Solved,Closed</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Collections</value>
+    </filters>
+    <label>[AR] Collections</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Accounting</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

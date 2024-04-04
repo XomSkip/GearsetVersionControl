@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancellation_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Cancellation Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Resource_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Machine Breakdown</fullName>
+                <default>false</default>
+                <label>Machine Breakdown</label>
+            </value>
+            <value>
+                <fullName>Part Req. Exceed Capabilities</fullName>
+                <default>false</default>
+                <label>Part Req. Exceed Capabilities</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Partner Unresponsive</fullName>
+                <default>false</default>
+                <label>Partner Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Failed Inspection</fullName>
+                <default>false</default>
+                <label>Failed Inspection</label>
+            </value>
+            <value>
+                <fullName>Partner Refused to Remake</fullName>
+                <default>false</default>
+                <label>Partner Refused to Remake</label>
+            </value>
+            <value>
+                <fullName>Force Majeure/Weather/Covid</fullName>
+                <default>false</default>
+                <label>Force Majeure/Weather/Covid</label>
+            </value>
+            <value>
+                <fullName>Lead Time</fullName>
+                <default>false</default>
+                <label>Lead Time</label>
+            </value>
+            <value>
+                <fullName>Automation</fullName>
+                <default>false</default>
+                <label>Automation</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Partner Canceled</controllingFieldValue>
+            <valueName>Machine Breakdown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Canceled</controllingFieldValue>
+            <valueName>Part Req. Exceed Capabilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Canceled</controllingFieldValue>
+            <valueName>Pricing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Xometry Canceled</controllingFieldValue>
+            <valueName>Partner Unresponsive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Xometry Canceled</controllingFieldValue>
+            <valueName>Failed Inspection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Xometry Canceled</controllingFieldValue>
+            <valueName>Partner Refused to Remake</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Xometry Canceled</controllingFieldValue>
+            <valueName>Force Majeure/Weather/Covid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Xometry Canceled</controllingFieldValue>
+            <valueName>Lead Time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automation Canceled</controllingFieldValue>
+            <valueName>Automation</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

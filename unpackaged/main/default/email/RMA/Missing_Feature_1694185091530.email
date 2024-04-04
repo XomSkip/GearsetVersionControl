@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<style type="text/css"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}-->
+</style>
+We're terribly sorry to hear that the parts from your recent order are not to the standard you have come to expect from Xometry and look forward to the opportunity to address your concerns. I had a chance to review your order and would like to provide some context on why the parts arrived missing tapped holes.<br />
+<br />
+This order was placed with only a CAD file uploaded, and unfortunately at this time our platform is unable to identify embedded features such as tapped holes, material, or surface finish, in the 3D models. Additionally we do not have a print on file and there were no threads added to the order as a required feature.<br />
+<br />
+Obviously at the end of the day we want to make sure that the parts you receive from Xometry meet your needs and we would be happy to have them returned to our facility for rework. We do want to be upfront, our facility would be taking on this job as a courtesy but they may ask for some compensation since adding tapped holes was not in the original order costs. When you have a chance please let us know if you would like to send the parts back and we can get this RMA assigned to a case manager, thank you!<br />
+<br />
+<br />
+<strong>{{{Sender.FirstName}}}&nbsp;{{{Sender.LastName}}} | Customer Advocate</strong><br />
+{{{Sender.Email}}} | Direct Number:&nbsp;<br />
+<a href="https://www.xometry.com/">Xometry</a>&nbsp;| Your one-stop shop for manufacturing on demand<br />
+Support Hours: M-F 8:00AM - 10:00PM EST<br />
+<a href="https://support.xometry.com/hc/en-us/requests/new?ticket_form_id=360006164253">Support</a>&nbsp;| Phone:&nbsp;<a href="tel:2402521138">240-252-1138</a></body>
+</html>

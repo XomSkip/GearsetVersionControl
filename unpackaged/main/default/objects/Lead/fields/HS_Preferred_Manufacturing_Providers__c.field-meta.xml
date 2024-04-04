@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HS_Preferred_Manufacturing_Providers__c</fullName>
+    <description>Captures data from Hubspots' User Profile Form for this field. Not editable in Salesforce. Source of truth is Hubspot.</description>
+    <externalId>false</externalId>
+    <label>HS Preferred Manufacturing Providers</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>My company's internal machines</fullName>
+                <default>false</default>
+                <label>My company's internal machines</label>
+            </value>
+            <value>
+                <fullName>A local machine shop or 3D printing service provider</fullName>
+                <default>false</default>
+                <label>A local machine shop or 3D printing service provider</label>
+            </value>
+            <value>
+                <fullName>Xometry</fullName>
+                <default>false</default>
+                <label>Xometry</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Overseas manufacturers</fullName>
+                <default>false</default>
+                <label>Overseas manufacturers</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,12 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Good Xtime of dayX,&nbsp;{{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+My name is {{{Sender.Name}}} and I'm reaching out to you from Xometry Logistics. We apologize for the delay in getting your parts delivered to you. Please note, Xreason for delay or confirmation we have reached out to carrier for resolutionX.<br />
+<br />
+We will monitor this situation closely until the parts are delivered to you. Please let us know if you have any further questions.<br />
+<br />
+Kind regards,</body>
+</html>

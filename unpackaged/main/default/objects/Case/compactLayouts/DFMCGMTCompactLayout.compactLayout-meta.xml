@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DFMCGMTCompactLayout</fullName>
+    <fields>CMGT_OrderSubject__c</fields>
+    <fields>OwnerId</fields>
+    <fields>CaseNumber</fields>
+    <fields>SuppliedEmail</fields>
+    <fields>SuppliedName</fields>
+    <fields>SuppliedPhone</fields>
+    <fields>Priority</fields>
+    <label>DFM CGMT Compact Layout</label>
+</CompactLayout>

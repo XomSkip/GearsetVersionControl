@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If unchecked, will bypass downstream ownership change of Orders triggered by parent account owner change --></help>
+        <label><!-- Change Downstream Order Owner --></label>
+        <name>Change_Downstream_Order_Owner__c</name>
+    </CustomFieldTranslation>

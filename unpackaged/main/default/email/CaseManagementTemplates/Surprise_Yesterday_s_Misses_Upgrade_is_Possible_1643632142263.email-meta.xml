@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Suprise Yesterday&apos;s Misses ( Upgrading Shipping is Possible (Original order 2-Day or Ground; International or Freight does not apply)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Surprise Yesterday&apos;s Misses (Upgrade is Possible)</name>
+    <style>none</style>
+    <subject>Xometry Order: XXXXX-XXXXX Delay</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

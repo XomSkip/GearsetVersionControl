@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Marketplace Case Queue - Marketplace Ops</name>
+    <queueMembers>
+        <users>
+            <user>dclarke@xometry.com</user>
+            <user>jgreco@xometry.com</user>
+            <user>kjames@xometry.com</user>
+            <user>tmullins@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

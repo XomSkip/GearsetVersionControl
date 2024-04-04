@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SupplierFeedbackRunning__c</fullName>
+    <description>A running string of all supplier feedback from all sourced jobs with the no-take part</description>
+    <externalId>false</externalId>
+    <label>Supplier Feedback (Running)</label>
+    <length>131072</length>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

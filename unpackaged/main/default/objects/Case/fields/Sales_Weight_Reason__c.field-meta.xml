@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Weight_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Sales Weight Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PO is in Hand</fullName>
+                <default>false</default>
+                <label>PO is in Hand</label>
+            </value>
+            <value>
+                <fullName>PO is Pending Quote</fullName>
+                <default>false</default>
+                <label>PO is Pending Quote</label>
+            </value>
+            <value>
+                <fullName>Revisions to Completed Quote</fullName>
+                <default>false</default>
+                <label>Revisions to Completed Quote</label>
+            </value>
+            <value>
+                <fullName>Large Opp Vetted with PSE</fullName>
+                <default>false</default>
+                <label>Large Opp Vetted with PSE</label>
+            </value>
+            <value>
+                <fullName>Quote Delivery Date Required</fullName>
+                <default>false</default>
+                <label>Quote Delivery Date Required</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

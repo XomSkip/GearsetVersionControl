@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter the level of effort needed to complete &apos;Deferred - Future Phase&apos; feedback items. --></help>
+        <label><!-- LOE --></label>
+        <name>LOE__c</name>
+    </CustomFieldTranslation>

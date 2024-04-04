@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Partner Onboarding Queue</name>
+    <queueMembers>
+        <users>
+            <user>drichards@xometry.com</user>
+            <user>kerek.plummer@xometry.com</user>
+            <user>kiara.arnold@xometry.com</user>
+            <user>mjenkins@xometry.com</user>
+            <user>nolan.mcgaughey@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

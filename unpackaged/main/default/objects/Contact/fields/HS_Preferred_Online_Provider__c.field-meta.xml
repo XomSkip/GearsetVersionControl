@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HS_Preferred_Online_Provider__c</fullName>
+    <description>Captures data from Hubspots' User Profile Form for Preferred Online Manufacturing Provider. Not editable in Salesforce. Source of truth is Hubspot.</description>
+    <externalId>false</externalId>
+    <label>HS Preferred Online Provider</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

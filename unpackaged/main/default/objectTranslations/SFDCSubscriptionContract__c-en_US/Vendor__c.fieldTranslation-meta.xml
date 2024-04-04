@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Vendor --></label>
+        <name>Vendor__c</name>
+        <picklistValues>
+            <masterLabel>Ambition</masterLabel>
+            <translation><!-- Ambition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BoFC</masterLabel>
+            <translation><!-- BoFC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Box.com</masterLabel>
+            <translation><!-- Box.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CaptivateIQ</masterLabel>
+            <translation><!-- CaptivateIQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cloudingo</masterLabel>
+            <translation><!-- Cloudingo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conga</masterLabel>
+            <translation><!-- Conga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D&amp;B</masterLabel>
+            <translation><!-- D&amp;B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gearset</masterLabel>
+            <translation><!-- Gearset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HubSpot</masterLabel>
+            <translation><!-- HubSpot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NeuraFlash</masterLabel>
+            <translation><!-- NeuraFlash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outreach</masterLabel>
+            <translation><!-- Outreach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S-3</masterLabel>
+            <translation><!-- S-3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC</masterLabel>
+            <translation><!-- SFDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vonage</masterLabel>
+            <translation><!-- Vonage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workato</masterLabel>
+            <translation><!-- Workato --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZenDesk</masterLabel>
+            <translation><!-- ZenDesk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zoom</masterLabel>
+            <translation><!-- Zoom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZoomInfo</masterLabel>
+            <translation><!-- ZoomInfo --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

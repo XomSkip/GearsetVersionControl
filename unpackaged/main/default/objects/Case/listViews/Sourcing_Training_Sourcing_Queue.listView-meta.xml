@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sourcing_Training_Sourcing_Queue</fullName>
+    <booleanFilter>(1 OR 3) AND 2 AND 4</booleanFilter>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CaseAge__c</columns>
+    <columns>ERPPartStatus__c</columns>
+    <columns>GNO_SourcingStage__c</columns>
+    <columns>OriginalOrderDueDate__c</columns>
+    <columns>DoNotClear__c</columns>
+    <columns>NoTakeRisk__c</columns>
+    <columns>POD__c</columns>
+    <columns>Pending__c</columns>
+    <columns>StaffQuoteReason__c</columns>
+    <columns>GNO_SourcingHistoryLV__c</columns>
+    <columns>GNO_XOMActionItemsLV__c</columns>
+    <columns>GNO_IsPrimaryCase__c</columns>
+    <columns>CASES.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Solved,Closed</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Sourcing</value>
+    </filters>
+    <filters>
+        <field>DoNotClear__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>contains</operation>
+        <value>Tiffany W,Carlton E,Unassigned</value>
+    </filters>
+    <label>[Sourcing] Training Sourcing Queue</label>
+</ListView>

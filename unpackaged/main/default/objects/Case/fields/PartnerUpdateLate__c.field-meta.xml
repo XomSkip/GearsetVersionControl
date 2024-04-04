@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PartnerUpdateLate__c</fullName>
+    <description>Temp Indicator for Partner Update Late</description>
+    <externalId>false</externalId>
+    <formula>AND(ISPICKVAL(Type,'Partner Update'),  CONTAINS(Subject,'- Late -'))</formula>
+    <inlineHelpText>Temp</inlineHelpText>
+    <label>Partner Update - Late</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

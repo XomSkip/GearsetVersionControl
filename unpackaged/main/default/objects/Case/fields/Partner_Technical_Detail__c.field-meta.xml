@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Technical_Detail__c</fullName>
+    <externalId>false</externalId>
+    <label>Partner: Technical Detail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>my_certificate_is_about_to_expire.</fullName>
+                <default>false</default>
+                <label>my_certificate_is_about_to_expire.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

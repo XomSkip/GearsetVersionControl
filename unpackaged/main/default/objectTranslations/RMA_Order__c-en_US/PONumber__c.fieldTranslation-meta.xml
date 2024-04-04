@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Read from Ops Order&apos;s PO Number Field --></help>
+        <label><!-- PO Number --></label>
+        <name>PONumber__c</name>
+    </CustomFieldTranslation>

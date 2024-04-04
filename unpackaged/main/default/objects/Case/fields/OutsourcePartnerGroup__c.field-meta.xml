@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OutsourcePartnerGroup__c</fullName>
+    <externalId>false</externalId>
+    <label>Outsource Partner Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CHINA GROUP</fullName>
+                <default>false</default>
+                <label>CHINA GROUP</label>
+            </value>
+            <value>
+                <fullName>DEFAULT GROUP</fullName>
+                <default>false</default>
+                <label>DEFAULT GROUP</label>
+            </value>
+            <value>
+                <fullName>NONE</fullName>
+                <default>false</default>
+                <label>NONE</label>
+            </value>
+            <value>
+                <fullName>PREMIUM GROUP</fullName>
+                <default>false</default>
+                <label>PREMIUM GROUP</label>
+            </value>
+            <value>
+                <fullName>ULTRA PREMIUM GROUP</fullName>
+                <default>false</default>
+                <label>ULTRA PREMIUM GROUP</label>
+            </value>
+            <value>
+                <fullName>Mexico and Canada Group</fullName>
+                <default>false</default>
+                <label>Mexico and Canada Group</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Does your shop support sheet metal fabri --></label>
+        <name>Does_your_shop_support_sheet_metal_fabri__c</name>
+    </CustomFieldTranslation>

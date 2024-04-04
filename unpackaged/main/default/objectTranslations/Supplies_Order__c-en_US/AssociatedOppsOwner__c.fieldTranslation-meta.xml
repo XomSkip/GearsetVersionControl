@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Opportunity Owner on the Supply Order. --></help>
+        <label><!-- Associated Opp&apos;s Owner --></label>
+        <name>AssociatedOppsOwner__c</name>
+    </CustomFieldTranslation>

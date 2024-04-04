@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Cancellation Approver Queue</name>
+    <queueMembers>
+        <users>
+            <user>hongda.zhou@xometry.com.core</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Ops_Order__c</sobjectType>
+    </queueSobject>
+</Queue>

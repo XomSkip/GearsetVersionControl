@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Persona__c</fullName>
+    <externalId>false</externalId>
+    <label>Persona / Team / Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CPC Leadership</fullName>
+                <default>false</default>
+                <label>CPC Leadership</label>
+            </value>
+            <value>
+                <fullName>CPC Tier 1</fullName>
+                <default>false</default>
+                <label>CPC Tier 1</label>
+            </value>
+            <value>
+                <fullName>CPC Tier 2/PO</fullName>
+                <default>false</default>
+                <label>CPC Tier 2/PO</label>
+            </value>
+            <value>
+                <fullName>CPC SME</fullName>
+                <default>false</default>
+                <label>CPC SME</label>
+            </value>
+            <value>
+                <fullName>QA</fullName>
+                <default>false</default>
+                <label>QA</label>
+            </value>
+            <value>
+                <fullName>Agent</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Agent</label>
+            </value>
+            <value>
+                <fullName>Manager</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Manager</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

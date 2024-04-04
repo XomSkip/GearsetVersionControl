@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPC_SLA_Breaches</fullName>
+    <booleanFilter>1 AND (2 OR 5) AND 3 AND 4</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OPS_Top_20_Customer__c</columns>
+    <columns>CaseAge__c</columns>
+    <columns>NAME</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>SLA_Breached__c</columns>
+    <columns>Next_SLA_End__c</columns>
+    <columns>Recent_Response_Time__c</columns>
+    <columns>Recent_Inbound_Message__c</columns>
+    <columns>CMSLAResponseTimeReq_hrs__c</columns>
+    <columns>First_Response_Time__c</columns>
+    <columns>Age_hrs__c</columns>
+    <columns>CM_SLAResponseTimeRemaining_hrs__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Pending,On Hold,Solved,Closed</value>
+    </filters>
+    <filters>
+        <field>Owners_Role__c</field>
+        <operation>contains</operation>
+        <value>CPC</value>
+    </filters>
+    <filters>
+        <field>SLA_Breached__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Pending,Done</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>CPC Support</value>
+    </filters>
+    <label>[CPC] SLA Breaches</label>
+    <sharedTo>
+        <group>PODSLAGroup</group>
+        <role>Administrator</role>
+        <role>Service</role>
+        <role>Service_Leadership</role>
+    </sharedTo>
+</ListView>

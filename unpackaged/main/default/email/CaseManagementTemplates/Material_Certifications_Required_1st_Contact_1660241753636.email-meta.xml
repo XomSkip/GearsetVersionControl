@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>First Reach Out on Jobs with Material Cert Needs</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Material Certifications Required - 1st Contact</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Urgent Job Specification - Material Certifications Required ||  Case Number: {{{Case.CaseNumber}}}</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

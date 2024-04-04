@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-family:Times New Roman,Times New Roman,Times,serif;">Thanks for quoting with Xometry.<br />
+<br />
+{{{Case.DirectGetSiteLinkforMQ__c}}} is completed and ready to view.&nbsp;We are excited about the opportunity to earn your business! If you have not established your Xometry account, please follow this link (https://get.xometry.com/login)&nbsp;to access and download your quote.&nbsp;Keep in mind we have faster and/or slower options depending on your schedule and budget. With your feedback, we can adjust the quote to hit your targets.<br />
+<br />
+Once you have reviewed it, if you are ready to finalize your purchase, you can easily share it with a colleague or check out yourself! Whether you need to upload a Purchase Order or enter a Credit Card, within a few clicks, your parts are ordered!<br />
+<br />
+See something you have a question about regarding pricing, lead time, and more? Please reach out, we would be happy to discuss this further. We want the opportunity to earn your business and be your supplier of choice.<br />
+<br />
+Thank you for choosing to work with Xometry!</span><br />
+<br />
+<br />
+<span style="font-family:Times New Roman,Times New Roman,Times,serif;"><b>{{{Case.Opportunity_Owner__c}}}</b><br />
+Phone:{{{Case.OppOwnersPhoneNumber__c}}}<br />
+Email: {{{Case.OppOwnerEmail__c}}}<br />
+<b>Xometry</b></span>
+</body></html>

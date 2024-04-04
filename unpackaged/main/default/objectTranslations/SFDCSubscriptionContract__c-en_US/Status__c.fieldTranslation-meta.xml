@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perpetual</masterLabel>
+            <translation><!-- Perpetual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perpetual - Free</masterLabel>
+            <translation><!-- Perpetual - Free --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal Review</masterLabel>
+            <translation><!-- Renewal Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial</masterLabel>
+            <translation><!-- Trial --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

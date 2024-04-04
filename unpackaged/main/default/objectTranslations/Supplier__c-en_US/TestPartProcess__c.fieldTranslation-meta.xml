@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Test Part Process --></label>
+        <name>TestPartProcess__c</name>
+        <picklistValues>
+            <masterLabel>CNC - Lathe</masterLabel>
+            <translation><!-- CNC - Lathe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CNC - Mill</masterLabel>
+            <translation><!-- CNC - Mill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Die Casting</masterLabel>
+            <translation><!-- Die Casting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extrusion</masterLabel>
+            <translation><!-- Extrusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheet Metal</masterLabel>
+            <translation><!-- Sheet Metal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheet Metal - Bent</masterLabel>
+            <translation><!-- Sheet Metal - Bent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheet Metal - Cutting</masterLabel>
+            <translation><!-- Sheet Metal - Cutting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stamping</masterLabel>
+            <translation><!-- Stamping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swiss Lathe</masterLabel>
+            <translation><!-- Swiss Lathe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tube Bending</masterLabel>
+            <translation><!-- Tube Bending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tube Cutting</masterLabel>
+            <translation><!-- Tube Cutting --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quantity_RMA_Line_Items__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Date when the order items are expected to arrive at the destination location</inlineHelpText>
+    <label>Quantity RMA Line Items</label>
+    <summaryForeignKey>Return_Order_Line_Item__c.RMA_Order__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

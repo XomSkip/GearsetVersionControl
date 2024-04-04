@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Xometry Case Auto-Response</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>VQC Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>no-reply@xometry.com</senderEmail>
+            <senderName>Xometry</senderName>
+            <template>unfiled$public/VQC_Auto_Response_1633707292271</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>W2C - Customer Form,W2C - Partner Form</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>support@xometry.com</replyToEmail>
+            <senderEmail>no-reply@xometry.com</senderEmail>
+            <senderName>Xometry Support</senderName>
+            <template>CPCTemplates/Auto_Reply_Templates/W2C_Auto_Reply_1686325899954</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

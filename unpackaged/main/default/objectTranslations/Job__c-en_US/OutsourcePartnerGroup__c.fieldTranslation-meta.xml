@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Outsource Partner Group --></label>
+        <name>OutsourcePartnerGroup__c</name>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cmm</masterLabel>
+            <translation><!-- Cmm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cmm Premium Partners</masterLabel>
+            <translation><!-- Cmm Premium Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation><!-- Default --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Experienced Partners</masterLabel>
+            <translation><!-- Experienced Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico And Canada</masterLabel>
+            <translation><!-- Mexico And Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium</masterLabel>
+            <translation><!-- Premium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sla Partners</masterLabel>
+            <translation><!-- Sla Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sls Partners</masterLabel>
+            <translation><!-- Sls Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ultra Premium</masterLabel>
+            <translation><!-- Ultra Premium --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

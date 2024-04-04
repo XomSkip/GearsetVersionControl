@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <decisions>
+        <name>Evaluate_Opportunity_Contact_Role_Fields</name>
+        <label>Evaluate Opportunity Contact Role Fields</label>
+        <locationX>374</locationX>
+        <locationY>408</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_Primary_Contact_Role_First_Primary_Contact_Field_Blank</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Triggering_Record.IsPrimary</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Triggering_Record.Opportunity.Outreach_Last_Touch_Contact__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Triggering_Record.Contact.Outreach_Finished_Sequences__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Triggering_Record.Contact.Outreach_Current_Sequence_Name__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Finished_Sequences_First_Primary_Contact_Sequence</targetReference>
+            </connector>
+            <label>Is Primary Contact Role; First Primary Contact Field Blank</label>
+        </rules>
+    </decisions>
+    <description>11/13 Update:
+Fixes record locking if Outreach fields on Contact are null
+
+Replaces the following Process Builder:
+
+Outreach - Update Last Touch + Finished Sequence Fields</description>
+    <environments>Default</environments>
+    <interviewLabel>Outreach {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Outreach - Opportunity Contact Role Triggered</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Triggering_Record</name>
+        <label>Get Triggering Record</label>
+        <locationX>374</locationX>
+        <locationY>288</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Evaluate_Opportunity_Contact_Role_Fields</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>OpportunityContactRole</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <description>Update Opportunity related to this record.</description>
+        <name>Update_Finished_Sequences_First_Primary_Contact_Sequence</name>
+        <label>Update Finished Sequences + First Primary Contact Sequence</label>
+        <locationX>242</locationX>
+        <locationY>528</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.OpportunityId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Outreach_Attributed_Finished_Sequences__c</field>
+            <value>
+                <elementReference>$Record.Contact.Outreach_Finished_Sequences__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Outreach_Last_Touch_Sequence__c</field>
+            <value>
+                <elementReference>$Record.Contact.Outreach_Current_Sequence_Name__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>LastModifiedDate</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>OpportunityContactRole</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <scheduledPaths>
+            <connector>
+                <targetReference>Get_Triggering_Record</targetReference>
+            </connector>
+            <pathType>AsyncAfterCommit</pathType>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

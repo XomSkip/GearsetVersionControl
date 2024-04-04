@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( AND (  Account_Owner_Type__c = 'BDR', Account.BDR_Retention_Countdown_Calculation__c &lt; 91, Account.BDR_Retention_Countdown_Calculation__c &gt; 0),'NEW', IF ( AND (  Account_Owner_Type__c = 'BDR', Account.BDR_Retention_Countdown_Calculation__c &lt;= 0), 'RETENTION', IF ( AND (  Account_Owner_Type__c = 'AM',  AM_Retention_Countdown_Calculation__c  &lt; 366,  AM_Retention_Countdown_Calculation__c  &gt; 0),'NEW', IF ( AND (  Account_Owner_Type__c = 'AM',  AM_Retention_Countdown_Calculation__c  &lt;= 0), 'RETENTION',''))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Customer Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

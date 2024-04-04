@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Have we damaged the relationship/Should this customer be contacted due to this? --></help>
+        <label><!-- Cancellation - Need Contact Customer? --></label>
+        <name>CancellationNeedContactCustomer__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Mark if contact is not a &quot;sales&quot; contact (I.E. Customer Service Rep, VP of Finance, etc.) --></help>
+        <label><!-- Not Relevant to Sales --></label>
+        <name>Not_Relevant_to_Sales__c</name>
+    </CustomFieldTranslation>

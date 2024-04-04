@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HasTitaniumMat__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Whether the job has Titanium Material?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Whether the job has Titanium Material?</inlineHelpText>
+    <label>Has Titanium Mat</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

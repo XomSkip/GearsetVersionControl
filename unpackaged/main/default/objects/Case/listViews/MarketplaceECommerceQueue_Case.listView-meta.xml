@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MarketplaceECommerceQueue_Case</fullName>
+    <booleanFilter>1 AND (2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8)</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.EMAIL</columns>
+    <columns>NAME</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Age_hrs__c</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>CaseAge__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Time_to_First_Response_hrs__c</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Order Confirmed/Closed,Solved,Closed</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Supply Queue</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Xometry Supply Team</value>
+    </filters>
+    <filters>
+        <field>Owners_Role__c</field>
+        <operation>equals</operation>
+        <value>Supply</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Snyder</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Briones</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Saygers</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Martinez-Muniz</value>
+    </filters>
+    <label>[Supply]Supply Queue - All Open Supply</label>
+    <sharedTo>
+        <group>SupplyStakeholder</group>
+        <role>Supply</role>
+        <roleAndSubordinates>SellerMarketplace</roleAndSubordinates>
+    </sharedTo>
+</ListView>

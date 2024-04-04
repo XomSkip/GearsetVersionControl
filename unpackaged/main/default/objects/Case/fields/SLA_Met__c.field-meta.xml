@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SLA_Met__c</fullName>
+    <description>Created During PSE Service Migration Project</description>
+    <externalId>false</externalId>
+    <formula>IF( 
+    AND(
+          Not(ISBLANK(Time_to_First_Response_hrs__c))
+         ,Time_to_First_Response_hrs__c &lt;= SLA_Response_Time_Requirement_hrs__c
+       )
+   , True
+   , False 
+)</formula>
+    <inlineHelpText>Will return true / checked if the time to first response is less than or equal to the time requirement.</inlineHelpText>
+    <label>SLA Met</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

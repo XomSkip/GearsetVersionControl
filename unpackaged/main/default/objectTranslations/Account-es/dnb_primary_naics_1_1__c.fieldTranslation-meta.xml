@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- [decommisisoned] dnb primary naics 1_1 --></label>
+        <name>dnb_primary_naics_1_1__c</name>
+    </CustomFieldTranslation>

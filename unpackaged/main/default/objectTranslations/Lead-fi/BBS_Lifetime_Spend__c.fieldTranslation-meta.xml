@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Big Blue Saw Lifetime Spend --></help>
+        <label><!-- BBS Lifetime Spend --></label>
+        <name>BBS_Lifetime_Spend__c</name>
+    </CustomFieldTranslation>

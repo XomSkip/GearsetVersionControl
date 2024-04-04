@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- [DEPRECATED] Order Time --></label>
+        <name>Order_ERP_Time_C__c</name>
+    </CustomFieldTranslation>

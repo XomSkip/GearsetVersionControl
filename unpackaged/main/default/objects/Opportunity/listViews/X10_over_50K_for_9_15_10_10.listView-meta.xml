@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X10_over_50K_for_9_15_10_10</fullName>
+    <columns>Opportunity_Owner_Role__c</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Project__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>9/15/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>lessOrEqual</operation>
+        <value>10/10/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.AMOUNT</field>
+        <operation>greaterOrEqual</operation>
+        <value>50000</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.AMOUNT</field>
+        <operation>lessOrEqual</operation>
+        <value>99999999</value>
+    </filters>
+    <filters>
+        <field>Top_Level_Generic__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Closed Won</value>
+    </filters>
+    <label>10% over $50K for 9-15 - 10-10</label>
+</ListView>

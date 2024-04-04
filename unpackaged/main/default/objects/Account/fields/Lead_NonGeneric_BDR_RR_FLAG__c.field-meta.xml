@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_NonGeneric_BDR_RR_FLAG__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field represents an Account that was converted from a Lead that had a NonGeneric BDR RR.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates that this record went through the Non-Generic Round Robin for BDRs</inlineHelpText>
+    <label>Lead Non-Generic BDR - RR</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

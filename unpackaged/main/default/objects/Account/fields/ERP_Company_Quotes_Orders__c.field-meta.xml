@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERP_Company_Quotes_Orders__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( NOT(ISBLANK(Email_Domain__c)) , HYPERLINK("https://erp.xometry.com/quotes-orders?start=0&amp;length=50&amp;order%5B0%5D%5B%5D=4&amp;order%5B0%5D%5B%5D=desc&amp;search%5Bsearch%5D="+ Email_Domain__c +"&amp;n_columns=20","Go to this Account in the ERP", "_blank"), "No Email Domain Provided for This Account")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>[dnu] ERP Company Quotes/Orders</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

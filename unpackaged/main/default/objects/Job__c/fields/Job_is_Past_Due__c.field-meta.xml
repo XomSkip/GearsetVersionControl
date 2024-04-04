@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_is_Past_Due__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( OR(ISPICKVAL(Stage__c, 'Completed'), ISPICKVAL(Stage__c, 'Vendor Completed')), 'Fully Shipped',
+IF( DueDate__c &lt; TODAY(), TEXT(Job_Overdue_Flag__c) &amp; ' ' &amp; Days_Syntax__c &amp; ' Late',
+IF( DueDate__c = TODAY(), 'Due Today', 
+'Due in ' &amp; TEXT(ABS(Job_Overdue_Flag__c)) &amp; ' ' &amp; Days_Syntax__c)
+) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Job OTS Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

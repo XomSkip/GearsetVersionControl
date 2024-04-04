@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CM_SLA_BREACH__c</fullName>
+    <description>If any of the following conditions are met:
+Priority is not "High" and not "Urgent" AND First_Response_Time__c is blank AND Age_hrs__c is greater than or equal to CMSLAResponseTimeReq_hrs__c.
+Priority is not "High" and not "Urgent" AND First_Response_Time__c is not blank AND CMSLAResponseTimeReq_hrs__c is less than Time_to_First_Response_hrs__c.
+Priority is "High" or "Urgent" AND (CMSLAResponseTimeReq_hrs__c is less than ((Recent_Response_Time__c - Recent_Inbound_Message__c) * 24)) OR (((Recent_Response_Time__c - Recent_Inbound_Message__c) * 24) * -1) is greater than CMSLAResponseTimeReq_hrs__c.
+Then, the result of the formula will be true; otherwise, it will be false.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+OR(
+
+AND( 
+OR(
+NOT(ISPICKVAL(Priority, "High")),NOT(ISPICKVAL(Priority,"Urgent"))),
+ISBLANK(First_Response_Time__c)
+,Age_hrs__c &gt;= CMSLAResponseTimeReq_hrs__c),
+
+AND(
+OR(
+NOT(ISPICKVAL(Priority, "High")),NOT(ISPICKVAL(Priority,"Urgent"))),
+NOT(ISBLANK(First_Response_Time__c)), CMSLAResponseTimeReq_hrs__c &lt; Time_to_First_Response_hrs__c  ),
+
+AND(
+OR(ISPICKVAL(Priority, "High"),ISPICKVAL(Priority, "Urgent")),
+OR(
+CMSLAResponseTimeReq_hrs__c  &lt; ((Recent_Response_Time__c - Recent_Inbound_Message__c)*24),
+(((Recent_Response_Time__c - Recent_Inbound_Message__c)*24)*-1)&gt;CMSLAResponseTimeReq_hrs__c))
+
+
+
+
+
+
+
+
+
+),
+True
+,False
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CM SLA BREACH</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

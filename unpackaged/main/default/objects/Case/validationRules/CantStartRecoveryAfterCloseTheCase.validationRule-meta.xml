@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CantStartRecoveryAfterCloseTheCase</fullName>
+    <active>true</active>
+    <description>Sourcing Team can't Start Recovery after the case status = Closed.</description>
+    <errorConditionFormula>AND(ISPICKVAL(Status, 'Closed'),ISBLANK(RecoveryTimeStamp__c),
+				 RecordType.Name ='Sourcing',$Permission.Ignore_All_VR =FALSE)</errorConditionFormula>
+    <errorMessage>Please click Start Recovery before closing the case.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>System_Reopened_Cannot_be_Set_by_User</fullName>
+    <active>true</active>
+    <description>Only system admin can set stage to</description>
+    <errorConditionFormula>AND( 
+OR( 
+( $Profile.Name='Marketing User'),
+($Profile.Name='Read Only'),
+($Profile.Name='Solution Manager'),
+($Profile.Name='Standard User'),
+($Profile.Name='Xometry Sales User'),
+( $Profile.Name='Xometry Service User'),
+( $Profile.Name='Xometry Sales Leadership')
+), 
+ISPICKVAL(StageName, 'System Reopened')  
+)
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Opp_VR</errorConditionFormula>
+    <errorMessage>Stage: System Reopened cannot be assigned by a User. This stage can only be set by the system.</errorMessage>
+</ValidationRule>

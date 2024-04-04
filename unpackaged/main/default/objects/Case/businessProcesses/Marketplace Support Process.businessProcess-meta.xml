@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketplace Support Process</fullName>
+    <description>Marketplace Support Process (Case Status)</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Accnt Approval Received</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Escalated</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Material Request Sent</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Order Acknowledgment</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Order Confirmed%2FClosed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Order Received</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Order sent to Accnt</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>PO sent</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Quote Sent</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>RFQ Sent</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Response Received</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Solved</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

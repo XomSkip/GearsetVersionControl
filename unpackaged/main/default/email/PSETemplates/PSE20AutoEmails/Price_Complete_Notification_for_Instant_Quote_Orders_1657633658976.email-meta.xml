@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Non  IM, UC, Manu Process</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Price Complete Notification for Instant Quote Orders</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Your Xometry Manual Quote {{{Case.QuoteIDorOppIdInEmail__c}}} is ready!</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

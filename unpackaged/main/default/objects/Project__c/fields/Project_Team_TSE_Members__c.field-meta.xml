@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Team_TSE_Members__c</fullName>
+    <externalId>false</externalId>
+    <label>Project Team TSE Members</label>
+    <summaryFilterItems>
+        <field>Project_Team__c.Team_Role__c</field>
+        <operation>equals</operation>
+        <value>Technical Sales Engineer</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Project_Team__c.Project__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

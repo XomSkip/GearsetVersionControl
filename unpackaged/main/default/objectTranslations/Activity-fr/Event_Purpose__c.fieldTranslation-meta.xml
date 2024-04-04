@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Event Purpose --></label>
+        <name>Event_Purpose__c</name>
+        <picklistValues>
+            <masterLabel>Company Overview</masterLabel>
+            <translation><!-- Company Overview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Intro</masterLabel>
+            <translation><!-- Contact Intro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Check-In</masterLabel>
+            <translation><!-- Customer Check-In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Technology</masterLabel>
+            <translation><!-- Financial Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Injection Molding Capability Overview</masterLabel>
+            <translation><!-- Injection Molding Capability Overview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Punchout</masterLabel>
+            <translation><!-- Punchout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Review ($50K+)</masterLabel>
+            <translation><!-- Quote Review ($50K+) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Review (&lt; $50K)</masterLabel>
+            <translation><!-- Quote Review (&lt; $50K) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Tool Training</masterLabel>
+            <translation><!-- Quote Tool Training --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

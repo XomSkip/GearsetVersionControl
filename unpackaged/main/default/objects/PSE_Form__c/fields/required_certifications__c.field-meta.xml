@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>required_certifications__c</fullName>
+    <description>Please mark any required certifications for your parts:</description>
+    <externalId>false</externalId>
+    <label>Please mark any required certifications.</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ITAR/EAR Registration</fullName>
+                <default>false</default>
+                <label>ITAR/EAR Registration</label>
+            </value>
+            <value>
+                <fullName>Certificate of Conformance</fullName>
+                <default>false</default>
+                <label>Certificate of Conformance</label>
+            </value>
+            <value>
+                <fullName>Domestic Compliant Material Cert</fullName>
+                <default>false</default>
+                <label>Domestic Compliant Material Cert</label>
+            </value>
+            <value>
+                <fullName>Standard Material Cert</fullName>
+                <default>false</default>
+                <label>Standard Material Cert</label>
+            </value>
+            <value>
+                <fullName>Hardware Certification</fullName>
+                <default>false</default>
+                <label>Hardware Certification</label>
+            </value>
+            <value>
+                <fullName>Material Traceability</fullName>
+                <default>false</default>
+                <label>Material Traceability</label>
+            </value>
+            <value>
+                <fullName>DFARS Compliant Material Cert</fullName>
+                <default>false</default>
+                <label>DFARS Compliant Material Cert</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

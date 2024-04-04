@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_Penetration__c</fullName>
+    <externalId>false</externalId>
+    <formula>(
+IF( has_ordered_BinderJetting__c ,1,0)
++
+IF( has_ordered_Carbon__c ,1,0)
++
+IF( has_ordered_CNC_Machining__c ,1,0)
++
+IF( has_ordered_Die_Casting__c ,1,0)
++
+IF( has_ordered_Direct_Sourced__c ,1,0)
++
+IF( has_ordered_DMLS__c ,1,0)
++
+IF( has_ordered_Extrusion__c ,1,0)
++
+IF( has_ordered_FDM__c ,1,0)
++
+IF( has_ordered_HPMultiJetFusion__c ,1,0)
++
+IF( has_ordered_Injection_Molding__c ,1,0)
++
+IF( has_ordered_PolyJet_3D__c ,1,0)
++
+IF( has_ordered_Sheet_metal__c ,1,0)
++
+IF( has_ordered_SLA__c ,1,0)
++
+IF( has_ordered_SLS__c ,1,0)
++
+IF( has_ordered_Stamping__c ,1,0)
++
+IF( has_ordered_Urethane_Casting__c ,1,0)
+)
+/16</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Process Penetration</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

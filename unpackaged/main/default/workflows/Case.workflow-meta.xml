@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Accounting_Xometry_Auto_Reply</fullName>
+        <description>Accounting@Xometry Auto Reply</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>AccountingTemplates/Accounting_Email_Auto_Reply_1643921759184</template>
+    </alerts>
+    <alerts>
+        <fullName>CPC_Survey_Invitation</fullName>
+        <ccEmails>no-reply@xometry.com</ccEmails>
+        <description>CPC Survey Invitation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CPCTemplates/Auto_Reply_Templates/Production_CPC_CSAT_Survey_1653415314734</template>
+    </alerts>
+    <alerts>
+        <fullName>GNOSurveyInvitation</fullName>
+        <ccEmails>no-reply@xometry.com</ccEmails>
+        <description>GNO Survey Invitation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GNOTemplates/Sample_GNO_CSAT_Survey_1640028972501</template>
+    </alerts>
+    <alerts>
+        <fullName>Legal_Case_Notification</fullName>
+        <description>Legal Case Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>blouden@xometry.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>LegalTeamTemplates/Legal_Case_Notification_1644243480511</template>
+    </alerts>
+    <alerts>
+        <fullName>PSE20ENGRP</fullName>
+        <ccEmails>no-reply@xometry.com</ccEmails>
+        <description>PSE 2.0 Case Outcome: Engineering Review Provided</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PSE2.0-Contact Owner</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>PSE2.0-Opportunity Owner</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PSETemplates/PSE20AutoEmails/Engineering_Review_Provided_1645457095419</template>
+    </alerts>
+    <alerts>
+        <fullName>PSE_2_0_Case_Outcome_Auto_Quote</fullName>
+        <ccEmails>no-reply@xometry.com</ccEmails>
+        <description>PSE 2.0 Case Outcome Auto Quote</description>
+        <protected>false</protected>
+        <recipients>
+            <type>campaignMemberDerivedOwner</type>
+        </recipients>
+        <recipients>
+            <recipient>PSE2.0-Opportunity Owner</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PSETemplates/PSE20AutoEmails/Quote_Configured_for_Auto_Quote_1645457040509</template>
+    </alerts>
+    <alerts>
+        <fullName>PSE_2_0_Case_Outcome_Deliver_to_the_Customer</fullName>
+        <ccEmails>no-reply@xometry.com</ccEmails>
+        <description>PSE 2.0 Case Outcome - Deliver to the Customer</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PSE2.0-Contact Owner</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>PSE2.0-Opportunity Owner</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PSETemplates/PSE20AutoEmails/Price_Completed_Notification_to_the_Customer_1651756380072</template>
+    </alerts>
+    <alerts>
+        <fullName>PSE_2_0_Case_Outcome_Instant_Deliver_to_Customer</fullName>
+        <description>PSE 2.0 Case Outcome - Instant - Deliver to Customer</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PSE2.0-Contact Owner</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>PSE2.0-Opportunity Owner</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PSETemplates/PSE20AutoEmails/Price_Complete_Notification_for_Instant_Quote_Orders_1657633658976</template>
+    </alerts>
+    <alerts>
+        <fullName>PSE_2_0_Case_Outcome_No_Bid</fullName>
+        <ccEmails>no-reply@xometry.com</ccEmails>
+        <description>PSE 2.0 Case Outcome No Bid</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PSE2.0-Contact Owner</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>PSE2.0-Opportunity Owner</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PSETemplates/PSE20AutoEmails/No_Bid_1647968102308</template>
+    </alerts>
+    <alerts>
+        <fullName>PSE_2_0_Case_Outcome_Non_Instant_Deliver_to_Customer</fullName>
+        <description>PSE 2.0 Case Outcome - Non Instant - Deliver to Customer</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PSE2.0-Contact Owner</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>PSE2.0-Opportunity Owner</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PSETemplates/PSE20AutoEmails/Price_Complete_Notification_for_Non_Instant_Quote_Orders_1657633465248</template>
+    </alerts>
+    <alerts>
+        <fullName>PSE_2_0_Case_Outcome_Pricing_Complete</fullName>
+        <ccEmails>no-reply@xometry.com</ccEmails>
+        <description>PSE 2.0 Case Outcome: Pricing Complete</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PSE2.0-Contact Owner</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>PSE2.0-Opportunity Owner</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PSETemplates/PSE20AutoEmails/Pricing_Completed_1645457069524</template>
+    </alerts>
+    <alerts>
+        <fullName>PSE_2_0_Case_Outcome_Require_RFQ</fullName>
+        <ccEmails>mtobin@xometry.com</ccEmails>
+        <ccEmails>twolff@xometry.com</ccEmails>
+        <ccEmails>tasher@xometry.com</ccEmails>
+        <description>PSE 2.0 Case Outcome Require RFQ</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PSE2.0-Contact Owner</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>PSE2.0-Opportunity Owner</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>PSETemplates/PSE20AutoEmails/Will_Require_RFQ_1647967026103</template>
+    </alerts>
+    <alerts>
+        <fullName>PSE_2_0_Case_Owner_Change_Notification</fullName>
+        <ccEmails>no-reply@xometry.com</ccEmails>
+        <description>PSE 2.0 Case Owner Change Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PSETemplates/PSE20AutoEmails/PSE_Case_Owner_Notification_1651496380918</template>
+    </alerts>
+    <alerts>
+        <fullName>PSE_GetaQuote_Auto_Reply</fullName>
+        <description>PSE GetaQuote Auto Reply</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>no-reply.quotes@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/PSE_GetAQuote_Auto_Response</template>
+    </alerts>
+    <alerts>
+        <fullName>Supply_RFQ_Quote_Auto_Reply</fullName>
+        <ccEmails>no-reply@xometry.com</ccEmails>
+        <description>Supply - RFQ Quote Auto Reply</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Supplies_Team_Emails/RFQ_Quote_Auto_Reply_1668531914845</template>
+    </alerts>
+    <alerts>
+        <fullName>SupportAutoReply</fullName>
+        <description>Support@Xom Auto Reply</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CPCTemplates/Auto_Reply_Templates/support_xometry_com_auto_reply_1639060496744</template>
+    </alerts>
+    <alerts>
+        <fullName>SupportXomAfterHours</fullName>
+        <description>Support@Xom After Hours Auto Reply</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CPCTemplates/Auto_Reply_Templates/Support_After_Hour_1639067646763</template>
+    </alerts>
+    <alerts>
+        <fullName>VQC_Xom_Auto_Reply</fullName>
+        <ccEmails>no-reply@xometry.com</ccEmails>
+        <description>VQC@Xom Auto Reply</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CPCTemplates/Auto_Reply_Templates/vqc_xometry_com_auto_reply_1680104943693</template>
+    </alerts>
+    <alerts>
+        <fullName>WorkXomAutoReply</fullName>
+        <description>Work@Xom Auto Reply</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CPCTemplates/Auto_Reply_Templates/Work_xometry_com_Auto_Reply_1639060824017</template>
+    </alerts>
+    <alerts>
+        <fullName>X24_hours_remainder</fullName>
+        <description>24 hours remainder</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>quotes@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PSETemplates/PSE_Customer_Information_Followup_1680538345324</template>
+    </alerts>
+    <alerts>
+        <fullName>X48_hours_notification</fullName>
+        <description>48 hours notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>quotes@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PSETemplates/X48_Hours_PSE_Notification_1680537544791</template>
+    </alerts>
+    <alerts>
+        <fullName>partnerquestionautoreply</fullName>
+        <description>Partner Portal Autoreply</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hongda.zhou@xometry.com.core</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CPCTemplates/Auto_Reply_Templates/partner_question_Auto_Reply_1641915012823</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>ChangePriorityToHigh</fullName>
+        <field>Priority</field>
+        <literalValue>High</literalValue>
+        <name>Changes the case priority to high.</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>NewCaseToSourcingQueue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>SourcingQueue</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>New Case to Sourcing Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>New_Onboarding_Case_to_Seller_Success_Q</fullName>
+        <field>OwnerId</field>
+        <lookupValue>PartnerOnboardingQueue</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>New Onboarding Case to Seller Success Q</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Record_Type</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Supplier_Onboarding</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Record Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Seller_Success_Queue1</fullName>
+        <field>OwnerId</field>
+        <lookupValue>PartnerOnboardingQueue</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Seller Success Queue1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Pushed_from_Opp_Flag_to_False</fullName>
+        <description>Set the Pushed from Opp Flag back to false after sending the outbound message</description>
+        <field>Pushed_From_Opp_Close_Flag__c</field>
+        <literalValue>0</literalValue>
+        <name>Set Pushed from Opp Flag to False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Set Owner to Seller Success Queue</fullName>
+        <actions>
+            <name>Record_Type</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Seller_Success_Queue1</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Supplier Onboarding</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>startsWith</operation>
+            <value>SO -</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Owner to Sourcing Queue</fullName>
+        <actions>
+            <name>NewCaseToSourcingQueue</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Sourcing</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

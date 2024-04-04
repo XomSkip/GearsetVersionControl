@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<style type="text/css"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}-->
+</style>
+Hi,<br />
+<br />
+I'm sorry for any inconvenience caused by receiving parts from us that are not up to our quality standards.<br />
+We would either be able to have the part reworked for you, or we can process a refund. If you would like a refund, we will send you a shipping label, and as soon as the parts are shipped, we will have accounting process a refund for you. If you are able to rework the parts yourself, we would be happy to provide a credit on a future order with us.<br />
+<br />
+At your convenience please let us know how you would like to proceed.<br />
+<br />
+<br />
+<strong>{{{Sender.FirstName}}}&nbsp;{{{Sender.LastName}}} | Customer Advocate</strong><br />
+{{{Sender.Email}}} | Direct Number:&nbsp;<br />
+<a href="https://www.xometry.com/">Xometry</a>&nbsp;| Your one-stop shop for manufacturing on demand<br />
+Support Hours: M-F 8:00AM - 10:00PM EST<br />
+<a href="https://support.xometry.com/hc/en-us/requests/new?ticket_form_id=360006164253">Support</a>&nbsp;| Phone:&nbsp;<a href="tel:2402521138">240-252-1138</a></body>
+</html>

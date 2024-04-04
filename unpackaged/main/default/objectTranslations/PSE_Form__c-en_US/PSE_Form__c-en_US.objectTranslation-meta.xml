@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PSE Form</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PSE Forms</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Additive Form</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Form Data --></label>
+            <section>Form Data</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CNC Form</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Form Data --></label>
+            <section>Form Data</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Die Casting Form</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Form Data --></label>
+            <section>Form Data</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Fab 5</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Form Data --></label>
+            <section>Form Data</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Injection Molding Form</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Form Data --></label>
+            <section>Form Data</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSE Form</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Form Data --></label>
+            <section>Form Data</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Additive Form --></label>
+        <name>Additive_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- CNC Form --></label>
+        <name>CNC_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Die Casting Form --></label>
+        <name>Die_Casting_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Fab5 --></label>
+        <name>Fab5</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Injection Molding Form --></label>
+        <name>Injection_Molding_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- PSE Form --></label>
+        <name>PSE_Form</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Additive Form --></label>
+        <name>Additive_Form</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CNC Form --></label>
+        <name>CNC_Form</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Die Casting Form --></label>
+        <name>Die_Casting_Form</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Semi-Structured PSE Form Data --></description>
+        <label><!-- Dynamic Form --></label>
+        <name>Dynamic_Form</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- New PSE form for the Fab Five --></description>
+        <label><!-- Fab Five Form --></label>
+        <name>Fab_Five_Form</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Injection Molding Form --></label>
+        <name>Injection_Molding_Form</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Unknown Form Type --></description>
+        <label><!-- PSE Form --></label>
+        <name>PSE_Form</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

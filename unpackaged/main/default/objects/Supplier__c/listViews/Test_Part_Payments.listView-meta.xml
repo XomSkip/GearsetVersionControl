@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_Part_Payments</fullName>
+    <columns>NAME</columns>
+    <columns>TestPartPayable__c</columns>
+    <columns>TestPartPrice__c</columns>
+    <columns>CompletedJobs__c</columns>
+    <columns>TestPartPaid__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>TestPartPayable__c</field>
+        <operation>equals</operation>
+        <value>Payable</value>
+    </filters>
+    <label>[GNO]Test Part To Be Paid</label>
+    <sharedTo>
+        <group>XOMGNOGroup</group>
+    </sharedTo>
+</ListView>

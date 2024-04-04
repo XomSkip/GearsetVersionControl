@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Loss Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Response</fullName>
+                <default>false</default>
+                <label>No Response</label>
+            </value>
+            <value>
+                <fullName>No Bid</fullName>
+                <default>false</default>
+                <label>No Bid</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Lead Time</fullName>
+                <default>false</default>
+                <label>Lead Time</label>
+            </value>
+            <value>
+                <fullName>Service Concerns</fullName>
+                <default>false</default>
+                <label>Service Concerns</label>
+            </value>
+            <value>
+                <fullName>Project Canceled</fullName>
+                <default>false</default>
+                <label>Project Canceled</label>
+            </value>
+            <value>
+                <fullName>Purchasing from Different Opportunity</fullName>
+                <default>false</default>
+                <label>Purchasing from Different Opportunity</label>
+            </value>
+            <value>
+                <fullName>On-Demand Competition</fullName>
+                <default>false</default>
+                <label>On-Demand Competition</label>
+            </value>
+            <value>
+                <fullName>Local Competition</fullName>
+                <default>false</default>
+                <label>Local Competition</label>
+            </value>
+            <value>
+                <fullName>Budgetary</fullName>
+                <default>false</default>
+                <label>Budgetary</label>
+            </value>
+            <value>
+                <fullName>Late quote</fullName>
+                <default>false</default>
+                <label>Late quote</label>
+            </value>
+            <value>
+                <fullName>Customer Made In-House</fullName>
+                <default>false</default>
+                <label>Customer Made In-House</label>
+            </value>
+            <value>
+                <fullName>Ordered Online</fullName>
+                <default>false</default>
+                <label>Ordered Online - Supply Record Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

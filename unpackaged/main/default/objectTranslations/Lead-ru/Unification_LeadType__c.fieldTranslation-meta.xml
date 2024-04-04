@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Lead Type --></label>
+        <name>Unification_LeadType__c</name>
+        <picklistValues>
+            <masterLabel>Managed Service</masterLabel>
+            <translation><!-- Managed Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketplace</masterLabel>
+            <translation><!-- Marketplace --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

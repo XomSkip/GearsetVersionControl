@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PUP_Testing</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <label>PUP Testing</label>
+    <sharedTo>
+        <role>GNO</role>
+    </sharedTo>
+</ListView>

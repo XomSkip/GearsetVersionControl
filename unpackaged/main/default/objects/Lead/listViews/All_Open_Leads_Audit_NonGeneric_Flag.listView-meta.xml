@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Open_Leads_Audit_NonGeneric_Flag</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>RR_Stamp_OwnerID__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>RR_Flag__c</columns>
+    <columns>Generic_FLAG__c</columns>
+    <columns>Generic_BDR_RR_FLAG__c</columns>
+    <columns>NonGeneric_BDR_RR_FLAG__c</columns>
+    <columns>RR_AssignedDate__c</columns>
+    <columns>RR_Batch_Num__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NonGeneric_BDR_RR_FLAG__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>RR_Flag__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>All Open Leads Audit NonGeneric Flag</label>
+    <sharedTo>
+        <role>Administrator</role>
+    </sharedTo>
+</ListView>

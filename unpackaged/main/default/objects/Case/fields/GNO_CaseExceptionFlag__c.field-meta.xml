@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GNO_CaseExceptionFlag__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(
+	AND(ISBLANK(RecoveryTimeStamp__c), 
+				FLOOR( MOD( (now() -  CreatedDate) * 24, 24 ) ) &gt;2		),
+	AND(Age_hrs__c &gt;72, NOT(ISPICKVAL(Status,'Closed')))
+	),true,false)</formula>
+    <inlineHelpText>Exception Flag for Case that 1st Response Time &gt; 2 Hrs.</inlineHelpText>
+    <label>Case Exception Flag</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

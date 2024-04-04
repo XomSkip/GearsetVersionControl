@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_All_Opportunities1</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Primary_Contact__c</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <columns>Last_Activity_Date_AM__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Manufacturing_Process__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>equals</operation>
+        <value>ford gaitley</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Initial Engagement,System Reopened,Qualification Needed,Proposal in Discussion,Negotiation / Review,Pending Accounting Terms,Order Pending CC,Order Pending PO</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.AMOUNT</field>
+        <operation>greaterOrEqual</operation>
+        <value>1000</value>
+    </filters>
+    <label>Copy of All Opportunities</label>
+</ListView>

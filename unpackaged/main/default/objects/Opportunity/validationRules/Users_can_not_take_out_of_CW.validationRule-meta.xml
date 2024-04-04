@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Users_can_not_take_out_of_CW</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(StageName) &amp;&amp;
+ISPICKVAL(PRIORVALUE(StageName),"Closed Won") &amp;&amp;
+!ISPICKVAL(StageName,"Closed Won")
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Opp_VR</errorConditionFormula>
+    <errorMessage>Only the system can take an Opportunity out of Closed Won</errorMessage>
+</ValidationRule>

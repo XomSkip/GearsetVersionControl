@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Willing to quote from a 2D print? --></label>
+        <name>Willing_to_quote_from_a_2D_print__c</name>
+    </CustomFieldTranslation>

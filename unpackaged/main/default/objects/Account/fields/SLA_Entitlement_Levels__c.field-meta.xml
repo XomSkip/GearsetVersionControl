@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SLA_Entitlement_Levels__c</fullName>
+    <description>April 2023 - Segmentation</description>
+    <externalId>false</externalId>
+    <label>SLA Entitlement Levels</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>SLA_Entitlement_Levels</valueSetName>
+    </valueSet>
+</CustomField>

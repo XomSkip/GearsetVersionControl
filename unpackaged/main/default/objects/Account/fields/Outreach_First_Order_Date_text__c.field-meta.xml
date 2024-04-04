@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outreach_First_Order_Date_text__c</fullName>
+    <description>First Order date converted to plain english for outreach sequences.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+    isblank(Date_of_First_Order__c),
+    "",
+    text(year(Date_of_First_Order__c)) &amp;" "&amp;
+    CASE(month(Date_of_First_Order__c),
+        1,"January",
+        2,"February",
+        3,"March",
+        4,"April",
+        5,"May",
+        6,"June",
+        7,"July",
+        8,"August",
+        9,"September",
+        10,"October",
+        11,"November",
+        12,"December",
+        "ERROR")
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>First Order date converted to plain english for outreach sequences.</inlineHelpText>
+    <label>Outreach First Order Date(text)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

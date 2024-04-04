@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Getting Started</label>
+            <name>Getting_Started</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>CNC Machining, Turning,Sheet Fab Service</label>
+                <name>CNC_Machining_Turning_Sheet_Fab_Service</name>
+            </dataCategory>
+            <dataCategory>
+                <label>3D Printing / Additive Manufacturing</label>
+                <name>X3D_Printing_Additive_Manufacturing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Injection Molding</label>
+                <name>Injection_Molding</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Finishing RFQ Services</label>
+                <name>Finishing_RFQ_Services</name>
+            </dataCategory>
+            <label>Capabilities</label>
+            <name>Capabilities</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Materials and Finishes</label>
+            <name>Materials_and_Finishes</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Quotes &amp; Pricing</label>
+                <name>Quotes_Pricing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Autodesk Fusion 360 App / Add-In</label>
+                <name>Autodesk_Fusion_360_App_Add_In</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Solidworks Add-in</label>
+                <name>Solidworks_Add_in</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Inventor Add-in</label>
+                <name>Inventor_Add_in</name>
+            </dataCategory>
+            <label>Quoting and Pricing</label>
+            <name>Quoting_and_Pricing</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Payment, Ordering, and Shipping</label>
+            <name>Payment_Ordering_and_Shipping</name>
+        </dataCategory>
+        <dataCategory>
+            <label>General Manufacturing</label>
+            <name>GeneralManufacturing</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Xometry Partner Program</label>
+                <name>Xometry_Partner_Program</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Finishing RFQ Partners</label>
+                <name>Finishing_RFQ_Partners</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Xometry Supplies</label>
+                <name>Xometry_Supplies</name>
+            </dataCategory>
+            <label>Xometry Manufacturing Partner Network</label>
+            <name>Xometry_Manufacturing_Partner_Network</name>
+        </dataCategory>
+        <dataCategory>
+            <label>About Xometry</label>
+            <name>About_Xometry</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Support (External Facing)</label>
+    <objectUsage/>
+</DataCategoryGroup>

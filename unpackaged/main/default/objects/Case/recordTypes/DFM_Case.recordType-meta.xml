@@ -1,0 +1,1819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DFM_Case</fullName>
+    <active>true</active>
+    <businessProcess>DFM Support Process</businessProcess>
+    <compactLayoutAssignment>DFMCGMTCompactLayout</compactLayoutAssignment>
+    <description>Post Order DFM review</description>
+    <label>DFM Case</label>
+    <picklistValues>
+        <picklist>AR_Status__c</picklist>
+        <values>
+            <fullName>Bankruptcy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Do NOT Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Approval_Status__c</picklist>
+        <values>
+            <fullName>Child Case PO Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO Approved by DFM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO Automatically Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO Denied by DFM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submission Needed</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AttachmentStatus__c</picklist>
+        <values>
+            <fullName>None Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Upload</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upload Complete</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cancellation_Reason__c</picklist>
+        <values>
+            <fullName>Automation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Failed Inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Force Majeure%2FWeather%2FCovid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machine Breakdown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part Req%2E Exceed Capabilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Refused to Remake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Unresponsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Case Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial Invoice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CustomerOrderCertifications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CustomerOrderDocument</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DFM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DocumentRequest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>InspectionQuestion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PartnerJobCoC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier Portal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VQC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VendorForms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XometryInternalInhouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Dual_Sourcing__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EUD_Work_Stage__c</picklist>
+        <values>
+            <fullName>1st Attempt Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2nd Attempt Sent - WARNING SENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End Use Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated To Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoice Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Reach Out Yet</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Order Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VI Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Engineering_Review_Completed__c</picklist>
+        <values>
+            <fullName>Feedback Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs Additional Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote Completed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EscalationType__c</picklist>
+        <values>
+            <fullName>Performance Escalation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>First_Time_Right__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GNO_SourcingStage__c</picklist>
+        <values>
+            <fullName>Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DFM Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error %3F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Time Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-sourcing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor Completed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>InitialMiss__c</picklist>
+        <values>
+            <fullName>Auto Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DFM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GNO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Re-Source</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Robo Sourced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUPPORT-2531 - Expired After Acceptance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>InspectionRequirement__c</picklist>
+        <values>
+            <fullName>cmm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>custom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>fai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>std</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>std%2Br</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>IntercomCaseRoutingQueues__c</picklist>
+        <values>
+            <fullName>CPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplies</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>JobRiskFactor__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Manual_Quote_Status__c</picklist>
+        <values>
+            <fullName>China MQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DFM Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DFM to HORD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MQ China Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quick Parts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Hold</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ManufacturingProcess__c</picklist>
+        <values>
+            <fullName>Assembly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BJ3D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CNC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carbon DLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DMLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FDM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HP Multi Jet Fusion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Injection Molding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PolyJet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheet Metal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>My_Order__c</picklist>
+        <values>
+            <fullName>technical</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NoTakeRisk__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>fire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>lol</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>mushroom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>rocket</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OnboardingStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Failed Test Part</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Registered</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Review Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test Part In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test Part In Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Onboarding_Next_Steps__c</picklist>
+        <values>
+            <fullName>No Next Steps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Test Part</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Order_Revision__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A 3dsmakemarketplace%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A ARSupplies%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A Accounting%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A Additive%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A Quotes%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A Sourcing%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A Support%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A VQC%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A Work%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A assembly%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A atomic%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A automotive%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A getaquote%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A impressions%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A rocket%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A spacetechs%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3A ttpod%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3Amolding%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%3Apartner-question%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voicemail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>W2C - Customer Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>W2C - Partner Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workcenter</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OutcomeSalesUse__c</picklist>
+        <values>
+            <fullName>No Customer Response</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Outcome__c</picklist>
+        <values>
+            <fullName>Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rework</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OutsourcePartnerGroup__c</picklist>
+        <values>
+            <fullName>CHINA GROUP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEFAULT GROUP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico and Canada Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NONE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PREMIUM GROUP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ULTRA PREMIUM GROUP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>POD__c</picklist>
+        <values>
+            <fullName>Albatrosses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amazing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atomic Rocks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automotive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rocket Power</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SpaceTechs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triple Threat</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PP_Bucket__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PP_EventOrigin__c</picklist>
+        <values>
+            <fullName>Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PP_SubBucket__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PSENoBidReason__c</picklist>
+        <values>
+            <fullName>Finishes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Standard Processes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tolerances</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PSEOutcome__c</picklist>
+        <values>
+            <fullName>%28PSE Option%29 - Engineering Review Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28PSE Option%29 - More Information Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28PSE Option%29 - RFQ Needed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PSE_RFQ_Reason__c</picklist>
+        <values>
+            <fullName>Assembly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom material</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High quantity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part size</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Target pricing %28competitive%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The complexity of part%28s%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Part_Rejection_Reason__c</picklist>
+        <values>
+            <fullName>Dimensional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Threads</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Machines_Certifications__c</picklist>
+        <values>
+            <fullName>My certificate is about to expire%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Payouts__c</picklist>
+        <values>
+            <fullName>How do I sign up for Stripe%3F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>When will I get paid for a job%3F</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Technical_Detail__c</picklist>
+        <values>
+            <fullName>my_certificate_is_about_to_expire%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Xometry_Advance_Card__c</picklist>
+        <values>
+            <fullName>How do I cancel the card%3F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Is this a credit card%3F</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Parts_Failed_Inspection__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Parts_Shipped__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pass_Fail__c</picklist>
+        <values>
+            <fullName>Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Passed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pending__c</picklist>
+        <values>
+            <fullName>Case Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DFM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dev Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplies</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pre_Source_Status__c</picklist>
+        <values>
+            <fullName>Call Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DFM Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Time Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PricingTier__c</picklist>
+        <values>
+            <fullName>economy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>expedite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>standard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Urgent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_Codes__c</picklist>
+        <values>
+            <fullName>Parts damaged - Poor packaging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parts damaged - Shipping damage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parts missing required features</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parts out of specification - Dimensions%2FTolerances</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor part quality - Finish%2C Color%2C Appearance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolution_Requested__c</picklist>
+        <values>
+            <fullName>Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rework</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolution__c</picklist>
+        <values>
+            <fullName>Did Not Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering Review Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>More Information Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Customer Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial No Bid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote Configured for AQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote Configured for MQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFQ Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Total No Bid</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resource_Category__c</picklist>
+        <values>
+            <fullName>Automation Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Xometry Canceled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resource_Quantity__c</picklist>
+        <values>
+            <fullName>Full Qty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Qty</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RootCause__c</picklist>
+        <values>
+            <fullName>Corrupt File %2F CAM Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer%2FSales Post-Order Cancel Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer%2FSales Post-Order Expedite Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer%2FSales Post-Order HOLD Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer%2FSales Post-Order Revision Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer%2FSales Post-Order Shipping Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer%2FSales Post-Order Status Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Design Change Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documentation%2FRequirements Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft %2F Mold %2F Mating Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drawing Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fabrication Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>File Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finishing%2FOutside Process Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Risk Warning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITAR%2FEAR Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impossible Geometry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspection Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machining Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mating Part Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing Finish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing Surface Roughness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing Threads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing Tolerances</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part Marking Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner - Cancel Job</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner - Increase Job Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Portal Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Programming Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quoting Site Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radius%2FBlend Additions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revision Conflict</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheet Metal Flat Pattern Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thin Walls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tooling issue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SalesOpsOutcome__c</picklist>
+        <values>
+            <fullName>Information Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote Configured for AQ</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sales_Weight_Approval__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sales_Weight_Reason__c</picklist>
+        <values>
+            <fullName>Large Opp Vetted with PSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO is Pending Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO is in Hand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote Delivery Date Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revisions to Completed Quote</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SellerMarketplaceMaterialStatus__c</picklist>
+        <values>
+            <fullName>Order Delivered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Shipped</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out for Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote Delivered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote Ordered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracking Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting for Customer Response</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SheetMetalType__c</picklist>
+        <values>
+            <fullName>Bent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SpecTeamOutcomeDetailWhyInfoNeeded__c</picklist>
+        <values>
+            <fullName>All CAD files missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All drawings missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAD Files Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contact not set up with ERP account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing Process Undecided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Only Assembly CAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quantity info missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Some CADs Missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Some PDFs Missing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stall_Code__c</picklist>
+        <values>
+            <fullName>BILLING%3A Billing Address Discrepancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCREP%3A Part%2FValue Discrepancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIMIT%3A Credit Limit exceed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIMIT-DENIED%3A Credit limit raise denied%2Fper accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO PO %2F REV PO%3A PO or REV PO not received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PEND CUSTOMER%3A Waiting on customer confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QC%3A Quality Clause Discrepancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QN%3A Missing Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>READY%3A PO is ready for processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REORDER%3A Requires Re-Order Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REVIEW %3A Pending Internal Review by Xom Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TBD%3A To Be Determined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TERMS%3A Customer not on terms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNREG%3A Unregistered</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stalled_PO__c</picklist>
+        <values>
+            <fullName>Unreg</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Technical_Review_Status__c</picklist>
+        <values>
+            <fullName>Large Order Review Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Partner Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Ask a Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Take</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Entry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Portal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portal Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Re-Source</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Report an Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scorecard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sourcing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VQC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>VQC_Status__c</picklist>
+        <values>
+            <fullName>VQC Fail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VQC Pass</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>W2CQuestions_Customer__c</picklist>
+        <values>
+            <fullName>Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RMA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>W2CQuestions_Partner__c</picklist>
+        <values>
+            <fullName>Partner - Account Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner - Become a Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner - ITAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner - PSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner - Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner - Test Part</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner - WorkCenter%2FPartnerPortal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Work_Center_Category__c</picklist>
+        <values>
+            <fullName>Can I Cancel This Job</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Can I substitute%3F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Can%27t Find it %2F Substitution Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DFM Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delayed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finishing Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>How should I ship this%3F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I have a freight shipment%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27m not sure what my requirements are%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Print%2FCAD discrepancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production%2FBuild Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Where is the customer supplied material%2Finserts%3F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Where is the report%2Ftemplate%2Fdrawing%3F</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

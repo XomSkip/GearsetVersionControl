@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Other types of 3D Scanners: --></label>
+        <name>Other_types_of_3D_Scanners__c</name>
+    </CustomFieldTranslation>

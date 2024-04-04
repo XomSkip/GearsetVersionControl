@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CNC Machining</fullName>
+        <default>false</default>
+        <label>CNC Machining</label>
+    </customValue>
+    <customValue>
+        <fullName>Injection Molding</fullName>
+        <default>false</default>
+        <label>Injection Molding</label>
+    </customValue>
+    <customValue>
+        <fullName>Sheet Metal</fullName>
+        <default>false</default>
+        <label>Sheet Metal</label>
+    </customValue>
+    <customValue>
+        <fullName>Selective Laser Sintering</fullName>
+        <default>false</default>
+        <label>Selective Laser Sintering</label>
+    </customValue>
+    <customValue>
+        <fullName>PolyJet</fullName>
+        <default>false</default>
+        <label>PolyJet</label>
+    </customValue>
+    <customValue>
+        <fullName>Fused Deposition Modeling</fullName>
+        <default>false</default>
+        <label>Fused Deposition Modeling</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct Metal Laser Sintering</fullName>
+        <default>false</default>
+        <label>Direct Metal Laser Sintering</label>
+    </customValue>
+    <customValue>
+        <fullName>Urethane Casting</fullName>
+        <default>false</default>
+        <label>Urethane Casting</label>
+    </customValue>
+    <customValue>
+        <fullName>Stereolithography</fullName>
+        <default>false</default>
+        <label>Stereolithography</label>
+    </customValue>
+    <customValue>
+        <fullName>Carbon DLS</fullName>
+        <default>false</default>
+        <label>Carbon DLS</label>
+    </customValue>
+    <customValue>
+        <fullName>HP Multi Jet Fusion</fullName>
+        <default>false</default>
+        <label>HP Multi Jet Fusion</label>
+    </customValue>
+    <customValue>
+        <fullName>Supply Chain</fullName>
+        <default>false</default>
+        <label>Supply Chain</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical</fullName>
+        <default>false</default>
+        <label>Medical</label>
+    </customValue>
+    <customValue>
+        <fullName>Binder Jet</fullName>
+        <default>false</default>
+        <label>Binder Jet</label>
+    </customValue>
+    <customValue>
+        <fullName>General</fullName>
+        <default>false</default>
+        <label>General</label>
+    </customValue>
+    <customValue>
+        <fullName>3D Printing</fullName>
+        <default>false</default>
+        <label>3D Printing</label>
+    </customValue>
+    <customValue>
+        <fullName>Automotive</fullName>
+        <default>false</default>
+        <label>Automotive</label>
+    </customValue>
+    <customValue>
+        <fullName>Robotics</fullName>
+        <default>false</default>
+        <label>Robotics</label>
+    </customValue>
+    <customValue>
+        <fullName>Aerospace</fullName>
+        <default>false</default>
+        <label>Aerospace</label>
+    </customValue>
+    <customValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </customValue>
+    <description>HS Definitions for Machining Processes as used by design Guide Downloads</description>
+    <masterLabel>HS Design Guide Processes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

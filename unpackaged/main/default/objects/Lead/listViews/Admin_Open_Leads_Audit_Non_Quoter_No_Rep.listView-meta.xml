@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admin_Open_Leads_Audit_Non_Quoter_No_Rep</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>RR_Flag__c</columns>
+    <columns>RR_AssignedDate__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Generic_FLAG__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Qualified</value>
+    </filters>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>notEqual</operation>
+        <value>Quoter</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>xomteam</value>
+    </filters>
+    <label>Admin Open Leads Audit Non Quoter No Rep</label>
+    <sharedTo>
+        <role>Administrator</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Agent Feedback</fullName>
+        <default>false</default>
+        <label>Agent Feedback</label>
+    </customValue>
+    <customValue>
+        <fullName>Company Feedback</fullName>
+        <default>false</default>
+        <label>Company Feedback</label>
+    </customValue>
+    <description>Categories for Post Call Survey questions</description>
+    <masterLabel>Survey Question Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

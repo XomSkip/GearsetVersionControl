@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Web-To-Case Auto Reply</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>W2C - Auto Reply</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Thank you for your Xometry Support inquiry | Case Number:  {{{Case.CaseNumber}}}</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Thank you for placing order #XXXXX-XXXXX with Xometry!</p>
+
+<p>&nbsp;</p>
+
+<p>I'm the DFM Engineer who will be working with you on your new Xometry injection molding project. &nbsp;Please see the following secure link:<br />
+https://XXXXX</p>
+
+<p>Please review the items in the shared link above, and I will walk you through the following steps to get your tooling kicked off:</p>
+
+<p>&nbsp;</p>
+
+<p><strong>&nbsp;&nbsp;Step 1: Hand Over Document Approval</strong></p>
+
+<p>&nbsp; &nbsp; Within the folder link is a document that captures all pertinent information regarding your order.</p>
+
+<p>&nbsp;&nbsp; &nbsp;Please review this and confirm that all information is correct.</p>
+
+<p>&nbsp; &nbsp; Please reach out immediately if there is anything missing or unclear.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>&nbsp;&nbsp;Step 2: Latest CAD Confirmation</strong></p>
+
+<p>&nbsp; &nbsp; Within the folder link, you will find the latest CAD data that we have in our ERP for this project.</p>
+
+<p>&nbsp; &nbsp; Please confirm that these are the most up-to-date version of the model.</p>
+
+<p>&nbsp; &nbsp; If you have 2D drawings and have not yet provided them, we will gladly accept them at this time.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>&nbsp;&nbsp;Step 3: DFM Review &amp; Approval</strong></p>
+
+<p>&nbsp; &nbsp; Within the folder link, please see the DFM report provided by the toolmaker on this project.</p>
+
+<p>&nbsp; &nbsp; At earliest convenience, please review each slide, make textbox comments, add approvals/disapprovals where applicable, and return this document as soon as possible.</p>
+
+<p>&nbsp;&nbsp; &nbsp;The DFM will be used to identify any manufacturability issues/risks prior to tool kick-off.</p>
+
+<p>&nbsp;&nbsp; &nbsp;All issues must be resolved prior to tool kickoff.</p>
+
+<p><span style="color:#ff0000;">&nbsp;&nbsp; &nbsp;Note: Tool build timing does not start until DFM is approved.</span></p>
+
+<p><span style="color:#ff0000;">&nbsp;&nbsp;&nbsp; Any delay in resolving these issues may result in the delayed shipment of your parts.</span></p>
+
+<p>&nbsp;</p>
+
+<p>Please let me know if you have any questions, and I look forward to working with you on this project.</p>
+</body>
+</html>

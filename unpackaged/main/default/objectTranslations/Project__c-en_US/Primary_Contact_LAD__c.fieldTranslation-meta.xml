@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Non-AM LAD for sandbox testing --></help>
+        <label><!-- Primary Contact LAD --></label>
+        <name>Primary_Contact_LAD__c</name>
+    </CustomFieldTranslation>

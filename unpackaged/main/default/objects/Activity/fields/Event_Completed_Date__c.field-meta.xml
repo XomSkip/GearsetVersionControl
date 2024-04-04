@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Completed_Date__c</fullName>
+    <description>Event process improvement - 6/10/2021</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Updates when the manual Event Status field is set to completed.</inlineHelpText>
+    <label>Event Completed Date</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CancellationRequestStatus__c</fullName>
+    <externalId>false</externalId>
+    <label>Cancellation Request Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Approved By C-Suite</fullName>
+                <default>false</default>
+                <label>Approved By C-Suite</label>
+            </value>
+            <value>
+                <fullName>Cancelled by DFM/CM</fullName>
+                <default>false</default>
+                <label>Cancelled by DFM/CM</label>
+            </value>
+            <value>
+                <fullName>Denied By C-Suite</fullName>
+                <default>false</default>
+                <label>Denied By C-Suite</label>
+            </value>
+            <value>
+                <fullName>Pending C-Suite Approval</fullName>
+                <default>false</default>
+                <label>Pending C-Suite Approval</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+                <label>Replaced</label>
+            </value>
+            <value>
+                <fullName>Saved</fullName>
+                <default>false</default>
+                <label>Saved</label>
+            </value>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>Under CPC Review</fullName>
+                <default>false</default>
+                <label>Under CPC Review</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

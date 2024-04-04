@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- NEW Customer Status field that replaces the old Customer Status field now labeled as &quot;[DNU] Customer Status&quot; --></help>
+        <label><!-- Customer Status HS --></label>
+        <name>Customer_Status_HS__c</name>
+    </CustomFieldTranslation>

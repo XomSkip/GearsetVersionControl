@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automatic email sent when we are still waiting for information</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>48 Hours PSE Notification</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Final follow-up from Xometry regarding your quote request</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

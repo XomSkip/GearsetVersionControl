@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Job accepted; Job status “Fab Started” not marked within 4 days of job acceptance</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Job Fabrication Started - Asking Update to the Partner</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry Job Update</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

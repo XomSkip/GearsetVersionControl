@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Call Purpose --></label>
+        <name>Call_Purpose__c</name>
+        <picklistValues>
+            <masterLabel>Demo Call</masterLabel>
+            <translation><!-- Demo Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow-up Call</masterLabel>
+            <translation><!-- Follow-up Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduction Call</masterLabel>
+            <translation><!-- Introduction Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Review</masterLabel>
+            <translation><!-- Quote Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Call</masterLabel>
+            <translation><!-- Support Call --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MK_Ultimate_Customer_Fit_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Recommended_Account_LKP__r.Company_Category_Corp_Level__c = "Small Business",
+ MK_SMB_Customer_Fit_Score__c,
+ MK_Customer_Fit_Score__c
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>MK Ultimate Customer Fit Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

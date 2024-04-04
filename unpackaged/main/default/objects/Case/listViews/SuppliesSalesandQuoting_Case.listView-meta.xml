@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SuppliesSalesandQuoting_Case</fullName>
+    <booleanFilter>2 AND (1 OR 3)</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>equals</operation>
+        <value>eCommerce - Quote,RFQ - Quote</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Supplies Sales and Quoting - Supply RFQ</value>
+    </filters>
+    <label>[Supply]Sales and Quoting - Supply RFQ</label>
+    <sharedTo>
+        <group>SupplyStakeholder</group>
+        <role>Supply</role>
+        <roleAndSubordinatesInternal>SellerMarketplace</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

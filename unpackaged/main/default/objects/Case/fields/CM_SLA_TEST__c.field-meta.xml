@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CM_SLA_TEST__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+OR(
+
+AND(
+OR(
+NOT(ISPICKVAL(Priority, "High")),NOT(ISPICKVAL(Priority,"Urgent"))),
+ISBLANK(First_Response_Time__c)
+,Age_hrs__c &gt;= CMSLAResponseTimeReq_hrs__c),
+
+AND(
+OR(
+NOT(ISPICKVAL(Priority, "High")),NOT(ISPICKVAL(Priority,"Urgent"))),
+NOT(ISBLANK(First_Response_Time__c)), CMSLAResponseTimeReq_hrs__c &lt; Time_to_First_Response_hrs__c ),
+
+AND(
+OR(ISPICKVAL(Priority, "High"),ISPICKVAL(Priority, "Urgent")),
+CMSLAResponseTimeReq_hrs__c &lt; Bus_Hrs_Between_Emails__c)
+
+
+
+
+
+
+
+
+
+),
+True
+,False
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CM SLA TEST1</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

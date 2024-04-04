@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ordered_Processes__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(has_ordered_BinderJetting__c , 'Binder Jetting: ', '') +
+IF(has_ordered_Carbon__c , 'Carbon: ', '') +
+IF(has_ordered_CNC_Machining__c ,'CNC Machining: ', '') +
+IF(has_ordered_Die_Casting__c ,'Die Casting: ', '') +
+IF(has_ordered_DMLS__c,'DMLS: ', '') +
+IF(has_ordered_Direct_Sourced__c,'Direct Sourced: ', '') +
+IF(has_ordered_Extrusion__c,'Metal Extrusion: ', '') +
+IF(has_ordered_FDM__c, 'FDM: ', '') +
+IF(has_ordered_HPMultiJetFusion__c,'HP Multi Jet Fusion: ','') +
+IF((has_ordered_Injection_Molding__c || has_ordered_Injection_Molding_Tool__c),'Injection Molding: ','') +
+IF(has_ordered_PolyJet_3D__c ,'PolyJet 3D: ','') +
+IF(has_ordered_SLS__c,'SLS: ','') +
+IF(has_ordered_Sheet_metal__c ,'Sheet Metal: ','') +
+IF(has_ordered_Stamping__c ,'Stamping: ','') +
+IF(has_ordered_SLA__c , 'SLA: ','') +
+IF(has_ordered_Urethane_Casting__c,'Urethane Casting: ','') +
+IF(has_ordered_SheetCutting__c, 'Sheet Cutting: ','')</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Ordered Processes</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

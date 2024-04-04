@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Corporate_Parent_Cannot_Have_a_Parent</fullName>
+    <active>true</active>
+    <description>The Account Hierarchy Type: Corporate Parent requires that the Corporate Parent account has no ParentID</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( Hierarchy_Type__c ,'Corporate Parent'),
+NOT(ISBLANK(ParentId)))
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Account_VR</errorConditionFormula>
+    <errorMessage>Hierarchy Type: of Corporate Parent must not have a parent account.</errorMessage>
+</ValidationRule>

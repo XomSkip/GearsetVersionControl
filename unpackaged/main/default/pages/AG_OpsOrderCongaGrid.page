@@ -1,0 +1,6 @@
+<apex:page sidebar="false" showHeader="true" docType="html-4.01-strict">
+<CRMC_PP:Grid ObjectName="Ops_Order__c" DelayLoad="false"  ViewID="a2n3u000000S7nQAAS" 
+ EnableNewButton="false"  EnableNewInline="false"  EnableEdit="true"  EnableActions="true"  EnableFieldChooser="true" 
+ EnableStickyViews="true"  EnableToolbar="true"  EnableViews="true"  EnableFormatting="true"  EnableReadingPane="true" />
+<CRMC_PP:DrillUp />
+</apex:page>

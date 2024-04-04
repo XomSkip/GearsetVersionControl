@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HS_Applications__c</fullName>
+    <description>Captures data from Hubspots' User Profile Form for this field. Not editable in Salesforce. Source of truth is Hubspot.</description>
+    <externalId>false</externalId>
+    <label>HS Applications</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>User research</fullName>
+                <default>false</default>
+                <label>User research</label>
+            </value>
+            <value>
+                <fullName>Product design</fullName>
+                <default>false</default>
+                <label>Product design</label>
+            </value>
+            <value>
+                <fullName>Design prototype</fullName>
+                <default>false</default>
+                <label>Design prototype</label>
+            </value>
+            <value>
+                <fullName>Engineering prototype</fullName>
+                <default>false</default>
+                <label>Engineering prototype</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Tooling (production line)</fullName>
+                <default>false</default>
+                <label>Tooling (production line)</label>
+            </value>
+            <value>
+                <fullName>Final production runs</fullName>
+                <default>false</default>
+                <label>Final production runs</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

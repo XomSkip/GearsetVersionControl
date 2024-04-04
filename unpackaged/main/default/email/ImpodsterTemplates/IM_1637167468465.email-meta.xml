@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>For APB to partner network</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>IM Material Request for Network</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>IM Material Request for Network</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>[Additive] Shipping Late, Delivery On Track</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>F3D 6/28 Power Outage</name>
+    <style>none</style>
+    <subject>Xometry Order ID - Shipping Late, Tracking on Time Delivery</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

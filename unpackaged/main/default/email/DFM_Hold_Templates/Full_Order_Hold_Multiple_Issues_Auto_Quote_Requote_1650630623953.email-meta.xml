@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>If a customer forgot features on quote which results in price increase of more than the $300 Low LTV Limit OR  $1000(&lt;3%, Whichever is greater) High LTV Limit or greater, then send new quote to the customer and CC sales.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Bad AQ Scope</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry Order ID     - ON HOLD Notification, Please Review</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

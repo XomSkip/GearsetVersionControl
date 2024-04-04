@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suppliers_with_Onboarding_Calls</fullName>
+    <columns>NAME</columns>
+    <columns>SupplierCompanyName__c</columns>
+    <columns>OnboardingCall__c</columns>
+    <columns>OnboardingCallCompleted__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OnboardingCallCompleted__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>OnboardingCall__c</field>
+        <operation>greaterThan</operation>
+        <value>8/1/2021 12:00 AM</value>
+    </filters>
+    <label>[GNO]Suppliers with Onboarding Calls</label>
+</ListView>

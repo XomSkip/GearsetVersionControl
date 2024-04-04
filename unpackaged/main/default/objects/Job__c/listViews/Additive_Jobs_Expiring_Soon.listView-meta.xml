@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additive_Jobs_Expiring_Soon</fullName>
+    <columns>NAME</columns>
+    <columns>OrderID__c</columns>
+    <columns>QuoteType__c</columns>
+    <columns>LastOfferCountdown__c</columns>
+    <columns>DueDate__c</columns>
+    <columns>GNO_CustomerPrice__c</columns>
+    <columns>Processes__c</columns>
+    <columns>OutsourcePartnerGroup__c</columns>
+    <columns>InspectionRequirement__c</columns>
+    <columns>RiskFactor__c</columns>
+    <columns>SupplierFeedback__c</columns>
+    <columns>Open_Sourcing_Cases__c</columns>
+    <columns>Open_Cases__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LastOfferCountdown__c</field>
+        <operation>lessOrEqual</operation>
+        <value>48</value>
+    </filters>
+    <filters>
+        <field>Stage__c</field>
+        <operation>equals</operation>
+        <value>Offered</value>
+    </filters>
+    <filters>
+        <field>Open_Cases__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>LastOfferCountdown__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Processes__c</field>
+        <operation>notContain</operation>
+        <value>CNC,Sheet Metal,Sheet Cutting,Injection Molding,Casting</value>
+    </filters>
+    <label>[Additive] Jobs Expiring Soon</label>
+</ListView>

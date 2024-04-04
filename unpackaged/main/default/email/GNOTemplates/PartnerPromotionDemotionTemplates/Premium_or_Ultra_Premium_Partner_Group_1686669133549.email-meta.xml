@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Schedule Virtual Shop Evaluation</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Premium or Ultra-Premium Partner Group</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Congratulations! You&apos;re eligible to join the most elite levels of our network!</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

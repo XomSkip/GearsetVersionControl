@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MarketSupplyFlexDeals</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>startsWith</operation>
+        <value>SFP</value>
+    </filters>
+    <label>[Market]Supply Flex Deals</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>SellerMarketplace</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

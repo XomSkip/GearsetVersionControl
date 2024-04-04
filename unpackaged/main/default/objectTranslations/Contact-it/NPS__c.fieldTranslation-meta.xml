@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- How likely is it that you would recommend Xometry to a friend or colleague? Answer from SurveyMonkey --></help>
+        <label><!-- NPS --></label>
+        <name>NPS__c</name>
+    </CustomFieldTranslation>

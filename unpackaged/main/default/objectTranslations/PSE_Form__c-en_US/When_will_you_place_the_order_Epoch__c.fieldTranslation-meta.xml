@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- When will you place the order Epoch --></label>
+        <name>When_will_you_place_the_order_Epoch__c</name>
+    </CustomFieldTranslation>

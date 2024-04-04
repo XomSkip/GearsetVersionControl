@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Relevant_to_Sales__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>To hide contacts from reports</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Mark if contact is not a "sales" contact (I.E. Customer Service Rep, VP of Finance, etc.)</inlineHelpText>
+    <label>Not Relevant to Sales</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

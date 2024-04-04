@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Role__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(
+and(
+isblank( NumberOfEmployees ),isblank( AnnualRevenue)), "AR",
+if(
+isblank( NumberOfEmployees ),"Check Revenue",
+if(NumberOfEmployees &lt;25,"AR",
+if(NumberOfEmployees &lt;300, "AR",
+if(NumberOfEmployees &lt;2000, "AE",
+if(NumberOfEmployees &lt;9999, "AE",
+if( AnnualRevenue &lt; 10000000000, "SAE",
+"SAE")))))))</formula>
+    <label>[dnu] Target Role</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

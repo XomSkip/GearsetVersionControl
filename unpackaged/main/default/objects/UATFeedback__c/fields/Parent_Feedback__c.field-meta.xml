@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Feedback__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Used to relate feedback records.</description>
+    <externalId>false</externalId>
+    <label>Parent Feedback</label>
+    <referenceTo>UATFeedback__c</referenceTo>
+    <relationshipName>Feedback</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

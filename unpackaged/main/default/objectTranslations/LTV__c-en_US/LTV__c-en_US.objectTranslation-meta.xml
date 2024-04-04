@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>LTV</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>LTV Data</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>LTV Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- History --></label>
+            <section>History</section>
+        </sections>
+        <sections>
+            <label><!-- Process Specifics --></label>
+            <section>Process Specifics</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Edit --></label>
+        <name>Edit</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update LTV --></label>
+        <name>PSE_Case</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Account level LTV --></description>
+        <label><!-- Account LTV --></label>
+        <name>Account_LTV</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Contact level LTV --></description>
+        <label><!-- Contact LTV --></label>
+        <name>Contact_LTV</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

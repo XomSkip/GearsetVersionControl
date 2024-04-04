@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Bad Outcomes Manage Result --></label>
+        <name>Bad_Outcomes_Manage_Result__c</name>
+        <picklistValues>
+            <masterLabel>Daily Score Not Calculated Yet</masterLabel>
+            <translation><!-- Daily Score Not Calculated Yet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Manage</masterLabel>
+            <translation><!-- Do Not Manage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manage</masterLabel>
+            <translation><!-- Manage --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

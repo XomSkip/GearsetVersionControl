@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DnB_Connect_DUNS__c</fullName>
+    <description>Custom DUNS field created for D&amp;B Connect Setup/Testing. Replace Field with final version.</description>
+    <externalId>false</externalId>
+    <label>D&amp;B Connect DUNS</label>
+    <length>9</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

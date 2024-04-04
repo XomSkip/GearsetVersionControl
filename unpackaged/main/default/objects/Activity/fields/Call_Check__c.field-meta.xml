@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Check__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(Distinct_Call__c = "Manual OB",
+  false,
+   IF(Distinct_Call__c = "Manual IB",
+     false,
+      IF(Distinct_Call__c = "Manual Call",
+        false,
+         if(Distinct_Call__c = "CAS OB",
+           TRUE,
+            IF(and(Distinct_Call__c = "8x8 IB",CallDurationInSeconds &gt;=10),
+              TRUE,
+                IF(and(Distinct_Call__c = "8x8 OB",CallDurationInSeconds &gt;=10),
+                  TRUE,
+                    FALSE
+))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Call Check</label>
+    <type>Checkbox</type>
+</CustomField>

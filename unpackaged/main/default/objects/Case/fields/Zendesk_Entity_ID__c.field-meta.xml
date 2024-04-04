@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zendesk_Entity_ID__c</fullName>
+    <description>Created During PSE Service Migration Project</description>
+    <externalId>false</externalId>
+    <formula>Zendesk_Entity__r.Entity_ID__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The ID of the Zendesk user we would like to assign the Zendesk ticket to.</inlineHelpText>
+    <label>Zendesk Entity ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <decisions>
+        <name>myRule_1</name>
+        <label>User Role</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myRule_3</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_User Role</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_TRUE_myRule_1</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>TRUE_User Role</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_3</name>
+        <label>Contact Status</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myRule_5</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Contact Status</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_3</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_TRUE_myRule_3</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_3_A1</targetReference>
+            </connector>
+            <label>TRUE_Contact Status</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_5</name>
+        <label>Event Status Completed</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>FALSE_Event Status Completed</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_5</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Event_Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Event_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Completed</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Event_Completed_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_5_A1</targetReference>
+            </connector>
+            <label>TRUE_Event Status Completed</label>
+        </rules>
+    </decisions>
+    <description>Migrated from the Event Insert process using multiple criteria.
+Enhancing Event meeting performance</description>
+    <formulas>
+        <name>formula_1_myRule_5_A1_8945579812</name>
+        <dataType>DateTime</dataType>
+        <expression>NOW()</expression>
+    </formulas>
+    <formulas>
+        <name>formula_TRUE_myRule_1</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW() &amp;&amp;
+!ISBLANK({!$Record.OwnerId})</expression>
+    </formulas>
+    <formulas>
+        <name>formula_TRUE_myRule_3</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW() &amp;&amp;
+!ISBLANK({!$Record.Safe_Contact_ID__c}) &amp;&amp;
+LEFT({!$Record.Safe_Contact_ID__c},3) = &quot;003&quot;</expression>
+    </formulas>
+    <label>Event Insert_1</label>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>myRule_1_A1</name>
+        <label>Stamp User Role</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>myRule_3</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>User_Role__c</field>
+            <value>
+                <elementReference>$Record.Owner:User.UserRole.Name</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_5_A1</name>
+        <label>Set Event Completed Date to Now</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <inputAssignments>
+            <field>Event_Completed_Date__c</field>
+            <value>
+                <elementReference>formula_1_myRule_5_A1_8945579812</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>myRule_1</targetReference>
+        </connector>
+        <object>Event</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>myRule_3_A1</name>
+        <label>Stamp Contact Status</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>myRule_5</targetReference>
+        </connector>
+        <flowName>ActivityContactStatusStamp</flowName>
+        <inputAssignments>
+            <name>Event_Id</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Contact_Id</name>
+            <value>
+                <elementReference>$Record.WhoId</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+</Flow>

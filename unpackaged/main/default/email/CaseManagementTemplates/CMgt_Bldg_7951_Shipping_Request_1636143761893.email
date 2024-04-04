@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Part ID:<br />
+<br />
+Job ID:<br />
+<br />
+Partner Shop Name:<br />
+<br />
+Order ID:<br />
+<br />
+Customer Company Name:</span></span><br />
+<br />
+<span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Quantity to ship:<br />
+<br />
+Did these parts fail inspection?&nbsp;<br />
+<br />
+Is this a split shipment of the order?&nbsp;<br />
+<br />
+Is this a partial qty of the line item(s)?&nbsp;<br />
+<br />
+Purchase Order Document (if being sent to the partner) attached?:<br />
+<br />
+Current Bldg &amp; Location of Part(s):&nbsp;<br />
+<br />
+Delivery address:</span></span><br />
+<br />
+<br />
+<br />
+<br />
+<span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Shipping Method (carrier, speed &amp; account):<br />
+<br />
+Any Certs?<br />
+<br />
+Special Notes:</span></span>
+</body></html>

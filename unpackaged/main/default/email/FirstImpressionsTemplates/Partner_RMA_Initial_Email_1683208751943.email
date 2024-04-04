@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">The customer for a job you have completed has contacted us with some concerns about the parts they have received. Our team has done an initial review and has determined that the concerns appear to be accurate. &nbsp;This email is to provide you with a heads-up while we collect additional information ahead of calling you to discuss this in detail. &nbsp;Here is the job information and a description of the reported issue:<br />
+<br />
+Job: #<br />
+<br />
+Part: #<br />
+<br />
+Qty:<br />
+<br />
+Issue Description: &nbsp;<br />
+<br />
+Please review the issue that occurred above and determine how it transpired and implement corrective actions.<br />
+<br />
+Based on the description of the issues, we believe that it should take no more than [X] days for this to be [reworked or remade].<br />
+<br />
+I have been assigned as the Case Manager and will be the point of contact on this matter. I will be following up with you shortly to discuss this RMA request in greater detail. &nbsp;We have sent the customer return labels to have the parts shipped to your facility via FedEx [tracking number].<br />
+<br />
+When you finish production, please send me the inspection report and photos of the part so I can generate a shipping label for you.<br />
+<br />
+This email also stands as a Quality Note and will be recorded.</body>
+</html>

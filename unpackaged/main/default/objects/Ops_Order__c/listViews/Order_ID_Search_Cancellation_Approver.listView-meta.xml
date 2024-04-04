@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_ID_Search_Cancellation_Approver</fullName>
+    <columns>Order_DateTime__c</columns>
+    <columns>CancellationRequestSubmittedDate__c</columns>
+    <columns>CancellationRequestSubmittedByName__c</columns>
+    <columns>ActualInternalCancellationRequester__c</columns>
+    <columns>NAME</columns>
+    <columns>ERPStatus__c</columns>
+    <columns>CancellationPartID__c</columns>
+    <columns>CancellationDollarAmount__c</columns>
+    <columns>CancellationReasonCode__c</columns>
+    <columns>CancellationReplacementOrder__c</columns>
+    <columns>CancellationReplacementOrderNumber__c</columns>
+    <columns>CancellationReplacementOrderAmount__c</columns>
+    <columns>CancellationRequestStatus__c</columns>
+    <columns>CancellationCSuiteApprovedBy__c</columns>
+    <columns>SubmissionComments__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CancellationRequestStatus__c</field>
+        <operation>equals</operation>
+        <value>Approved,Approved By C-Suite,Cancelled by DFM/CM,Denied By C-Suite,Pending C-Suite Approval,Rejected,Submitted,Under CPC Review</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>4DE8B-15007</value>
+    </filters>
+    <label>Order ID Search Cancellation Query</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>CPC_Leadership</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

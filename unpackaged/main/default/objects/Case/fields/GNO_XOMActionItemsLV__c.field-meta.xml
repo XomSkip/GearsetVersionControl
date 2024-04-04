@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GNO_XOMActionItemsLV__c</fullName>
+    <description>This is the field to show in the List View</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List View Use.</inlineHelpText>
+    <label>XOM Action Items (List View)</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

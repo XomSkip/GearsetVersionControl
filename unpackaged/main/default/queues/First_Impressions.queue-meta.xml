@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>First Impressions</name>
+    <queueMembers>
+        <users>
+            <user>bethany.young@xometry.com</user>
+            <user>bboulden@xometry.com</user>
+            <user>carlos.taylor@xometry.com</user>
+            <user>cmeadows@xometry.com</user>
+            <user>damon.king@xometry.com</user>
+            <user>earl.watts@xometry.com</user>
+            <user>escardelli@xometry.com</user>
+            <user>garth.grause@xometry.com</user>
+            <user>hakhavan@xometry.com</user>
+            <user>jstevens@xometry.com</user>
+            <user>jrivera@xometry.com</user>
+            <user>ksiegelbaum@xometry.com</user>
+            <user>kris.gack@xometry.com</user>
+            <user>nicholas.neal@xometry.com</user>
+            <user>parker.elliott@xometry.com</user>
+            <user>pteixeira@xometry.com</user>
+            <user>rcross@xometry.com</user>
+            <user>saus@xometry.com</user>
+            <user>samuel.ashamole@xometry.com</user>
+            <user>tanika.cooper@xometry.com</user>
+            <user>thomas.coccia@xometry.com</user>
+            <user>vcollazo@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Default_For_Case</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

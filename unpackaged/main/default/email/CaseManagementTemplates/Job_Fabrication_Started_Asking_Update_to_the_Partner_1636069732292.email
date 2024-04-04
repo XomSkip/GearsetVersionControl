@@ -1,0 +1,35 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Dear {{{Recipient.FirstName}}},</p>
+
+<p>Thank you for recently accepting job ID J000XXXX.</p>
+
+<p>In an effort to provide world-class manufacturing service to our Premier Customer Network, we are working to provide top-tier production and services more and more each day.</p>
+
+<p>Could you please give us a quick status update?</p>
+
+<ul>
+	<li>Have you started planning this job?</li>
+</ul>
+
+<ul>
+	<li>Do you have your material and any necessary tools ordered or delivered?</li>
+</ul>
+
+<ul>
+	<li>Do you have a projected start date for when you will put these parts on your machines?</li>
+</ul>
+
+<p>If you have already started production, please mark the “Fabrication Started” update on the workflow status bar found on your “Current Jobs” page. This status update will help us get a better sense of your timing and give us good news for our next customer communication. Updating the workflow status is the best way for us to communicate and avoid unnecessary emails and phone calls.<br />
+&nbsp;</p>
+
+<p>If you have not started fabrication and would like assistance in resolving any issues you are having please contact us at 240-252-1138</p>
+
+<p>Xometry is continually working to bring premium manufacturing clients; challenging work; and lucrative business opportunities to our World-Class Network of Manufacturing Partners. We appreciate your partnership in building the #1 On-Demand Manufacturing resource.</p>
+
+<p>Best regards,<br />
+{{{Sender.FirstName}}}</p>
+
+</body></html>

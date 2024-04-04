@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSE_Form</fullName>
+    <active>true</active>
+    <description>Unknown Form Type</description>
+    <label>PSE Form</label>
+    <picklistValues>
+        <picklist>ITAR__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Needs_Additional_Trial_Parts__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TestFlowList__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YES</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>do_you_have_a_price_target_picklist__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ordering_additional_volume_picklist__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>required_certifications__c</picklist>
+        <values>
+            <fullName>Certificate of Conformance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DFARS Compliant Material Cert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Domestic Compliant Material Cert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware Certification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITAR%2FEAR Registration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material Traceability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Material Cert</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>required_inspections__c</picklist>
+        <values>
+            <fullName>CMM Inspection with Dimensional Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom Inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>First Article Inspection Report %28FAIR AS9102%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formal Inspection with Dimensional Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Source Inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Inspection</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

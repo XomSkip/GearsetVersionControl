@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>If ITAR addition changes pricing by $5k+, DO NOT comp ITAR, and please send this note.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ITAR/EAR Waiver Required &gt;$5k</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry Order ID    DFM - HOLD - ITAR/EAR Waiver Confirmation, Please Review</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

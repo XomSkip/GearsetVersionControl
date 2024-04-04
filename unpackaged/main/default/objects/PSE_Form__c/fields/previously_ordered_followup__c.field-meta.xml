@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>previously_ordered_followup__c</fullName>
+    <description>If similar parts have been previously quoted/ordered at Xometry, please provide the previous quote or order number.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If similar parts have been previously quoted/ordered at Xometry, please provide the previous quote or order number.</inlineHelpText>
+    <label>Follow up Information for Previous Order</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POD_Assembly</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Age_hrs__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>OPS_Top_20_Customer__c</columns>
+    <columns>OrderID__c</columns>
+    <columns>NAME</columns>
+    <columns>CASES.EMAIL</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Zendesk_Ticket_Number__c</columns>
+    <columns>Zendesk_Ticket_Link__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Solved,Closed</value>
+    </filters>
+    <filters>
+        <field>Owners_Role__c</field>
+        <operation>equals</operation>
+        <value>DFM Assembly</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Assembly</value>
+    </filters>
+    <label>[POD] Assembly</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Service_Leadership</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TestPartPayable__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (  NOT(ISPICKVAL(TestPartStatus__c, 'Passed')), '',
+  IF ( ISPICKVAL(TestPartStatus__c, 'Passed') &amp;&amp; NOT(ISNULL( TestPartPaid__c )) , 'Paid',  
+    IF ( ISPICKVAL(TestPartStatus__c, 'Passed') &amp;&amp; CompletedJobs__c &gt;= 1, 'Payable', 'Needs to complete at least 1 job')
+  )
+)</formula>
+    <label>Test Part Payable</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

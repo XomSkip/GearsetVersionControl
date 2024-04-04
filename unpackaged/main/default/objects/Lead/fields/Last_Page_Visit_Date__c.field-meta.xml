@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Page_Visit_Date__c</fullName>
+    <description>The Last Date that the Lead visited the main Xometry Site</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Last time Lead visited Xometry.com</inlineHelpText>
+    <label>Last Page Visit Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

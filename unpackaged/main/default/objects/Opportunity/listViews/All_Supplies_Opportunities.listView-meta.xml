@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Supplies_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>JobId__c</columns>
+    <columns>Job_Due_Date__c</columns>
+    <columns>Last_Quote_Xometry_ERP_ID__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Primary_Contact__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>P21_Account_Details__c</columns>
+    <columns>Order_ERP_Xom_ID__c</columns>
+    <filterScope>Team</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Supplies</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <label>[Market]All Supplies Opportunities</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>SellerMarketplace</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

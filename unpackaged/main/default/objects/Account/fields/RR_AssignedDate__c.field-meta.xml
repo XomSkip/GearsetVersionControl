@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RR_AssignedDate__c</fullName>
+    <description>The date that an Account has been assigned via Round Robin</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date that this record went through the Round Robin</inlineHelpText>
+    <label>RR - Assigned Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

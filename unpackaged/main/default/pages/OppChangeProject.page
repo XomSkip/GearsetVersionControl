@@ -1,0 +1,38 @@
+<apex:page standardController="Opportunity"
+    recordSetVar="opportunities"
+    showHeader="false"
+    id="oppproj"
+    lightningStylesheets="true"
+>
+    <apex:form id="oppprojform">
+        <apex:pageBlock title="Change or add to Project" mode="edit" id="oppprojb1">
+            <apex:pageMessages />
+            <apex:pageBlockSection id="oppprojs1" columns="1">
+                <apex:inputField value="{!opportunity.Project__c}" id="project">
+                    <apex:actionSupport event="onchange" rerender="oppprojselectedlist"/>
+                </apex:inputField>
+                <apex:inputField value="{!opportunity.Primary__c}" id="primary">
+                    <apex:actionSupport event="onchange" rerender="oppprojselectedlist"/>
+                </apex:inputField>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons location="bottom" id="oppprojbut">
+                <apex:commandButton value="Save" action="{!save}" id="butsav"/>
+                <apex:commandButton value="Cancel" action="{!cancel}" id="butcan"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+        <apex:pageBlock title="Selected Opportunities" id="oppprojselectedlist">
+            <apex:pageBlockTable value="{!selected}" var="opp" id="oppprojtab">
+                <apex:column value="{!opp.name}" id="oppname"/>
+                <apex:column value="{!opp.Project__c}" id="project"/>
+                <apex:column value="{!opp.Primary__c}" id="primary"/>
+                <apex:column value="{!opp.account.name}" id="acctname"/>
+                <apex:column value="{!opp.Primary_Contact__r.name}" id="primarycontact" headerValue="Primary Contact"/>
+                <apex:column value="{!opp.stagename}" id="oppstage"/>
+                <apex:column value="{!opp.closedate}" id="closedatelist"/>
+                <apex:column value="{!opp.amount}" id="amount"/>
+                <apex:column value="{!opp.createddate}" id="createddate"/>
+                <apex:column value="{!opp.owner.name}" id="ownername" headerValue="Opportunity Owner"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

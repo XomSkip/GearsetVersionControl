@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- SDR Ghost --></label>
+        <name>SDR_Ghost__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>acctFYHierarchyCalcTest</testClassName>
+    <testClassName>ChangePasswordControllerTest</testClassName>
+    <testClassName>CommunitiesLandingControllerTest</testClassName>
+    <testClassName>CommunitiesLoginControllerTest</testClassName>
+    <testClassName>CommunitiesSelfRegConfirmControllerTest</testClassName>
+    <testClassName>CommunitiesSelfRegControllerTest</testClassName>
+    <testClassName>csamContactFlipTest</testClassName>
+    <testClassName>CustomMetadataLoaderControllerTest</testClassName>
+    <testClassName>CustomMetadataUploadControllerTest</testClassName>
+    <testClassName>ForgotPasswordControllerTest</testClassName>
+    <testClassName>LeadConverterTest</testClassName>
+    <testClassName>LtvTest</testClassName>
+    <testClassName>MDWrapperWebServiceMock</testClassName>
+    <testClassName>MetadataServiceTest</testClassName>
+    <testClassName>monthlyAcctAggReCalcTest</testClassName>
+    <testClassName>monthlyAggCalcScheduleTest</testClassName>
+    <testClassName>monthlyContactAggReCalcScheduleTest</testClassName>
+    <testClassName>monthlyContAggReCalcTest</testClassName>
+    <testClassName>NonQuoterLeadTest</testClassName>
+    <testClassName>OpportunityTest</testClassName>
+    <testClassName>OrderERPTest</testClassName>
+    <testClassName>QuoteERPTest</testClassName>
+    <testClassName>quoteToOppHelperTest</testClassName>
+    <testClassName>SiteLoginControllerTest</testClassName>
+    <testClassName>SiteRegisterControllerTest</testClassName>
+    <testClassName>TestDataFactory</testClassName>
+    <testClassName>updateAccountQuoteDateTest</testClassName>
+    <testClassName>updateContactQuoteDatesTest</testClassName>
+    <testClassName>updateLeadQuoteDatesScheduleTest</testClassName>
+    <testClassName>updateLeadQuoteDateTest</testClassName>
+    <testClassName>westCoastContactFlipTest</testClassName>
+</ApexTestSuite>

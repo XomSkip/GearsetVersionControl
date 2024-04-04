@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Value to use to look up an order in the ERP. --></help>
+        <label><!-- Order ID --></label>
+        <name>Xometry_ERP_ID__c</name>
+    </CustomFieldTranslation>

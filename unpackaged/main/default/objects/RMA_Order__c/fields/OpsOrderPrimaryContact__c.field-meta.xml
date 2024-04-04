@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OpsOrderPrimaryContact__c</fullName>
+    <description>Primary Contact on Ops Order</description>
+    <externalId>false</externalId>
+    <formula>Order_Id__r.PrimaryContact__c</formula>
+    <inlineHelpText>Primary Contact on Ops Order</inlineHelpText>
+    <label>Ops Order Primary Contact</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

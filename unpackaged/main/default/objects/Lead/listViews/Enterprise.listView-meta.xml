@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enterprise</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE_CODE</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>MK_Lead_Grade_Segment__c</columns>
+    <columns>MK_Customer_Fit_Segment__c</columns>
+    <columns>MK_Likelihood_to_Buy_Segment__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owner_Role__c</field>
+        <operation>equals</operation>
+        <value>SAE,SAM,CSAM</value>
+    </filters>
+    <label>Enterprise</label>
+</ListView>

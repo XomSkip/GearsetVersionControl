@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is the net neutral account spend pacing percentage for This Year Spend against Last Year Spend. --></help>
+        <label><!-- Pacing Stat --></label>
+        <name>Pacing_Stat__c</name>
+    </CustomFieldTranslation>

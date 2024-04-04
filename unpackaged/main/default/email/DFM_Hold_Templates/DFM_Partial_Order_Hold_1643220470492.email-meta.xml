@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>When you want to only hold 1 or 2 parts of a multi-part order</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Partial Order Hold</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry Order ID     - PARTIAL HOLD Notification, Please Review</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

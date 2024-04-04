@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QSO_Webinar_Date__c</fullName>
+    <description>The date in which a QSO assigned to a webinar would be awarded.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date in which a QSO assigned to a webinar would be awarded.</inlineHelpText>
+    <label>[dnu] QSO Webinar Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quoted_Processes_Form__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(has_quoted_BinderJetting__c , 'Binder Jetting: ', '') +
+IF(has_quoted_Carbon__c , 'Carbon: ', '') +
+IF(has_quoted_CNC_Machining__c ,'CNC Machining: ', '') + 
+IF(has_quoted_Die_Casting__c  ,'Die Casting: ', '') + 
+IF(has_quoted_DMLS__c,'DMLS: ', '') +
+IF(has_quoted_Direct_Sourced__c,'Direct Sourced: ', '') +
+IF(has_quoted_Extrusion__c,'Metal Extrusion: ', '') +
+IF(has_quoted_FDM__c, 'FDM: ', '') +
+IF(has_quoted_HPMultiJetFusion__c,'HP Multi Jet Fusion','') +
+IF(has_quoted_Injection_Molding__c,'Injection Molding','') +
+IF(has_quoted_PolyJet_3D__c,'PolyJet 3D','') + 
+IF(has_quoted_SLS__c,'SLS: ','') + 
+IF(has_quoted_Sheet_metal__c ,'Sheet Metal: ','') +
+IF(has_quoted_Stamping__c   ,'Stamping: ','') +
+IF(has_quoted_SLA__c , 'SLA: ','') +
+IF(has_quoted_Urethane_Casting__c,'Urethane Casting: ','')</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Processes Quoted</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

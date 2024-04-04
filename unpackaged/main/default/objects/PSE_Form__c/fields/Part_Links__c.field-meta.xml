@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Part_Links__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Add links to associated order parts.</inlineHelpText>
+    <label>Links to Parts</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

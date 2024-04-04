@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X7_Day_Activity__c</fullName>
+    <externalId>false</externalId>
+    <formula>ENCODED:[treatNullAsNull]{!ID:ActivityMetricRollup.TotalActivities7Days}</formula>
+    <label>7-Day Activity Count</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

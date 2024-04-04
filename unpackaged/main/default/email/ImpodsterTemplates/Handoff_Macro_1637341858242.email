@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hello {{{Recipient.Name}}},</p>
+
+<p><br />
+Thank you for placing order #{{{Case.GNOOrder__c}}}&nbsp;with Xometry!</p>
+
+<p>&nbsp;</p>
+
+<p>I am the DFM Engineer who will be walking you through the following steps to get your tooling kicked off:</p>
+
+<p><br />
+<b>&nbsp; &nbsp;Step 1: Hand Over Document Approval</b></p>
+
+<p>&nbsp; &nbsp; &nbsp; Attached is a document that captures all pertinent information regarding your order.</p>
+
+<p>&nbsp; &nbsp; &nbsp; Please review this and confirm that all information is correct.</p>
+
+<p>&nbsp; &nbsp; &nbsp; Please reach out immediately if there is anything missing or unclear.</p>
+
+<p><br />
+<b>&nbsp; &nbsp;Step 2: Latest CAD Confirmation</b></p>
+
+<p>&nbsp; &nbsp; &nbsp;Attached you will find the latest CAD data that we have for this project.</p>
+
+<p>&nbsp; &nbsp; &nbsp;Please confirm that this is the most up-to-date version of the model.</p>
+
+<p>&nbsp; &nbsp; &nbsp; If you have 2D drawings and have not yet provided them, now is the time to do so!<br />
+<br />
+<br />
+<b>&nbsp; &nbsp;Step 3: DFM Review &amp; Approval</b></p>
+
+<p>&nbsp; &nbsp; &nbsp; A DFM review for your part(s) will be provided to you within the next 24-48 hours.</p>
+
+<p>&nbsp; &nbsp; &nbsp; The DFM will be used to identify any manufacturability issues/risks prior to tool kick-off.</p>
+
+<p>&nbsp; &nbsp; &nbsp; All issues must be resolved prior to tool kickoff.</p>
+
+<p>&nbsp; &nbsp; &nbsp; Note: Any delay in resolving these issues may result in the delayed shipment of your parts.</p>
+
+<p>&nbsp;</p>
+
+<p>Please let me know if you have any questions, and I look forward to working with you on this project.<br />
+&nbsp;</p>
+
+</body></html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Xometry_ERP_Contact_ID__c</fullName>
+    <description>The unique Contact Id that is created by the Xometry ERP</description>
+    <externalId>true</externalId>
+    <label>ERP Contact ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

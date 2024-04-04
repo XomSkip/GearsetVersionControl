@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Blocked</masterLabel>
+            <translation><!-- Blocked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deferred - Future Phase</masterLabel>
+            <translation><!-- Deferred - Future Phase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dev In-Progress</masterLabel>
+            <translation><!-- Dev In-Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dev Ready</masterLabel>
+            <translation><!-- Dev Ready --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA Fail - Defect Resolution</masterLabel>
+            <translation><!-- QA Fail - Defect Resolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for QA (Dev Complete)</masterLabel>
+            <translation><!-- Ready for QA (Dev Complete) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for UAT</masterLabel>
+            <translation><!-- Ready for UAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reopened</masterLabel>
+            <translation><!-- Reopened --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAT Complete</masterLabel>
+            <translation><!-- UAT Complete --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

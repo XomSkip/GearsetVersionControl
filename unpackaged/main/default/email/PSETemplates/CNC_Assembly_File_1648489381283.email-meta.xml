@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Multiple parts in one file</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CNC-Assembly File</name>
+    <style>none</style>
+    <subject>Xometry-Thanks for Submitting an RFQ!</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

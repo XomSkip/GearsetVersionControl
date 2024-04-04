@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_is_Past_Due__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( OR(  ISPICKVAL(Stage__c, 'Completed'),ISPICKVAL(Stage__c, 'Vendor Completed') ),
+
+'Order is Shipped',
+
+IF( OrderDueDate__c &lt; TODAY() ,
+
+'Order is Overdue by ' &amp; TEXT(Order_OverDue_Flag__c) &amp; ' days',
+
+IF( OrderDueDate__c = TODAY(), 'Order is not due yet', 'Order is not due yet - Due in ' &amp; TEXT(ABS(Order_OverDue_Flag__c)) &amp; ' days')
+
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Order is Past Due</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

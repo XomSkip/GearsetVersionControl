@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Post_Call_Survey_Opted__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Notifies if the survey is opted for the call</description>
+    <externalId>false</externalId>
+    <label>Post Call Survey Opted?</label>
+    <type>Checkbox</type>
+</CustomField>

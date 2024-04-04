@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bus_Hrs_Between_Emails__c</fullName>
+    <externalId>false</externalId>
+    <formula>ROUND(9 * (
+    (5 * FLOOR((DATEVALUE(Recent_Response_Time__c) - DATE(1996, 01, 01)) / 7) +
+        MIN(5,
+            MOD(DATEVALUE(Recent_Response_Time__c) - DATE(1996, 01, 01), 7) +
+            MIN(1, 24 / 9 * (MOD(Recent_Response_Time__c - DATETIMEVALUE('1996-01-01 14:00:00'), 1)))
+        ))
+    -
+    (5 * FLOOR((DATEVALUE(Recent_Inbound_Message__c) - DATE(1996, 01, 01)) / 7) +
+        MIN(5,
+            MOD(DATEVALUE(Recent_Inbound_Message__c) - DATE(1996, 01, 01), 7) +
+            MIN(1, 24 / 9 * (MOD(
+                IF(HOUR(TIMEVALUE(Recent_Inbound_Message__c)) &gt;= 14 &amp;&amp; HOUR(TIMEVALUE(Recent_Inbound_Message__c)) &lt;= 23,
+                    Recent_Inbound_Message__c,
+                    IF( HOUR(TIMEVALUE(Recent_Inbound_Message__c)) &lt; 14,
+                        DATETIMEVALUE(
+                            TEXT(DATEVALUE(Recent_Inbound_Message__c))
+                            +
+                            " " +
+                            '14:00:00'
+                        ),
+                        DATETIMEVALUE(
+                            TEXT(DATEVALUE(Recent_Inbound_Message__c))
+                            +
+                            " " +
+                            '23:00:00'
+                        )
+                    )
+                )
+                - DATETIMEVALUE('1996-01-01 14:00:00'), 1
+            )))
+        ))
+), 2)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Bus Hrs Between Emails</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

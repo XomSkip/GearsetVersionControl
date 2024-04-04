@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Thank you for accepting {{{Case.Job__c}}}. I am the case manager assigned to supervise this job. My role will be to support you from start to finish. As we advance I will be reaching out to you in order to confirm your milestones (such as when production is started) and ensure that you are on track to meet the due date.<br />
+<br />
+To start I was hoping that you could answer a few questions.
+<div style="margin-left: 40px;">Do you have any concerns over material availability? If not, what is the expected delivery date of the material?</div>
+
+<div style="margin-left: 40px;">Do you have the programming set? Have any DFM (Design for Manufacturing) concerns or issues been identified?</div>
+
+<div style="margin-left: 80px;">What number of ops are set? What are their expected run times?</div>
+
+<div style="margin-left: 40px;">Do you have any questions concerning the quality documentation and requirements?</div>
+
+<div style="margin-left: 40px;">Do you have any questions about the delivery method? Will this be shipped via freight or parcel?<br />
+&nbsp;</div>
+Looking forward to working with you,</body>
+</html>

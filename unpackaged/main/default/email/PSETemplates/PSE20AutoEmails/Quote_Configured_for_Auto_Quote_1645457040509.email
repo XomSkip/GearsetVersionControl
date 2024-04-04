@@ -1,0 +1,12 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi&nbsp;{{{Case.Opportunity_Owner__c}}}<br />
+<br />
+Your customer's quote is configured and auto-quoted.&nbsp;<span style="font-variant: normal; white-space: pre-wrap;"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">To access your quote please make sure you are logged in and follow this link:&nbsp; {{{Case.Get_Quote_Url__c}}} .</span></span></span></span></span></span></span><br />
+<br />
+{{{Case.GNO_CaseLink__c}}}<br />
+<br />
+<span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Thank you.</span></span></span></span></span></span>
+</body></html>

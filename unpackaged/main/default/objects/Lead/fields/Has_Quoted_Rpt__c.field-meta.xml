@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Quoted_Rpt__c</fullName>
+    <externalId>false</externalId>
+    <formula>ISBLANK(Last_Quote_Xometry_ERP_ID__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Has_Quoted_Rpt</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

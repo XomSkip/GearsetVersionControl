@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Most specific tier of company&apos;s industry classification --></help>
+        <label><!-- Sub-Industry --></label>
+        <name>Sub_Industry__c</name>
+    </CustomFieldTranslation>

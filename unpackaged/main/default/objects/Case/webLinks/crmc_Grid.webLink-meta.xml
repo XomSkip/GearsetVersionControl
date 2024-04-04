@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crmc_Grid</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Conga Grid</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>(function(e,t,n){var r=document.getElementsByTagName("HEAD").item(0),o=document.createElement("script");o.type="text/javascript",r.appendChild(o),o.onload=function(){GridButton.showInGrid(e,t)};var a="/resource/"+n+"gridbutton?ts="+(new Date).getTime();"object"==typeof UserContext&amp;&amp;"function"==typeof UserContext.getUrl&amp;&amp;(a=UserContext.getUrl(a)),o.src=a}("Case", {!GETRECORDIDS( $ObjectType.Case)}, "CRMC_PP__"));</url>
+</WebLink>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Return Order Line Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Return Order Line Items</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Return Order Line Item Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Order, Job and part info --></label>
+            <section>Order, Job and part info</section>
+        </sections>
+        <sections>
+            <label><!-- RMA Actions --></label>
+            <section>RMA Actions</section>
+        </sections>
+        <sections>
+            <label><!-- RMA Line Item Assessment --></label>
+            <section>RMA Line Item Assessment</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The expected quantity cannot exceed the ordered quantity of the ordered part --></errorMessage>
+        <name>valideQuantityExpected</name>
+    </validationRules>
+</CustomObjectTranslation>

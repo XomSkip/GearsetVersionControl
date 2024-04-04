@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The amount of time you actually spent with the client (rounded to nearest 15 minute interval) --></help>
+        <label><!-- Event Length --></label>
+        <name>Event_Length__c</name>
+        <picklistValues>
+            <masterLabel>15 Minutes</masterLabel>
+            <translation><!-- 15 Minutes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Minutes</masterLabel>
+            <translation><!-- 30 Minutes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45 Minutes</masterLabel>
+            <translation><!-- 45 Minutes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60 Minutes</masterLabel>
+            <translation><!-- 60 Minutes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75 Minutes</masterLabel>
+            <translation><!-- 75 Minutes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90 Minutes</masterLabel>
+            <translation><!-- 90 Minutes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;90 Minutes</masterLabel>
+            <translation><!-- &gt;90 Minutes --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

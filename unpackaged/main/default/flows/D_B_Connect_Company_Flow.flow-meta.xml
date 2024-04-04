@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <decisions>
+        <name>Out_of_Business</name>
+        <label>Out of Business</label>
+        <locationX>182</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>False</defaultConnectorLabel>
+        <rules>
+            <name>True</name>
+            <conditionLogic>(1 OR 2) AND 3</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.dunsCntrStat_opeRtngSubStatus_Descr__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.dunsCntrStat_opeRtngSubStatus_Descr__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Out of Business</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Account_Out_of_Business</targetReference>
+            </connector>
+            <label>True</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>D&amp;B Connect Company Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>D&amp;B Connect Company Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Account_Out_of_Business</name>
+        <label>Update Account Out of Business</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <connector>
+            <targetReference>Update_Lead_Out_of_Business</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Out_of_Business__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.DNBConnect__DBConnectAccountCompanyProfile__r</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Lead_Out_of_Business</name>
+        <label>Update Lead Out of Business</label>
+        <locationX>50</locationX>
+        <locationY>539</locationY>
+        <inputAssignments>
+            <field>Out_of_Business__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.DNBConnect__DBConnectLeadCompanyProfile__r</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Out_of_Business</targetReference>
+        </connector>
+        <object>DNBConnect__D_B_Connect_Company_Profile__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

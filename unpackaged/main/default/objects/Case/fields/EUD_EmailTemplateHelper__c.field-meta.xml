@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EUD_EmailTemplateHelper__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NOT(EUD_ImportReason__c), "Are these parts PROTOTYPE or PRODUCTION: " + BR() + BR(), "") +
+IF(NOT(EUD_PartDescription__c), "What is the end use of the part?" + BR() + BR() + "End-Use Examples: Aluminum fixture prototype for tension control assembly / Pump for a medical device to measure blood pressure / Main body component for consumer handheld camera assembly" + BR() + BR() + "Add end-use description here:" + BR() + BR(), "") +
+IF(NOT(EUD_Industry__c), "What industry is the part being used for? (i.e. medical, aerospace, industrial): " + BR() + BR(), "") +
+IF(NOT(EUD_HTSCode__c), "Please include the HTS code to classify your PRODUCTION PARTS. This is NECESSARY for customs." + BR() + "If you do not know what your HTS code is, please use the US customs web page to locate your HTS code (https://hts.usitc.gov/)." + BR() + BR() 
+			+ "Add HTS Code here (production parts only): " + BR() +BR() +"Here are some links that you might find useful:"+ BR()
+			+ "https://www.trade.gov/harmonized-system-hs-codes" +BR() + "Harmonized System (HS) Codes"
+			+ "- Official Website of the International Trade Administration"+BR()
+			+ "https://hts.usitc.gov/" +BR()+"HTS Code Finder"
+			+ "- Learn about the Harmonized System standardized numerical method of classifying traded products. used by customs authorities around the world to assess duties." 
+			+ BR(), "")</formula>
+    <label>[EUD] Email Template Helper</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

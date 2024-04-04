@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification of when case management has identified an order is at risk of shipping late</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Potentially Late Notification - Case Management</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry Order: XXXXX - Status Update</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeinPreSource__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISNULL(ClosedDate),
+ROUND(10 * (
+(5 * FLOOR((TODAY() - DATE(1996, 01, 01)) / 7) +
+MIN(5,
+MOD(TODAY() - DATE(1996, 01, 01), 7) +
+MIN(1, 24 / 10 * (MOD(NOW() - DATETIMEVALUE('1996-01-01 13:00:00'), 1)))
+))
+-
+(5 * FLOOR((DATEVALUE(PreSourceTimestamp__c) - DATE(1996, 01, 01)) / 7) +
+MIN(5,
+MOD(DATEVALUE(PreSourceTimestamp__c) - DATE(1996, 01, 01), 7) +
+MIN(1, 24 / 10 * (MOD(
+IF(HOUR(TIMEVALUE(PreSourceTimestamp__c)) &gt;= 13,
+PreSourceTimestamp__c,
+DATETIMEVALUE(
+TEXT(DATEVALUE(PreSourceTimestamp__c))
++
+" " +
+'13:00:00'
+))
+- DATETIMEVALUE('1996-01-01 13:00:00'), 1
+)))
+))
+), 0),
+
+ROUND(10 * (
+(5 * FLOOR((DATEVALUE(ClosedDate) - DATE(1996, 01, 01)) / 7) +
+MIN(5,
+MOD(DATEVALUE(ClosedDate) - DATE(1996, 01, 01), 7) +
+MIN(1, 24 / 10 * (MOD(ClosedDate - DATETIMEVALUE('1996-01-01 13:00:00'), 1)))
+))
+-
+(5 * FLOOR((DATEVALUE(PreSourceTimestamp__c) - DATE(1996, 01, 01)) / 7) +
+MIN(5,
+MOD(DATEVALUE(PreSourceTimestamp__c) - DATE(1996, 01, 01), 7) +
+MIN(1, 24 / 10 * (MOD(
+IF(HOUR(TIMEVALUE(PreSourceTimestamp__c)) &gt;= 13,
+PreSourceTimestamp__c,
+DATETIMEVALUE(
+TEXT(DATEVALUE(PreSourceTimestamp__c))
++
+" " +
+'13:00:00'
+))
+- DATETIMEVALUE('1996-01-01 13:00:00'), 1
+)))
+))
+), 0)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Time in Pre-Source (Business Hours)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

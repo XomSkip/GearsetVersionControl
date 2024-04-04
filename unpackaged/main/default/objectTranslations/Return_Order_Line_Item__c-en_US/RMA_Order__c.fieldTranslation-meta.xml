@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- RMA Order --></label>
+        <name>RMA_Order__c</name>
+        <relationshipLabel><!-- Return Order Line Items --></relationshipLabel>
+    </CustomFieldTranslation>

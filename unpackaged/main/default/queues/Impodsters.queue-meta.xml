@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Impodsters</name>
+    <queueMembers>
+        <users>
+            <user>alexander.johnston@xometry.com</user>
+            <user>aurelio.hila@xometry.com</user>
+            <user>ben.limon@xometry.com</user>
+            <user>brett.blanchard@xometry.com</user>
+            <user>bdeignan@xometry.com</user>
+            <user>carmen.stenson1@xometry.com</user>
+            <user>fbrown@xometry.com</user>
+            <user>joseph.taylor@xometry.com</user>
+            <user>kyle.radack@xometry.com</user>
+            <user>nicholas.radstake@xometry.com</user>
+            <user>sbenson@xometry.com</user>
+            <user>tmcritchie@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Default_For_Case</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

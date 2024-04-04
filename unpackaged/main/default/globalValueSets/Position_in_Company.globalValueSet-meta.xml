@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Engineer</fullName>
+        <default>false</default>
+        <label>Engineer</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineering Manager</fullName>
+        <default>false</default>
+        <label>Engineering Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Designer</fullName>
+        <default>false</default>
+        <label>Designer</label>
+    </customValue>
+    <customValue>
+        <fullName>Director</fullName>
+        <default>false</default>
+        <label>Director</label>
+    </customValue>
+    <customValue>
+        <fullName>Program Manager</fullName>
+        <default>false</default>
+        <label>Program Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Quality Manager</fullName>
+        <default>false</default>
+        <label>Quality Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Shop Manager</fullName>
+        <default>false</default>
+        <label>Shop Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance/Accounting Dept</fullName>
+        <default>false</default>
+        <label>Finance/Accounting Dept</label>
+    </customValue>
+    <customValue>
+        <fullName>Technical Buyer</fullName>
+        <default>false</default>
+        <label>Technical Buyer</label>
+    </customValue>
+    <customValue>
+        <fullName>Economic Buyer</fullName>
+        <default>false</default>
+        <label>Economic Buyer</label>
+    </customValue>
+    <customValue>
+        <fullName>Owner</fullName>
+        <default>false</default>
+        <label>Owner</label>
+    </customValue>
+    <customValue>
+        <fullName>Intern</fullName>
+        <default>false</default>
+        <label>Intern</label>
+    </customValue>
+    <description>Rep Pick List for Role within Company</description>
+    <masterLabel>Position in Company</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

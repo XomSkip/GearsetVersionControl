@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>SpaceTechs</name>
+    <queueMembers>
+        <users>
+            <user>ankur.arora@xometry.com</user>
+            <user>bcatlett@xometry.com</user>
+            <user>gkeith@xometry.com</user>
+            <user>mmarion@xometry.com</user>
+            <user>melissa.clem@xometry.com</user>
+            <user>ronnie.turner@xometry.com</user>
+            <user>rscherich@xometry.com</user>
+            <user>shawn.moon@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Default_For_Case</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

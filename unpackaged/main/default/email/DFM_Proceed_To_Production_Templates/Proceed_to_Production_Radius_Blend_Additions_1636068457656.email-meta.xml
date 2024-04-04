@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>When radius addition will not affect fit-form-function, but is absolutely needed, and a hold is not productive. (last update 5.24.21)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Radius/Blend Additions on CNC Required</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry Order ID   DFM - Proceeding to Production - Radius Additions</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

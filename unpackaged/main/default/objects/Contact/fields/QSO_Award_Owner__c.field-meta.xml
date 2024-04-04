@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QSO_Award_Owner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The owner of the QSO Award Point related to this contact/lead.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The owner of the QSO Award Point related to this contact/lead.</inlineHelpText>
+    <label>[dnu] QSO Award Owner</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Contacts2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

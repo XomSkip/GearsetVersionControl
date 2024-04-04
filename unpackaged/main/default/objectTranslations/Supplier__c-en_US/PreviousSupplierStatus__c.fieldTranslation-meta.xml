@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Previous Supplier Status --></label>
+        <name>PreviousSupplierStatus__c</name>
+        <picklistValues>
+            <masterLabel>approved</masterLabel>
+            <translation><!-- approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>expelled</masterLabel>
+            <translation><!-- expelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>frozen</masterLabel>
+            <translation><!-- frozen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not_interested</masterLabel>
+            <translation><!-- not_interested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>opted_out</masterLabel>
+            <translation><!-- opted_out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pip</masterLabel>
+            <translation><!-- pip --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>registered</masterLabel>
+            <translation><!-- registered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>rfq_only</masterLabel>
+            <translation><!-- rfq_only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>supplier_only</masterLabel>
+            <translation><!-- supplier_only --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

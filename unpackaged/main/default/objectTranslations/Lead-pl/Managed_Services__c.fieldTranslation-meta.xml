@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- 2021-12-21: Currently, ALL Leads are MS. In the future, this formula needs to be updated when additional lines of business start using Leads. --></help>
+        <label><!-- Managed Services --></label>
+        <name>Managed_Services__c</name>
+    </CustomFieldTranslation>

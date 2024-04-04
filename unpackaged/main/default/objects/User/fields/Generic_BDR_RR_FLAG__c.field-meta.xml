@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Generic_BDR_RR_FLAG__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Flag that says a user can become owner of BDR Generic Accounts via Round Robin</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if you want a user to be able to receive Generic BDR round robin Accounts.</inlineHelpText>
+    <label>Generic_BDR_RR_FLAG</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner_is_Inactive__c</fullName>
+    <description>inactive or (active but frozen)</description>
+    <externalId>false</externalId>
+    <formula>Owner:User.IsActive = False||(Owner:User.IsFrozen__c = True &amp;&amp; Owner:User.IsActive = True)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>inactive or (active but frozen)</inlineHelpText>
+    <label>Owner is Inactive or Frozen</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

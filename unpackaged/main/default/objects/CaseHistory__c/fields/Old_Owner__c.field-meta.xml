@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Old_Owner__c</fullName>
+    <externalId>false</externalId>
+    <formula>OldUserOwner__r.Full_Name__c &amp; OldOwnerText__c</formula>
+    <label>Old Owner</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

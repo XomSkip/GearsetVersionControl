@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Generic_FLAG__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Flag if Lead Contacts domain is generic.</description>
+    <externalId>false</externalId>
+    <label>Generic?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escalation__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(EscalationCommunication__c, 'Communication : ', '') +
+IF(EscalationEthics__c ,'Ethics : ', '') +
+IF(EscalationQuality__c ,'Quality : ', '') +
+IF(EscalationSCAR__c,'SCAR : ', '') +
+IF(EscalationShipping__c,'Shipping : ', '') +
+IF(EscalationTimeliness__c,'Timeliness : ', '') +
+IF(EscalationVQCMiss__c, 'VQC Miss : ', '') +
+IF(EscalationOther__c,'Other','')</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Escalation:</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

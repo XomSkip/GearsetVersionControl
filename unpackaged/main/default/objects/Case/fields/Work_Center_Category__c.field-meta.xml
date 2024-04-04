@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Center_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Work Center Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Print/CAD discrepancy</fullName>
+                <default>false</default>
+                <label>Print/CAD discrepancy</label>
+            </value>
+            <value>
+                <fullName>Can I substitute?</fullName>
+                <default>false</default>
+                <label>Can I substitute?</label>
+            </value>
+            <value>
+                <fullName>Where is the customer supplied material/inserts?</fullName>
+                <default>false</default>
+                <label>Where is the customer supplied material/inserts?</label>
+            </value>
+            <value>
+                <fullName>I'm not sure what my requirements are.</fullName>
+                <default>false</default>
+                <label>I'm not sure what my requirements are.</label>
+            </value>
+            <value>
+                <fullName>Where is the report/template/drawing?</fullName>
+                <default>false</default>
+                <label>Where is the report/template/drawing?</label>
+            </value>
+            <value>
+                <fullName>How should I ship this?</fullName>
+                <default>false</default>
+                <label>How should I ship this?</label>
+            </value>
+            <value>
+                <fullName>I have a freight shipment.</fullName>
+                <default>false</default>
+                <label>I have a freight shipment.</label>
+            </value>
+            <value>
+                <fullName>DFM Question</fullName>
+                <default>false</default>
+                <label>DFM Question</label>
+            </value>
+            <value>
+                <fullName>Production/Build Question</fullName>
+                <default>false</default>
+                <label>Production/Build Question</label>
+            </value>
+            <value>
+                <fullName>Finishing Question</fullName>
+                <default>false</default>
+                <label>Finishing Question</label>
+            </value>
+            <value>
+                <fullName>Delayed</fullName>
+                <default>false</default>
+                <label>Delayed</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Can I Cancel This Job</fullName>
+                <default>false</default>
+                <label>Can I Cancel This Job</label>
+            </value>
+            <value>
+                <fullName>Can't Find it / Substitution Request</fullName>
+                <default>false</default>
+                <label>Can't Find it / Substitution Request</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

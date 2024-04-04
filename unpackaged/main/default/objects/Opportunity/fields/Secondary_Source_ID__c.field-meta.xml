@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Source_ID__c</fullName>
+    <description>Polymorphic ID representing Supplies Managed Service Order ID, Supplies Job ID or Supplies Order Source ID
+This ID can be used by any integration and is always secondary to Xometry_ERP_ID__C and has no guarantee of uniqueness</description>
+    <externalId>false</externalId>
+    <label>Secondary Source ID</label>
+    <length>55</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

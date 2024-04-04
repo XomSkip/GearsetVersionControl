@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_SPOC_Jobs</fullName>
+    <columns>NAME</columns>
+    <columns>AcceptedDateTime__c</columns>
+    <columns>DueDate__c</columns>
+    <columns>Supplier__c</columns>
+    <columns>SupplierName__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Stage__c</field>
+        <operation>equals</operation>
+        <value>Accepted</value>
+    </filters>
+    <label>Open SPOC Jobs</label>
+</ListView>

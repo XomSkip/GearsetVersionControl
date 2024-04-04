@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Have a mill over 50&quot; x 30&quot; --></label>
+        <name>Have_a_mill_over_50_x_30__c</name>
+    </CustomFieldTranslation>

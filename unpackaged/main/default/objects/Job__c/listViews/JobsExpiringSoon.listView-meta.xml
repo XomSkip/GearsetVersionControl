@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JobsExpiringSoon</fullName>
+    <columns>NAME</columns>
+    <columns>OrderID__c</columns>
+    <columns>QuoteType__c</columns>
+    <columns>LastOfferCountdown__c</columns>
+    <columns>DueDate__c</columns>
+    <columns>GNO_CustomerPrice__c</columns>
+    <columns>Processes__c</columns>
+    <columns>OutsourcePartnerGroup__c</columns>
+    <columns>InspectionRequirement__c</columns>
+    <columns>RiskFactor__c</columns>
+    <columns>SupplierFeedback__c</columns>
+    <columns>Presource__c</columns>
+    <columns>PresourceNotes__c</columns>
+    <columns>ERP_Job_Board_URL__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LastOfferCountdown__c</field>
+        <operation>lessOrEqual</operation>
+        <value>24</value>
+    </filters>
+    <filters>
+        <field>Stage__c</field>
+        <operation>equals</operation>
+        <value>Offered</value>
+    </filters>
+    <filters>
+        <field>Open_Cases__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>LastOfferCountdown__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Processes__c</field>
+        <operation>equals</operation>
+        <value>CNC,Sheet Metal,Sheet Cutting,Injection Molding,Casting</value>
+    </filters>
+    <label>[CNC / SM / IM] Jobs Expiring Soon</label>
+</ListView>

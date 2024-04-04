@@ -1,0 +1,67 @@
+<apex:page standardController="Account" showHeader="false" docType="html-4.01-strict">
+
+<style>
+    select.fullWidth{
+        width:200px
+    }
+</style>
+
+<apex:pageblock >
+    <apex:pageblockSection >
+        <apex:repeat value="{!$ObjectType.Account.FieldSets.CRMC_PP__CRMC_Action_Grid_Defaults}" var="field">
+        <apex:outputField value="{!Account[field]}" styleClass="fullWidth" />
+    </apex:repeat>
+    </apex:pageblockSection>
+</apex:pageblock>
+
+<div id="tabstrip" style="display:none;"> <ul> 
+<li class="k-state-active">Contacts</li>
+<li>Activities</li>
+<li>Opportunities</li>
+<li>Cases</li>
+</ul>
+<!-- Contacts -->
+<div style="overflow:hidden;"> 
+<CRMC_PP:Grid ObjectName="Contact" FKName="AccountId" FKValue="{!Account.Id}"  DelayLoad="true"  ViewID="a1B500000075Ev6EAE" 
+ EnableNewButton="true"  EnableNewInline="true"  EnableEdit="true"  EnableActions="true"  EnableFieldChooser="true" 
+ EnableStickyViews="true"  EnableToolbar="true"  EnableViews="true"  EnableFormatting="true"  EnableReadingPane="true" />
+ <CRMC_PP:DrillUp /> 
+ </div>
+
+<!-- Activities -->
+<div style="overflow:hidden;"> 
+<CRMC_PP:Grid ObjectName="Task" FKName="AccountId" FKValue="{!Account.Id}"  DelayLoad="true"  ViewID="a2nDp000000HWvgIAG" 
+ EnableNewButton="true"  EnableNewInline="true"  EnableEdit="true"  EnableActions="true"  EnableFieldChooser="true" 
+ EnableStickyViews="true"  EnableToolbar="true"  EnableViews="true"  EnableFormatting="true"  EnableReadingPane="true" />
+ <CRMC_PP:DrillUp /> 
+ </div>
+
+<!-- Opportunities -->
+<div style="overflow:hidden;"> 
+<CRMC_PP:Grid ObjectName="Opportunity" FKName="AccountId" FKValue="{!Account.Id}"  DelayLoad="true"  ViewID="a2nDp000000HWvkIAG" 
+ EnableNewButton="true"  EnableNewInline="true"  EnableEdit="true"  EnableActions="true"  EnableFieldChooser="true" 
+ EnableStickyViews="true"  EnableToolbar="true"  EnableViews="true"  EnableFormatting="true"  EnableReadingPane="true" />
+ <CRMC_PP:DrillUp /> 
+ </div>
+
+<!-- Cases -->
+<div style="overflow:hidden;"> 
+<CRMC_PP:Grid ObjectName="Case" FKName="AccountId" FKValue="{!Account.Id}"  DelayLoad="true"  ViewID="" 
+ EnableNewButton="true"  EnableNewInline="true"  EnableEdit="true"  EnableActions="true"  EnableFieldChooser="true" 
+ EnableStickyViews="true"  EnableToolbar="true"  EnableViews="true"  EnableFormatting="true"  EnableReadingPane="true" />
+ <CRMC_PP:DrillUp /> 
+ </div>
+
+
+</div>
+<script>
+$(document).ready(function() {
+    $("#tabstrip").kendoTabStrip({
+      activate: function(e){
+        setTimeout(function(){          $(window).resize();        });
+      }
+    });
+    $("#tabstrip").css("display", "block");
+});
+ </script>
+</apex:page>

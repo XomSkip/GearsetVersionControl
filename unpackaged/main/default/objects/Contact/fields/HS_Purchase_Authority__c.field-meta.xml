@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HS_Purchase_Authority__c</fullName>
+    <description>Captures data from Hubspots' User Profile Form for this field. Not editable in Salesforce. Source of truth is Hubspot.</description>
+    <externalId>false</externalId>
+    <label>HS Purchase Authority</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sole Decision Maker</fullName>
+                <default>false</default>
+                <label>Sole Decision Maker</label>
+            </value>
+            <value>
+                <fullName>Part of the Decision Making Group</fullName>
+                <default>false</default>
+                <label>Part of the Decision Making Group</label>
+            </value>
+            <value>
+                <fullName>Decision Influencer</fullName>
+                <default>false</default>
+                <label>Decision Influencer</label>
+            </value>
+            <value>
+                <fullName>No Decision Making Authority</fullName>
+                <default>false</default>
+                <label>No Decision Making Authority</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is a template you can use when a Supplies Customer emails in for a material quote but does not include all necessary items for us to quote.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Supplies RFQ - Missing Details</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry Supplies Quote Request - Info Needed</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

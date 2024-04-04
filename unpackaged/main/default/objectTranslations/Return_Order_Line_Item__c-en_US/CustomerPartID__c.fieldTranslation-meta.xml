@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Customer Part ID on the Ordered Part Object --></help>
+        <label><!-- Customer Part ID --></label>
+        <name>CustomerPartID__c</name>
+    </CustomFieldTranslation>

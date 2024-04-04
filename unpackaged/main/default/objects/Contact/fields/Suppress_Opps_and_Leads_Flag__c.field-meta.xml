@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suppress_Opps_and_Leads_Flag__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This flag is used to stop automated creation of leads and opps on Contact when a quote comes in. Reps feel free to use this flag when a contact creates a lot of quote noise.  This flag can be toggled on/off. When set to true the suppression is activated.</description>
+    <externalId>false</externalId>
+    <label>Suppress Opps and Leads Flag</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

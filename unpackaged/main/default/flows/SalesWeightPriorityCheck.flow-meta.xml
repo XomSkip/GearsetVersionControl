@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <description>Checks Cases with Sales Weight Dates and updates Priority when within threshold window (set in Admin Ref Variable Metadata Type)</description>
+    <environments>Default</environments>
+    <interviewLabel>SalesWeightPriorityCheck {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Sales Weight Priority Check</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>All records found SHOULD have Priority updated to Urgent</description>
+        <name>Set_Priority_to_Urgent</name>
+        <label>Set Priority to  Urgent</label>
+        <locationX>176</locationX>
+        <locationY>252</locationY>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Urgent</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Set_Priority_to_Urgent</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Sales_Weight_Priority_Check__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2023-05-27</startDate>
+            <startTime>03:15:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_First_Quote__c</fullName>
+    <externalId>false</externalId>
+    <formula>if (  isblank(ContactID__c), LeadID__r.First_Quote_Date__c = Quote_ERP_Created_Date__c,  ContactID__r.First_Quote_Date__c = Quote_ERP_Created_Date__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Customer First Quote?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

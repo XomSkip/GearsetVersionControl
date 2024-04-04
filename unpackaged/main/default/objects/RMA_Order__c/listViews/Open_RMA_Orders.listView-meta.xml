@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_RMA_Orders</fullName>
+    <columns>NAME</columns>
+    <columns>Case__c</columns>
+    <columns>Contact__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Account_Name__c</columns>
+    <columns>Quantity_RMA_Line_Items__c</columns>
+    <columns>Total_customer_price__c</columns>
+    <columns>All_Next_Steps_Established__c</columns>
+    <columns>Order_Id__c</columns>
+    <columns>POD__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>All_Next_Steps_Established__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Open RMA Order List View</label>
+</ListView>

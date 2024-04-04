@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <decisions>
+        <name>myRule_1</name>
+        <label>Pre Source Timestamp</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myRule_5</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Pre Source Timestamp</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Presource__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Presource__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>TRUE_Pre Source Timestamp</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_10</name>
+        <label>Sourcing Complete Timestamp</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myRule_14</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Sourcing Complete Timestamp</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_10</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Sourcing_Complete__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Sourcing_Complete__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_10_A1</targetReference>
+            </connector>
+            <label>TRUE_Sourcing Complete Timestamp</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_14</name>
+        <label>DFM Complete Timestamp</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>FALSE_DFM Complete Timestamp</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_14</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.DFM_Complete__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.DFM_Complete__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_14_A1</targetReference>
+            </connector>
+            <label>TRUE_DFM Complete Timestamp</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_5</name>
+        <label>Stop Pre Source Timestamp</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myRule_10</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Stop Pre Source Timestamp</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_5</name>
+            <conditionLogic>1 OR (2 AND ( 3 OR 4))</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.AcceptedDateTime__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Stage__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Stage__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cancelled</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Stage__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Expired</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_5_A1</targetReference>
+            </connector>
+            <label>TRUE_Stop Pre Source Timestamp</label>
+        </rules>
+    </decisions>
+    <description>Migrated from the Job Process process using multiple criteria.
+deactivate the recursive flag to test.</description>
+    <formulas>
+        <name>formula_1_myRule_1_A1_8964275713</name>
+        <dataType>DateTime</dataType>
+        <expression>NOW()</expression>
+    </formulas>
+    <formulas>
+        <name>formula_2_myRule_5_A1_4160764578</name>
+        <dataType>DateTime</dataType>
+        <expression>NOW()</expression>
+    </formulas>
+    <formulas>
+        <name>formula_3_myRule_10_A1_6705564423</name>
+        <dataType>DateTime</dataType>
+        <expression>NOW()</expression>
+    </formulas>
+    <formulas>
+        <name>formula_4_myRule_14_A1_4590571314</name>
+        <dataType>DateTime</dataType>
+        <expression>NOW()</expression>
+    </formulas>
+    <label>Job Process_1</label>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>myRule_10_A1</name>
+        <label>Sourcing Completion Timestamp</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <inputAssignments>
+            <field>Sourcing_Completion_Timestamp__c</field>
+            <value>
+                <elementReference>formula_3_myRule_10_A1_6705564423</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_14_A1</name>
+        <label>DFM Completion Timestamp</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <inputAssignments>
+            <field>DFM_Completion_Timestamp__c</field>
+            <value>
+                <elementReference>formula_4_myRule_14_A1_4590571314</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_1_A1</name>
+        <label>Pre Source Timestamp</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <inputAssignments>
+            <field>PreSourceTimestamp__c</field>
+            <value>
+                <elementReference>formula_1_myRule_1_A1_8964275713</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_5_A1</name>
+        <label>Pre Source Stop Timestamp</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <inputAssignments>
+            <field>Pre_Source_Stop_Timestamp__c</field>
+            <value>
+                <elementReference>formula_2_myRule_5_A1_4160764578</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>myRule_1</targetReference>
+        </connector>
+        <object>Job__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Grants permission to edit Material Cost and Description on Case Object</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Materials_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Total_Materials_Cost__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Access To Material Cost</label>
+</PermissionSet>

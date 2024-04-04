@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>A default response for potential customers with no CAD file</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>No CAD</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry-Quote Request</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

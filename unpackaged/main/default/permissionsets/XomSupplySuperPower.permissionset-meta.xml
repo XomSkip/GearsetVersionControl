@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Elevated Permission Set for Supply Team Super Users.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.Supplies_RR_Flag__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Xom Supply Super Power</label>
+    <license>Salesforce</license>
+</PermissionSet>

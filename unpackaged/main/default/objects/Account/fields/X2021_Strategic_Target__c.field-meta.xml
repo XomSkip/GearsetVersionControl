@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2021_Strategic_Target__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( and( not( ispickval(Hierarchy_Type__c,"Account Subdivision")), X2021_Strategic_Tgt_Flag__c =true) ,true ,if( and( ispickval(Hierarchy_Type__c,"Account Subdivision") ,Parent.X2021_Strategic_Tgt_Flag__c =true) ,true ,false))</formula>
+    <label>[decommission]2021 Strategic Target</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

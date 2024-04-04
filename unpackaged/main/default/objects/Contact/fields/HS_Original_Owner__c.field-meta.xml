@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HS_Original_Owner__c</fullName>
+    <externalId>false</externalId>
+    <label>HS Original Owner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>161630133</fullName>
+                <default>false</default>
+                <label>Aaron Howell</label>
+            </value>
+            <value>
+                <fullName>191250324</fullName>
+                <default>false</default>
+                <label>Aaron Spalding</label>
+            </value>
+            <value>
+                <fullName>38658900</fullName>
+                <default>false</default>
+                <label>Abbie Bowling</label>
+            </value>
+            <value>
+                <fullName>34045891</fullName>
+                <default>false</default>
+                <label>Adam Riney</label>
+            </value>
+            <value>
+                <fullName>53031403</fullName>
+                <default>false</default>
+                <label>Aleigh Zimmerman</label>
+            </value>
+            <value>
+                <fullName>498245678</fullName>
+                <default>false</default>
+                <label>Alexander Swanson</label>
+            </value>
+            <value>
+                <fullName>36884714</fullName>
+                <default>false</default>
+                <label>Alex Saunders</label>
+            </value>
+            <value>
+                <fullName>74692262</fullName>
+                <default>false</default>
+                <label>Amanda Eure</label>
+            </value>
+            <value>
+                <fullName>56578909</fullName>
+                <default>false</default>
+                <label>Amber Pettus</label>
+            </value>
+            <value>
+                <fullName>153489832</fullName>
+                <default>false</default>
+                <label>Amir Bahrami</label>
+            </value>
+            <value>
+                <fullName>48031784</fullName>
+                <default>false</default>
+                <label>Andrew Scott</label>
+            </value>
+            <value>
+                <fullName>224039817</fullName>
+                <default>false</default>
+                <label>Angela Sandoval</label>
+            </value>
+            <value>
+                <fullName>53034744</fullName>
+                <default>false</default>
+                <label>Ashlee Laughter</label>
+            </value>
+            <value>
+                <fullName>372504912</fullName>
+                <default>false</default>
+                <label>Ashley Grassi</label>
+            </value>
+            <value>
+                <fullName>467313009</fullName>
+                <default>false</default>
+                <label>Ben Walther</label>
+            </value>
+            <value>
+                <fullName>144186137</fullName>
+                <default>false</default>
+                <label>Beth Tiller</label>
+            </value>
+            <value>
+                <fullName>53035987</fullName>
+                <default>false</default>
+                <label>Bob Bellingrath</label>
+            </value>
+            <value>
+                <fullName>15310753</fullName>
+                <default>false</default>
+                <label>Bobby Youssefi</label>
+            </value>
+            <value>
+                <fullName>349526093</fullName>
+                <default>false</default>
+                <label>Brad Holway</label>
+            </value>
+            <value>
+                <fullName>110709112</fullName>
+                <default>false</default>
+                <label>Brendan O'Brien</label>
+            </value>
+            <value>
+                <fullName>53035988</fullName>
+                <default>false</default>
+                <label>Brittany Glassford</label>
+            </value>
+            <value>
+                <fullName>195419725</fullName>
+                <default>false</default>
+                <label>Cale Lauchner</label>
+            </value>
+            <value>
+                <fullName>203167068</fullName>
+                <default>false</default>
+                <label>Cameryn Cline</label>
+            </value>
+            <value>
+                <fullName>49186237</fullName>
+                <default>false</default>
+                <label>Carter Atchison</label>
+            </value>
+            <value>
+                <fullName>49503350</fullName>
+                <default>false</default>
+                <label>Chance Rogers</label>
+            </value>
+            <value>
+                <fullName>144183846</fullName>
+                <default>false</default>
+                <label>Charles Meier</label>
+            </value>
+            <value>
+                <fullName>97744266</fullName>
+                <default>false</default>
+                <label>Chris Bizjack</label>
+            </value>
+            <value>
+                <fullName>181876016</fullName>
+                <default>false</default>
+                <label>Christopher Lieblang</label>
+            </value>
+            <value>
+                <fullName>211883523</fullName>
+                <default>false</default>
+                <label>Cindy Larin</label>
+            </value>
+            <value>
+                <fullName>148896053</fullName>
+                <default>false</default>
+                <label>Clay Williams</label>
+            </value>
+            <value>
+                <fullName>144183724</fullName>
+                <default>false</default>
+                <label>Collin Casey</label>
+            </value>
+            <value>
+                <fullName>39184242</fullName>
+                <default>false</default>
+                <label>Collin Ruegg</label>
+            </value>
+            <value>
+                <fullName>51701197</fullName>
+                <default>false</default>
+                <label>Colton Schied</label>
+            </value>
+            <value>
+                <fullName>167019784</fullName>
+                <default>false</default>
+                <label>Conner Jones</label>
+            </value>
+            <value>
+                <fullName>338980363</fullName>
+                <default>false</default>
+                <label>Conner Mowery</label>
+            </value>
+            <value>
+                <fullName>80129710</fullName>
+                <default>false</default>
+                <label>Corey Kowalke</label>
+            </value>
+            <value>
+                <fullName>53031404</fullName>
+                <default>false</default>
+                <label>Dalton Brown</label>
+            </value>
+            <value>
+                <fullName>80127774</fullName>
+                <default>false</default>
+                <label>Daniel Helvering</label>
+            </value>
+            <value>
+                <fullName>42425548</fullName>
+                <default>false</default>
+                <label>Daniel Powell</label>
+            </value>
+            <value>
+                <fullName>360017179</fullName>
+                <default>false</default>
+                <label>Danny Regan</label>
+            </value>
+            <value>
+                <fullName>349626431</fullName>
+                <default>false</default>
+                <label>Darlyn Buthsombat</label>
+            </value>
+            <value>
+                <fullName>70839134</fullName>
+                <default>false</default>
+                <label>Dave Sheridan</label>
+            </value>
+            <value>
+                <fullName>49052165</fullName>
+                <default>false</default>
+                <label>David Marmer</label>
+            </value>
+            <value>
+                <fullName>514097841</fullName>
+                <default>false</default>
+                <label>David Rodriguez</label>
+            </value>
+            <value>
+                <fullName>349625497</fullName>
+                <default>false</default>
+                <label>David Vanvliet</label>
+            </value>
+            <value>
+                <fullName>514099795</fullName>
+                <default>false</default>
+                <label>Declan O'Brien</label>
+            </value>
+            <value>
+                <fullName>239415809</fullName>
+                <default>false</default>
+                <label>Demarcus Johnson</label>
+            </value>
+            <value>
+                <fullName>431295664</fullName>
+                <default>false</default>
+                <label>Dylan Hallin</label>
+            </value>
+            <value>
+                <fullName>80164971</fullName>
+                <default>false</default>
+                <label>Eddie Engstrom</label>
+            </value>
+            <value>
+                <fullName>224031885</fullName>
+                <default>false</default>
+                <label>Elizabeth Ortiz</label>
+            </value>
+            <value>
+                <fullName>191250325</fullName>
+                <default>false</default>
+                <label>Emily Prestia</label>
+            </value>
+            <value>
+                <fullName>543968424</fullName>
+                <default>false</default>
+                <label>Emma Burke</label>
+            </value>
+            <value>
+                <fullName>82492735</fullName>
+                <default>false</default>
+                <label>Emma Tompkins</label>
+            </value>
+            <value>
+                <fullName>151050831</fullName>
+                <default>false</default>
+                <label>Eric Oliver</label>
+            </value>
+            <value>
+                <fullName>142053495</fullName>
+                <default>false</default>
+                <label>Erin Cowan</label>
+            </value>
+            <value>
+                <fullName>195419724</fullName>
+                <default>false</default>
+                <label>Ethan Beum</label>
+            </value>
+            <value>
+                <fullName>360024154</fullName>
+                <default>false</default>
+                <label>Ethan Horton</label>
+            </value>
+            <value>
+                <fullName>33561031</fullName>
+                <default>false</default>
+                <label>Ford Gaitley</label>
+            </value>
+            <value>
+                <fullName>144185742</fullName>
+                <default>false</default>
+                <label>Gabriel Carter</label>
+            </value>
+            <value>
+                <fullName>239415808</fullName>
+                <default>false</default>
+                <label>Gavin Laboy</label>
+            </value>
+            <value>
+                <fullName>177698329</fullName>
+                <default>false</default>
+                <label>Gena Vazquez</label>
+            </value>
+            <value>
+                <fullName>446452643</fullName>
+                <default>false</default>
+                <label>Grant Williams</label>
+            </value>
+            <value>
+                <fullName>77885198</fullName>
+                <default>false</default>
+                <label>Gus Adams</label>
+            </value>
+            <value>
+                <fullName>239415736</fullName>
+                <default>false</default>
+                <label>Haden Humphrey</label>
+            </value>
+            <value>
+                <fullName>446468273</fullName>
+                <default>false</default>
+                <label>Hans Wicklein</label>
+            </value>
+            <value>
+                <fullName>233199665</fullName>
+                <default>false</default>
+                <label>Heidi Taylor</label>
+            </value>
+            <value>
+                <fullName>110706867</fullName>
+                <default>false</default>
+                <label>Henry Gonzalez</label>
+            </value>
+            <value>
+                <fullName>50183370</fullName>
+                <default>false</default>
+                <label>Hiyabel Ghirmay</label>
+            </value>
+            <value>
+                <fullName>409059196</fullName>
+                <default>false</default>
+                <label>Jacob Luecke</label>
+            </value>
+            <value>
+                <fullName>137372016</fullName>
+                <default>false</default>
+                <label>Jacqueline Young</label>
+            </value>
+            <value>
+                <fullName>74692273</fullName>
+                <default>false</default>
+                <label>Jacquez Hunn</label>
+            </value>
+            <value>
+                <fullName>97101205</fullName>
+                <default>false</default>
+                <label>Jake Thompson</label>
+            </value>
+            <value>
+                <fullName>385858440</fullName>
+                <default>false</default>
+                <label>Jameson Wachtell</label>
+            </value>
+            <value>
+                <fullName>65583464</fullName>
+                <default>false</default>
+                <label>Jason Bertran</label>
+            </value>
+            <value>
+                <fullName>137366852</fullName>
+                <default>false</default>
+                <label>Jason Muniz</label>
+            </value>
+            <value>
+                <fullName>239415810</fullName>
+                <default>false</default>
+                <label>Jason Speck</label>
+            </value>
+            <value>
+                <fullName>239415737</fullName>
+                <default>false</default>
+                <label>Jaxon Keller</label>
+            </value>
+            <value>
+                <fullName>30090493</fullName>
+                <default>false</default>
+                <label>Jeff Duncan</label>
+            </value>
+            <value>
+                <fullName>543974551</fullName>
+                <default>false</default>
+                <label>Jeremiah Fleming</label>
+            </value>
+            <value>
+                <fullName>44186750</fullName>
+                <default>false</default>
+                <label>Jesse Becker</label>
+            </value>
+            <value>
+                <fullName>30274247</fullName>
+                <default>false</default>
+                <label>Jesse Hartheimer</label>
+            </value>
+            <value>
+                <fullName>77885228</fullName>
+                <default>false</default>
+                <label>Jessica Ramirez</label>
+            </value>
+            <value>
+                <fullName>446459695</fullName>
+                <default>false</default>
+                <label>Jim Zellman</label>
+            </value>
+            <value>
+                <fullName>217979200</fullName>
+                <default>false</default>
+                <label>Jocelyn Duda</label>
+            </value>
+            <value>
+                <fullName>36636898</fullName>
+                <default>false</default>
+                <label>Joe Mullins</label>
+            </value>
+            <value>
+                <fullName>49440905</fullName>
+                <default>false</default>
+                <label>Joe Nagle</label>
+            </value>
+            <value>
+                <fullName>45229674</fullName>
+                <default>false</default>
+                <label>John Craft</label>
+            </value>
+            <value>
+                <fullName>42423270</fullName>
+                <default>false</default>
+                <label>John Hale</label>
+            </value>
+            <value>
+                <fullName>144186138</fullName>
+                <default>false</default>
+                <label>Jonathan Nokes</label>
+            </value>
+            <value>
+                <fullName>49440912</fullName>
+                <default>false</default>
+                <label>Jordan Bryant</label>
+            </value>
+            <value>
+                <fullName>144197181</fullName>
+                <default>false</default>
+                <label>Jordan Downey</label>
+            </value>
+            <value>
+                <fullName>49451290</fullName>
+                <default>false</default>
+                <label>Joshua Blancet</label>
+            </value>
+            <value>
+                <fullName>57118822</fullName>
+                <default>false</default>
+                <label>Katie Barthelmes</label>
+            </value>
+            <value>
+                <fullName>80127775</fullName>
+                <default>false</default>
+                <label>Kelly Lacy</label>
+            </value>
+            <value>
+                <fullName>118300510</fullName>
+                <default>false</default>
+                <label>Kendra Hughes</label>
+            </value>
+            <value>
+                <fullName>446467930</fullName>
+                <default>false</default>
+                <label>Kevin Rohloff</label>
+            </value>
+            <value>
+                <fullName>224032114</fullName>
+                <default>false</default>
+                <label>Kevin Villalta</label>
+            </value>
+            <value>
+                <fullName>49751471</fullName>
+                <default>false</default>
+                <label>Kimberly White</label>
+            </value>
+            <value>
+                <fullName>36268674</fullName>
+                <default>false</default>
+                <label>Kim Newcombe</label>
+            </value>
+            <value>
+                <fullName>39181530</fullName>
+                <default>false</default>
+                <label>Kirstin Stratton</label>
+            </value>
+            <value>
+                <fullName>117309771</fullName>
+                <default>false</default>
+                <label>Kory Dirnberger</label>
+            </value>
+            <value>
+                <fullName>397333431</fullName>
+                <default>false</default>
+                <label>Kristen Counter</label>
+            </value>
+            <value>
+                <fullName>48232178</fullName>
+                <default>false</default>
+                <label>Kristopher Aime</label>
+            </value>
+            <value>
+                <fullName>57748777</fullName>
+                <default>false</default>
+                <label>Kyle Fonger</label>
+            </value>
+            <value>
+                <fullName>36404908</fullName>
+                <default>false</default>
+                <label>Kyra Stawson</label>
+            </value>
+            <value>
+                <fullName>34045868</fullName>
+                <default>false</default>
+                <label>Laura Caudill</label>
+            </value>
+            <value>
+                <fullName>45345906</fullName>
+                <default>false</default>
+                <label>Lauren Caldwell</label>
+            </value>
+            <value>
+                <fullName>446461315</fullName>
+                <default>false</default>
+                <label>Lauren Morris</label>
+            </value>
+            <value>
+                <fullName>431193490</fullName>
+                <default>false</default>
+                <label>Lori Hetzer</label>
+            </value>
+            <value>
+                <fullName>49052164</fullName>
+                <default>false</default>
+                <label>Madelyn Huegli</label>
+            </value>
+            <value>
+                <fullName>167019785</fullName>
+                <default>false</default>
+                <label>Marcus Armistead</label>
+            </value>
+            <value>
+                <fullName>161630132</fullName>
+                <default>false</default>
+                <label>Marcus Hughes</label>
+            </value>
+            <value>
+                <fullName>372504992</fullName>
+                <default>false</default>
+                <label>Mark Ellis</label>
+            </value>
+            <value>
+                <fullName>57748778</fullName>
+                <default>false</default>
+                <label>Matt Graves</label>
+            </value>
+            <value>
+                <fullName>38905214</fullName>
+                <default>false</default>
+                <label>Matt Harrellson</label>
+            </value>
+            <value>
+                <fullName>195419727</fullName>
+                <default>false</default>
+                <label>Megan Hollenkamp</label>
+            </value>
+            <value>
+                <fullName>360022611</fullName>
+                <default>false</default>
+                <label>Michael Stovall</label>
+            </value>
+            <value>
+                <fullName>49441002</fullName>
+                <default>false</default>
+                <label>Michael Vining</label>
+            </value>
+            <value>
+                <fullName>211885315</fullName>
+                <default>false</default>
+                <label>Mychal Butler-Thomas</label>
+            </value>
+            <value>
+                <fullName>84110696</fullName>
+                <default>false</default>
+                <label>Nate Wahl</label>
+            </value>
+            <value>
+                <fullName>36004428</fullName>
+                <default>false</default>
+                <label>Nathan Ellis</label>
+            </value>
+            <value>
+                <fullName>42708433</fullName>
+                <default>false</default>
+                <label>Nicholas DeFisher</label>
+            </value>
+            <value>
+                <fullName>446459694</fullName>
+                <default>false</default>
+                <label>Nick Jax</label>
+            </value>
+            <value>
+                <fullName>57748205</fullName>
+                <default>false</default>
+                <label>Nick Lee</label>
+            </value>
+            <value>
+                <fullName>217978789</fullName>
+                <default>false</default>
+                <label>Nicole Megles</label>
+            </value>
+            <value>
+                <fullName>39774670</fullName>
+                <default>false</default>
+                <label>Nicole Schneider</label>
+            </value>
+            <value>
+                <fullName>125144249</fullName>
+                <default>false</default>
+                <label>Nicole Zaluski</label>
+            </value>
+            <value>
+                <fullName>559294297</fullName>
+                <default>false</default>
+                <label>Nikki Nguyen</label>
+            </value>
+            <value>
+                <fullName>474510876</fullName>
+                <default>false</default>
+                <label>Noa Carmi</label>
+            </value>
+            <value>
+                <fullName>385860529</fullName>
+                <default>false</default>
+                <label>Noah Simpson</label>
+            </value>
+            <value>
+                <fullName>315393948</fullName>
+                <default>false</default>
+                <label>Patrick Cermak</label>
+            </value>
+            <value>
+                <fullName>148895808</fullName>
+                <default>false</default>
+                <label>Paul Cipollone</label>
+            </value>
+            <value>
+                <fullName>39315740</fullName>
+                <default>false</default>
+                <label>Polly Calhoun</label>
+            </value>
+            <value>
+                <fullName>385861994</fullName>
+                <default>false</default>
+                <label>Rebecca Johnson</label>
+            </value>
+            <value>
+                <fullName>144196932</fullName>
+                <default>false</default>
+                <label>Rhett Tinsley</label>
+            </value>
+            <value>
+                <fullName>385860528</fullName>
+                <default>false</default>
+                <label>Ryan Bakunas</label>
+            </value>
+            <value>
+                <fullName>530825820</fullName>
+                <default>false</default>
+                <label>Ryan Ballinger</label>
+            </value>
+            <value>
+                <fullName>57748170</fullName>
+                <default>false</default>
+                <label>Ryan Gallas</label>
+            </value>
+            <value>
+                <fullName>24649763</fullName>
+                <default>false</default>
+                <label>Ryan Scanlon</label>
+            </value>
+            <value>
+                <fullName>397312808</fullName>
+                <default>false</default>
+                <label>Ryan Wilusz</label>
+            </value>
+            <value>
+                <fullName>36967011</fullName>
+                <default>false</default>
+                <label>Samantha Martin</label>
+            </value>
+            <value>
+                <fullName>474510942</fullName>
+                <default>false</default>
+                <label>Sarah Auton</label>
+            </value>
+            <value>
+                <fullName>68169313</fullName>
+                <default>false</default>
+                <label>Scott Cullum</label>
+            </value>
+            <value>
+                <fullName>58935415</fullName>
+                <default>false</default>
+                <label>Shane Felton</label>
+            </value>
+            <value>
+                <fullName>49052166</fullName>
+                <default>false</default>
+                <label>Shawn Eden</label>
+            </value>
+            <value>
+                <fullName>97101204</fullName>
+                <default>false</default>
+                <label>Stephanie Mastin</label>
+            </value>
+            <value>
+                <fullName>397337921</fullName>
+                <default>false</default>
+                <label>Stephen Earls</label>
+            </value>
+            <value>
+                <fullName>34067905</fullName>
+                <default>false</default>
+                <label>Stephen Frey</label>
+            </value>
+            <value>
+                <fullName>498251946</fullName>
+                <default>false</default>
+                <label>Steve McClenny</label>
+            </value>
+            <value>
+                <fullName>467387827</fullName>
+                <default>false</default>
+                <label>Steve Tierney</label>
+            </value>
+            <value>
+                <fullName>44504641</fullName>
+                <default>false</default>
+                <label>Taylor Counts</label>
+            </value>
+            <value>
+                <fullName>153489270</fullName>
+                <default>false</default>
+                <label>Ted Gyi</label>
+            </value>
+            <value>
+                <fullName>239414658</fullName>
+                <default>false</default>
+                <label>Teresa Furlow</label>
+            </value>
+            <value>
+                <fullName>50637748</fullName>
+                <default>false</default>
+                <label>Thomas Farnan</label>
+            </value>
+            <value>
+                <fullName>530823865</fullName>
+                <default>false</default>
+                <label>Tim Calie</label>
+            </value>
+            <value>
+                <fullName>138062863</fullName>
+                <default>false</default>
+                <label>Tim Knodel</label>
+            </value>
+            <value>
+                <fullName>84103457</fullName>
+                <default>false</default>
+                <label>Todd Liebman</label>
+            </value>
+            <value>
+                <fullName>57748776</fullName>
+                <default>false</default>
+                <label>Tommy Wegmiller</label>
+            </value>
+            <value>
+                <fullName>474516618</fullName>
+                <default>false</default>
+                <label>Tyler Jenkins</label>
+            </value>
+            <value>
+                <fullName>48031538</fullName>
+                <default>false</default>
+                <label>Tywan Shanklin</label>
+            </value>
+            <value>
+                <fullName>117307648</fullName>
+                <default>false</default>
+                <label>Valerie Miles</label>
+            </value>
+            <value>
+                <fullName>496206236</fullName>
+                <default>false</default>
+                <label>Weston Norris</label>
+            </value>
+            <value>
+                <fullName>409059730</fullName>
+                <default>false</default>
+                <label>Will Cotter</label>
+            </value>
+            <value>
+                <fullName>409059617</fullName>
+                <default>false</default>
+                <label>William Fitch</label>
+            </value>
+            <value>
+                <fullName>409059678</fullName>
+                <default>false</default>
+                <label>Yoerlys Diaz</label>
+            </value>
+            <value>
+                <fullName>230220946</fullName>
+                <default>false</default>
+                <label>Zachary Sparks</label>
+            </value>
+            <value>
+                <fullName>575897659</fullName>
+                <default>false</default>
+                <label>Lauryn Bevis</label>
+            </value>
+            <value>
+                <fullName>611830036</fullName>
+                <default>false</default>
+                <label>Logan Oh</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Report Field Calculate Days between Order Date compare with Today&apos;s Date --></help>
+        <label><!-- Days in between Order Date and Today --></label>
+        <name>RPT_DaysinbetweenOrderDateandToday__c</name>
+    </CustomFieldTranslation>

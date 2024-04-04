@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opps_Must_Be_On_a_Project</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISBLANK(Project__c)
+
+&amp;&amp; !$Permission.Ignore_All_VR
+&amp;&amp; !$Permission.Ignore_Opp_VR</errorConditionFormula>
+    <errorMessage>Opportunities must be on a project</errorMessage>
+</ValidationRule>

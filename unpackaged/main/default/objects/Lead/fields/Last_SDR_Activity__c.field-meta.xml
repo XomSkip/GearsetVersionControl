@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_SDR_Activity__c</fullName>
+    <description>The last SDR activity where the Distinct Call Type exists (e.g. 8x8 IN, 8x8 OB, CAS OB).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The last SDR activity.</inlineHelpText>
+    <label>Last SDR Activity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

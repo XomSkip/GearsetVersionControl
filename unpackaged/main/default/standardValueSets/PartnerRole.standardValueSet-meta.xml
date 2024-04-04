@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>End User</fullName>
+        <default>false</default>
+        <label>End User</label>
+        <reverseRole>Designer &amp; Purchaser</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>End User &amp; Purchaser</fullName>
+        <default>false</default>
+        <label>End User &amp; Purchaser</label>
+        <reverseRole>Designer</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>Designer</fullName>
+        <default>false</default>
+        <label>Designer</label>
+        <reverseRole>End User &amp; Purchaser</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>Designer &amp; Purchaser</fullName>
+        <default>false</default>
+        <label>Designer &amp; Purchaser</label>
+        <reverseRole>End User</reverseRole>
+    </standardValue>
+</StandardValueSet>

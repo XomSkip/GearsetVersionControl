@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDR_Ghost__c</fullName>
+    <externalId>false</externalId>
+    <formula>IsTask = FALSE &amp;&amp;
+!ISBLANK(WhoId) &amp;&amp;
+CreatedBy.UserRole.Name = 'SDR' &amp;&amp;
+((LastModifiedDate - CreatedDate) &lt; (15/1440))</formula>
+    <label>SDR Ghost</label>
+    <type>Checkbox</type>
+</CustomField>

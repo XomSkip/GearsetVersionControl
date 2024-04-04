@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Supply Queue</name>
+    <queueMembers>
+        <users>
+            <user>allison.molitor@xometry.com</user>
+            <user>ben.saygers@xometry.com</user>
+            <user>cjones@xometry.com</user>
+            <user>isabelle.martinez-muniz@xometry.com</user>
+            <user>jgreco@xometry.com</user>
+            <user>josh.snyder@xometry.com</user>
+            <user>jhosley@xometry.com</user>
+            <user>marvie.briones@xometry.com</user>
+            <user>tanya.tellez@xometry.com</user>
+            <user>tmullins@xometry.com</user>
+            <user>tasher@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

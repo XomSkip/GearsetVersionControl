@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ManufacturingProcess__c</fullName>
+    <description>Used by GNO Team.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>GNO Team Use</inlineHelpText>
+    <label>Manufacturing Process (Not 4 Reporting)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Assembly</fullName>
+                <default>false</default>
+                <label>Assembly</label>
+            </value>
+            <value>
+                <fullName>BJ3D</fullName>
+                <default>false</default>
+                <label>BJ3D</label>
+            </value>
+            <value>
+                <fullName>Carbon DLS</fullName>
+                <default>false</default>
+                <label>Carbon DLS</label>
+            </value>
+            <value>
+                <fullName>Casting</fullName>
+                <default>false</default>
+                <label>Casting</label>
+            </value>
+            <value>
+                <fullName>CNC</fullName>
+                <default>false</default>
+                <label>CNC</label>
+            </value>
+            <value>
+                <fullName>DMLS</fullName>
+                <default>false</default>
+                <label>DMLS</label>
+            </value>
+            <value>
+                <fullName>FDM</fullName>
+                <default>false</default>
+                <label>FDM</label>
+            </value>
+            <value>
+                <fullName>HP Multi Jet Fusion</fullName>
+                <default>false</default>
+                <label>HP Multi Jet Fusion</label>
+            </value>
+            <value>
+                <fullName>Injection Molding</fullName>
+                <default>false</default>
+                <label>Injection Molding</label>
+            </value>
+            <value>
+                <fullName>PolyJet</fullName>
+                <default>false</default>
+                <label>PolyJet</label>
+            </value>
+            <value>
+                <fullName>Sheet Metal</fullName>
+                <default>false</default>
+                <label>Sheet Metal</label>
+            </value>
+            <value>
+                <fullName>SLA</fullName>
+                <default>false</default>
+                <label>SLA</label>
+            </value>
+            <value>
+                <fullName>SLS</fullName>
+                <default>false</default>
+                <label>SLS</label>
+            </value>
+            <value>
+                <fullName>Sheet Cutting</fullName>
+                <default>false</default>
+                <label>Sheet Cutting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

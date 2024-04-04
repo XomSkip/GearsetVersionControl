@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>New/Unresolved</fullName>
+        <default>false</default>
+        <label>New/Unresolved</label>
+    </customValue>
+    <customValue>
+        <fullName>Completed - Resolved</fullName>
+        <default>false</default>
+        <label>Completed - Resolved</label>
+    </customValue>
+    <customValue>
+        <fullName>Completed - No Response</fullName>
+        <default>false</default>
+        <label>Completed - No Response</label>
+    </customValue>
+    <masterLabel>Contact Form Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

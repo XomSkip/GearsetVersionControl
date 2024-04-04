@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Date in which the Contact Owner was changed last. --></help>
+        <label><!-- Last Contact Owner Change Date --></label>
+        <name>Last_Contact_Owner_Change_Date__c</name>
+    </CustomFieldTranslation>

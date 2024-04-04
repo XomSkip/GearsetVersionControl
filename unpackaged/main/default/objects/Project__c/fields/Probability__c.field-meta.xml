@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Probability__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Stage__c,
+ "New",0.01,
+ "Initial Engagement",0.25,
+ "Negotiation / Revision",0.50,
+ "Pending Payment",0.90,
+ "System Reopened",0.99,
+ "Closed Lost",0,
+ "Closed Won",1,
+ 0
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Probability (%)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

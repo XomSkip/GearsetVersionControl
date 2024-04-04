@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Your part is only as good as your______? --></label>
+        <name>Your_part_is_only_as_good_as_your__c</name>
+    </CustomFieldTranslation>

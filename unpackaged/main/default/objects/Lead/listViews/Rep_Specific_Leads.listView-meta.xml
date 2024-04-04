@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rep_Specific_Leads</fullName>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Days_in_Status__c</columns>
+    <columns>MK_Customer_Fit_Segment__c</columns>
+    <columns>MK_Likelihood_to_Buy_Segment__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE_CODE</columns>
+    <columns>Outreach_Finished_Sequences__c</columns>
+    <columns>Outreach_Current_Sequence_Name__c</columns>
+    <columns>Outreach_Current_Sequence_Status__c</columns>
+    <columns>Outreach_Current_Sequence_Step_Type__c</columns>
+    <columns>Last_Activity_Date_AM__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>cline</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed Not Converted,Qualified</value>
+    </filters>
+    <label>CB SDR Lead View</label>
+</ListView>

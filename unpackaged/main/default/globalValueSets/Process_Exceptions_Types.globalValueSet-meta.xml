@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>POD</fullName>
+        <default>false</default>
+        <label>POD</label>
+    </customValue>
+    <customValue>
+        <fullName>T- Days Out</fullName>
+        <default>false</default>
+        <label>T- Days Out</label>
+    </customValue>
+    <customValue>
+        <fullName>Manufacturing Process</fullName>
+        <default>false</default>
+        <label>Manufacturing Process</label>
+    </customValue>
+    <customValue>
+        <fullName>Expedited</fullName>
+        <default>false</default>
+        <label>Expedited</label>
+    </customValue>
+    <customValue>
+        <fullName>Expired</fullName>
+        <default>false</default>
+        <label>Expired</label>
+    </customValue>
+    <customValue>
+        <fullName>Fully Shipped</fullName>
+        <default>false</default>
+        <label>Fully Shipped</label>
+    </customValue>
+    <customValue>
+        <fullName>Partially Shipped</fullName>
+        <default>false</default>
+        <label>Partially Shipped</label>
+    </customValue>
+    <customValue>
+        <fullName>Job Cancelled</fullName>
+        <default>false</default>
+        <label>Job Cancelled</label>
+    </customValue>
+    <customValue>
+        <fullName>Rejected Part</fullName>
+        <default>false</default>
+        <label>Rejected Part</label>
+    </customValue>
+    <customValue>
+        <fullName>Top 20 Customer</fullName>
+        <default>false</default>
+        <label>Top 20 Customer</label>
+    </customValue>
+    <customValue>
+        <fullName>MQ w/ Custom Finish</fullName>
+        <default>false</default>
+        <label>MQ w/ Custom Finish</label>
+    </customValue>
+    <customValue>
+        <fullName>Additive Only &amp; Past Due</fullName>
+        <default>false</default>
+        <label>Additive Only &amp; Past Due</label>
+    </customValue>
+    <customValue>
+        <fullName>Created in ERP</fullName>
+        <default>false</default>
+        <label>Created in ERP</label>
+    </customValue>
+    <customValue>
+        <fullName>MQ &gt; $ Threshold</fullName>
+        <default>false</default>
+        <label>MQ &gt; $ Threshold</label>
+    </customValue>
+    <customValue>
+        <fullName>Managed Process</fullName>
+        <default>false</default>
+        <label>Managed Process</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Standard Inspection</fullName>
+        <default>false</default>
+        <label>Non-Standard Inspection</label>
+    </customValue>
+    <customValue>
+        <fullName>Late Bad Outcome</fullName>
+        <default>false</default>
+        <label>Late Bad Outcome</label>
+    </customValue>
+    <customValue>
+        <fullName>Reject Bad Outcome</fullName>
+        <default>false</default>
+        <label>Reject Bad Outcome</label>
+    </customValue>
+    <customValue>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+        <label>Rejected</label>
+    </customValue>
+    <customValue>
+        <fullName>SPOC Supplier</fullName>
+        <default>false</default>
+        <label>SPOC Supplier</label>
+    </customValue>
+    <customValue>
+        <fullName>Estimated Completion Date</fullName>
+        <default>false</default>
+        <label>Estimated Completion Date</label>
+    </customValue>
+    <customValue>
+        <fullName>Job Bad Outcome</fullName>
+        <default>false</default>
+        <label>Job Bad Outcome</label>
+    </customValue>
+    <customValue>
+        <fullName>Top Quality Account</fullName>
+        <default>false</default>
+        <label>Top Quality Account</label>
+    </customValue>
+    <customValue>
+        <fullName>Additive Job Past Due</fullName>
+        <default>false</default>
+        <label>Additive Job Past Due</label>
+    </customValue>
+    <customValue>
+        <fullName>&gt; Additive Job Value Threshold</fullName>
+        <default>false</default>
+        <label>&gt; Additive Job Value Threshold</label>
+    </customValue>
+    <customValue>
+        <fullName>Bad Outcomes - Order Bad Outcome</fullName>
+        <default>false</default>
+        <label>Bad Outcomes - Order Bad Outcome</label>
+    </customValue>
+    <customValue>
+        <fullName>Past Due</fullName>
+        <default>false</default>
+        <label>Past Due</label>
+    </customValue>
+    <customValue>
+        <fullName>Bad Outcome</fullName>
+        <default>false</default>
+        <label>Bad Outcome</label>
+    </customValue>
+    <customValue>
+        <fullName>Part Late Bad Outcome</fullName>
+        <default>false</default>
+        <label>Part Late Bad Outcome</label>
+    </customValue>
+    <customValue>
+        <fullName>Part Reject Bad Outcome</fullName>
+        <default>false</default>
+        <label>Part Reject Bad Outcome</label>
+    </customValue>
+    <customValue>
+        <fullName>Subtractive &amp; Past Due</fullName>
+        <default>false</default>
+        <label>Subtractive &amp; Past Due</label>
+    </customValue>
+    <masterLabel>Process Exceptions Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

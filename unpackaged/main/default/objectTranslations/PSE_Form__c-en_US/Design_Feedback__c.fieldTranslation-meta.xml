@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Are you open to receiving design feedback that may reduce your cost/lead time? --></help>
+        <label><!-- AreYouOpenToRecevingDesignFeedback? --></label>
+        <name>Design_Feedback__c</name>
+    </CustomFieldTranslation>

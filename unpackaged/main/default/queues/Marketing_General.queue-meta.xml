@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>marketingteam@xometry.com</email>
+    <name>Marketing General</name>
+    <queueMembers>
+        <users>
+            <user>alichtig@xometry.com</user>
+            <user>dan.ahn@xometry.com</user>
+            <user>drichards@xometry.com</user>
+            <user>dchang@xometry.com</user>
+            <user>dlieberman@xometry.com</user>
+            <user>gpaulsen@xometry.com</user>
+            <user>jschadegg@xometry.com</user>
+            <user>kerek.plummer@xometry.com</user>
+            <user>lauren.welschenbach@xometry.com</user>
+            <user>lflorence@xometry.com</user>
+            <user>max.lang@xometry.com</user>
+            <user>mjenkins@xometry.com</user>
+            <user>nathaniel.miller@xometry.com</user>
+            <user>nnewman@xometry.com</user>
+            <user>sberry@xometry.com</user>
+            <user>uoduwa@xometry.com</user>
+            <user>wlincoln@xometry.com</user>
+            <user>william.gardner@xometry.com</user>
+            <user>wkrueger@xometry.com</user>
+            <user>xjames@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

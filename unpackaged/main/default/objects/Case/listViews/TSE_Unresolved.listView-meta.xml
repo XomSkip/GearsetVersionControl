@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TSE_Unresolved</fullName>
+    <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>Last_Owner_Change_Date__c</columns>
+    <columns>Age_hrs__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Jake Thompson,Jared Fontaine,Kurt Pokopac,Shane Felton,Kevin Choate,Kyra Stawson</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Done,Solved,Closed</value>
+    </filters>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>startsWith</operation>
+        <value>[TSE Engagement Form]</value>
+    </filters>
+    <label>TSE Unresolved</label>
+    <sharedTo>
+        <group>Xometry_Sales</group>
+        <role>TSE</role>
+    </sharedTo>
+</ListView>

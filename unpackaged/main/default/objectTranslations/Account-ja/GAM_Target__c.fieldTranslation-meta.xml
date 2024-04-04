@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Flag of target account for CSA/Enterprise --></help>
+        <label><!-- CSA Target --></label>
+        <name>GAM_Target__c</name>
+    </CustomFieldTranslation>

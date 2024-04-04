@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The date this lead was created in Thomas Net&apos;s system --></help>
+        <label><!-- Thomas Lead Created Date --></label>
+        <name>Thomas_Lead_Created_Date__c</name>
+    </CustomFieldTranslation>

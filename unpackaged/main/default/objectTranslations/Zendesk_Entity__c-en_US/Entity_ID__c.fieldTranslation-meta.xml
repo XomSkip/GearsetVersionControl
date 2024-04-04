@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The associated ID of the Zendesk Entity (User or Group) --></help>
+        <label><!-- Entity ID --></label>
+        <name>Entity_ID__c</name>
+    </CustomFieldTranslation>

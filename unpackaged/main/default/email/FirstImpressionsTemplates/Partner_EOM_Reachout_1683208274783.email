@@ -1,0 +1,7 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">I wanted to reach out to discuss Job </span></span></span></span></span></span>{{{Case.Job__c}}}<span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">.&nbsp; We have identified your order as a possible pull-ahead for the month of _______. &nbsp; Would it be possible to ship this order in full or partially by the end of the month?&nbsp; If you need any assistance ensuring the shipment of a partial or full quantity of this order please feel free to contact me directly.</span></span></span></span></span></span></body>
+</html>

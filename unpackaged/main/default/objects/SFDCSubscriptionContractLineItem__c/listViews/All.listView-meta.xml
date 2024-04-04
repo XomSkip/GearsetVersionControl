@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>ContractLineItemName__c</columns>
+    <columns>CostCenter__c</columns>
+    <columns>SFDC_Subscription_Contract__c</columns>
+    <columns>TotalInvoicedAmount__c</columns>
+    <columns>Line_Item_Status__c</columns>
+    <columns>StartDateEffectiveDate__c</columns>
+    <columns>EndDateRenewalDate__c</columns>
+    <columns>Quantity__c</columns>
+    <columns>BillingPeriodUnitPrice__c</columns>
+    <columns>OrderTerm__c</columns>
+    <columns>CancellationNotificationPeriodDays__c</columns>
+    <columns>BillingFrequency__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Stage__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Sub_Stage</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Negotiation / Revision</controllingFieldValue>
+            <valueName>In Progress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Negotiation / Revision</controllingFieldValue>
+            <valueName>Project on Hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pending Payment</controllingFieldValue>
+            <valueName>Purchase Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pending Payment</controllingFieldValue>
+            <valueName>Credit Card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>No Response</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>No Bid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Lead Time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Service Concerns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Project Canceled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Purchasing from Different Opportunity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>On-Demand Competition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Local Competition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Budgetary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Late Quote</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Customer Made In-House</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Auto-Closed</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

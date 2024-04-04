@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p style="line-height:1.7142857142857142; background-color:#ffffff"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="color:#333333"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Hi {{{Recipient.FirstName}}},</span></span></span></span></span></span></span></p>
+
+<p><br />
+<span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Your most recent request for quote is complete and available in your account online. A sales representative will be following up with you shortly. If you need immediate assistance, please contact&nbsp;<a href="mailto:Support@xometry.com" rel="noreferrer" target="_blank">Support@xometry.com</a>&nbsp;or call 240-252-1138.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">I have attached your quote to this message (it will appear as a link). Please review to ensure accuracy!</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">To access your quote please make sure you are logged in and follow this link:&nbsp; {{{Case.Get_Quote_Url__c}}} . If the part auto-quotes, the link will take you to the quote page where you can edit the quote before ordering. If the part required any manual adjustments the link will direct you to the checkout page.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Thank you for choosing Xometry!</span></span></p>
+<br />
+&nbsp;
+</body></html>

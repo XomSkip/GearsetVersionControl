@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competition__c</fullName>
+    <externalId>false</externalId>
+    <label>Competition</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ProtoLabs / RAPID</fullName>
+                <default>false</default>
+                <label>ProtoLabs / RAPID</label>
+            </value>
+            <value>
+                <fullName>Stratasys Direct</fullName>
+                <default>false</default>
+                <label>Stratasys Direct</label>
+            </value>
+            <value>
+                <fullName>3D Systems</fullName>
+                <default>false</default>
+                <label>3D Systems</label>
+            </value>
+            <value>
+                <fullName>Fast Radius</fullName>
+                <default>false</default>
+                <label>Fast Radius</label>
+            </value>
+            <value>
+                <fullName>MakeTime</fullName>
+                <default>false</default>
+                <label>MakeTime</label>
+            </value>
+            <value>
+                <fullName>Fictiv</fullName>
+                <default>false</default>
+                <label>Fictiv</label>
+            </value>
+            <value>
+                <fullName>Plethora</fullName>
+                <default>false</default>
+                <label>Plethora</label>
+            </value>
+            <value>
+                <fullName>Shapeways</fullName>
+                <default>false</default>
+                <label>Shapeways</label>
+            </value>
+            <value>
+                <fullName>Sculpteo</fullName>
+                <default>false</default>
+                <label>Sculpteo</label>
+            </value>
+            <value>
+                <fullName>Building in-house</fullName>
+                <default>false</default>
+                <label>Building in-house</label>
+            </value>
+            <value>
+                <fullName>Local supplier</fullName>
+                <default>false</default>
+                <label>Local supplier</label>
+            </value>
+            <value>
+                <fullName>International supplier</fullName>
+                <default>false</default>
+                <label>International supplier</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

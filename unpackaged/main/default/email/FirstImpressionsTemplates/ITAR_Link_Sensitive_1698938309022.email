@@ -1,0 +1,8 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>{{{Case.ITAR_Box_Folder_URL__c}}}</p>
+</body>
+</html>

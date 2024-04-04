@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SalesOpsOutcome__c</fullName>
+    <externalId>false</externalId>
+    <label>Sales Ops Outcome</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Information Needed</fullName>
+                <default>false</default>
+                <label>Information Needed</label>
+            </value>
+            <value>
+                <fullName>Quote Configured for AQ</fullName>
+                <default>false</default>
+                <label>Quote Configured for AQ</label>
+            </value>
+            <value>
+                <fullName>Quote Configured for MQ - PSE Queue</fullName>
+                <default>false</default>
+                <label>Quote Configured for MQ - PSE Queue</label>
+            </value>
+            <value>
+                <fullName>Quote Configured for MQ - IM/UC</fullName>
+                <default>false</default>
+                <label>Quote Configured for MQ - IM/UC(Mold/Cast)</label>
+            </value>
+            <value>
+                <fullName>Quote Configured for MQ - Additive Quoting</fullName>
+                <default>false</default>
+                <label>Quote Configured for MQ - Additive Quoting</label>
+            </value>
+            <value>
+                <fullName>Quote Configured for MQ - CNC</fullName>
+                <default>false</default>
+                <label>Quote Configured for MQ - CNC (Subtractive)</label>
+            </value>
+            <value>
+                <fullName>Assign To TSE</fullName>
+                <default>false</default>
+                <label>Assign To TSE</label>
+            </value>
+            <value>
+                <fullName>Quote Configured for MQ</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Quote Configured for MQ</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

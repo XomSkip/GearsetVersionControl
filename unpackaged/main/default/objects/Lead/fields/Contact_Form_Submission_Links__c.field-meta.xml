@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Form_Submission_Links__c</fullName>
+    <description>6/29/2023 - Proof of Concept for new Contact Form submissions. Daniel Turkington is POC for the form.</description>
+    <externalId>false</externalId>
+    <label>Contact Form Submission Links</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

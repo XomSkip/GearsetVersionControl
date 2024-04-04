@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- HS Manufacturing Processes Utilized --></label>
+        <name>HS_Manufacturing_Processes_Utilized__c</name>
+        <picklistValues>
+            <masterLabel>Assembly</masterLabel>
+            <translation><!-- Assembly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Binder Jetting</masterLabel>
+            <translation><!-- Binder Jetting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CNC Machining</masterLabel>
+            <translation><!-- CNC Machining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carbon Digital Light Synthesis</masterLabel>
+            <translation><!-- Carbon Digital Light Synthesis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Die Casting</masterLabel>
+            <translation><!-- Die Casting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Metal Laser Sintering</masterLabel>
+            <translation><!-- Direct Metal Laser Sintering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fused Deposition Modeling</masterLabel>
+            <translation><!-- Fused Deposition Modeling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP Multijet Fusion</masterLabel>
+            <translation><!-- HP Multijet Fusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Injection Molding</masterLabel>
+            <translation><!-- Injection Molding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metal Extrusion</masterLabel>
+            <translation><!-- Metal Extrusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polyjet 3D</masterLabel>
+            <translation><!-- Polyjet 3D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selective Laser Sintering</masterLabel>
+            <translation><!-- Selective Laser Sintering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheet Metal Fabrication</masterLabel>
+            <translation><!-- Sheet Metal Fabrication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stamping</masterLabel>
+            <translation><!-- Stamping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stereolithography</masterLabel>
+            <translation><!-- Stereolithography --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urethane Casting</masterLabel>
+            <translation><!-- Urethane Casting --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

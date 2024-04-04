@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Technical Test Part Questions</name>
+    <queueMembers>
+        <users>
+            <user>brent.burns@xometry.com</user>
+            <user>drew.hildbrand@xometry.com</user>
+            <user>szimmerman@xometry.com</user>
+            <user>zac.benckendorf@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>confirm to partner job is off their board by Matt Topelius</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Parnter: Confirm Job is Canceled</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

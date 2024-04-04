@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Proceed to production on nearest metric SM gage</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Sheet Metal: Economy Size Concession</name>
+    <style>none</style>
+    <subject>Xometry Order ID - Sheet Metal Gauge Concession, Please Reply</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

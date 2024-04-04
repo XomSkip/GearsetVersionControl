@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_List_Category__c</fullName>
+    <description>Created for Jeff Klein Looker Report purposes, field data managed by Jeff and/or SalesOps</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Created for Jeff Klein Looker Report purposes, field data managed by Jeff and/or SalesOps</inlineHelpText>
+    <label>Sales List Category</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

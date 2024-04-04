@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>No Partner</fullName>
+        <default>false</default>
+        <label>No Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>DFM</fullName>
+        <default>false</default>
+        <label>DFM</label>
+    </customValue>
+    <customValue>
+        <fullName>Material</fullName>
+        <default>false</default>
+        <label>Material</label>
+    </customValue>
+    <customValue>
+        <fullName>Process</fullName>
+        <default>false</default>
+        <label>Process</label>
+    </customValue>
+    <customValue>
+        <fullName>Price</fullName>
+        <default>false</default>
+        <label>Price</label>
+    </customValue>
+    <customValue>
+        <fullName>Lead Time</fullName>
+        <default>false</default>
+        <label>Lead Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Concerns</fullName>
+        <default>false</default>
+        <label>Service Concerns</label>
+    </customValue>
+    <customValue>
+        <fullName>Purchase Order</fullName>
+        <default>false</default>
+        <label>Purchase Order</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit Card</fullName>
+        <default>false</default>
+        <label>Credit Card</label>
+    </customValue>
+    <customValue>
+        <fullName>Model Hold (DFM)</fullName>
+        <default>false</default>
+        <label>Model Hold (DFM)</label>
+    </customValue>
+    <customValue>
+        <fullName>Budgetary Hold</fullName>
+        <default>false</default>
+        <label>Budgetary Hold</label>
+    </customValue>
+    <masterLabel>Sub Stage Details</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

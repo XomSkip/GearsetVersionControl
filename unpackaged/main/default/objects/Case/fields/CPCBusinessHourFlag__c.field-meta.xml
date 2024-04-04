@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPCBusinessHourFlag__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(AND(AND(WEEKDAY(DATEVALUE(CreatedDate))!=1,WEEKDAY(DATEVALUE(CreatedDate))!=7),OR((HOUR(TIMEVALUE((CreatedDate-$CustomMetadata.Admin_Ref_Variable__mdt.ESTEDTOffset.Number_Ref_Value__c))))&lt;8,(HOUR(TIMEVALUE((CreatedDate-$CustomMetadata.Admin_Ref_Variable__mdt.ESTEDTOffset.Number_Ref_Value__c))))&gt;=22)),AND(OR(WEEKDAY(DATEVALUE(CreatedDate))=1,WEEKDAY(DATEVALUE(CreatedDate))=7),OR((HOUR(TIMEVALUE((CreatedDate-$CustomMetadata.Admin_Ref_Variable__mdt.ESTEDTOffset.Number_Ref_Value__c))))&lt;9,(HOUR(TIMEVALUE((CreatedDate-$CustomMetadata.Admin_Ref_Variable__mdt.ESTEDTOffset.Number_Ref_Value__c))))&gt;=17))),false,true)</formula>
+    <label>CPCBusinessHourFlag</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

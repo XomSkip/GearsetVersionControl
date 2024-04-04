@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>SupplierFrozenNotification</fullName>
+        <description>Supplier Frozen Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hongda.zhou+testingacct@xometry.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GNOTemplates/Frozen_Pending_Expulsion_1656962654238</template>
+    </alerts>
+    <alerts>
+        <fullName>Test_Supplier_Onboarding_Initial_Email</fullName>
+        <description>Test Supplier Onboarding Initial Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>EmailAddress__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>no-reply@xometry.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GNO_Templates/Test_Supplier_Onboarding_Initial_Email_Custom</template>
+    </alerts>
+</Workflow>

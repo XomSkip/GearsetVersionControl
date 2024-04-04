@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>To use when a Partner has rubber-stamped their name on QMS in a Box</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>QMS in a Box Feedback</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>QMS Feedback</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

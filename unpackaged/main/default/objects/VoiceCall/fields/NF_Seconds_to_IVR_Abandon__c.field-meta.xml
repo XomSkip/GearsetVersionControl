@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NF_Seconds_to_IVR_Abandon__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(CallEndDateTime &lt; CallQueuedDateTime, (NF_IVRDuration__c), 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Seconds to IVR Abandon</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

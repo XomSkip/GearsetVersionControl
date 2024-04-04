@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Opt out of Outreach Content and Sequences --></help>
+        <label><!-- Outreach Opt Out --></label>
+        <name>Outreach_Opt_Out__c</name>
+    </CustomFieldTranslation>

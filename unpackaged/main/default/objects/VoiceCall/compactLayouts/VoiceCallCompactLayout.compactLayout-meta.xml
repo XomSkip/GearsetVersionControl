@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VoiceCallCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>CallType</fields>
+    <fields>NF_Queue__c</fields>
+    <fields>CallDurationInSeconds</fields>
+    <fields>NF_Contact__c</fields>
+    <fields>NF_Case_Number__c</fields>
+    <label>VoiceCallCompactLayout</label>
+</CompactLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_Integration_Source__c</fullName>
+    <description>This picklist is for Admins and Devs to use to keep track of what event is creating these tasks.</description>
+    <externalId>false</externalId>
+    <label>External Integration Source</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote Quick Access</fullName>
+                <default>false</default>
+                <label>Quote Quick Access</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

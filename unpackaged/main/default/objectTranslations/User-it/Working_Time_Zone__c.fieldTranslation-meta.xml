@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The time zone in which this User&apos;s working hours are based. --></help>
+        <label><!-- Working Time Zone --></label>
+        <name>Working_Time_Zone__c</name>
+        <picklistValues>
+            <masterLabel>Eastern</masterLabel>
+            <translation><!-- Eastern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific</masterLabel>
+            <translation><!-- Pacific --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

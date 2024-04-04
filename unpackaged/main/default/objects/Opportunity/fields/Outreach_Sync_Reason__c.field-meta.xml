@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outreach_Sync_Reason__c</fullName>
+    <description>Logic to determine whether a opportunity record should be synced into Outreach.  Used to limit the number of API calls</description>
+    <externalId>false</externalId>
+    <formula>if(
+    Managed_Services__c = TRUE
+    &amp;&amp; 
+    (
+        CloseDate = today()
+        || datevalue(CreatedDate) = today()
+        || datevalue(LastModifiedDate) = today()
+    ),
+    "Closed, Created, Updated Today",
+    ""
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Logic to determine whether a opportunity record should be synced into Outreach.  Used to limit the number of API calls</inlineHelpText>
+    <label>Outreach Sync Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Response to leads inquiring about joining the Xometry network as an Additive Partner</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Additive Partner Inquiry - GNO file</name>
+    <style>none</style>
+    <subject>Additive Partner Inquiry</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

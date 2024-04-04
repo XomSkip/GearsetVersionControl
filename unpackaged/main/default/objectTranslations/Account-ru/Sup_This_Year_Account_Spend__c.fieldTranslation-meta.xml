@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Supplies This Year Account Spend --></label>
+        <name>Sup_This_Year_Account_Spend__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_in_Window__c</fullName>
+    <externalId>false</externalId>
+    <formula>if ( or (   
+Total_Qty_InjectionMolding__c  &gt; 0 ,   
+Total_Qty_InjectionMoldingTool__c  &gt; 0 ,  
+Total_Qty_UrethaneCasting__c &gt; 0 ) ,
+
+
+if ( and ( ispickval (  StageName , "Closed Won" ) ,  CloseDate - datevalue (  CreatedDate ) &lt;= 8 ) , "Won in Window" ,
+if ( ispickval (  StageName , "Closed Won" ) , "Won out of Window" ,
+if ( ispickval (  StageName , "Closed Lost" ) , "Lost" ,
+if ( CloseDate - datevalue (  CreatedDate ) &gt; 8, "Lost" , "Open in Window")))), 
+
+if ( or ( 
+Total_Qty_CNC__c &gt; 0 , 
+Total_Qty_SheetMetal__c &gt; 0 ) ,
+
+if ( and ( ispickval (  StageName , "Closed Won" ) ,  CloseDate - datevalue (  CreatedDate ) &lt;= 6 ) , "Won in Window" ,
+if ( ispickval (  StageName , "Closed Won" ) , "Won out of Window" ,
+if ( ispickval (  StageName , "Closed Lost" ) , "Lost" ,
+if ( CloseDate - datevalue (  CreatedDate ) &gt; 6, "Lost" , "Open in Window")))), 
+
+if ( or (   
+Total_Qty_BinderJetting__c  &gt; 0 ,   
+Total_Qty_Carbon__c  &gt;0 ,  
+Total_Qty_DMLS__c &gt; 0 ,  
+Total_Qty_FDM__c &gt; 0 ,  
+Total_Qty_HPMultJetFusion__c &gt; 0 ,  
+Total_Qty_PolyJet3D__c &gt; 0 ,  
+Total_Qty_SLA__c &gt; 0 ,  
+Total_Qty_SLS__c &gt; 0 ) , 
+
+if ( and ( ispickval (  StageName , "Closed Won" ) ,  CloseDate - datevalue (  CreatedDate ) &lt;= 3 ) , "Won in Window" ,
+if ( ispickval (  StageName , "Closed Won" ) , "Won out of Window" ,
+if ( ispickval (  StageName , "Closed Lost" ) , "Lost" ,
+if ( CloseDate - datevalue (  CreatedDate ) &gt; 3, "Lost" , "Open in Window")))), 
+
+
+if ( and ( ispickval (  StageName , "Closed Won" ) ,  CloseDate - datevalue (  CreatedDate ) &lt;= 5 ) , "Won in Window" ,
+if ( ispickval (  StageName , "Closed Won" ) , "Won out of Window" ,
+if ( ispickval (  StageName , "Closed Lost" ) , "Lost" ,
+if ( CloseDate - datevalue (  CreatedDate ) &gt; 5, "Lost" , "Open in Window"))))
+
+)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Closed in Window</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

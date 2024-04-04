@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPCRMAPOC__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lookup user to be CPC RMA Point of Contact</description>
+    <externalId>false</externalId>
+    <inlineHelpText>CPC Team Member who triages RMA Cases.</inlineHelpText>
+    <label>CPC RMA POC</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>User.UserRole.Name</field>
+            <operation>startsWith</operation>
+            <value>CPC</value>
+        </filterItems>
+        <filterItems>
+            <field>User.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <infoMessage>Pick a user with Service role (CPC)</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>RMACases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

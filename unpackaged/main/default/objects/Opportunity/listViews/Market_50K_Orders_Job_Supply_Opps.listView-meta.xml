@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Market_50K_Orders_Job_Supply_Opps</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND (5 OR 6 OR 7) AND 8</booleanFilter>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>ManuProcessusedbySupplies__c</columns>
+    <columns>GNOOwnerforSupplyOpps__c</columns>
+    <columns>Ops_Order_Id_based_on_Job__c</columns>
+    <columns>Ops_Order_Total__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>MKT_AcceptedJobPrice__c</columns>
+    <columns>Primary_Contact_Email__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>MaterialofAcceptedJobAmount__c</columns>
+    <columns>LAST_EMAIL_DATE</columns>
+    <columns>LAST_CALL_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Supplies</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>startsWith</operation>
+        <value>Job</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Closed Lost,Closed Won</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>2/16/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>ManuProcessusedbySupplies__c</field>
+        <operation>contains</operation>
+        <value>CNC</value>
+    </filters>
+    <filters>
+        <field>ManuProcessusedbySupplies__c</field>
+        <operation>contains</operation>
+        <value>Sheet Cutting</value>
+    </filters>
+    <filters>
+        <field>ManuProcessusedbySupplies__c</field>
+        <operation>contains</operation>
+        <value>Sheet Metal</value>
+    </filters>
+    <filters>
+        <field>Ops_Order_Total__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>50000</value>
+    </filters>
+    <label>[Market]50K+ Orders Job Supply Opps</label>
+    <sharedTo>
+        <group>SupplyStakeholder</group>
+        <roleAndSubordinatesInternal>SellerMarketplace</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

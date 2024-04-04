@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Releasing Xom Supplies requirement due to impending due date.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Req Release - Lead Time</name>
+    <relatedEntityType>Opportunity</relatedEntityType>
+    <style>none</style>
+    <subject>Job J00C5174 Accepted</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

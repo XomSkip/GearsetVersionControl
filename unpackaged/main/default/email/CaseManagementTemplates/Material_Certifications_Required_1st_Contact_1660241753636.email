@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p style="line-height:1.38"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Hello,</span></span></span></span></span></span></p>
+
+<p style="line-height:1.38"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Thank you for accepting Job {{{Case.Job__c}}}. This has been highlighted as High Risk due to the Material Certification requirements.&nbsp; One or more of the following are needed:</span></span></span></span></span></span></p>
+
+<ol>
+	<li aria-level="1" style="list-style-type:decimal"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Material Certifications</span></span></span></span></span></span></li>
+	<li aria-level="1" style="list-style-type:decimal"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Material Traceability Certification</span></span></span></span></span></span></li>
+	<li aria-level="1" style="list-style-type:decimal"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">DFARS Material Certification</span></span></span></span></span></span></li>
+	<li aria-level="1" style="list-style-type:decimal"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Domestic Material Certification</span></span></span></span></span></span></li>
+</ol>
+
+<p style="line-height:1.38"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Since this is a high risk job, we ask that you help set us up for success by <strong>taking the following actions:</strong></span></span></span></span></span></span></p>
+
+<ol>
+	<li aria-level="1" style="list-style-type:decimal"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Acknowledge receipt of this email and the Material Certification requirements.</span></span></span></span></span></span></li>
+	<li aria-level="1" style="list-style-type:decimal"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Order the material ASAP.&nbsp; If you need support acquiring confirming materials, please reply to this email and we can get you in touch with our Xometry Supplies services.</span></span></span></span></span></span></li>
+	<li aria-level="1" style="list-style-type:decimal"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Complete the Partner PDU for Material Receipt at the appropriate time via the Partner Portal.</span></span></span></span></span></span></li>
+	<li aria-level="1" style="list-style-type:decimal"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Upload all required documents to the VQC portal as soon as you receive them, and our quality assurance teams will review.</span></span></span></span></span></span></li>
+</ol>
+
+<p style="line-height:1.38"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">If any of the above requirements are not met, we will be back in touch with you.</span></span></span></span></span></span></p>
+
+<p style="line-height:1.38"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Please let us know if there is ANYTHING we can do to help you with this job and we appreciate you being a Partner in our network.</span></span></span></span></span></span></p>
+
+<p style="line-height:1.38"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Thank you for choosing Xometry,</span></span></span></span></span></span></p>
+
+</body></html>

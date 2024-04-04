@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If the user has at least started the registration process the link will take you to the user page otherwise it will show as unregistered. --></help>
+        <label><!-- ERP Contact Page --></label>
+        <name>ERP_contact_page__c</name>
+    </CustomFieldTranslation>

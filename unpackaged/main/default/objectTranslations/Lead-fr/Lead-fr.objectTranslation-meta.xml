@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label><!-- 2D --></label>
+            <section>2D</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- CAS --></label>
+            <section>CAS</section>
+        </sections>
+        <sections>
+            <label><!-- Company Information --></label>
+            <section>Company Information</section>
+        </sections>
+        <sections>
+            <label><!-- D&amp;B --></label>
+            <section>D&amp;B</section>
+        </sections>
+        <sections>
+            <label><!-- D&amp;B Hoovers --></label>
+            <section>D&amp;B Hoovers</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Summary --></label>
+            <section>Lead Summary</section>
+        </sections>
+        <sections>
+            <label><!-- QSO --></label>
+            <section>QSO</section>
+        </sections>
+        <sections>
+            <label><!-- Quote Summary --></label>
+            <section>Quote Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Round Robin --></label>
+            <section>Round Robin</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Layout (ConnectAndSell)</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Layout - 12/20</layout>
+        <sections>
+            <label><!-- Company Information --></label>
+            <section>Company Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Form Info --></label>
+            <section>Contact Form Info</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Fusion 360 --></label>
+            <section>Fusion 360</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Summary --></label>
+            <section>Lead Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Marketplace Lead Layout</layout>
+        <sections>
+            <label><!-- Company Information --></label>
+            <section>Company Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Summary --></label>
+            <section>Lead Summary</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Accept Lead --></label>
+        <name>Accept_Lead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Admin Info --></label>
+        <name>Admin_Info</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Hubspot User Profile Form --></label>
+        <name>Hubspot_User_Profile_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- MadKudu --></label>
+        <name>MadKudu</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Management Info --></label>
+        <name>Management_Info</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Opt-In (Outreach) --></label>
+        <name>Opt_In</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Outreach Info --></label>
+        <name>Outreach_Info</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Quick Update --></label>
+        <name>Quick_Update</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SDR Info --></label>
+        <name>SDR_Info</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Traction Complete --></label>
+        <name>Traction_Complete</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Lead Status: Closed Not Converted must have a Lead Not Converted Reason --></errorMessage>
+        <name>Disqualification_Requires_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Email is required. Each contact must have a unique Email and Email cannot be changed. --></errorMessage>
+        <name>Email_must_not_be_blank_Lead</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Make Sure to Fill Out all Information Required for the Lead to be Converted:
+First Name, Last Name, Email, and Phone. --></errorMessage>
+        <name>Fields_Required_for_Lead_Conversion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Lead Source can not be changed after record creation. This is because we rely on this being the FIRST Lead Source, not the latest. --></errorMessage>
+        <name>Lead_Source_No_Changes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Qualified leads must be converted --></errorMessage>
+        <name>Qualified_Requires_Conversion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sales Users are not allowed to transfer records. Please see your manager to get a record transferred. --></errorMessage>
+        <name>Sales_Users_Cant_Transfer_Records</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Reassign --></label>
+        <name>Mass_Reassign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update_Leads --></label>
+        <name>Mass_Update_Leads</name>
+    </webLinks>
+</CustomObjectTranslation>

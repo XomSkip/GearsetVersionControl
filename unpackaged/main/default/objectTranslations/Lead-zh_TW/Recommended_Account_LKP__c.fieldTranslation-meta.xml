@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is a recommended Account based on Domain Matching --></help>
+        <label><!-- Recommended Account LKP --></label>
+        <name>Recommended_Account_LKP__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Activity_Date_AM__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( !ISBLANK(ContactId), Contact.Last_Activity_Date_AM__c, Lead.Last_Activity_Date_AM__c)</formula>
+    <label>Last Activity Date AM</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

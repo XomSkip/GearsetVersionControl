@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- First Order Owner Id --></label>
+        <name>First_Order_Owner_Id__c</name>
+        <relationshipLabel><!-- Contacts (First Order Owner Id) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Do you intend to order this design at a higher volume in the future using different manufacturing processes? --></help>
+        <label><!-- DoUOrderAdditionQtyOtherManuProcess? --></label>
+        <name>Future_Cross_Sell__c</name>
+    </CustomFieldTranslation>

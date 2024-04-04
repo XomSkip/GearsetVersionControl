@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Total # of &quot;working&quot; employees --></label>
+        <name>Total_of_working_employees__c</name>
+    </CustomFieldTranslation>

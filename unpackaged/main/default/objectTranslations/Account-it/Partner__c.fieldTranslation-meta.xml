@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Do Not Use,  Use IsSupplier__c to diff.
+This flag is not updated. --></help>
+        <label><!-- [DNU]Partner? --></label>
+        <name>Partner__c</name>
+    </CustomFieldTranslation>

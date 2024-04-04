@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Downstream_Order_Owner__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>If unchecked, will bypass downstream ownership change of Orders triggered by parent account owner change</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>If unchecked, will bypass downstream ownership change of Orders triggered by parent account owner change</inlineHelpText>
+    <label>Change Downstream Order Owner</label>
+    <type>Checkbox</type>
+</CustomField>

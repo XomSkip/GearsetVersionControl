@@ -1,0 +1,70 @@
+<apex:page sidebar="false" showHeader="true" docType="html-4.01-strict">
+<div id="tabstrip" style="display:none;"> <ul> 
+<li class="k-state-active">No Take - Sourcing Queue (Default)</li>
+<li>Unassigned Cases</li>
+<li>My Cases</li>
+<li>Aging Summary View</li>
+<li>Email Cases</li>
+<li>Daily Meetings</li>
+</ul>
+<!-- No Take Sourcing Queue (Default) -->
+<div style="overflow:hidden;"> 
+<CRMC_PP:Grid ObjectName="Case" DelayLoad="false"  ViewID="a2n3u000000S6R9AAK" 
+ EnableNewButton="false"  EnableNewInline="false"  EnableEdit="true"  EnableActions="true"  EnableFieldChooser="true" 
+ EnableStickyViews="true"  EnableToolbar="true"  EnableViews="true"  EnableFormatting="true"  EnableReadingPane="true" />
+ <CRMC_PP:DrillUp /> 
+ </div>
+
+<!-- Unassigned Cases -->
+<div style="overflow:hidden;"> 
+<CRMC_PP:Grid ObjectName="Case" DelayLoad="true"  ViewID="a2n3u000000S6RCAA0" 
+ EnableNewButton="false"  EnableNewInline="false"  EnableEdit="true"  EnableActions="true"  EnableFieldChooser="true" 
+ EnableStickyViews="true"  EnableToolbar="true"  EnableViews="true"  EnableFormatting="true"  EnableReadingPane="true" />
+ <CRMC_PP:DrillUp /> 
+ </div>
+
+<!-- My Cases -->
+<div style="overflow:hidden;"> 
+<CRMC_PP:Grid ObjectName="Case" DelayLoad="true"  ViewID="a2n3u000000S6RBAA0" 
+ EnableNewButton="false"  EnableNewInline="false"  EnableEdit="true"  EnableActions="true"  EnableFieldChooser="true" 
+ EnableStickyViews="true"  EnableToolbar="true"  EnableViews="true"  EnableFormatting="true"  EnableReadingPane="true" />
+ <CRMC_PP:DrillUp /> 
+ </div>
+
+<!-- Aging Summary View -->
+<div style="overflow:hidden;"> 
+<CRMC_PP:Grid ObjectName="Case" DelayLoad="true"  ViewID="a2n3u000000S6R8AAK" 
+ EnableNewButton="true"  EnableNewInline="true"  EnableEdit="true"  EnableActions="true"  EnableFieldChooser="true" 
+ EnableStickyViews="true"  EnableToolbar="true"  EnableViews="true"  EnableFormatting="true"  EnableReadingPane="true" />
+ <CRMC_PP:DrillUp /> 
+ </div>
+
+<!-- Email Cases -->
+<div style="overflow:hidden;"> 
+<CRMC_PP:Grid ObjectName="Case" DelayLoad="true"  ViewID="a2n3u000000S6RDAA0" 
+ EnableNewButton="true"  EnableNewInline="true"  EnableEdit="true"  EnableActions="true"  EnableFieldChooser="true" 
+ EnableStickyViews="true"  EnableToolbar="true"  EnableViews="true"  EnableFormatting="true"  EnableReadingPane="true" />
+ <CRMC_PP:DrillUp /> 
+ </div>
+ 
+<!-- Daily Meetings -->
+<div style="overflow:hidden;"> 
+<CRMC_PP:Grid ObjectName="Case" DelayLoad="true"  ViewID="a2n3u000000S6w2AAC" 
+ EnableNewButton="true"  EnableNewInline="true"  EnableEdit="true"  EnableActions="true"  EnableFieldChooser="true" 
+ EnableStickyViews="true"  EnableToolbar="true"  EnableViews="true"  EnableFormatting="true"  EnableReadingPane="true" />
+ <CRMC_PP:DrillUp /> 
+</div>
+
+
+</div>
+<script>
+$(document).ready(function() {
+    $("#tabstrip").kendoTabStrip({
+      activate: function(e){
+        setTimeout(function(){          $(window).resize();        });
+      }
+    });
+    $("#tabstrip").css("display", "block");
+});
+ </script>
+</apex:page>

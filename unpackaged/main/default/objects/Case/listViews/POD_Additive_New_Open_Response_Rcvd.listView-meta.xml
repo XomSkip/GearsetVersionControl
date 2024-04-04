@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POD_Additive_New_Open_Response_Rcvd</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>OPS_Top_20_Customer__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>OrderID__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>NAME</columns>
+    <columns>Recent_Response_Time__c</columns>
+    <columns>Recent_Inbound_Message__c</columns>
+    <columns>CM_SLAResponseTimeRemaining_hrs__c</columns>
+    <columns>CM_SLAResponseRequirement_hrs__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Pending,Solved,Closed</value>
+    </filters>
+    <filters>
+        <field>Owners_Role__c</field>
+        <operation>equals</operation>
+        <value>DFM Additive,CM Additive</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Additive POD</value>
+    </filters>
+    <label>[POD] Additive New/Open/Response Rcvd</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Service_Leadership</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

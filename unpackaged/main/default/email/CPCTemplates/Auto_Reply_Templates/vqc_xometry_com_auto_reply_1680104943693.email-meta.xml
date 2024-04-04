@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>When a new case is created and received at vqc@xometry.com an auto reply email should be sent.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>vqc@xometry.com auto-reply</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Thank you for your inquiry {{{Case.Subject}}}  | Ticket:   {{{Case.CaseNumber}}}</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

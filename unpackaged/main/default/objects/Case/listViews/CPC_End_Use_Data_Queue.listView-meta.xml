@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPC_End_Use_Data_Queue</fullName>
+    <columns>CaseAge__c</columns>
+    <columns>EUD_Work_Stage__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OPS_Top_20_Customer__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>EUD_ReadyToShip__c</columns>
+    <columns>OrderDueDateonOpsOrder__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>EUD_HTSCode__c</columns>
+    <columns>EUD_ImportReason__c</columns>
+    <columns>EUD_Industry__c</columns>
+    <columns>EUD_PartDescription__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Solved,Closed</value>
+    </filters>
+    <filters>
+        <field>Category__c</field>
+        <operation>equals</operation>
+        <value>End-use definition</value>
+    </filters>
+    <label>[CPC] End Use Data Queue</label>
+</ListView>

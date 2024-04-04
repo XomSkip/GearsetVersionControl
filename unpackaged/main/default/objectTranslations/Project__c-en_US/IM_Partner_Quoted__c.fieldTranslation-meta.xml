@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicates that IM was quoted by a Quoting Partner for at least one quote on this project --></help>
+        <label><!-- IM - Partner Quoted --></label>
+        <name>IM_Partner_Quoted__c</name>
+    </CustomFieldTranslation>

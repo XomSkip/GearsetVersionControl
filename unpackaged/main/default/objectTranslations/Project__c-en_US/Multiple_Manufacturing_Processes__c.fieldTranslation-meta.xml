@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Checked by Traction if this Project has multiple Opportunities that are not all the same Manufacturing Process --></help>
+        <label><!-- Multiple Manufacturing Processes --></label>
+        <name>Multiple_Manufacturing_Processes__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>manufactured_in_USA__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Do you need your parts to be manufactured in the U.S?</description>
+    <externalId>false</externalId>
+    <label>Do your parts need to be made in the US?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

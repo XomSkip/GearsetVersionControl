@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi&nbsp;{{{Case.Opportunity_Owner__c}}}<br />
+<br />
+Your customer's quote has been configured for manual quoting and sent to the PSE team on {{{Case.GNO_CaseLink__c}}}.&nbsp;<br />
+<br />
+Thank you.</span></span>
+<p style="line-height:2.057148; background-color:#ffffff; margin-top:16px; margin-bottom:16px"><font face="Arial"><span style="font-size: 14.6667px; white-space: pre-wrap;">&nbsp;</span></font></p>
+<br />
+&nbsp;
+</body></html>

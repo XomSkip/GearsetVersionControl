@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GNO_SourcingStage__c</fullName>
+    <defaultValue>'New'</defaultValue>
+    <externalId>false</externalId>
+    <label>Sourcing Stage</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New 💠</label>
+            </value>
+            <value>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+                <label>On Hold 🟫</label>
+            </value>
+            <value>
+                <fullName>RFQ</fullName>
+                <default>false</default>
+                <label>RFQ 🟦</label>
+            </value>
+            <value>
+                <fullName>Escalated</fullName>
+                <default>false</default>
+                <label>Escalated 🟥</label>
+            </value>
+            <value>
+                <fullName>DFM Review</fullName>
+                <default>false</default>
+                <label>DFM Review ⬜</label>
+            </value>
+            <value>
+                <fullName>Lead Time Review</fullName>
+                <default>false</default>
+                <label>Lead Time Review ⬜</label>
+            </value>
+            <value>
+                <fullName>Price Review</fullName>
+                <default>false</default>
+                <label>Price Review 🟧</label>
+            </value>
+            <value>
+                <fullName>Offered</fullName>
+                <default>false</default>
+                <label>Offered 🟩</label>
+            </value>
+            <value>
+                <fullName>Requote</fullName>
+                <default>false</default>
+                <label>Requote 💠</label>
+            </value>
+            <value>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+                <label>Accepted 🟢</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected 🔴</label>
+            </value>
+            <value>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+                <label>Canceled ⚪</label>
+            </value>
+            <value>
+                <fullName>Resource</fullName>
+                <default>false</default>
+                <label>Resource 🟦</label>
+            </value>
+            <value>
+                <fullName>Error ?</fullName>
+                <default>false</default>
+                <label>Error ? 🟥</label>
+            </value>
+            <value>
+                <fullName>Expired</fullName>
+                <default>false</default>
+                <label>Expired ⚪</label>
+            </value>
+            <value>
+                <fullName>In House</fullName>
+                <default>false</default>
+                <label>In House 🟫</label>
+            </value>
+            <value>
+                <fullName>Pre-sourcing</fullName>
+                <default>false</default>
+                <label>Pre-sourcing 🟦</label>
+            </value>
+            <value>
+                <fullName>Vendor Completed</fullName>
+                <default>false</default>
+                <label>Vendor Completed 🟫</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Providing Complementary Adjustments that are less than - $300 Low LTV Limit OR  $1000(&lt;3%, Whichever is greater) High LTV Limit.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Providing customer with complimentary adjustments</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Xometry Order      - Post-Order Additions, Please Review</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

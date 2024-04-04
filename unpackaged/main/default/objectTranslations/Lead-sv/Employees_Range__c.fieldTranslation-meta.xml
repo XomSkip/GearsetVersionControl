@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Bucketed employee ranges for company (useful for segmentation) --></help>
+        <label><!-- Employees Range --></label>
+        <name>Employees_Range__c</name>
+    </CustomFieldTranslation>

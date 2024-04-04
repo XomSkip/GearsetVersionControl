@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Has Ordered: DMLS --></label>
+        <name>has_ordered_DMLS__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Legal/Document/Contract Review Queue</name>
+    <queueMembers>
+        <users>
+            <user>blouden@xometry.com</user>
+            <user>kmwhite@xometry.com</user>
+            <user>kristie.scott@xometry.com</user>
+            <user>tracy.edwards@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

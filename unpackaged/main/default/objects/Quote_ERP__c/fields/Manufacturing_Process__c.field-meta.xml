@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manufacturing_Process__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( process_isBinderJetting__c , 'Binder Jetting: ', '') +
+IF( process_isCarbon__c , 'Carbon: ', '') +
+IF( process_isCNC_Machining__c ,'CNC Machining: ', '') +
+IF( process_isDie_Casting__c ,'Die Casting: ', '') +
+IF( process_isDMLS__c ,'DMLS: ', '') +
+IF( process_isDirect_Sourced__c ,'Direct Sourced: ', '') +
+IF( process_isExtrusion__c ,'Extrusion: ', '') +
+IF( process_isFDM__c , 'FDM: ', '') +
+IF( process_isHPMultJetFusion__c ,'HP Multi Jet Fusion: ','') +
+IF( (process_isInjection_Molding__c || process_isInjectionMoldingTool__c),'Injection Molding: ','') +
+IF( process_isPolyJet_3D__c ,'PolyJet 3D: ','') +
+IF( process_isSLS__c ,'SLS: ','') +
+IF( process_isSheet_metal__c ,'Sheet Metal: ','') +
+IF( process_isStamping__c ,'Stamping: ','') +
+IF( process_isSLA__c , 'SLA: ','') +
+IF( process_isUrethane_Casting__c ,'Urethane Casting: ','')</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Manufacturing Process</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

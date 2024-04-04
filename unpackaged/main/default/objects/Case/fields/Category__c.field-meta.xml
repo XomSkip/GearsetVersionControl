@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>[AP] - New Vendor/Supplier Set-up</fullName>
+                <default>false</default>
+                <label>[AP] - New Vendor/Supplier Set-up</label>
+            </value>
+            <value>
+                <fullName>[AP] - Stripe Account Issue</fullName>
+                <default>false</default>
+                <label>[AP] - Stripe Account Issue</label>
+            </value>
+            <value>
+                <fullName>[AP] - Vendor Invoice</fullName>
+                <default>false</default>
+                <label>[AP] - Vendor Invoice</label>
+            </value>
+            <value>
+                <fullName>[AR] - Unconverted Invoices</fullName>
+                <default>false</default>
+                <label>[AR] - Unconverted Invoices</label>
+            </value>
+            <value>
+                <fullName>[AR] - Unpaid Credit Card Invoices</fullName>
+                <default>false</default>
+                <label>[AR] - Unpaid Credit Card Invoices</label>
+            </value>
+            <value>
+                <fullName>[AR- Collections] - Portal Customer</fullName>
+                <default>false</default>
+                <label>[AR- Collections] - Portal Customer</label>
+            </value>
+            <value>
+                <fullName>[Partner Management] - Account Inquiries</fullName>
+                <default>false</default>
+                <label>[Partner Management] - Account Inquiries</label>
+            </value>
+            <value>
+                <fullName>[Partner Management] - Partner Relations</fullName>
+                <default>false</default>
+                <label>[Partner Management] - Partner Relations</label>
+            </value>
+            <value>
+                <fullName>[Partner Management] - Supplier Onboarding</fullName>
+                <default>false</default>
+                <label>[Partner Management] - Supplier Onboarding</label>
+            </value>
+            <value>
+                <fullName>Auto Quote Review</fullName>
+                <default>false</default>
+                <label>Auto Quote Review</label>
+            </value>
+            <value>
+                <fullName>Auto response</fullName>
+                <default>false</default>
+                <label>Auto response</label>
+            </value>
+            <value>
+                <fullName>Bank Info Request</fullName>
+                <default>false</default>
+                <label>Bank Info Request</label>
+            </value>
+            <value>
+                <fullName>Billing Account Update</fullName>
+                <default>false</default>
+                <label>Billing Account Update</label>
+            </value>
+            <value>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+                <label>Cancellations</label>
+            </value>
+            <value>
+                <fullName>Capability Questions</fullName>
+                <default>false</default>
+                <label>Capability Questions</label>
+            </value>
+            <value>
+                <fullName>Case Management</fullName>
+                <default>false</default>
+                <label>Case Management</label>
+            </value>
+            <value>
+                <fullName>Certifications</fullName>
+                <default>false</default>
+                <label>Certifications</label>
+            </value>
+            <value>
+                <fullName>Collections</fullName>
+                <default>false</default>
+                <label>Collections</label>
+            </value>
+            <value>
+                <fullName>Commercial Invoice</fullName>
+                <default>false</default>
+                <label>Commercial Invoice</label>
+            </value>
+            <value>
+                <fullName>Communication</fullName>
+                <default>false</default>
+                <label>Communication</label>
+            </value>
+            <value>
+                <fullName>Credit Applications</fullName>
+                <default>false</default>
+                <label>Credit Applications</label>
+            </value>
+            <value>
+                <fullName>Credit Card Payments</fullName>
+                <default>false</default>
+                <label>Credit Card Payments</label>
+            </value>
+            <value>
+                <fullName>Credit Key</fullName>
+                <default>false</default>
+                <label>Credit Key</label>
+            </value>
+            <value>
+                <fullName>Credit Limit Increase</fullName>
+                <default>false</default>
+                <label>Credit Limit Increase</label>
+            </value>
+            <value>
+                <fullName>Customer Account Deletion</fullName>
+                <default>false</default>
+                <label>Customer Account Deletion</label>
+            </value>
+            <value>
+                <fullName>CustomerOrderCertifications</fullName>
+                <default>false</default>
+                <label>Customer::Order::Certifications</label>
+            </value>
+            <value>
+                <fullName>CustomerOrderDocument</fullName>
+                <default>false</default>
+                <label>Customer::Order::Document</label>
+            </value>
+            <value>
+                <fullName>Customer Order Question/Issue</fullName>
+                <default>false</default>
+                <label>Customer Order Question/Issue</label>
+            </value>
+            <value>
+                <fullName>DFM</fullName>
+                <default>false</default>
+                <label>DFM</label>
+            </value>
+            <value>
+                <fullName>Document Request - NDA</fullName>
+                <default>false</default>
+                <label>Document Request - NDA</label>
+            </value>
+            <value>
+                <fullName>DocumentRequest</fullName>
+                <default>false</default>
+                <label>Document Request</label>
+            </value>
+            <value>
+                <fullName>End-use definition</fullName>
+                <default>false</default>
+                <label>End-use definition</label>
+            </value>
+            <value>
+                <fullName>Expensify</fullName>
+                <default>false</default>
+                <label>Expensify</label>
+            </value>
+            <value>
+                <fullName>Fast Pay</fullName>
+                <default>false</default>
+                <label>Fast Pay</label>
+            </value>
+            <value>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+                <label>Feedback</label>
+            </value>
+            <value>
+                <fullName>General Inquiry</fullName>
+                <default>false</default>
+                <label>General Inquiry</label>
+            </value>
+            <value>
+                <fullName>Government Credit Card</fullName>
+                <default>false</default>
+                <label>Government Credit Card</label>
+            </value>
+            <value>
+                <fullName>InspectionQuestion</fullName>
+                <default>false</default>
+                <label>Inspection Question</label>
+            </value>
+            <value>
+                <fullName>Instant Pay</fullName>
+                <default>false</default>
+                <label>Instant Pay</label>
+            </value>
+            <value>
+                <fullName>International Shipping</fullName>
+                <default>false</default>
+                <label>International Shipping</label>
+            </value>
+            <value>
+                <fullName>Invoice Adjustments</fullName>
+                <default>false</default>
+                <label>Invoice Adjustments</label>
+            </value>
+            <value>
+                <fullName>Invoice Missing a PO</fullName>
+                <default>false</default>
+                <label>Invoice Missing a PO</label>
+            </value>
+            <value>
+                <fullName>Invoice Request</fullName>
+                <default>false</default>
+                <label>Invoice Request</label>
+            </value>
+            <value>
+                <fullName>Job Specific Question</fullName>
+                <default>false</default>
+                <label>Job Specific Question</label>
+            </value>
+            <value>
+                <fullName>Job Visibility</fullName>
+                <default>false</default>
+                <label>Job Visibility</label>
+            </value>
+            <value>
+                <fullName>Label Request</fullName>
+                <default>false</default>
+                <label>Label Request</label>
+            </value>
+            <value>
+                <fullName>Machines</fullName>
+                <default>false</default>
+                <label>Machines</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Network Capabilities</fullName>
+                <default>false</default>
+                <label>Network Capabilities</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Onboarding</fullName>
+                <default>false</default>
+                <label>Onboarding</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>OTS</fullName>
+                <default>false</default>
+                <label>OTS</label>
+            </value>
+            <value>
+                <fullName>PartnerJobCoC</fullName>
+                <default>false</default>
+                <label>Partner::Job::CoC</label>
+            </value>
+            <value>
+                <fullName>Partner: Machines/Certifications</fullName>
+                <default>false</default>
+                <label>Partner: Machines/Certifications</label>
+            </value>
+            <value>
+                <fullName>Partner: Payouts</fullName>
+                <default>false</default>
+                <label>Partner: Payouts</label>
+            </value>
+            <value>
+                <fullName>Partner: Xometry Advance Card</fullName>
+                <default>false</default>
+                <label>Partner: Xometry Advance Card</label>
+            </value>
+            <value>
+                <fullName>Partner Account Settings</fullName>
+                <default>false</default>
+                <label>Partner Account Settings</label>
+            </value>
+            <value>
+                <fullName>Partner Canceled</fullName>
+                <default>false</default>
+                <label>Partner Canceled</label>
+            </value>
+            <value>
+                <fullName>Partner Invoices</fullName>
+                <default>false</default>
+                <label>Partner Invoices</label>
+            </value>
+            <value>
+                <fullName>Partner Promotions</fullName>
+                <default>false</default>
+                <label>Partner Promotions</label>
+            </value>
+            <value>
+                <fullName>Partner Report Request</fullName>
+                <default>false</default>
+                <label>Partner Report Request</label>
+            </value>
+            <value>
+                <fullName>Payment</fullName>
+                <default>false</default>
+                <label>Payment: CC/ACH/Wire</label>
+            </value>
+            <value>
+                <fullName>Payouts</fullName>
+                <default>false</default>
+                <label>Payouts</label>
+            </value>
+            <value>
+                <fullName>PO</fullName>
+                <default>false</default>
+                <label>PO</label>
+            </value>
+            <value>
+                <fullName>PO 2nd Review</fullName>
+                <default>false</default>
+                <label>PO 2nd Review</label>
+            </value>
+            <value>
+                <fullName>PO Confirmation</fullName>
+                <default>false</default>
+                <label>PO Confirmation</label>
+            </value>
+            <value>
+                <fullName>PO Escalation Sales</fullName>
+                <default>false</default>
+                <label>PO Escalation Sales</label>
+            </value>
+            <value>
+                <fullName>PO Revision</fullName>
+                <default>false</default>
+                <label>PO Revision</label>
+            </value>
+            <value>
+                <fullName>Portal Invoice</fullName>
+                <default>false</default>
+                <label>Portal Invoice</label>
+            </value>
+            <value>
+                <fullName>PPU</fullName>
+                <default>false</default>
+                <label>PPU</label>
+            </value>
+            <value>
+                <fullName>Product Support</fullName>
+                <default>false</default>
+                <label>Product Support</label>
+            </value>
+            <value>
+                <fullName>Proforma</fullName>
+                <default>false</default>
+                <label>Proforma</label>
+            </value>
+            <value>
+                <fullName>Proof of Delivery</fullName>
+                <default>false</default>
+                <label>Proof of Delivery</label>
+            </value>
+            <value>
+                <fullName>Prospective International Partner</fullName>
+                <default>false</default>
+                <label>Prospective International Partner</label>
+            </value>
+            <value>
+                <fullName>PSS Dispute/Review</fullName>
+                <default>false</default>
+                <label>PSS Dispute/Review</label>
+            </value>
+            <value>
+                <fullName>Quality</fullName>
+                <default>false</default>
+                <label>Quality</label>
+            </value>
+            <value>
+                <fullName>Refund</fullName>
+                <default>false</default>
+                <label>Refund</label>
+            </value>
+            <value>
+                <fullName>Remittance Details</fullName>
+                <default>false</default>
+                <label>Remittance Details</label>
+            </value>
+            <value>
+                <fullName>Request for RFQ</fullName>
+                <default>false</default>
+                <label>Request for RFQ</label>
+            </value>
+            <value>
+                <fullName>RMA</fullName>
+                <default>false</default>
+                <label>RMA</label>
+            </value>
+            <value>
+                <fullName>Sales Tax</fullName>
+                <default>false</default>
+                <label>Sales Tax</label>
+            </value>
+            <value>
+                <fullName>Scorecard Review</fullName>
+                <default>false</default>
+                <label>Scorecard Review</label>
+            </value>
+            <value>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+                <label>Shipping</label>
+            </value>
+            <value>
+                <fullName>Shipping Bldg</fullName>
+                <default>false</default>
+                <label>Shipping Bldg</label>
+            </value>
+            <value>
+                <fullName>Shipping Freight</fullName>
+                <default>false</default>
+                <label>Shipping Freight</label>
+            </value>
+            <value>
+                <fullName>Shipping Pre-Sales</fullName>
+                <default>false</default>
+                <label>Shipping Pre-Sales</label>
+            </value>
+            <value>
+                <fullName>Shipping Problem</fullName>
+                <default>false</default>
+                <label>Shipping Problem</label>
+            </value>
+            <value>
+                <fullName>Shipping Rate</fullName>
+                <default>false</default>
+                <label>Shipping Rate</label>
+            </value>
+            <value>
+                <fullName>Statement Inquiry</fullName>
+                <default>false</default>
+                <label>Statement Inquiry</label>
+            </value>
+            <value>
+                <fullName>Supplier Portal</fullName>
+                <default>false</default>
+                <label>Supplier Portal</label>
+            </value>
+            <value>
+                <fullName>Unethical Behavior</fullName>
+                <default>false</default>
+                <label>Unethical Behavior</label>
+            </value>
+            <value>
+                <fullName>Unpaid Shipping</fullName>
+                <default>false</default>
+                <label>Unpaid Shipping</label>
+            </value>
+            <value>
+                <fullName>Unresponsiveness</fullName>
+                <default>false</default>
+                <label>Unresponsiveness</label>
+            </value>
+            <value>
+                <fullName>VendorForms</fullName>
+                <default>false</default>
+                <label>Vendor Forms</label>
+            </value>
+            <value>
+                <fullName>VQC</fullName>
+                <default>false</default>
+                <label>VQC</label>
+            </value>
+            <value>
+                <fullName>W-9 request</fullName>
+                <default>false</default>
+                <label>W-9 request</label>
+            </value>
+            <value>
+                <fullName>Xom Card</fullName>
+                <default>false</default>
+                <label>Xom Card</label>
+            </value>
+            <value>
+                <fullName>XometryInternalInhouse</fullName>
+                <default>false</default>
+                <label>Xometry::Internal::Inhouse</label>
+            </value>
+            <value>
+                <fullName>Xometry Canceled</fullName>
+                <default>false</default>
+                <label>Xometry Canceled</label>
+            </value>
+            <value>
+                <fullName>Capabilities</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Capabilities</label>
+            </value>
+            <value>
+                <fullName>Cost</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cost</label>
+            </value>
+            <value>
+                <fullName>Credit Limit</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Credit Limit</label>
+            </value>
+            <value>
+                <fullName>Experience</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Experience</label>
+            </value>
+            <value>
+                <fullName>How to use Job Board</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>How to use Job Board</label>
+            </value>
+            <value>
+                <fullName>Lead Time</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lead Time</label>
+            </value>
+            <value>
+                <fullName>Limits</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Limits</label>
+            </value>
+            <value>
+                <fullName>Material</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Material</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Test Part</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Test Part</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

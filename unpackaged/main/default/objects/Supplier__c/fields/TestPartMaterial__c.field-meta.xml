@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TestPartMaterial__c</fullName>
+    <description>The material chosen for Supplier Onboarding Test Part</description>
+    <externalId>false</externalId>
+    <label>Test Part Material</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1x2x3</fullName>
+                <default>false</default>
+                <label>1x2x3</label>
+            </value>
+            <value>
+                <fullName>2x2x3</fullName>
+                <default>false</default>
+                <label>2x2x3</label>
+            </value>
+            <value>
+                <fullName>6x11.75</fullName>
+                <default>false</default>
+                <label>6x11.75</label>
+            </value>
+            <value>
+                <fullName>6x8</fullName>
+                <default>false</default>
+                <label>6x8</label>
+            </value>
+            <value>
+                <fullName>Round Bar</fullName>
+                <default>false</default>
+                <label>Round Bar</label>
+            </value>
+            <value>
+                <fullName>Round Bar 1/2 x 24</fullName>
+                <default>false</default>
+                <label>Round Bar 1/2 x 24</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

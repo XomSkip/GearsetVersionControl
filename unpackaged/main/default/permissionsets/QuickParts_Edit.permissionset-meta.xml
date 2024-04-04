@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission to edit the QuickParts field on Opportunity</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.QuickParts__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>QuickParts - Edit</label>
+</PermissionSet>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Xom_Supplies</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>View Xom Marketplace App</label>
+    <license>Salesforce</license>
+</PermissionSet>

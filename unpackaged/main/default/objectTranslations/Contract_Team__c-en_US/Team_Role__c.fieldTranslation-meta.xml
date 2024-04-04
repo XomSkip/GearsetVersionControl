@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Team Role --></label>
+        <name>Team_Role__c</name>
+        <picklistValues>
+            <masterLabel>DFM Engineer</masterLabel>
+            <translation><!-- DFM Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise Growth Rep</masterLabel>
+            <translation><!-- Enterprise Growth Rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Sales Engineer</masterLabel>
+            <translation><!-- Pre-Sales Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quoting Specialist</masterLabel>
+            <translation><!-- Quoting Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rep</masterLabel>
+            <translation><!-- Sales Rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Sales Engineer</masterLabel>
+            <translation><!-- Technical Sales Engineer --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

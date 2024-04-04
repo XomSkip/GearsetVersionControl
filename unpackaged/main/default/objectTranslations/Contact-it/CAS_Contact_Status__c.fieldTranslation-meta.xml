@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- CAS Contact Status --></label>
+        <name>CAS_Contact_Status__c</name>
+        <picklistValues>
+            <masterLabel>Contact Attempted</masterLabel>
+            <translation><!-- Contact Attempted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contacted Disqualified</masterLabel>
+            <translation><!-- Contacted Disqualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contacted Qualified</masterLabel>
+            <translation><!-- Contacted Qualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contacted Qualifying</masterLabel>
+            <translation><!-- Contacted Qualifying --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Contacted</masterLabel>
+            <translation><!-- Not Contacted --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

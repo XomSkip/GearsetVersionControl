@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XometryInternalAccount__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checked if it is a P21 internal account (Xometry, BBS, etc).</description>
+    <externalId>false</externalId>
+    <label>Xometry Internal Account</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPC_RMA_Owner</fullName>
+    <active>false</active>
+    <description>RMA Category needs a CPC Contact on the case</description>
+    <errorConditionFormula>AND(ISPICKVAL(Category__c,'RMA'),ISBLANK(CPCRMAPOC__c),NOT(ISNEW()))  &amp;&amp; !$Permission.Ignore_All_VR</errorConditionFormula>
+    <errorDisplayField>CPCRMAPOC__c</errorDisplayField>
+    <errorMessage>The case category is RMA. Please input the name of the user who is the CPC RMA POC.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- To identify who is the POD Manager on the Ops Order. --></help>
+        <label><!-- POD Manager --></label>
+        <name>PODManager__c</name>
+        <relationshipLabel><!-- Ops Orders (POD Manager) --></relationshipLabel>
+    </CustomFieldTranslation>

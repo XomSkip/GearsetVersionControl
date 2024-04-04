@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Madkudu likelihood to buy signals (most recent activities) --></help>
+        <label><!-- MK Likelihood to Buy Signals --></label>
+        <name>MK_Likelihood_to_Buy_Signals__c</name>
+    </CustomFieldTranslation>

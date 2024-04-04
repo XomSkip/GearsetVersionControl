@@ -1,0 +1,20 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Dear {{{Recipient.FirstName}}}<b>,</b></p>
+
+<p>First of all, allow me to thank you so much for your recent order XXX. I never like having to write this email, but it’s unfortunately sometimes necessary. We have made multiple attempts to manufacture your parts and we are unable to continue.</p>
+
+<p>Our engineers have looked into the issues and determined we cannot manufacture your parts due to XXXX.</p>
+
+<p>We would like to set up a time to discuss with you and your team to see what we can do to rectify the situation.</p>
+
+<p>Again, we apologize we were not able to foresee these issues with your part and hope we can resolve them with you. We look forward to hearing from you.</p>
+
+<p>Thank you,</p>
+
+<p>{{{Sender.FirstName}}}<br />
+Xometry Customer Support</p>
+
+</body></html>

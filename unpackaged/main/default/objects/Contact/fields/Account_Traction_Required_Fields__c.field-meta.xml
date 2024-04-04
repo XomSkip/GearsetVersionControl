@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Traction_Required_Fields__c</fullName>
+    <externalId>false</externalId>
+    <formula>Account.Traction_Required_Fields__c</formula>
+    <label>Account Traction Required Fields</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

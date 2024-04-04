@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- [OPS] Top 20 Customer? --></label>
+        <name>OPS_Top_20_Customer__c</name>
+    </CustomFieldTranslation>

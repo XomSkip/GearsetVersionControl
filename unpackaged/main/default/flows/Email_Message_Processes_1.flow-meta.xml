@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <decisions>
+        <name>myRule_11</name>
+        <label>Outbound Email Case Status CM/DFM/General</label>
+        <locationX>248</locationX>
+        <locationY>323</locationY>
+        <defaultConnector>
+            <targetReference>myRule_14</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Outbound Email Case Status CM/DFM/General</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_11</name>
+            <conditionLogic>1 AND 2 AND (3 OR 4 OR 5 OR 7 OR 8 OR 9 OR 10 OR 11) AND 6</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Incoming</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ParentId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>DFM Case</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>CaseMgmt</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>General Support Case</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>3</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Collections</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>VQC Case</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Partner_Management</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>PSE Case</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>EU Case</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_11_A1</targetReference>
+            </connector>
+            <label>TRUE_Outbound Email Case Status CM/DFM/General/PSE/EU/Collection/Partner/Collection</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_14</name>
+        <label>Outbound Email Case Status Sourcing</label>
+        <locationX>446</locationX>
+        <locationY>431</locationY>
+        <defaultConnectorLabel>FALSE_Outbound Email Case Status Sourcing</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_14</name>
+            <conditionLogic>1 AND 2 AND 3</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Parent.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Sourcing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Incoming</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>3</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_14_A1</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>TRUE_Outbound Email Case Status Sourcing</label>
+        </rules>
+    </decisions>
+    <description>App-51483. EU Case when Outbound -&gt; Pending</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>formula_1_myRule_11_A1_1057195174</name>
+        <dataType>DateTime</dataType>
+        <expression>Now()</expression>
+    </formulas>
+    <interviewLabel>Email Message On Edit {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Email Message On Edit</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>myRule_11_A1</name>
+        <label>Case Status Update</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <inputAssignments>
+            <field>Recent_Response_Time__c</field>
+            <value>
+                <elementReference>formula_1_myRule_11_A1_1057195174</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Pending</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Parent</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_14_A1</name>
+        <label>Case Status In Progress</label>
+        <locationX>314</locationX>
+        <locationY>539</locationY>
+        <inputAssignments>
+            <field>Recent_Response_Time__c</field>
+            <value>
+                <elementReference>formula_1_myRule_11_A1_1057195174</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Cases</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>122</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>myRule_11</targetReference>
+        </connector>
+        <object>EmailMessage</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

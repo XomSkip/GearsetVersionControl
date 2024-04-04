@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Get_Quote_Url__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( NOT(ISBLANK(Last_Quote_Xometry_ERP_ID__c)),(HYPERLINK("https://www.xometry.com/login?domain=GET&amp;destination=/quote/"+ Last_Quote_Xometry_ERP_ID__c  ,"Go to this Quote in the Get Site", "_blank")),"")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Get Quote Url</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

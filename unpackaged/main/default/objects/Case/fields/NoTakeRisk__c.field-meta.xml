@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NoTakeRisk__c</fullName>
+    <externalId>false</externalId>
+    <label>No Take Risk</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>rocket</fullName>
+                <default>false</default>
+                <label>💩 🚀</label>
+            </value>
+            <value>
+                <fullName>fire</fullName>
+                <default>false</default>
+                <label>🔥</label>
+            </value>
+            <value>
+                <fullName>mushroom</fullName>
+                <default>false</default>
+                <label>🥦</label>
+            </value>
+            <value>
+                <fullName>Low</fullName>
+                <default>false</default>
+                <label>Low</label>
+            </value>
+            <value>
+                <fullName>lol</fullName>
+                <default>false</default>
+                <label>🤣</label>
+            </value>
+            <value>
+                <fullName>Medium</fullName>
+                <default>false</default>
+                <label>Medium</label>
+            </value>
+            <value>
+                <fullName>High</fullName>
+                <default>false</default>
+                <label>High</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

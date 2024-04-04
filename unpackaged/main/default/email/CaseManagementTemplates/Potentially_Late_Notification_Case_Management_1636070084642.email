@@ -1,0 +1,16 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>{{{Recipient.FirstName}}},</p>
+
+<p>Thank you for order XXXXX-XXXXX!</p>
+
+<p>Unfortunately we have identified a delay in the production of your order which may result in a shipping delay. We have escalated this issue to our Case Management team and are currently working to resolve it internally. As your case manager I will be following up with any further updates or additional details.</p>
+
+<p>We thank you for your understanding on this. Please let me know if you have any questions or concerns in the meantime.</p>
+
+<p>Best regards,<br />
+{{{Sender.FirstName}}}</p>
+
+</body></html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- TRUE = GENERIC
+FALSE = COMPANY --></help>
+        <label><!-- Email Provider --></label>
+        <name>Email_Provider__c</name>
+    </CustomFieldTranslation>

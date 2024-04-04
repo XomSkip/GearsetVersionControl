@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HS_Manufacturing_Process__c</fullName>
+    <description>This formula is cloned from Manufacturing Process for Marketing purposes.
+Note: This field uses commas, where Manufacturing Process uses colons.
+Be sure to keep both fields updated.</description>
+    <externalId>false</externalId>
+    <formula>LEFT(
+ IF(Most_Recent_Quote_SheetCutting__c, 'Sheet Cutting, ', '') +
+ IF(Most_Recent_Quote_BinderJetting__c , 'Binder Jetting, ', '') +
+ IF(most_recent_quote_carbon__c , 'Carbon, ', '') +
+ IF(Most_Recent_Quote_CNC_Machining__c ,'CNC Machining, ', '') +
+ IF(Most_Recent_Quote_Die_Casting__c ,'Die Casting, ', '') +
+ IF(Most_Recent_Quote_DMLS__c,'DMLS, ', '') +
+ IF(Most_Recent_Quote_Direct_Sourced__c,'Direct Sourced, ', '') +
+ IF(Most_Recent_Quote_Extrusion__c,'Metal Extrusion, ', '') +
+ IF(Most_Recent_Quote_FDM__c, 'FDM, ', '') +
+ IF(Most_Recent_Quote_HPMultiJetFusion__c,'HP Multi Jet Fusion, ','') +
+ IF((Most_Recent_Quote_Injection_Molding__c || Most_Recent_Quote_Injection_Molding_Tool__c),'Injection Molding, ','') +
+ IF(Most_Recent_Quote_Injection_Molding_Tool__c,'Injection Molding Tool, ','') +
+ IF(Most_Recent_Quote_PolyJet_3D__c,'PolyJet 3D, ','') +
+ IF(Most_Recent_Quote_PlasticExtrusion__c, 'Plastic Extrusion, ','') +
+ IF(Most_Recent_Quote_SLS__c,'SLS, ','') +
+ IF(Most_Recent_Quote_Sheet_Metal__c ,'Sheet Metal, ','') +
+ IF(Most_Recent_Quote_Stamping__c ,'Stamping, ','') +
+ IF(Most_Recent_Quote_SLA__c , 'SLA, ','') +
+ IF(Most_Recent_Quote_Urethane_Casting__c,'Urethane Casting, ','') +
+ IF(Most_Recent_Quote_TubeBending__c,'Tube Bending, ','') +
+ IF(Most_Recent_Quote_TubeCutting__c,'Tube Cutting, ','') +
+IF(most_recent_quote_Assembly__c,'Assembly, ','') +
+IF(Most_Recent_Quote_Other__c,'Other, ','') +
+IF( most_recent_quote_Other_NotIncluded__c ,'Other (Not Included), ','')
+,
+LEN(
+ IF(Most_Recent_Quote_SheetCutting__c, 'Sheet Cutting, ', '') +
+ IF(Most_Recent_Quote_BinderJetting__c , 'Binder Jetting, ', '') +
+ IF(most_recent_quote_carbon__c , 'Carbon, ', '') +
+ IF(Most_Recent_Quote_CNC_Machining__c ,'CNC Machining, ', '') +
+ IF(Most_Recent_Quote_Die_Casting__c ,'Die Casting, ', '') +
+ IF(Most_Recent_Quote_DMLS__c,'DMLS, ', '') +
+ IF(Most_Recent_Quote_Direct_Sourced__c,'Direct Sourced, ', '') +
+ IF(Most_Recent_Quote_Extrusion__c,'Metal Extrusion, ', '') +
+ IF(Most_Recent_Quote_FDM__c, 'FDM, ', '') +
+ IF(Most_Recent_Quote_HPMultiJetFusion__c,'HP Multi Jet Fusion, ','') +
+ IF((Most_Recent_Quote_Injection_Molding__c || Most_Recent_Quote_Injection_Molding_Tool__c),'Injection Molding, ','') +
+ IF(Most_Recent_Quote_Injection_Molding_Tool__c,'Injection Molding Tool, ','') +
+ IF(Most_Recent_Quote_PolyJet_3D__c,'PolyJet 3D, ','') +
+ IF(Most_Recent_Quote_PlasticExtrusion__c, 'Plastic Extrusion, ','') +
+ IF(Most_Recent_Quote_SLS__c,'SLS, ','') +
+ IF(Most_Recent_Quote_Sheet_Metal__c ,'Sheet Metal, ','') +
+ IF(Most_Recent_Quote_Stamping__c ,'Stamping, ','') +
+ IF(Most_Recent_Quote_SLA__c , 'SLA, ','') +
+ IF(Most_Recent_Quote_Urethane_Casting__c,'Urethane Casting, ','') +
+ IF(Most_Recent_Quote_TubeBending__c,'Tube Bending, ','') +
+ IF(Most_Recent_Quote_TubeCutting__c,'Tube Cutting, ','') +
+ IF(most_recent_quote_Assembly__c,'Assembly, ','') +
+ IF(Most_Recent_Quote_Other__c,'Other, ','') +
+ IF( most_recent_quote_Other_NotIncluded__c ,'Other (Not Included), ','')
+)-2
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>HS Manufacturing Process</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

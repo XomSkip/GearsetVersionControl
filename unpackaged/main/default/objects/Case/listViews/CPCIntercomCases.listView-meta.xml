@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPCIntercomCases</fullName>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OPS_Top_20_Customer__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Owner__c</columns>
+    <columns>NAME</columns>
+    <columns>Category__c</columns>
+    <columns>OrderID__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.PRIORITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.ORIGIN</field>
+        <operation>equals</operation>
+        <value>Intercom</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Solved,Closed</value>
+    </filters>
+    <label>[CPC]Intercom Cases List View</label>
+    <sharedTo>
+        <group>Xom_Intercom</group>
+        <roleAndSubordinatesInternal>Service_Leadership</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Order ERP</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Orders ERP</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>2D</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- ERP Details --></label>
+            <section>ERP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Order Summary --></label>
+            <section>Order Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order Erp Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- ERP Details --></label>
+            <section>ERP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Order Summary --></label>
+            <section>Order Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Process Amount and Quantity --></label>
+            <section>Process Amount and Quantity</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Core Services: Instant Quote, Marketplace, etc. --></description>
+        <label><!-- Manufacturing Services --></label>
+        <name>Manufacturing_Services</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Merged into 3D and renamed to Manufacturing Services --></description>
+        <label><!-- 2D --></label>
+        <name>X2D</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Account_ERP__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( NOT(ISBLANK(Email_Domain__c)) ,HYPERLINK("https://erp.xometry.com/billing-accounts?search=" + Email_Domain__c, "Go to Billing Account in the ERP","_blank"), "No Email Domain Provided for This Account")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Billing Account ERP</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

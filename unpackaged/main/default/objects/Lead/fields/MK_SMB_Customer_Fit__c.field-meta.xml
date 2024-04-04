@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MK_SMB_Customer_Fit__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(MK_SMB_Customer_Fit_Segment__c,
+'very good', IMAGE("https://cdn.madkudu.com/images/star.png", "Star", 20, 20) + IMAGE("https://cdn.madkudu.com/images/star.png", "Star", 20, 20) + IMAGE("https://cdn.madkudu.com/images/star.png", "Star", 20, 20),
+'good', IMAGE("https://cdn.madkudu.com/images/star.png", "Star", 20, 20) + IMAGE("https://cdn.madkudu.com/images/star.png", "Star", 20, 20),
+'medium', IMAGE("https://cdn.madkudu.com/images/star.png", "Star", 20, 20),
+IMAGE("https://cdn.madkudu.com/images/cross.png", "Star", 20, 20))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>MK SMB Customer Fit</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

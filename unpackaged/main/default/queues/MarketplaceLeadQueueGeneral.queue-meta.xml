@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Marketplace Lead Queue - General</name>
+    <queueMembers>
+        <users>
+            <user>allison.molitor@xometry.com</user>
+            <user>ben.saygers@xometry.com</user>
+            <user>dclarke@xometry.com</user>
+            <user>isabelle.martinez-muniz@xometry.com</user>
+            <user>josh.snyder@xometry.com</user>
+            <user>marvie.briones@xometry.com</user>
+            <user>scott.azure@xometry.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Process Group --></label>
+        <name>Process_Group__c</name>
+        <picklistValues>
+            <masterLabel>Additive Only</masterLabel>
+            <translation><!-- Additive Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subtractive Only</masterLabel>
+            <translation><!-- Subtractive Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subtractive Only or Mixed</masterLabel>
+            <translation><!-- Subtractive Only or Mixed --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

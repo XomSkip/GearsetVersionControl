@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Case_Reopen</fullName>
+        <field>Status</field>
+        <literalValue>Response Received</literalValue>
+        <name>Case Reopen</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <rules>
+        <fullName>Case Reopen for email</fullName>
+        <actions>
+            <name>Case_Reopen</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>EmailMessage.Incoming</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.IsClosed</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Performance Escalation,Sourcing,Case Mgmt,DFM Case</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.IsClosedByAutoClose__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.CreatedDate</field>
+            <operation>equals</operation>
+            <value>LAST 30 DAYS</value>
+        </criteriaItems>
+        <description>Reopen closed cases when an email is received to that case</description>
+        <failedMigrationToolVersion>242.15.5</failedMigrationToolVersion>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

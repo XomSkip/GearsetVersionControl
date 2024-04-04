@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WhenLikelyToPlaceOrder__c</fullName>
+    <description>when_likely_to_place_order in Hubspot</description>
+    <externalId>false</externalId>
+    <label>When Likely To Place Order?</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

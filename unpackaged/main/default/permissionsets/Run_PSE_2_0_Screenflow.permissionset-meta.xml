@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowAccesses>
+        <enabled>true</enabled>
+        <flow>PSEV2SF1</flow>
+    </flowAccesses>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Run PSE 2.0 Screenflow</label>
+</PermissionSet>

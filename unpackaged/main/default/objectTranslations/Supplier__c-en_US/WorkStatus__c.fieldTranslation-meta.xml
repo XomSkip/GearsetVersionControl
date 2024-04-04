@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Work Status --></label>
+        <name>WorkStatus__c</name>
+        <picklistValues>
+            <masterLabel>At Capacity</masterLabel>
+            <translation><!-- At Capacity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blank</masterLabel>
+            <translation><!-- Blank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Looking for Work</masterLabel>
+            <translation><!-- Looking for Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neutral</masterLabel>
+            <translation><!-- Neutral --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

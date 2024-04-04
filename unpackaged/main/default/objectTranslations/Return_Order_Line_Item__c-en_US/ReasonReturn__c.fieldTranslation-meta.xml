@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reason For Return --></label>
+        <name>ReasonReturn__c</name>
+        <picklistValues>
+            <masterLabel>Parts damaged - Poor packaging</masterLabel>
+            <translation><!-- Parts damaged - Poor packaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parts damaged - Shipping damage</masterLabel>
+            <translation><!-- Parts damaged - Shipping damage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parts missing required features</masterLabel>
+            <translation><!-- Parts missing required features --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parts out of specification - Dimensions/Tolerances</masterLabel>
+            <translation><!-- Parts out of specification - Dimensions/Tolerances --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor part quality - Finish, Color, Appearance</masterLabel>
+            <translation><!-- Poor part quality - Finish, Color, Appearance --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

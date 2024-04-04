@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Xom_Sales</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <description>Gives access to the Xom Sales App</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Xom Sales App</label>
+</PermissionSet>

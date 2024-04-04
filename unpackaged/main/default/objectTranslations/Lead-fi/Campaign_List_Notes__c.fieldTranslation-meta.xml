@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Information about a list and/or campaign provided by sales or marketing leadership. Related to the Account/Company. --></help>
+        <label><!-- Campaign/List Notes --></label>
+        <name>Campaign_List_Notes__c</name>
+    </CustomFieldTranslation>

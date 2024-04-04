@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LinkedIn_Site__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( NOT(ISBLANK( LinkedIn_Handle__c )) ,
+HYPERLINK("https://www.linkedin.com/in/"+ LinkedIn_Handle__c,"Go to LinkedIn Profile", "_blank"), "No LinkedIn Handle Provided for This Account")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>LinkedIn Site</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

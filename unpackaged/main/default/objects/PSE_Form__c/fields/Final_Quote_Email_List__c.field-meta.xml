@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Quote_Email_List__c</fullName>
+    <description>Please list the email address(es) of one or more people who should receive a copy of the final quote.</description>
+    <externalId>false</externalId>
+    <label>Final Quote Email List</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,34 @@
+<apex:page standardController="Contact" showHeader="false" sidebar="false">
+    <div style="text-align:center;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px">
+        <apex:image value="/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683u00000DSy0e"
+                    rendered="{!IF(Contact.Customer_Status_Bar__c=='Contact',true,false)}" style="max-width:100%"/>
+        <apex:image value="/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683u00000DSy0G"
+                    rendered="{!IF(Contact.Customer_Status_Bar__c=='Quoter',true,false)}" style="max-width:100%"/>
+        <apex:image value="/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683u00000DSy1g"
+                    rendered="{!IF(Contact.Customer_Status_Bar__c=='One-Time Buyer - New',true,false)}" style="max-width:100%"/>
+        <apex:image value="/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683u00000DSy04"
+                    rendered="{!IF(Contact.Customer_Status_Bar__c=='Active - New',true,false)}" style="max-width:100%"/>
+        <apex:image value="/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683u00000DSy05"
+                    rendered="{!IF(Contact.Customer_Status_Bar__c=='Active - Retention',true,false)}" style="max-width:100%"/>
+        <apex:image value="/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683u00000DSy0H"
+                    rendered="{!IF(Contact.Customer_Status_Bar__c=='Very Active - New',true,false)}" style="max-width:100%"/>
+        <apex:image value="/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683u00000DSy0I"
+                    rendered="{!IF(Contact.Customer_Status_Bar__c=='Very Active - Retention',true,false)}" style="max-width:100%"/>
+        <apex:image value="/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683u00000DSy1S"
+                    rendered="{!IF(Contact.Customer_Status_Bar__c=='Lapsed - New',true,false)}" style="max-width:100%"/>
+        <apex:image value="/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683u00000DSy1W"
+                    rendered="{!IF(Contact.Customer_Status_Bar__c=='Lapsed - Retention',true,false)}" style="max-width:100%"/>
+        <apex:image value="/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683u00000DSy06"
+                    rendered="{!IF(Contact.Customer_Status_Bar__c=='Churn Risk - New',true,false)}" style="max-width:100%"/>
+        <apex:image value="/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683u00000DSy0E"
+                    rendered="{!IF(Contact.Customer_Status_Bar__c=='Churn Risk - Retention',true,false)}" style="max-width:100%"/>
+        <apex:image value="/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683u00000DSy07"
+                    rendered="{!IF(Contact.Customer_Status_Bar__c=='Churned - New',true,false)}" style="max-width:100%"/>
+        <apex:image value="/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683u00000DSy08"
+                    rendered="{!IF(Contact.Customer_Status_Bar__c=='Churned - Retention',true,false)}" style="max-width:100%"/>
+        <apex:image value="/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683u00000DSy0F"
+                    rendered="{!IF(Contact.Customer_Status_Bar__c=='RED',true,false)}" style="max-width:100%"/>
+        <apex:image value="/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683u00000DSy0d"
+                    rendered="{!IF(Contact.Customer_Status_Bar__c=='YELLOW',true,false)}" style="max-width:100%"/>
+    </div>
+</apex:page>

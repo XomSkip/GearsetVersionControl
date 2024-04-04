@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ForIMUseOnlyActiveInactive__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>For IM Team Use Only.  Not for Reporting but List View for easy filtering.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>For IM Team Use Only.  Not for Reporting but List View for easy filtering.</inlineHelpText>
+    <label>[For IM Use Only] Active/Inactive</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

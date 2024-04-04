@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Goal__c</fullName>
+    <description>Temporary field to see if we want to track this. Delete or build a more permanent solution.</description>
+    <externalId>false</externalId>
+    <formula>CASE(Owner:User.UserRole.Name,
+ "SDR",1100,
+ "BDR",880,
+ "IMS",880,
+ 660
+)</formula>
+    <label>Call Goal</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

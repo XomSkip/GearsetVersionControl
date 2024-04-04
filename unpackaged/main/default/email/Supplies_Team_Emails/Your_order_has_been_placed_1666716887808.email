@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p style="line-height:1.38"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Dear &lt;</span></span></span></span><span style="color:#c0392b;"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Partner</span></span></span></span><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">&gt;</span></span></span></span></span></span><br />
+<br />
+<span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; white-space: pre-wrap;"><span style="font-family:Arial">Your Material order <span style="color:#e74c3c;">&lt;#XXXXXXX&gt; for &lt;Job ID #XXXXXXX&gt; (include if applicable) </span>has been placed.<br />
+<br />
+<span style="color:#e74c3c;">&lt;If we don't know job ID&gt; We do not see a job ID associated with this order. If this is for a job, please respond immediately with the Job ID.</span></span></span></p>
+
+<p style="line-height:1.38"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">This is a &lt;</span></span></span></span><span style="color:#e74c3c;"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">full or partial&gt;</span></span></span></span><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none"> shipment.</span></span></span></span></span></span></p>
+
+<p style="line-height:1.38"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">The estimated ship date is ___________.&nbsp; Once your order has shipped we will provide you with tracking within 24 hours.</span></span></span></span></span></span><br />
+<br />
+The POD managing your job is &lt;<span style="color:#e74c3c;">POD NAME</span>&gt;<br />
+<br />
+Please reply to this email for all future questions related to this order!</p>
+
+<ul>
+	<li style="line-height: 1.38;">Let us know immediately if this supplies order is causing a delay which might prevent you from shipping by the Job Due Date.</li>
+</ul>
+
+<p style="line-height:1.38"><br />
+Thank you for your order!<br />
+<br />
+- The Supplies Team</p>
+</body>
+</html>

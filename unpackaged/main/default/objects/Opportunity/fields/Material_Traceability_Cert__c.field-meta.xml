@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Material_Traceability_Cert__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox that represents if a Quote/Order has the cerficate called Material Traceability Certificate</description>
+    <externalId>false</externalId>
+    <label>Material Traceability Cert</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

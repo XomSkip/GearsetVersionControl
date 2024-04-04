@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NAICS_Update_Needed__c</fullName>
+    <description>calculates if the Account needs to be related to a NAICS record (or different record)</description>
+    <externalId>false</externalId>
+    <formula>DNBConnect__D_B_Connect_Company_Profile__c  != null &amp;&amp;
+	DNBConnect__D_B_Connect_Company_Profile__r.IndustCodes_NAICS_priority1__c != NAICS__r.X6_Digit_NAICS_Code__c</formula>
+    <label>NAICS Update Needed</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

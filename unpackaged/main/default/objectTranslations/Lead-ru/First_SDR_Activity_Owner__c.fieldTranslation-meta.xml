@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The assignee of the task associated to the First SDR Activity Date. --></help>
+        <label><!-- First SDR Activity Owner --></label>
+        <name>First_SDR_Activity_Owner__c</name>
+        <relationshipLabel><!-- Leads (First SDR Activity Owner) --></relationshipLabel>
+    </CustomFieldTranslation>

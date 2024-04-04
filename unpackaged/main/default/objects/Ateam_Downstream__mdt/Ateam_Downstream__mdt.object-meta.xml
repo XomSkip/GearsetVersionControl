@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Custom Metadata to control which Account Team Members must be unique on an Account Team and have an Account Team Specilast Role apply or not apply for Downstream.</description>
+    <label>Ateam Downstream</label>
+    <pluralLabel>Ateams Downstream</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

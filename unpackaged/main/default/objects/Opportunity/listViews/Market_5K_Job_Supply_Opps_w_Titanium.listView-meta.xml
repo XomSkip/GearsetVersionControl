@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Market_5K_Job_Supply_Opps_w_Titanium</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND (6 OR 7 OR 8) AND 9</booleanFilter>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>ManuProcessusedbySupplies__c</columns>
+    <columns>GNOOwnerforSupplyOpps__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>MKT_AcceptedJobPrice__c</columns>
+    <columns>Primary_Contact_Email__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>MaterialofAcceptedJobAmount__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Supplies</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>startsWith</operation>
+        <value>Job</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Closed Lost,Closed Won</value>
+    </filters>
+    <filters>
+        <field>MKT_AcceptedJobPrice__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>4000</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>2/16/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>ManuProcessusedbySupplies__c</field>
+        <operation>contains</operation>
+        <value>CNC</value>
+    </filters>
+    <filters>
+        <field>ManuProcessusedbySupplies__c</field>
+        <operation>contains</operation>
+        <value>Sheet Metal</value>
+    </filters>
+    <filters>
+        <field>ManuProcessusedbySupplies__c</field>
+        <operation>contains</operation>
+        <value>Sheet Cutting</value>
+    </filters>
+    <filters>
+        <field>HasTitaniumMat__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>[Market]4K+ Job Supply Opps w Titanium</label>
+    <sharedTo>
+        <group>SupplyStakeholder</group>
+        <roleAndSubordinatesInternal>SellerMarketplace</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

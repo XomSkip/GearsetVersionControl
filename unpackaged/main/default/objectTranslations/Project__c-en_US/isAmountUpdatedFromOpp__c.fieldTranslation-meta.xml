@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Admin Only Automation Field --></help>
+        <label><!-- Amount is updated from Opp --></label>
+        <name>isAmountUpdatedFromOpp__c</name>
+    </CustomFieldTranslation>

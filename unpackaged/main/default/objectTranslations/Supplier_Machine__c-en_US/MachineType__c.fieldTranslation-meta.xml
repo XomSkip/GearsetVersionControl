@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Machine Type --></label>
+        <name>MachineType__c</name>
+        <picklistValues>
+            <masterLabel>Binder Jetting</masterLabel>
+            <translation><!-- Binder Jetting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CNC Horizontal Mill</masterLabel>
+            <translation><!-- CNC Horizontal Mill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CNC Lathe</masterLabel>
+            <translation><!-- CNC Lathe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CNC Vertical Mill</masterLabel>
+            <translation><!-- CNC Vertical Mill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carbon DLS</masterLabel>
+            <translation><!-- Carbon DLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Die Casting</masterLabel>
+            <translation><!-- Die Casting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Metal Laser Sintering</masterLabel>
+            <translation><!-- Direct Metal Laser Sintering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extrusion</masterLabel>
+            <translation><!-- Extrusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fused Deposition Modeling</masterLabel>
+            <translation><!-- Fused Deposition Modeling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP Multi-Jet Fusion</masterLabel>
+            <translation><!-- HP Multi-Jet Fusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hole Popper EDM</masterLabel>
+            <translation><!-- Hole Popper EDM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Injection Molding</masterLabel>
+            <translation><!-- Injection Molding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laser Cutter</masterLabel>
+            <translation><!-- Laser Cutter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laser Cutting, Plasma Cutting, Water Cutting</masterLabel>
+            <translation><!-- Laser Cutting, Plasma Cutting, Water Cutting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MultiJet</masterLabel>
+            <translation><!-- MultiJet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plasma Cutter</masterLabel>
+            <translation><!-- Plasma Cutter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PolyJet 3D Printing</masterLabel>
+            <translation><!-- PolyJet 3D Printing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ram EDM</masterLabel>
+            <translation><!-- Ram EDM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selective Laser Sintering</masterLabel>
+            <translation><!-- Selective Laser Sintering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheet Metal</masterLabel>
+            <translation><!-- Sheet Metal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheet Metal Brake</masterLabel>
+            <translation><!-- Sheet Metal Brake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheet Metal Punch</masterLabel>
+            <translation><!-- Sheet Metal Punch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheet Metal Shear</masterLabel>
+            <translation><!-- Sheet Metal Shear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stamping</masterLabel>
+            <translation><!-- Stamping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stereolithography</masterLabel>
+            <translation><!-- Stereolithography --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swiss Lathe</masterLabel>
+            <translation><!-- Swiss Lathe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urethane Molding</masterLabel>
+            <translation><!-- Urethane Molding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water Jet Cutter</masterLabel>
+            <translation><!-- Water Jet Cutter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wire Electrical Discharge Machining</masterLabel>
+            <translation><!-- Wire Electrical Discharge Machining --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

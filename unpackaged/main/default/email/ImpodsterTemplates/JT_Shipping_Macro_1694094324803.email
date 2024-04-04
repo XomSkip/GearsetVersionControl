@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>For the upcoming production order, please advise your preferred shipping method.</p>
+
+<p>We can quote you one or two of the following options (please note that actual transit time may vary):</p>
+
+<p>&nbsp;</p>
+
+<p>For Domestic Orders:.</p>
+
+<ol>
+	<li>Air Freight
+	<ol>
+		<li>Overnight (typical transit time: 1 business day)</li>
+		<li>2 Day (typical transit time: 2 business days)</li>
+	</ol>
+	</li>
+	<li>Ground (typical transit time: 1-5 business days)</li>
+</ol>
+
+<p>For International Orders:</p>
+
+<ol>
+	<li>Air Freight
+	<ol>
+		<li>International Priority (typical transit time: 3-5 business days)</li>
+		<li>International Economy (typical transit time: 5-8 business days)</li>
+	</ol>
+	</li>
+	<li>Ocean (typical transit time: 6-8 weeks)</li>
+</ol>
+
+<p>We can also use your shipping account. If this is preferred, please share more details with us as listed below:</p>
+
+<ul>
+	<li>Carrier: (FedEx, UPS etc.)</li>
+	<li>Account number:</li>
+	<li>Shipping method: (Ground, Overnight, International Priority, etc.)</li>
+</ul>
+</body>
+</html>
