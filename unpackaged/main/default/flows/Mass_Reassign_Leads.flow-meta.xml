@@ -88,7 +88,7 @@
                 <leftValueReference>Ids_List_Count</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <numberValue>100.0</numberValue>
+                    <numberValue>150.0</numberValue>
                 </rightValue>
             </conditions>
             <connector>
